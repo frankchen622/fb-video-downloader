@@ -8,7 +8,9 @@ WORKDIR /app
 
 # 复制依赖文件
 COPY package*.json ./
-RUN npm install
+
+# 安装依赖（使用 ci 确保干净安装）
+RUN npm ci --only=production=false
 
 # 复制项目文件
 COPY . .
