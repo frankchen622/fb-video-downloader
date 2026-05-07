@@ -15,22 +15,29 @@ WORKDIR /app
 # 复制 package 文件
 COPY package.json package-lock.json ./
 
-# 安装 Node 依赖并验证
-RUN npm ci && \
-    echo "=== Checking node_modules ===" && \
-    ls -la node_modules/ && \
-    echo "=== Checking .bin ===" && \
-    ls -la node_modules/.bin/ && \
-    echo "=== Checking next ===" && \
-    ls -la node_modules/.bin/next || echo "next not found!" && \
+# 安装 Node 依赖
+RUN npm ci
+
+# 立即验证安装结果
+RUN echo "=== npm ci completed ===" && \
+    echo "=== Listing node_modules ===" && \
+    ls -la node_modules/ | head -20 && \
+    echo "=== Checking if next exists ===" && \
+    test -f node_modules/.bin/next && echo "✓ next found" || echo "✗ next NOT found" && \
     echo "=== Checking next package ===" && \
-    ls -la node_modules/next/ || echo "next package not found!"
+    test -d node_modules/next && echo "✓ next package found" || echo "✗ next package NOT found"
 
 # 复制源代码
 COPY . .
 
 # 构建应用（使用绝对路径）
-RUN /app/node_modules/.bin/next build
+RUN if [ -f /app/node_modules/.bin/next ]; then \
+        /app/node_modules/.bin/next build; \
+    else \
+        echo "ERROR: next not found, listing node_modules:"; \
+        ls -la node_modules/; \
+        exit 1; \
+    fi
 
 # 清理开发依赖
 RUN npm prune --production
