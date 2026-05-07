@@ -1,4 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
+import { exec } from 'child_process'
+import { promisify } from 'util'
+
+const execAsync = promisify(exec)
 
 type VideoFormat = {
   url: string
@@ -33,66 +37,68 @@ export default async function handler(
   }
 
   try {
-    // 使用 RapidAPI 的 Social Media Downloader
-    const rapidApiKey = process.env.RAPIDAPI_KEY || ''
+    // 使用 yt-dlp 获取视频信息
+    const command = `yt-dlp -j --no-warnings "${url}"`
     
-    if (!rapidApiKey) {
-      // 如果没有配置 API Key，返回友好提示
-      return res.status(500).json({ 
-        error: '服务未配置，请联系管理员添加 RAPIDAPI_KEY 环境变量' 
-      })
-    }
-
-    const response = await fetch('https://social-media-video-downloader.p.rapidapi.com/smvd/get/all', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-RapidAPI-Key': rapidApiKey,
-        'X-RapidAPI-Host': 'social-media-video-downloader.p.rapidapi.com'
-      },
-      body: JSON.stringify({ url })
+    const { stdout, stderr } = await execAsync(command, {
+      timeout: 30000, // 30秒超时
     })
 
-    if (!response.ok) {
-      throw new Error('API 请求失败')
+    if (stderr && !stdout) {
+      throw new Error('无法获取视频信息')
     }
 
-    const data = await response.json()
-
-    // 解析 API 返回的数据
+    const videoInfo = JSON.parse(stdout)
+    
+    // 提取可用的视频格式
     const formats: VideoFormat[] = []
     
-    if (data.links && Array.isArray(data.links)) {
-      data.links.forEach((link: any) => {
-        if (link.link) {
-          formats.push({
-            url: link.link,
-            quality: link.quality || link.type || '默认画质',
-            filesize: link.size || undefined
-          })
-        }
+    if (videoInfo.formats) {
+      // 筛选出有视频流的格式
+      const videoFormats = videoInfo.formats.filter(
+        (f: any) => f.vcodec !== 'none' && f.url
+      )
+
+      // 按分辨率排序，取最好的几个
+      const sortedFormats = videoFormats
+        .sort((a: any, b: any) => (b.height || 0) - (a.height || 0))
+        .slice(0, 3)
+
+      sortedFormats.forEach((format: any) => {
+        formats.push({
+          url: format.url,
+          quality: format.height 
+            ? `${format.height}p (${format.ext})` 
+            : `${format.ext}`,
+          filesize: format.filesize || undefined,
+        })
       })
     }
 
-    // 如果 API 返回的格式不同，尝试其他字段
-    if (formats.length === 0 && data.url) {
+    // 如果没有找到格式，使用默认 URL
+    if (formats.length === 0 && videoInfo.url) {
       formats.push({
-        url: data.url,
-        quality: '默认画质'
+        url: videoInfo.url,
+        quality: '默认画质',
       })
     }
 
     return res.status(200).json({
-      title: data.title || data.meta?.title || '未知标题',
-      thumbnail: data.thumbnail || data.picture,
-      formats
+      title: videoInfo.title || '未知标题',
+      thumbnail: videoInfo.thumbnail,
+      formats,
     })
 
   } catch (error: any) {
     console.error('Download error:', error)
+    
+    if (error.message?.includes('timeout')) {
+      return res.status(408).json({ error: '请求超时，请重试' })
+    }
     
     return res.status(500).json({ 
       error: '无法下载视频，请检查链接是否正确或稍后重试' 
     })
   }
 }
+

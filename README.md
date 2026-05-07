@@ -8,20 +8,31 @@
 - ✅ 多画质选择（自动检测可用格式）
 - ✅ 简洁美观的 UI 界面
 - ✅ 响应式设计，支持移动端
-- ✅ 无需注册，完全免费
+- ✅ 完全免费，无请求限制
 
 ## 技术栈
 
 - **前端**: Next.js 14 + TypeScript + Tailwind CSS
-- **后端**: Next.js API Routes + RapidAPI
-- **视频解析**: Social Media Video Downloader API
+- **后端**: Next.js API Routes
+- **视频解析**: yt-dlp（开源免费）
 
 ## 本地开发
 
 ### 前置要求
 
 1. Node.js 18+ 
-2. RapidAPI Key（见下方"环境变量"部分）
+2. 安装 yt-dlp:
+
+```bash
+# Ubuntu/Debian
+sudo apt install yt-dlp
+
+# macOS
+brew install yt-dlp
+
+# Windows (使用 Scoop)
+scoop install yt-dlp
+```
 
 ### 安装依赖
 
@@ -34,9 +45,6 @@ pnpm install
 ### 启动开发服务器
 
 ```bash
-# 创建 .env.local 文件并添加你的 RAPIDAPI_KEY
-echo "RAPIDAPI_KEY=your_key_here" > .env.local
-
 npm run dev
 ```
 
@@ -44,25 +52,43 @@ npm run dev
 
 ## 部署
 
-### Vercel 部署（推荐）✅
+### Railway 部署（推荐）✅
 
-1. Fork 本项目到你的 GitHub
-2. 在 Vercel 导入项目
-3. **重要**：添加环境变量 `RAPIDAPI_KEY`
-4. 部署完成
+Railway 支持 Docker，可以完美运行 yt-dlp。
 
-**Vercel 环境变量配置：**
-- 进入项目设置 → Environment Variables
-- 添加：`RAPIDAPI_KEY` = `你的API密钥`
-- 重新部署
+**步骤：**
 
-⚠️ **注意**: 免费的 RapidAPI 额度有限（每月 100 次），生产环境建议升级套餐。
+1. 访问 https://railway.app/
+2. 使用 GitHub 登录
+3. 点击 **New Project** → **Deploy from GitHub repo**
+4. 选择 `frankchen622/fb-video-downloader`
+5. Railway 会自动检测 Dockerfile 并部署
+6. 等待 3-5 分钟，完成！
 
-### Railway/Render 部署（可选）
+**成本：**
+- 免费额度：$5/月（约 500 小时运行时间）
+- 超出后按量付费：约 $0.000231/分钟
+- **适合流量：** 每天几千次请求完全没问题
 
-如果你想用 yt-dlp 方案（不依赖第三方 API），可以部署到这些平台。
+### Render 部署（备选）
 
-创建 `Dockerfile`（已包含在项目中）：
+Render 也支持 Docker，操作类似 Railway。
+
+1. 访问 https://render.com/
+2. 连接 GitHub 仓库
+3. 选择 **Web Service**
+4. 使用 Docker 部署
+5. 免费套餐可用（有限制）
+
+### Vercel 部署
+
+⚠️ **不推荐**：Vercel 不支持 yt-dlp（Serverless 环境限制）
+
+如需使用 Vercel，请切换到 RapidAPI 分支（需要付费 API）。
+
+## Dockerfile
+
+项目已包含 Dockerfile，支持一键部署：
 
 ```dockerfile
 FROM node:18-alpine
@@ -83,27 +109,13 @@ CMD ["npm", "start"]
 
 ## 环境变量
 
-### 必需配置
-
-创建 `.env.local` 文件：
-
-```bash
-RAPIDAPI_KEY=your_rapidapi_key_here
-```
-
-### 获取 RapidAPI Key
-
-1. 访问 https://rapidapi.com/ 并注册（免费）
-2. 搜索 "Social Media Video Downloader"
-3. 订阅 API（有免费额度：每月 100 次请求）
-4. 复制你的 API Key
-5. 在 Vercel 部署时添加环境变量 `RAPIDAPI_KEY`
+无需配置环境变量，开箱即用！
 
 ## 注意事项
 
 1. **版权声明**: 请仅下载您有权使用的内容
 2. **性能优化**: 建议添加 Redis 缓存视频信息
-3. **反爬限制**: Facebook 可能会限制频繁请求，建议添加 IP 轮换
+3. **反爬限制**: Facebook 可能会限制频繁请求
 4. **法律风险**: 部分地区可能有法律限制，请自行评估
 
 ## 后续优化建议
