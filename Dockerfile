@@ -9,14 +9,17 @@ WORKDIR /app
 # 复制依赖文件
 COPY package*.json ./
 
-# 使用 npm ci 安装依赖
-RUN npm ci
+# 安装所有依赖（包括 devDependencies，避免构建时再安装）
+RUN npm install
 
 # 复制项目文件
 COPY . .
 
 # 构建 Next.js 应用
 RUN npm run build
+
+# 删除 devDependencies 减小镜像体积
+RUN npm prune --production
 
 EXPOSE 3000
 
