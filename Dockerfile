@@ -1,3 +1,20 @@
+FROM node:20 AS builder
+
+WORKDIR /app
+
+# 复制依赖文件
+COPY package*.json ./
+
+# 安装依赖
+RUN npm ci
+
+# 复制项目文件
+COPY . .
+
+# 构建
+RUN npm run build
+
+# 生产镜像
 FROM node:20-alpine
 
 # 安装 yt-dlp 和 ffmpeg
@@ -6,20 +23,11 @@ RUN pip3 install --break-system-packages yt-dlp
 
 WORKDIR /app
 
-# 复制依赖文件
-COPY package*.json ./
-
-# 清理 npm 缓存并使用 npm ci 安装依赖
-RUN npm cache clean --force && npm ci
-
-# 复制项目文件
-COPY . .
-
-# 构建 Next.js 应用
-RUN npm run build
-
-# 删除 devDependencies 减小镜像体积
-RUN npm prune --production
+# 从 builder 复制构建产物
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/public ./public
 
 EXPOSE 3000
 
