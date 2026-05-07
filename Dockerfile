@@ -15,14 +15,22 @@ WORKDIR /app
 # 复制 package 文件
 COPY package.json package-lock.json ./
 
-# 安装 Node 依赖
-RUN npm ci
+# 安装 Node 依赖并验证
+RUN npm ci && \
+    echo "=== Checking node_modules ===" && \
+    ls -la node_modules/ && \
+    echo "=== Checking .bin ===" && \
+    ls -la node_modules/.bin/ && \
+    echo "=== Checking next ===" && \
+    ls -la node_modules/.bin/next || echo "next not found!" && \
+    echo "=== Checking next package ===" && \
+    ls -la node_modules/next/ || echo "next package not found!"
 
 # 复制源代码
 COPY . .
 
-# 构建应用
-RUN npm run build
+# 构建应用（使用绝对路径）
+RUN /app/node_modules/.bin/next build
 
 # 清理开发依赖
 RUN npm prune --production
