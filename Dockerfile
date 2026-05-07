@@ -9,14 +9,11 @@ WORKDIR /app
 # 复制依赖文件
 COPY package*.json ./
 
-# 安装所有依赖（包括 devDependencies）
-RUN npm install && ls -la node_modules/.bin/next
+# 清理 npm 缓存并使用 npm ci 安装依赖
+RUN npm cache clean --force && npm ci
 
 # 复制项目文件
 COPY . .
-
-# 验证 next 是否存在
-RUN ls -la node_modules/.bin/ || echo "node_modules/.bin not found"
 
 # 构建 Next.js 应用
 RUN npm run build
