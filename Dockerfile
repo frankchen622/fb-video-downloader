@@ -10,10 +10,13 @@ WORKDIR /app
 COPY package*.json ./
 
 # 安装所有依赖（包括 devDependencies）
-RUN npm install
+RUN npm install && ls -la node_modules/.bin/next
 
 # 复制项目文件
 COPY . .
+
+# 验证 next 是否存在
+RUN ls -la node_modules/.bin/ || echo "node_modules/.bin not found"
 
 # 构建 Next.js 应用
 RUN npm run build
