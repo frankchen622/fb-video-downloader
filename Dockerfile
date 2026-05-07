@@ -12,8 +12,8 @@ COPY . .
 # 安装所有依赖（包括 devDependencies）
 RUN npm install
 
-# 构建 Next.js 应用
-RUN npm run build
+# 构建 Next.js 应用（使用完整路径）
+RUN ./node_modules/.bin/next build
 
 # 删除 devDependencies 减小镜像体积
 RUN npm prune --production
