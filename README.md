@@ -13,26 +13,15 @@
 ## 技术栈
 
 - **前端**: Next.js 14 + TypeScript + Tailwind CSS
-- **后端**: Next.js API Routes
-- **视频解析**: yt-dlp
+- **后端**: Next.js API Routes + RapidAPI
+- **视频解析**: Social Media Video Downloader API
 
 ## 本地开发
 
 ### 前置要求
 
 1. Node.js 18+ 
-2. 安装 yt-dlp:
-
-```bash
-# Ubuntu/Debian
-sudo apt install yt-dlp
-
-# macOS
-brew install yt-dlp
-
-# 或使用 pip
-pip install yt-dlp
-```
+2. RapidAPI Key（见下方"环境变量"部分）
 
 ### 安装依赖
 
@@ -45,6 +34,9 @@ pnpm install
 ### 启动开发服务器
 
 ```bash
+# 创建 .env.local 文件并添加你的 RAPIDAPI_KEY
+echo "RAPIDAPI_KEY=your_key_here" > .env.local
+
 npm run dev
 ```
 
@@ -52,23 +44,25 @@ npm run dev
 
 ## 部署
 
-### Vercel 部署（推荐）
+### Vercel 部署（推荐）✅
 
 1. Fork 本项目到你的 GitHub
 2. 在 Vercel 导入项目
-3. 添加环境变量（如需要）
+3. **重要**：添加环境变量 `RAPIDAPI_KEY`
 4. 部署完成
 
-⚠️ **注意**: Vercel 的 Serverless 函数默认不包含 yt-dlp，需要：
+**Vercel 环境变量配置：**
+- 进入项目设置 → Environment Variables
+- 添加：`RAPIDAPI_KEY` = `你的API密钥`
+- 重新部署
 
-- 方案 1: 使用 Docker 部署（推荐）
-- 方案 2: 改用第三方 API（如 RapidAPI）
+⚠️ **注意**: 免费的 RapidAPI 额度有限（每月 100 次），生产环境建议升级套餐。
 
-### Railway/Render 部署
+### Railway/Render 部署（可选）
 
-这些平台支持完整的 Linux 环境，可以直接安装 yt-dlp。
+如果你想用 yt-dlp 方案（不依赖第三方 API），可以部署到这些平台。
 
-创建 `Dockerfile`:
+创建 `Dockerfile`（已包含在项目中）：
 
 ```dockerfile
 FROM node:18-alpine
@@ -89,7 +83,21 @@ CMD ["npm", "start"]
 
 ## 环境变量
 
-目前无需配置环境变量，开箱即用。
+### 必需配置
+
+创建 `.env.local` 文件：
+
+```bash
+RAPIDAPI_KEY=your_rapidapi_key_here
+```
+
+### 获取 RapidAPI Key
+
+1. 访问 https://rapidapi.com/ 并注册（免费）
+2. 搜索 "Social Media Video Downloader"
+3. 订阅 API（有免费额度：每月 100 次请求）
+4. 复制你的 API Key
+5. 在 Vercel 部署时添加环境变量 `RAPIDAPI_KEY`
 
 ## 注意事项
 
