@@ -15,11 +15,8 @@ RUN npm install
 # 复制项目文件
 COPY . .
 
-# 设置 PATH 包含 node_modules/.bin
-ENV PATH /app/node_modules/.bin:$PATH
-
-# 构建 Next.js 应用
-RUN npm run build
+# 构建 Next.js 应用（直接使用完整路径）
+RUN PATH=/app/node_modules/.bin:$PATH npm run build
 
 # 删除 devDependencies 减小镜像体积
 RUN npm prune --production
