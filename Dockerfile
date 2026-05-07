@@ -9,11 +9,14 @@ WORKDIR /app
 # 复制依赖文件
 COPY package*.json ./
 
-# 安装所有依赖（包括 devDependencies，避免构建时再安装）
+# 安装所有依赖（包括 devDependencies）
 RUN npm install
 
 # 复制项目文件
 COPY . .
+
+# 设置 PATH 包含 node_modules/.bin
+ENV PATH /app/node_modules/.bin:$PATH
 
 # 构建 Next.js 应用
 RUN npm run build
