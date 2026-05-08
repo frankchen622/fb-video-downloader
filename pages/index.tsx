@@ -91,11 +91,11 @@ export default function Home() {
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               Download Facebook Videos
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                in HD Quality - Free
+                in Seconds - Completely Free
               </span>
             </h2>
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-              Fast, no watermark, no ads. Perfect for content creators, social media managers, and influencers.
+              Save any Facebook video, reel, or story to your device in just three simple steps. No registration, no software installation, no watermarks. Just paste the link and download in HD quality.
             </p>
 
             {/* Download Box */}
@@ -134,22 +134,49 @@ export default function Home() {
         {/* Features */}
         <section id="features" className="container mx-auto px-4 py-16 bg-white/50">
           <div className="max-w-6xl mx-auto">
-            <h3 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Why Choose Our Downloader?
+            <h3 className="text-3xl md:text-4xl font-bold text-center mb-4">
+              Complete Solution for Facebook Content
             </h3>
+            <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
+              dlfb.io offers everything you need to save Facebook videos, reels, photos, and stories in high quality. Completely free and easy to use on any device.
+            </p>
             <div className="grid md:grid-cols-3 gap-8">
               {[
-                { icon: '⚡', title: 'Lightning Fast', desc: 'Download videos in seconds with our optimized servers' },
-                { icon: '🎬', title: 'HD Quality', desc: 'Get videos in highest available quality up to 1080p' },
-                { icon: '🚫', title: 'No Watermark', desc: 'Clean downloads without any watermarks or logos' },
-                { icon: '💰', title: '100% Free', desc: 'Unlimited downloads, no hidden fees or subscriptions' },
-                { icon: '📱', title: 'All Devices', desc: 'Works on desktop, mobile, and tablet browsers' },
-                { icon: '🔒', title: 'Safe & Secure', desc: 'No malware, no tracking, your privacy protected' }
+                { 
+                  icon: '🎬', 
+                  title: 'HD Video Downloader', 
+                  desc: 'Download Facebook videos in HD quality with just one click. Save videos in MP4 format for offline viewing anytime, anywhere. Supports all video formats and resolutions up to 1080p.'
+                },
+                { 
+                  icon: '🎵', 
+                  title: 'Audio Extractor', 
+                  desc: 'Extract high-quality audio from any Facebook video. Perfect for saving music, podcasts, or interviews in MP3 format (up to 320kbps) for offline listening.'
+                },
+                { 
+                  icon: '📱', 
+                  title: 'Reels & Stories', 
+                  desc: 'Download Facebook Reels and Stories before they disappear. Save entertaining short-form content, tutorials, or viral reels in full quality to watch offline or share with friends.'
+                },
+                { 
+                  icon: '⚡', 
+                  title: 'Lightning Fast', 
+                  desc: 'Download videos in seconds with our optimized servers. No waiting, no delays - just instant downloads at maximum speed.'
+                },
+                { 
+                  icon: '🚫', 
+                  title: 'No Watermarks', 
+                  desc: 'Clean downloads without any watermarks, logos, or branding. Get pure, original content exactly as it appears on Facebook.'
+                },
+                { 
+                  icon: '🔒', 
+                  title: 'Safe & Private', 
+                  desc: 'Your privacy is protected. We don\'t store your data, track your activity, or require any personal information. 100% secure and anonymous.'
+                }
               ].map((feature, i) => (
                 <div key={i} className="p-6 rounded-xl bg-white shadow-md hover:shadow-xl transition text-center">
                   <div className="text-4xl mb-4">{feature.icon}</div>
-                  <h4 className="text-xl font-bold mb-2">{feature.title}</h4>
-                  <p className="text-gray-600">{feature.desc}</p>
+                  <h4 className="text-xl font-bold mb-3">{feature.title}</h4>
+                  <p className="text-gray-600 leading-relaxed">{feature.desc}</p>
                 </div>
               ))}
             </div>
@@ -159,9 +186,12 @@ export default function Home() {
         {/* How to Use */}
         <section id="how-to" className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              How to Download Facebook Videos
+            <h3 className="text-3xl md:text-4xl font-bold text-center mb-4">
+              Downloading Facebook Videos Has Never Been Easier
             </h3>
+            <p className="text-xl text-gray-600 text-center mb-12">
+              Follow these three simple steps to save any Facebook video, reel, or photo to your device in seconds. No registration, no software installation required.
+            </p>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 { step: '01', title: 'Copy Link', desc: 'Open Facebook and copy the video URL from the address bar or share menu' },
