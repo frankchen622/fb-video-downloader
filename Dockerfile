@@ -18,8 +18,8 @@ COPY package.json package-lock.json ./
 # 升级 npm 到最新版本（修复 npm 崩溃问题）
 RUN npm install -g npm@latest
 
-# 安装所有依赖（包括 devDependencies）
-RUN npm ci
+# 安装所有依赖（使用 install 而不是 ci，更宽松）
+RUN npm install
 
 # 复制源代码
 COPY . .
