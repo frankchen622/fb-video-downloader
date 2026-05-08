@@ -15,11 +15,8 @@ WORKDIR /app
 # 复制 package 文件
 COPY package.json ./
 
-# 升级 npm 到最新版本（修复 npm 崩溃问题）
-RUN npm install -g npm@latest
-
-# 安装所有依赖（不使用 lockfile，避免同步问题）
-RUN npm install
+# 安装依赖（不使用 lockfile）
+RUN npm install --legacy-peer-deps
 
 # 复制源代码
 COPY . .
