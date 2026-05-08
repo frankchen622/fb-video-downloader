@@ -163,6 +163,28 @@ export default function ReelsDownloader() {
           </div>
         </section>
 
+        <section className="container mx-auto px-4 py-16 bg-white/50">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {[
+                { q: 'What are Facebook Reels?', a: 'Facebook Reels are short-form videos (up to 90 seconds) similar to TikTok and Instagram Reels. They\'re designed for quick, entertaining content.' },
+                { q: 'Can I download Reels without watermark?', a: 'Yes, our downloader removes watermarks and logos, giving you clean video files perfect for repurposing or archiving.' },
+                { q: 'What quality are downloaded Reels?', a: 'Reels are downloaded in the highest quality available, typically HD (1080p) or the original upload quality.' },
+                { q: 'Is it legal to download Facebook Reels?', a: 'Downloading for personal use is generally acceptable. However, never redistribute or use content commercially without the creator\'s permission.' },
+                { q: 'Can I download Reels on mobile?', a: 'Yes! Our downloader works perfectly on mobile devices. Just copy the Reel link and paste it in our tool.' }
+              ].map((faq, i) => (
+                <details key={i} className="bg-white rounded-xl p-6 shadow-md">
+                  <summary className="font-bold text-lg cursor-pointer hover:text-blue-600 transition">
+                    {faq.q}
+                  </summary>
+                  <p className="mt-4 text-gray-600 leading-relaxed">{faq.a}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <footer className="container mx-auto px-4 py-12 border-t border-gray-200">
           <div className="max-w-6xl mx-auto text-center text-gray-600">
             <div className="flex flex-wrap justify-center gap-6 mb-6">

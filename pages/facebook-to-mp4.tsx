@@ -141,6 +141,28 @@ export default function FacebookToMP4() {
           </div>
         </section>
 
+        <section className="container mx-auto px-4 py-16">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {[
+                { q: 'Is MP4 the best format for Facebook videos?', a: 'Yes, MP4 is the most widely supported video format. It works on all devices, platforms, and media players, making it the ideal choice for downloading Facebook videos.' },
+                { q: 'What quality can I download?', a: 'You can download Facebook videos in the highest quality available, including HD (1080p), 720p, 480p, and 360p. Our converter automatically detects all available qualities.' },
+                { q: 'Is this converter free?', a: 'Yes, our Facebook to MP4 converter is 100% free with unlimited conversions. No hidden fees, no subscriptions, no registration required.' },
+                { q: 'Do I need to install software?', a: 'No installation needed! Our converter works directly in your web browser on any device - desktop, mobile, or tablet.' },
+                { q: 'Can I convert private videos?', a: 'You can only convert videos that you have permission to view on Facebook. For private videos, use our Private Video Downloader page.' }
+              ].map((faq, i) => (
+                <details key={i} className="bg-white rounded-xl p-6 shadow-md">
+                  <summary className="font-bold text-lg cursor-pointer hover:text-blue-600 transition">
+                    {faq.q}
+                  </summary>
+                  <p className="mt-4 text-gray-600 leading-relaxed">{faq.a}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <footer className="container mx-auto px-4 py-12 border-t border-gray-200">
           <div className="max-w-6xl mx-auto text-center text-gray-600">
             <div className="flex flex-wrap justify-center gap-6 mb-6">

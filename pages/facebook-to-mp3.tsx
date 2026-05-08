@@ -143,6 +143,28 @@ export default function FacebookToMP3() {
           </div>
         </section>
 
+        <section className="container mx-auto px-4 py-16">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {[
+                { q: 'Can I extract audio from any Facebook video?', a: 'Yes, you can extract audio from any public Facebook video. For private videos, you need to have viewing permission on Facebook first.' },
+                { q: 'What audio quality will I get?', a: 'Our converter extracts audio in the highest quality available, up to 320kbps MP3. The quality depends on the original video\'s audio track.' },
+                { q: 'Is MP3 compatible with all devices?', a: 'Yes, MP3 is the most universal audio format. It works on all smartphones, tablets, computers, and music players.' },
+                { q: 'How long does conversion take?', a: 'Audio extraction is very fast, usually taking just a few seconds depending on the video length and your internet speed.' },
+                { q: 'Can I convert music videos to MP3?', a: 'Yes, you can extract audio from music videos, live performances, podcasts, or any video content on Facebook. Always respect copyright laws.' }
+              ].map((faq, i) => (
+                <details key={i} className="bg-white rounded-xl p-6 shadow-md">
+                  <summary className="font-bold text-lg cursor-pointer hover:text-blue-600 transition">
+                    {faq.q}
+                  </summary>
+                  <p className="mt-4 text-gray-600 leading-relaxed">{faq.a}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <footer className="container mx-auto px-4 py-12 border-t border-gray-200">
           <div className="max-w-6xl mx-auto text-center text-gray-600">
             <div className="flex flex-wrap justify-center gap-6 mb-6">

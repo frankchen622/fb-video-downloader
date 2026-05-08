@@ -180,6 +180,28 @@ export default function PrivateVideoDownloader() {
           </div>
         </section>
 
+        <section className="container mx-auto px-4 py-16">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {[
+                { q: 'How do I download a private Facebook video?', a: 'First, make sure you\'re logged into Facebook and can view the video. Then copy the video URL from your browser and paste it into our downloader. You can only download videos you have permission to view.' },
+                { q: 'Is my Facebook login information safe?', a: 'Yes, we never store or access your Facebook login credentials. The download process happens directly between your browser and Facebook\'s servers.' },
+                { q: 'Can I download videos from closed groups?', a: 'Yes, as long as you\'re a member of the group and have permission to view the video, you can download it using our tool.' },
+                { q: 'Will the video owner know I downloaded it?', a: 'No, downloading a video is a private action. The video owner won\'t receive any notification about downloads.' },
+                { q: 'What should I do with downloaded private videos?', a: 'Use them responsibly. Don\'t share private videos publicly without the creator\'s consent. Respect privacy settings and copyright laws.' }
+              ].map((faq, i) => (
+                <details key={i} className="bg-white rounded-xl p-6 shadow-md">
+                  <summary className="font-bold text-lg cursor-pointer hover:text-blue-600 transition">
+                    {faq.q}
+                  </summary>
+                  <p className="mt-4 text-gray-600 leading-relaxed">{faq.a}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <footer className="container mx-auto px-4 py-12 border-t border-gray-200">
           <div className="max-w-6xl mx-auto text-center text-gray-600">
             <div className="flex flex-wrap justify-center gap-6 mb-6">
