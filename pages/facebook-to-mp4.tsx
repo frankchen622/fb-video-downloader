@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Logo from '@/components/Logo'
+import Footer from '@/components/Footer'
 
 export default function FacebookToMP4() {
   const [url, setUrl] = useState('')

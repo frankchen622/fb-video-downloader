@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Logo from '@/components/Logo'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   const [url, setUrl] = useState('')
@@ -204,24 +205,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="container mx-auto px-4 py-12 border-t border-gray-200">
-          <div className="max-w-6xl mx-auto text-center text-gray-600">
-            <div className="flex flex-wrap justify-center gap-6 mb-6">
-              <Link href="/" className="hover:text-blue-600">Home</Link>
-              <Link href="/facebook-to-mp4" className="hover:text-blue-600">FB to MP4</Link>
-              <Link href="/facebook-to-mp3" className="hover:text-blue-600">FB to MP3</Link>
-              <Link href="/reels-downloader" className="hover:text-blue-600">Reels Downloader</Link>
-              <Link href="/private-video-downloader" className="hover:text-blue-600">Private Videos</Link>
-            </div>
-            <p className="mb-4">
-              © 2024 FB Video Downloader. All rights reserved.
-            </p>
-            <p className="text-sm">
-              We are not affiliated with Facebook or Meta. All trademarks belong to their respective owners.
-            </p>
-          </div>
-        </footer>
+        <Footer />
       </main>
     </>
   )
