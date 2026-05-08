@@ -15,6 +15,9 @@ WORKDIR /app
 # 复制 package 文件
 COPY package.json ./
 
+# 重置 npm 镜像源为官方源
+RUN npm config set registry https://registry.npmjs.org/
+
 # 安装依赖（不使用 lockfile）
 RUN npm install --legacy-peer-deps
 
