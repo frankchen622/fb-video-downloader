@@ -30,14 +30,8 @@ RUN echo "=== npm ci completed ===" && \
 # 复制源代码
 COPY . .
 
-# 构建应用（使用绝对路径）
-RUN if [ -f /app/node_modules/.bin/next ]; then \
-        /app/node_modules/.bin/next build; \
-    else \
-        echo "ERROR: next not found, listing node_modules:"; \
-        ls -la node_modules/; \
-        exit 1; \
-    fi
+# 构建应用（直接使用 npx，不依赖 .bin 链接）
+RUN npx next build
 
 # 清理开发依赖
 RUN npm prune --production
