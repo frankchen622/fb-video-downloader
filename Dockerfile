@@ -24,9 +24,6 @@ COPY . .
 # 构建应用
 RUN npm run build
 
-# 清理开发依赖
-RUN npm prune --production
-
 EXPOSE 3000
 
 CMD ["npm", "start"]
