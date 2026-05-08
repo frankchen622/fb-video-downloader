@@ -13,12 +13,12 @@ RUN pip3 install --break-system-packages yt-dlp
 WORKDIR /app
 
 # 复制 package 文件
-COPY package.json package-lock.json ./
+COPY package.json ./
 
 # 升级 npm 到最新版本（修复 npm 崩溃问题）
 RUN npm install -g npm@latest
 
-# 安装所有依赖（使用 install 而不是 ci，更宽松）
+# 安装所有依赖（不使用 lockfile，避免同步问题）
 RUN npm install
 
 # 复制源代码
