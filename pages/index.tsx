@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   const [url, setUrl] = useState('')
@@ -76,9 +77,10 @@ export default function Home() {
               FB Video Downloader
             </h1>
             <nav className="hidden md:flex gap-6 text-sm text-gray-600">
-              <a href="#features" className="hover:text-blue-600 transition">Features</a>
-              <a href="#how-to" className="hover:text-blue-600 transition">How to Use</a>
-              <a href="#faq" className="hover:text-blue-600 transition">FAQ</a>
+              <Link href="/facebook-to-mp4" className="hover:text-blue-600 transition">FB to MP4</Link>
+              <Link href="/facebook-to-mp3" className="hover:text-blue-600 transition">FB to MP3</Link>
+              <Link href="/reels-downloader" className="hover:text-blue-600 transition">Reels</Link>
+              <Link href="/private-video-downloader" className="hover:text-blue-600 transition">Private Videos</Link>
             </nav>
           </div>
         </header>
@@ -206,6 +208,13 @@ export default function Home() {
         {/* Footer */}
         <footer className="container mx-auto px-4 py-12 border-t border-gray-200">
           <div className="max-w-6xl mx-auto text-center text-gray-600">
+            <div className="flex flex-wrap justify-center gap-6 mb-6">
+              <Link href="/" className="hover:text-blue-600">Home</Link>
+              <Link href="/facebook-to-mp4" className="hover:text-blue-600">FB to MP4</Link>
+              <Link href="/facebook-to-mp3" className="hover:text-blue-600">FB to MP3</Link>
+              <Link href="/reels-downloader" className="hover:text-blue-600">Reels Downloader</Link>
+              <Link href="/private-video-downloader" className="hover:text-blue-600">Private Videos</Link>
+            </div>
             <p className="mb-4">
               © 2024 FB Video Downloader. All rights reserved.
             </p>
