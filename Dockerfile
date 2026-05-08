@@ -15,17 +15,8 @@ WORKDIR /app
 # 复制 package 文件
 COPY package.json package-lock.json ./
 
-# 安装 Node 依赖
+# 安装所有依赖（包括 devDependencies，构建需要）
 RUN npm ci
-
-# 立即验证安装结果
-RUN echo "=== npm ci completed ===" && \
-    echo "=== Listing node_modules ===" && \
-    ls -la node_modules/ | head -20 && \
-    echo "=== Checking if next exists ===" && \
-    test -f node_modules/.bin/next && echo "✓ next found" || echo "✗ next NOT found" && \
-    echo "=== Checking next package ===" && \
-    test -d node_modules/next && echo "✓ next package found" || echo "✗ next package NOT found"
 
 # 复制源代码
 COPY . .
