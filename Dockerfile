@@ -21,8 +21,11 @@ RUN npm ci
 # 复制源代码
 COPY . .
 
-# 构建应用（直接使用 npx，不依赖 .bin 链接）
-RUN npx next build
+# 确保 TypeScript 和类型定义完整安装
+RUN npm install --no-save typescript @types/react @types/node @types/react-dom
+
+# 构建应用
+RUN npm run build
 
 # 清理开发依赖
 RUN npm prune --production
