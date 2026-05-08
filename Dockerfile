@@ -15,14 +15,14 @@ WORKDIR /app
 # 复制 package 文件
 COPY package.json package-lock.json ./
 
-# 安装所有依赖（包括 devDependencies，构建需要）
+# 升级 npm 到最新版本（修复 npm 崩溃问题）
+RUN npm install -g npm@latest
+
+# 安装所有依赖（包括 devDependencies）
 RUN npm ci
 
 # 复制源代码
 COPY . .
-
-# 确保 TypeScript 和类型定义完整安装
-RUN npm install --no-save typescript @types/react @types/node @types/react-dom
 
 # 构建应用
 RUN npm run build
