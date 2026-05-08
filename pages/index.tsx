@@ -351,104 +351,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Supported Formats & Devices */}
-        <section className="container mx-auto px-4 py-16">
-          <div className="max-w-5xl mx-auto">
-            <h3 className="text-3xl font-bold text-center mb-12">Supported Formats & Devices</h3>
-            <div className="grid md:grid-cols-2 gap-8">
-              {/* Formats */}
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 text-center">
-                <div className="mb-6">
-                  <div className="inline-block p-4 bg-white rounded-full shadow-lg mb-4">
-                    <svg className="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <h4 className="text-2xl font-bold text-gray-900 mb-2">Video Formats</h4>
-                </div>
-                <ul className="space-y-3 inline-block text-left">
-                  {['MP4 (1080p, 720p, 480p, 360p)', 'MP3 Audio (320kbps)', 'Facebook Reels', 'Facebook Stories'].map((format, i) => (
-                    <li key={i} className="flex items-center gap-3 text-gray-700">
-                      <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      <span>{format}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Devices */}
-              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-8 text-center">
-                <div className="mb-6">
-                  <div className="inline-block p-4 bg-white rounded-full shadow-lg mb-4">
-                    <svg className="w-12 h-12 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <h4 className="text-2xl font-bold text-gray-900 mb-2">All Devices</h4>
-                </div>
-                <ul className="space-y-3 inline-block text-left">
-                  {['iPhone & iPad (iOS)', 'Android Phones & Tablets', 'Windows PC & Laptop', 'Mac & MacBook'].map((device, i) => (
-                    <li key={i} className="flex items-center gap-3 text-gray-700">
-                      <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      <span>{device}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* SEO Content Section */}
-        <section className="container mx-auto px-4 py-16">
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 md:p-12 shadow-lg border border-gray-100">
-              <h3 className="text-3xl font-bold mb-6 text-gray-900">
-                The Best Free Facebook Video Downloader Online
-              </h3>
-              
-              <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                <p>
-                  <strong>dlfb.io</strong> is the most reliable and fastest <strong>Facebook video downloader</strong> that lets you <strong>download Facebook videos</strong> in HD quality without any watermarks. Whether you want to <strong>save Facebook videos</strong>, <strong>download FB reels</strong>, or <strong>extract audio to MP3</strong>, our free online tool makes it incredibly easy.
-                </p>
-                
-                <h4 className="text-2xl font-bold mt-8 mb-4">Download Facebook Videos in Any Format</h4>
-                <p>
-                  Our <strong>FB video downloader</strong> supports multiple formats and quality options. <strong>Download videos from Facebook</strong> in MP4 format with resolutions up to 1080p HD. Need just the audio? Use our <strong>Facebook to MP3</strong> converter to extract high-quality audio (320kbps) from any video. You can also <strong>download Facebook Reels</strong>, Stories, and even <strong>private Facebook videos</strong> (if you have access).
-                </p>
-                
-                <h4 className="text-2xl font-bold mt-8 mb-4">Works on All Devices - No App Required</h4>
-                <p>
-                  Unlike other <strong>Facebook video downloader apps</strong>, dlfb.io works directly in your browser. No need to install software or download apps. Simply paste the <strong>Facebook video link</strong> and download instantly on your iPhone, Android, Windows PC, or Mac. Our <strong>online Facebook video downloader</strong> is optimized for all devices and browsers.
-                </p>
-                
-                <h4 className="text-2xl font-bold mt-8 mb-4">Fast, Free, and No Watermarks</h4>
-                <p>
-                  Experience lightning-fast downloads with our optimized servers. <strong>Download FB videos</strong> in seconds without any annoying watermarks or logos. Our service is completely <strong>free</strong> with unlimited downloads - no registration, no hidden fees, no premium plans. Just pure, clean video downloads.
-                </p>
-                
-                <h4 className="text-2xl font-bold mt-8 mb-4">Safe and Private</h4>
-                <p>
-                  Your privacy matters. We don't store your videos, track your downloads, or collect personal information. <strong>Save Facebook videos</strong> securely and anonymously. Our <strong>Facebook downloader</strong> is 100% safe and respects your privacy.
-                </p>
-                
-                <div className="mt-8 p-6 bg-blue-50 rounded-xl border-l-4 border-blue-600">
-                  <p className="text-lg font-semibold text-blue-900 mb-2">
-                    Popular Searches:
-                  </p>
-                  <p className="text-sm text-blue-800 leading-relaxed">
-                    facebook video downloader • download facebook video • fb video downloader • facebook to mp4 • facebook reels download • download fb video • save facebook video • facebook video download online • fb downloader • facebook video download hd • download reels facebook • save fb video • facebook story download • free facebook video downloader • fbdown • fdownloader • downloadfacebook
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* FAQ */}
         <section id="faq" className="container mx-auto px-4 py-16 bg-white/50">
           <div className="max-w-3xl mx-auto">
@@ -457,11 +359,66 @@ export default function Home() {
             </h3>
             <div className="space-y-6">
               {[
-                { q: 'Is this service really free?', a: 'Yes! Our Facebook video downloader is 100% free with no hidden costs, subscriptions, or premium plans. Download unlimited videos.' },
-                { q: 'What video quality can I download?', a: 'You can download videos in the highest quality available, including HD (1080p), 720p, 480p, and 360p. We automatically detect all available qualities.' },
-                { q: 'Do I need to install any software?', a: 'No installation required! Our tool works directly in your web browser on any device - desktop, mobile, or tablet.' },
-                { q: 'Can I download private videos?', a: 'You can only download videos that you have permission to view on Facebook. Respect content creators\' rights and privacy.' },
-                { q: 'Is it legal to download Facebook videos?', a: 'Downloading for personal use is generally acceptable. However, never redistribute or use content commercially without permission from the creator.' }
+                { 
+                  q: 'How do I download Facebook videos?', 
+                  a: 'Downloading Facebook videos is simple with our free Facebook video downloader. Just copy the video URL from Facebook, paste it into our downloader above, and click the download button. You can save Facebook videos in HD quality (1080p, 720p, 480p) to MP4 format. No registration or software installation required - works directly in your browser on any device.' 
+                },
+                { 
+                  q: 'Is this Facebook video downloader really free?', 
+                  a: 'Yes! Our FB video downloader is 100% free with unlimited downloads. There are no hidden costs, subscriptions, or premium plans. Download as many Facebook videos, Reels, and Stories as you want without paying anything. We believe everyone should have free access to save their favorite Facebook content.' 
+                },
+                { 
+                  q: 'What video quality can I download from Facebook?', 
+                  a: 'You can download Facebook videos in the highest quality available from the source. Our Facebook video download tool supports HD quality up to 1080p, as well as 720p, 480p, and 360p. We automatically detect all available video qualities and let you choose the best option for your needs. Download FB videos in HD for the best viewing experience.' 
+                },
+                { 
+                  q: 'Can I download Facebook videos on mobile?', 
+                  a: 'Absolutely! Our Facebook video downloader works perfectly on mobile devices. Whether you\'re using an iPhone, iPad, Android phone, or tablet, you can easily download Facebook videos. Just open Facebook in your mobile browser, copy the video link, paste it into our FB downloader, and save the video to your device. Works on iOS and Android.' 
+                },
+                { 
+                  q: 'Do I need to install software to download FB videos?', 
+                  a: 'No installation required! Unlike other Facebook video downloader apps, our online tool works directly in your web browser. No need to download or install any software, extensions, or apps. Simply visit our website, paste the Facebook video URL, and download. This makes it safer and more convenient than downloadable Facebook downloader software.' 
+                },
+                { 
+                  q: 'Can I download Facebook Reels?', 
+                  a: 'Yes! Our tool supports downloading Facebook Reels in addition to regular videos. You can download Facebook Reels in full quality and save them to your device for offline viewing. Just copy the Reels URL and paste it into our downloader. Perfect for saving entertaining short-form content, tutorials, or viral reels before they disappear.' 
+                },
+                { 
+                  q: 'Can I download Facebook Stories?', 
+                  a: 'Yes, you can download Facebook Stories with our tool. Since Stories disappear after 24 hours, our Facebook story downloader lets you save them permanently. Download stories from any public Facebook account in full quality. Preserve memorable moments that would otherwise be lost. Just paste the story URL before it expires.' 
+                },
+                { 
+                  q: 'Will downloaded videos have watermarks?', 
+                  a: 'No watermarks! All videos downloaded through our Facebook video downloader are completely clean without any watermarks, logos, or branding. You get the original video exactly as it appears on Facebook. We don\'t add any marks to your downloaded content - just pure, clean video files.' 
+                },
+                { 
+                  q: 'Can I convert Facebook videos to MP3?', 
+                  a: 'Yes! Our tool includes a Facebook to MP3 converter. You can extract high-quality audio from any Facebook video and save it as MP3 (up to 320kbps). Perfect for saving music, podcasts, interviews, or any audio content from Facebook videos. Just use our FB to MP3 converter feature to download only the audio.' 
+                },
+                { 
+                  q: 'What formats can I download Facebook videos in?', 
+                  a: 'Our Facebook video downloader supports MP4 format, which is the most universal video format that works on all devices and platforms. You can also convert Facebook videos to MP3 audio format. MP4 is compatible with iPhone, Android, Windows, Mac, smart TVs, and all media players. It offers excellent quality with manageable file sizes.' 
+                },
+                { 
+                  q: 'How fast is the download process?', 
+                  a: 'Our Facebook video download service is lightning fast! Most videos are processed and ready to download within 5-10 seconds. The actual download speed depends on your internet connection and the video file size. We use optimized servers to ensure the fastest possible download experience. No waiting, no delays - just instant downloads.' 
+                },
+                { 
+                  q: 'Can I download private Facebook videos?', 
+                  a: 'You can only download Facebook videos that you have permission to view. If you can watch a video on Facebook (including private videos shared with you), you can download it with our tool. However, you cannot download videos from private accounts you don\'t have access to. Always respect content creators\' privacy and rights.' 
+                },
+                { 
+                  q: 'Is it safe to use this Facebook video downloader?', 
+                  a: 'Yes, our Facebook downloader is 100% safe and secure. We don\'t store your videos, track your downloads, or collect personal information. Your privacy is protected. We don\'t require registration or login, so your Facebook account stays secure. All downloads are processed securely and anonymously.' 
+                },
+                { 
+                  q: 'Is it legal to download Facebook videos?', 
+                  a: 'Downloading Facebook videos for personal use is generally acceptable. However, you should always respect copyright and content creators\' rights. Never redistribute, repost, or use downloaded content commercially without permission from the original creator. Use our FB video downloader responsibly and ethically.' 
+                },
+                { 
+                  q: 'Does this work on all devices?', 
+                  a: 'Yes! Our Facebook video downloader works on all devices and platforms. Download FB videos on iPhone, iPad, Android phones, Android tablets, Windows PC, Mac, Linux, and even Chromebooks. Our online tool is fully responsive and optimized for all screen sizes. No matter what device you use, you can save Facebook videos easily.' 
+                }
               ].map((faq, i) => (
                 <details key={i} className="bg-white rounded-xl p-6 shadow-md">
                   <summary className="font-bold text-lg cursor-pointer hover:text-blue-600 transition">
