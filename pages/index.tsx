@@ -162,7 +162,7 @@ export default function Home() {
             <h3 className="text-3xl md:text-4xl font-bold text-center mb-12">
               How to Download Facebook Videos
             </h3>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-8 mb-16">
               {[
                 { step: '01', title: 'Copy Link', desc: 'Open Facebook and copy the video URL from the address bar or share menu' },
                 { step: '02', title: 'Paste URL', desc: 'Return here and paste the link into the input field above' },
@@ -176,6 +176,45 @@ export default function Home() {
                   <p className="text-gray-600">{item.desc}</p>
                 </div>
               ))}
+            </div>
+
+            {/* Visual Guide with Screenshots */}
+            <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 md:p-12">
+              <h4 className="text-2xl font-bold text-center mb-8">📸 Visual Guide</h4>
+              <div className="grid md:grid-cols-3 gap-6">
+                {[
+                  { 
+                    title: 'Step 1: Copy Link',
+                    img: 'https://placehold.co/600x400/e0e7ff/4f46e5?text=Copy+Facebook+Link',
+                    alt: 'Copy Facebook video link from browser'
+                  },
+                  { 
+                    title: 'Step 2: Paste URL',
+                    img: 'https://placehold.co/600x400/e0e7ff/4f46e5?text=Paste+URL+Here',
+                    alt: 'Paste video URL into downloader'
+                  },
+                  { 
+                    title: 'Step 3: Download',
+                    img: 'https://placehold.co/600x400/e0e7ff/4f46e5?text=Click+Download',
+                    alt: 'Download Facebook video in HD'
+                  }
+                ].map((item, i) => (
+                  <div key={i} className="bg-white rounded-xl overflow-hidden shadow-lg">
+                    <img 
+                      src={item.img}
+                      alt={item.alt}
+                      loading="lazy"
+                      className="w-full h-48 object-cover"
+                    />
+                    <div className="p-4">
+                      <p className="font-semibold text-center text-gray-700">{item.title}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <p className="text-center text-sm text-gray-600 mt-6">
+                💡 Tip: Replace these placeholder images with actual screenshots for better user guidance
+              </p>
             </div>
           </div>
         </section>
