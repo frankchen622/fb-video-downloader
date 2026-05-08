@@ -60,7 +60,7 @@ export default function FacebookToMP3() {
           </div>
         </header>
 
-        <section className="container mx-auto px-4 py-16">
+        <section className="container mx-auto px-4 py-12 md:py-20">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Facebook to MP3 Converter
@@ -69,7 +69,7 @@ export default function FacebookToMP3() {
               Extract high-quality audio from Facebook videos and save as MP3
             </p>
 
-            <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+            <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-100">
               <div className="flex flex-col md:flex-row gap-4">
                 <input
                   type="text"
@@ -82,7 +82,7 @@ export default function FacebookToMP3() {
                 <button
                   onClick={handleDownload}
                   disabled={loading}
-                  className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition disabled:opacity-50"
+                  className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition disabled:opacity-50 whitespace-nowrap"
                 >
                   {loading ? 'Extracting...' : 'Convert to MP3'}
                 </button>
@@ -93,44 +93,65 @@ export default function FacebookToMP3() {
                   {error}
                 </div>
               )}
+
+              <p className="mt-6 text-sm text-gray-500">
+                ✓ High-quality audio  ✓ Fast conversion  ✓ No software needed
+              </p>
             </div>
           </div>
         </section>
 
-        <section className="container mx-auto px-4 py-16">
-          <div className="max-w-4xl mx-auto prose prose-lg">
-            <h2>Extract Audio from Facebook Videos</h2>
-            <p>
-              Our Facebook to MP3 converter allows you to extract high-quality audio from any Facebook video. Perfect for saving music performances, podcasts, interviews, or any audio content shared on Facebook.
-            </p>
+        <section className="container mx-auto px-4 py-16 bg-white/50">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-center">Extract Audio from Facebook Videos</h2>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-12">
+              {[
+                { icon: '💾', title: 'Save Storage', desc: 'Audio files are much smaller than videos' },
+                { icon: '🎵', title: 'Listen Offline', desc: 'Play audio on any device without internet' },
+                { icon: '🎙️', title: 'Music & Podcasts', desc: 'Perfect for audio-only content' },
+                { icon: '📱', title: 'Universal Format', desc: 'MP3 works on all devices and players' }
+              ].map((item, i) => (
+                <div key={i} className="flex gap-4 p-6 bg-white rounded-xl shadow-md">
+                  <div className="text-4xl">{item.icon}</div>
+                  <div>
+                    <h3 className="font-bold text-lg mb-2">{item.title}</h3>
+                    <p className="text-gray-600">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
 
-            <h3>Why Convert Facebook Videos to MP3?</h3>
-            <ul>
-              <li><strong>Save Storage:</strong> Audio files are much smaller than videos</li>
-              <li><strong>Listen Offline:</strong> Play audio on any device without internet</li>
-              <li><strong>Music & Podcasts:</strong> Perfect for audio-only content</li>
-              <li><strong>Universal Format:</strong> MP3 works on all devices and players</li>
-            </ul>
-
-            <h3>Features</h3>
-            <ul>
-              <li>High-quality audio extraction (up to 320kbps)</li>
-              <li>Fast conversion process</li>
-              <li>No software installation required</li>
-              <li>Works on all devices</li>
-              <li>100% free with unlimited conversions</li>
-            </ul>
+            <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 md:p-12">
+              <h3 className="text-2xl font-bold mb-6">Features</h3>
+              <ul className="space-y-3">
+                {[
+                  'High-quality audio extraction (up to 320kbps)',
+                  'Fast conversion process',
+                  'No software installation required',
+                  'Works on all devices',
+                  '100% free with unlimited conversions'
+                ].map((feature, i) => (
+                  <li key={i} className="flex items-center gap-3">
+                    <svg className="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </section>
 
         <footer className="container mx-auto px-4 py-12 border-t border-gray-200">
           <div className="max-w-6xl mx-auto text-center text-gray-600">
             <div className="flex flex-wrap justify-center gap-6 mb-6">
-              <Link href="/" className="hover:text-blue-600">Home</Link>
-              <Link href="/facebook-to-mp4" className="hover:text-blue-600">FB to MP4</Link>
-              <Link href="/facebook-to-mp3" className="hover:text-blue-600">FB to MP3</Link>
-              <Link href="/reels-downloader" className="hover:text-blue-600">Reels Downloader</Link>
-              <Link href="/private-video-downloader" className="hover:text-blue-600">Private Videos</Link>
+              <Link href="/" className="hover:text-blue-600 transition">Home</Link>
+              <Link href="/facebook-to-mp4" className="hover:text-blue-600 transition">FB to MP4</Link>
+              <Link href="/facebook-to-mp3" className="hover:text-blue-600 transition">FB to MP3</Link>
+              <Link href="/reels-downloader" className="hover:text-blue-600 transition">Reels Downloader</Link>
+              <Link href="/private-video-downloader" className="hover:text-blue-600 transition">Private Videos</Link>
             </div>
             <p className="text-sm">
               © 2024 FB Video Downloader. Not affiliated with Facebook or Meta.

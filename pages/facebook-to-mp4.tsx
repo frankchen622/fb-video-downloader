@@ -60,7 +60,7 @@ export default function FacebookToMP4() {
           </div>
         </header>
 
-        <section className="container mx-auto px-4 py-16">
+        <section className="container mx-auto px-4 py-12 md:py-20">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Facebook to MP4 Converter
@@ -69,7 +69,7 @@ export default function FacebookToMP4() {
               Download Facebook videos in MP4 format - the most compatible video format for all devices
             </p>
 
-            <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+            <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-100">
               <div className="flex flex-col md:flex-row gap-4">
                 <input
                   type="text"
@@ -82,7 +82,7 @@ export default function FacebookToMP4() {
                 <button
                   onClick={handleDownload}
                   disabled={loading}
-                  className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition disabled:opacity-50"
+                  className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition disabled:opacity-50 whitespace-nowrap"
                 >
                   {loading ? 'Converting...' : 'Convert to MP4'}
                 </button>
@@ -93,42 +93,63 @@ export default function FacebookToMP4() {
                   {error}
                 </div>
               )}
+
+              <p className="mt-6 text-sm text-gray-500">
+                ✓ No registration required  ✓ Unlimited downloads  ✓ All devices supported
+              </p>
             </div>
           </div>
         </section>
 
-        <section className="container mx-auto px-4 py-16">
-          <div className="max-w-4xl mx-auto prose prose-lg">
-            <h2>Why Download Facebook Videos as MP4?</h2>
-            <p>
-              MP4 is the most widely supported video format across all devices and platforms. When you convert Facebook videos to MP4, you ensure maximum compatibility with smartphones, tablets, computers, smart TVs, and media players.
-            </p>
+        <section className="container mx-auto px-4 py-16 bg-white/50">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-center">Why Download Facebook Videos as MP4?</h2>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-12">
+              {[
+                { icon: '📱', title: 'Universal Compatibility', desc: 'Works on iPhone, Android, Windows, Mac, and Linux' },
+                { icon: '🎬', title: 'High Quality', desc: 'Maintains excellent video quality with efficient compression' },
+                { icon: '💾', title: 'Small File Size', desc: 'Optimized compression saves storage space' },
+                { icon: '🔄', title: 'Easy Sharing', desc: 'Compatible with all social media platforms' }
+              ].map((item, i) => (
+                <div key={i} className="flex gap-4 p-6 bg-white rounded-xl shadow-md">
+                  <div className="text-4xl">{item.icon}</div>
+                  <div>
+                    <h3 className="font-bold text-lg mb-2">{item.title}</h3>
+                    <p className="text-gray-600">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
 
-            <h3>Benefits of MP4 Format</h3>
-            <ul>
-              <li><strong>Universal Compatibility:</strong> Works on iPhone, Android, Windows, Mac, and Linux</li>
-              <li><strong>High Quality:</strong> Maintains excellent video quality with efficient compression</li>
-              <li><strong>Small File Size:</strong> Optimized compression saves storage space</li>
-              <li><strong>Easy Sharing:</strong> Compatible with all social media platforms and messaging apps</li>
-            </ul>
-
-            <h3>How to Convert Facebook Video to MP4</h3>
-            <ol>
-              <li>Copy the Facebook video URL from your browser</li>
-              <li>Paste it into the converter above</li>
-              <li>Click "Convert to MP4" and download your video</li>
-            </ol>
+            <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 md:p-12">
+              <h3 className="text-2xl font-bold mb-6">How to Convert Facebook Video to MP4</h3>
+              <div className="space-y-4">
+                {[
+                  'Copy the Facebook video URL from your browser',
+                  'Paste it into the converter above',
+                  'Click "Convert to MP4" and download your video'
+                ].map((step, i) => (
+                  <div key={i} className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold">
+                      {i + 1}
+                    </div>
+                    <p className="text-gray-700 pt-1">{step}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </section>
 
         <footer className="container mx-auto px-4 py-12 border-t border-gray-200">
           <div className="max-w-6xl mx-auto text-center text-gray-600">
             <div className="flex flex-wrap justify-center gap-6 mb-6">
-              <Link href="/" className="hover:text-blue-600">Home</Link>
-              <Link href="/facebook-to-mp4" className="hover:text-blue-600">FB to MP4</Link>
-              <Link href="/facebook-to-mp3" className="hover:text-blue-600">FB to MP3</Link>
-              <Link href="/reels-downloader" className="hover:text-blue-600">Reels Downloader</Link>
-              <Link href="/private-video-downloader" className="hover:text-blue-600">Private Videos</Link>
+              <Link href="/" className="hover:text-blue-600 transition">Home</Link>
+              <Link href="/facebook-to-mp4" className="hover:text-blue-600 transition">FB to MP4</Link>
+              <Link href="/facebook-to-mp3" className="hover:text-blue-600 transition">FB to MP3</Link>
+              <Link href="/reels-downloader" className="hover:text-blue-600 transition">Reels Downloader</Link>
+              <Link href="/private-video-downloader" className="hover:text-blue-600 transition">Private Videos</Link>
             </div>
             <p className="text-sm">
               © 2024 FB Video Downloader. Not affiliated with Facebook or Meta.

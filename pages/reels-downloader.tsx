@@ -60,7 +60,7 @@ export default function ReelsDownloader() {
           </div>
         </header>
 
-        <section className="container mx-auto px-4 py-16">
+        <section className="container mx-auto px-4 py-12 md:py-20">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Facebook Reels Downloader
@@ -69,7 +69,7 @@ export default function ReelsDownloader() {
               Download Facebook Reels in HD quality - save viral short videos instantly
             </p>
 
-            <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+            <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-100">
               <div className="flex flex-col md:flex-row gap-4">
                 <input
                   type="text"
@@ -82,7 +82,7 @@ export default function ReelsDownloader() {
                 <button
                   onClick={handleDownload}
                   disabled={loading}
-                  className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition disabled:opacity-50"
+                  className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition disabled:opacity-50 whitespace-nowrap"
                 >
                   {loading ? 'Downloading...' : 'Download Reel'}
                 </button>
@@ -93,51 +93,85 @@ export default function ReelsDownloader() {
                   {error}
                 </div>
               )}
+
+              <p className="mt-6 text-sm text-gray-500">
+                ✓ HD quality  ✓ No watermark  ✓ Save viral content
+              </p>
             </div>
           </div>
         </section>
 
-        <section className="container mx-auto px-4 py-16">
-          <div className="max-w-4xl mx-auto prose prose-lg">
-            <h2>Download Facebook Reels Easily</h2>
-            <p>
-              Facebook Reels are short, entertaining videos that deserve to be saved and shared. Our downloader makes it easy to save your favorite reels in high quality without any watermarks.
-            </p>
+        <section className="container mx-auto px-4 py-16 bg-white/50">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-center">Download Facebook Reels Easily</h2>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-12">
+              {[
+                { icon: '🔥', title: 'Save Viral Content', desc: 'Keep trending videos before they disappear' },
+                { icon: '📱', title: 'Share Offline', desc: 'Watch reels without internet connection' },
+                { icon: '🎬', title: 'Content Creation', desc: 'Use as inspiration for your own content' },
+                { icon: '✨', title: 'No Watermark', desc: 'Clean downloads without logos' }
+              ].map((item, i) => (
+                <div key={i} className="flex gap-4 p-6 bg-white rounded-xl shadow-md">
+                  <div className="text-4xl">{item.icon}</div>
+                  <div>
+                    <h3 className="font-bold text-lg mb-2">{item.title}</h3>
+                    <p className="text-gray-600">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
 
-            <h3>Why Download Facebook Reels?</h3>
-            <ul>
-              <li><strong>Save Viral Content:</strong> Keep trending videos before they disappear</li>
-              <li><strong>Share Offline:</strong> Watch reels without internet connection</li>
-              <li><strong>Content Creation:</strong> Use as inspiration or reference for your own content</li>
-              <li><strong>No Watermark:</strong> Clean downloads without logos or branding</li>
-            </ul>
+            <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 md:p-12">
+              <h3 className="text-2xl font-bold mb-6">How to Download Facebook Reels</h3>
+              <div className="space-y-4">
+                {[
+                  'Open the Facebook Reel you want to download',
+                  'Tap the share button and copy the link',
+                  'Paste the link in our downloader above',
+                  'Click "Download Reel" and save to your device'
+                ].map((step, i) => (
+                  <div key={i} className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold">
+                      {i + 1}
+                    </div>
+                    <p className="text-gray-700 pt-1">{step}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
 
-            <h3>How to Download Facebook Reels</h3>
-            <ol>
-              <li>Open the Facebook Reel you want to download</li>
-              <li>Tap the share button and copy the link</li>
-              <li>Paste the link in our downloader above</li>
-              <li>Click "Download Reel" and save to your device</li>
-            </ol>
-
-            <h3>Perfect For</h3>
-            <ul>
-              <li>Content creators looking for inspiration</li>
-              <li>Social media managers curating content</li>
-              <li>Anyone who wants to save funny or entertaining reels</li>
-              <li>Marketers analyzing trending content</li>
-            </ul>
+            <div className="mt-12 grid md:grid-cols-2 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold mb-4">Perfect For</h3>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Content creators</li>
+                  <li>• Social media managers</li>
+                  <li>• Digital marketers</li>
+                  <li>• Influencers</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold mb-4">Use Cases</h3>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Save funny clips</li>
+                  <li>• Archive viral content</li>
+                  <li>• Analyze trends</li>
+                  <li>• Offline viewing</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
 
         <footer className="container mx-auto px-4 py-12 border-t border-gray-200">
           <div className="max-w-6xl mx-auto text-center text-gray-600">
             <div className="flex flex-wrap justify-center gap-6 mb-6">
-              <Link href="/" className="hover:text-blue-600">Home</Link>
-              <Link href="/facebook-to-mp4" className="hover:text-blue-600">FB to MP4</Link>
-              <Link href="/facebook-to-mp3" className="hover:text-blue-600">FB to MP3</Link>
-              <Link href="/reels-downloader" className="hover:text-blue-600">Reels Downloader</Link>
-              <Link href="/private-video-downloader" className="hover:text-blue-600">Private Videos</Link>
+              <Link href="/" className="hover:text-blue-600 transition">Home</Link>
+              <Link href="/facebook-to-mp4" className="hover:text-blue-600 transition">FB to MP4</Link>
+              <Link href="/facebook-to-mp3" className="hover:text-blue-600 transition">FB to MP3</Link>
+              <Link href="/reels-downloader" className="hover:text-blue-600 transition">Reels Downloader</Link>
+              <Link href="/private-video-downloader" className="hover:text-blue-600 transition">Private Videos</Link>
             </div>
             <p className="text-sm">
               © 2024 FB Video Downloader. Not affiliated with Facebook or Meta.
