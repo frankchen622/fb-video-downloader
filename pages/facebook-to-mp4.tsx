@@ -60,6 +60,7 @@ export default function FacebookToMP4() {
           </div>
         </header>
 
+        {/* Hero + Download Box */}
         <section className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -101,47 +102,34 @@ export default function FacebookToMP4() {
           </div>
         </section>
 
-        {/* Quick Benefits */}
-        <section className="container mx-auto px-4 py-12">
-          <div className="max-w-5xl mx-auto">
+        {/* 3-Step Process */}
+        <section className="container mx-auto px-4 py-12 bg-gradient-to-br from-blue-50 to-purple-50">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Convert Facebook to MP4</h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                  </svg>
+              {[
+                { num: '1', title: 'Copy URL', desc: 'Copy the Facebook video link' },
+                { num: '2', title: 'Paste', desc: 'Paste it into the converter' },
+                { num: '3', title: 'Download', desc: 'Click convert and save MP4' }
+              ].map((step) => (
+                <div key={step.num} className="bg-white rounded-xl p-6 text-center shadow-md">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-3">
+                    {step.num}
+                  </div>
+                  <h3 className="font-bold mb-1">{step.title}</h3>
+                  <p className="text-sm text-gray-600">{step.desc}</p>
                 </div>
-                <h3 className="font-bold text-lg mb-2">HD Quality</h3>
-                <p className="text-gray-600 text-sm">Download in 1080p, 720p, or 480p - your choice</p>
-              </div>
-
-              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <h3 className="font-bold text-lg mb-2">All Devices</h3>
-                <p className="text-gray-600 text-sm">Works on iPhone, Android, Windows, Mac</p>
-              </div>
-
-              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                </div>
-                <h3 className="font-bold text-lg mb-2">No Watermark</h3>
-                <p className="text-gray-600 text-sm">Clean videos, no logos or branding added</p>
-              </div>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* Feature Showcase - Image + Text Module */}
+        {/* Why Choose Us - Image + Text */}
         <section className="container mx-auto px-4 py-16">
           <div className="max-w-6xl mx-auto">
-            {/* MP4 Format Benefits */}
+            <h2 className="text-3xl font-bold text-center mb-12">Why Choose Our Facebook to MP4 Converter?</h2>
+            
+            {/* Feature 1 */}
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
@@ -157,7 +145,7 @@ export default function FacebookToMP4() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-3xl font-bold mb-4">Why MP4 Format?</h3>
+                <h3 className="text-3xl font-bold mb-4">Universal MP4 Format</h3>
                 <p className="text-lg text-gray-600 mb-6">
                   MP4 is the universal video format, supported by every device and platform. Convert Facebook videos to MP4 for maximum compatibility.
                 </p>
@@ -184,7 +172,7 @@ export default function FacebookToMP4() {
               </div>
             </div>
 
-            {/* HD Quality */}
+            {/* Feature 2 */}
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-3xl font-bold mb-4">HD Quality Downloads</h3>
@@ -227,28 +215,6 @@ export default function FacebookToMP4() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* How It Works */}
-        <section className="container mx-auto px-4 py-12 bg-gradient-to-br from-blue-50 to-purple-50">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Convert Facebook to MP4</h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              {[
-                { num: '1', title: 'Copy URL', desc: 'Copy the Facebook video link' },
-                { num: '2', title: 'Paste', desc: 'Paste it into the converter' },
-                { num: '3', title: 'Download', desc: 'Click convert and save MP4' }
-              ].map((step) => (
-                <div key={step.num} className="bg-white rounded-xl p-6 text-center shadow-md">
-                  <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-3">
-                    {step.num}
-                  </div>
-                  <h3 className="font-bold mb-1">{step.title}</h3>
-                  <p className="text-sm text-gray-600">{step.desc}</p>
-                </div>
-              ))}
             </div>
           </div>
         </section>
