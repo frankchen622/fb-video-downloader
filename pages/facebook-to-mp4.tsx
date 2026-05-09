@@ -168,27 +168,51 @@ export default function FacebookToMP4() {
               {[
                 { 
                   q: 'How do I convert Facebook videos to MP4?', 
-                  a: 'Copy the Facebook video URL, paste it into the converter above, and click "Convert to MP4". The video will be ready to download in seconds.' 
+                  a: 'Simply copy the Facebook video URL, paste it into our converter above, and click "Convert to MP4". The video will be processed and ready to download in seconds. No registration or software installation required.' 
                 },
                 { 
-                  q: 'Is this converter free?', 
-                  a: 'Yes, completely free with unlimited conversions. No registration, no hidden fees, no subscriptions.' 
+                  q: 'Is MP4 the best format for Facebook videos?', 
+                  a: 'Yes, MP4 is the most widely supported video format. It works on all devices (iPhone, Android, Windows, Mac), platforms, and media players, making it the ideal choice for downloading Facebook videos.' 
                 },
                 { 
                   q: 'What quality can I download?', 
-                  a: 'You can download in HD quality up to 1080p, depending on the source video quality. We automatically detect all available resolutions.' 
+                  a: 'You can download Facebook videos in the highest quality available, including HD (1080p), 720p, 480p, and 360p. Our converter automatically detects all available qualities from the source video.' 
                 },
                 { 
-                  q: 'Does it work on mobile?', 
-                  a: 'Yes! Works perfectly on iPhone and Android. Just copy the video link from the Facebook app and paste it into our converter.' 
+                  q: 'Is this Facebook to MP4 converter free?', 
+                  a: 'Yes, our Facebook to MP4 converter is 100% free with unlimited conversions. No hidden fees, no subscriptions, no registration required. Download as many videos as you want.' 
                 },
                 { 
-                  q: 'Will there be a watermark?', 
-                  a: 'No watermarks, logos, or branding. You get the clean original video.' 
+                  q: 'Do I need to install software?', 
+                  a: 'No installation needed! Our converter works directly in your web browser on any device - desktop, mobile, or tablet. Just paste the URL and download.' 
                 },
                 { 
-                  q: 'Can I convert private videos?', 
-                  a: 'You can convert any video you have permission to view on Facebook. For private videos, check our Private Video Downloader page.' 
+                  q: 'Can I convert Facebook videos on mobile?', 
+                  a: 'Absolutely! Our Facebook to MP4 converter works perfectly on mobile devices. Simply open Facebook in your mobile browser, copy the video link, and paste it into our converter. Works on both iPhone and Android.' 
+                },
+                { 
+                  q: 'Will the downloaded video have a watermark?', 
+                  a: 'No, all videos downloaded through our converter are completely clean without any watermarks, logos, or branding. You get the original video exactly as it appears on Facebook.' 
+                },
+                { 
+                  q: 'How long does the conversion take?', 
+                  a: 'Conversion is usually instant! Most videos are processed and ready to download within 5-10 seconds, depending on the video length and your internet speed.' 
+                },
+                { 
+                  q: 'Can I convert private Facebook videos?', 
+                  a: 'You can only convert videos that you have permission to view on Facebook. If you can watch it on Facebook, you can convert it. For private videos, check out our Private Video Downloader page.' 
+                },
+                { 
+                  q: 'What types of Facebook videos can I convert?', 
+                  a: 'You can convert regular Facebook videos, Reels, Stories, live videos (after they end), and videos from Facebook Watch. Our converter supports all types of Facebook video content.' 
+                },
+                { 
+                  q: 'Is it legal to download Facebook videos?', 
+                  a: 'Downloading videos for personal use is generally acceptable. However, always respect copyright and content creators\' rights. Never redistribute or use downloaded content commercially without permission.' 
+                },
+                { 
+                  q: 'Why is MP4 better than other formats?', 
+                  a: 'MP4 offers the best balance of quality and file size. It\'s universally compatible, plays on all devices, supports high resolutions, and is accepted by all social media platforms. It\'s the industry standard for video.' 
                 }
               ].map((faq, i) => (
                 <details key={i} className="bg-white rounded-lg p-5 shadow-md border border-gray-100 group">
