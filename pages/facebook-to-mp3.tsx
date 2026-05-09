@@ -60,86 +60,197 @@ export default function FacebookToMP3() {
           </div>
         </header>
 
-        <section className="container mx-auto px-4 py-12 md:py-20">
+        <section className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Facebook to MP3 Converter
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Facebook to MP3
             </h1>
-            <p className="text-xl text-gray-600 mb-12">
-              Extract high-quality audio from Facebook videos and save as MP3
+            <p className="text-lg text-gray-600 mb-10">
+              Extract audio from FB videos • High quality • Free
             </p>
 
-            <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-100">
-              <div className="flex flex-col md:flex-row gap-4">
+            <div className="bg-white rounded-xl shadow-lg p-6 md:p-8 border border-gray-100">
+              <div className="flex flex-col md:flex-row gap-3">
                 <input
                   type="text"
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
-                  placeholder="Paste Facebook video URL here..."
-                  className="flex-1 px-6 py-4 text-lg border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition"
+                  placeholder="Paste Facebook video URL..."
+                  className="flex-1 px-5 py-3.5 text-base border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition"
                   onKeyPress={(e) => e.key === 'Enter' && handleDownload()}
                 />
                 <button
                   onClick={handleDownload}
                   disabled={loading}
-                  className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition disabled:opacity-50 whitespace-nowrap"
+                  className="px-7 py-3.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:shadow-lg transition disabled:opacity-50 whitespace-nowrap"
                 >
-                  {loading ? 'Extracting...' : 'Convert to MP3'}
+                  {loading ? '⏳ Extracting...' : '🎵 Convert to MP3'}
                 </button>
               </div>
               
               {error && (
-                <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-lg text-red-600">
+                <div className="mt-4 p-3 bg-red-50 border-l-4 border-red-500 text-red-600 text-sm">
                   {error}
                 </div>
               )}
 
-              <p className="mt-6 text-sm text-gray-500">
-                ✓ High-quality audio  ✓ Fast conversion  ✓ No software needed
+              <p className="mt-5 text-xs text-gray-500 text-center">
+                High-quality audio • Fast conversion • No software needed
               </p>
             </div>
           </div>
         </section>
 
-        <section className="container mx-auto px-4 py-16 bg-white/50">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">Extract Audio from Facebook Videos</h2>
-            
-            <div className="grid md:grid-cols-2 gap-6 mb-12">
-              {[
-                { icon: '💾', title: 'Save Storage', desc: 'Audio files are much smaller than videos' },
-                { icon: '🎵', title: 'Listen Offline', desc: 'Play audio on any device without internet' },
-                { icon: '🎙️', title: 'Music & Podcasts', desc: 'Perfect for audio-only content' },
-                { icon: '📱', title: 'Universal Format', desc: 'MP3 works on all devices and players' }
-              ].map((item, i) => (
-                <div key={i} className="flex gap-4 p-6 bg-white rounded-xl shadow-md">
-                  <div className="text-4xl">{item.icon}</div>
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">{item.title}</h3>
-                    <p className="text-gray-600">{item.desc}</p>
+        {/* Quick Benefits */}
+        <section className="container mx-auto px-4 py-12">
+          <div className="max-w-5xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-lg mb-2">High Quality</h3>
+                <p className="text-gray-600 text-sm">Extract audio up to 320kbps bitrate</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-lg mb-2">Fast Conversion</h3>
+                <p className="text-gray-600 text-sm">Extract audio in seconds</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-lg mb-2">All Devices</h3>
+                <p className="text-gray-600 text-sm">MP3 works everywhere</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Feature Showcase - Image + Text Module */}
+        <section className="container mx-auto px-4 py-16">
+          <div className="max-w-6xl mx-auto">
+            {/* MP3 Format Benefits */}
+            <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+              <div className="order-2 md:order-1">
+                <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+                  <div className="aspect-[4/3] bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center">
+                    <div className="text-center p-8">
+                      <div className="w-24 h-24 mx-auto mb-4 bg-blue-600 rounded-2xl flex items-center justify-center">
+                        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                        </svg>
+                      </div>
+                      <p className="text-sm text-gray-600 font-medium">Audio Format</p>
+                      <p className="text-xs text-gray-500 mt-2">320kbps • 256kbps • 192kbps • 128kbps</p>
+                    </div>
                   </div>
                 </div>
-              ))}
-            </div>
-
-            <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 md:p-12">
-              <h3 className="text-2xl font-bold mb-6">Features</h3>
-              <ul className="space-y-3">
-                {[
-                  'High-quality audio extraction (up to 320kbps)',
-                  'Fast conversion process',
-                  'No software installation required',
-                  'Works on all devices',
-                  '100% free with unlimited conversions'
-                ].map((feature, i) => (
-                  <li key={i} className="flex items-center gap-3">
-                    <svg className="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              </div>
+              <div className="order-1 md:order-2">
+                <h3 className="text-3xl font-bold mb-4">Why Extract Audio to MP3?</h3>
+                <p className="text-lg text-gray-600 mb-6">
+                  MP3 is the universal audio format. Extract audio from Facebook videos to save storage, listen offline, and enjoy music anywhere.
+                </p>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">{feature}</span>
+                    <span className="text-gray-700">Much smaller file size than video</span>
                   </li>
-                ))}
-              </ul>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">Works on all music players and devices</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">Perfect for music, podcasts, and audio content</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Audio Quality */}
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-3xl font-bold mb-4">High-Quality Audio Extraction</h3>
+                <p className="text-lg text-gray-600 mb-6">
+                  Extract audio from Facebook videos in the highest quality available. Our converter preserves the original audio quality.
+                </p>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">Up to 320kbps bitrate</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">No quality loss during extraction</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">Crystal clear sound</span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+                  <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl flex items-center justify-center">
+                    <div className="text-center p-8">
+                      <div className="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
+                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                        </svg>
+                      </div>
+                      <p className="text-sm text-gray-600 font-medium">High-Quality Audio</p>
+                      <p className="text-xs text-gray-500 mt-2">Crystal Clear • No Loss</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* How It Works */}
+        <section className="container mx-auto px-4 py-12 bg-gradient-to-br from-blue-50 to-purple-50">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Convert Facebook to MP3</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                { num: '1', title: 'Copy URL', desc: 'Copy the Facebook video link' },
+                { num: '2', title: 'Paste', desc: 'Paste it into the converter' },
+                { num: '3', title: 'Download', desc: 'Click convert and save MP3' }
+              ].map((step) => (
+                <div key={step.num} className="bg-white rounded-xl p-6 text-center shadow-md">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-3">
+                    {step.num}
+                  </div>
+                  <h3 className="font-bold mb-1">{step.title}</h3>
+                  <p className="text-sm text-gray-600">{step.desc}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
@@ -166,20 +277,7 @@ export default function FacebookToMP3() {
           </div>
         </section>
 
-        <footer className="container mx-auto px-4 py-12 border-t border-gray-200">
-          <div className="max-w-6xl mx-auto text-center text-gray-600">
-            <div className="flex flex-wrap justify-center gap-6 mb-6">
-              <Link href="/" className="hover:text-blue-600 transition">Home</Link>
-              <Link href="/facebook-to-mp4" className="hover:text-blue-600 transition">FB to MP4</Link>
-              <Link href="/facebook-to-mp3" className="hover:text-blue-600 transition">FB to MP3</Link>
-              <Link href="/reels-downloader" className="hover:text-blue-600 transition">Reels Downloader</Link>
-              <Link href="/private-video-downloader" className="hover:text-blue-600 transition">Private Videos</Link>
-            </div>
-            <p className="text-sm">
-              © 2024 FB Video Downloader. Not affiliated with Facebook or Meta.
-            </p>
-          </div>
-        </footer>
+        <Footer />
       </main>
     </>
   )
