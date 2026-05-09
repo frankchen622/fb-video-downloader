@@ -101,44 +101,7 @@ export default function FacebookToMP3() {
           </div>
         </section>
 
-        {/* Quick Benefits */}
-        <section className="container mx-auto px-4 py-12">
-          <div className="max-w-5xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                  </svg>
-                </div>
-                <h3 className="font-bold text-lg mb-2">High Quality</h3>
-                <p className="text-gray-600 text-sm">Extract audio up to 320kbps bitrate</p>
-              </div>
-
-              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <h3 className="font-bold text-lg mb-2">Fast Conversion</h3>
-                <p className="text-gray-600 text-sm">Extract audio in seconds</p>
-              </div>
-
-              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <h3 className="font-bold text-lg mb-2">All Devices</h3>
-                <p className="text-gray-600 text-sm">MP3 works everywhere</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Feature Showcase - Image + Text Module */}
+        {/* Why Choose Us - Image + Text */
         <section className="container mx-auto px-4 py-16">
           <div className="max-w-6xl mx-auto">
             {/* MP3 Format Benefits */}
