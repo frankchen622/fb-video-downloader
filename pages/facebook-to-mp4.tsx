@@ -161,10 +161,10 @@ export default function FacebookToMP4() {
         </section>
 
         {/* FAQ */}
-        <section className="container mx-auto px-4 py-12">
+        <section className="container mx-auto px-4 py-16">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
-            <div className="space-y-4">
+            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div className="space-y-6">
               {[
                 { 
                   q: 'How do I convert Facebook videos to MP4?', 
@@ -215,14 +215,11 @@ export default function FacebookToMP4() {
                   a: 'MP4 offers the best balance of quality and file size. It\'s universally compatible, plays on all devices, supports high resolutions, and is accepted by all social media platforms. It\'s the industry standard for video.' 
                 }
               ].map((faq, i) => (
-                <details key={i} className="bg-white rounded-lg p-5 shadow-md border border-gray-100 group">
-                  <summary className="font-semibold cursor-pointer hover:text-blue-600 transition flex items-center justify-between">
-                    <span>{faq.q}</span>
-                    <svg className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
+                <details key={i} className="bg-white rounded-xl p-6 shadow-md">
+                  <summary className="font-bold text-lg cursor-pointer hover:text-blue-600 transition">
+                    {faq.q}
                   </summary>
-                  <p className="mt-3 text-gray-600 text-sm leading-relaxed">{faq.a}</p>
+                  <p className="mt-4 text-gray-600 leading-relaxed">{faq.a}</p>
                 </details>
               ))}
             </div>
