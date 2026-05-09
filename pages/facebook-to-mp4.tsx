@@ -60,240 +60,145 @@ export default function FacebookToMP4() {
           </div>
         </header>
 
-        <section className="container mx-auto px-4 py-12 md:py-20">
+        <section className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Facebook to MP4 Converter - Free & Fast
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Facebook to MP4
             </h1>
-            <p className="text-xl text-gray-600 mb-12">
-              Convert and download Facebook videos to MP4 format in HD quality (1080p, 720p, 480p). Works on iPhone, Android, Windows, Mac. No watermark, no registration, completely free.
+            <p className="text-lg text-gray-600 mb-10">
+              Convert FB videos to MP4 in HD • Free • No watermark
             </p>
 
-            <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-100">
-              <div className="flex flex-col md:flex-row gap-4">
+            <div className="bg-white rounded-xl shadow-lg p-6 md:p-8 border border-gray-100">
+              <div className="flex flex-col md:flex-row gap-3">
                 <input
                   type="text"
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
-                  placeholder="Paste Facebook video URL here..."
-                  className="flex-1 px-6 py-4 text-lg border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition"
+                  placeholder="Paste Facebook video URL..."
+                  className="flex-1 px-5 py-3.5 text-base border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition"
                   onKeyPress={(e) => e.key === 'Enter' && handleDownload()}
                 />
                 <button
                   onClick={handleDownload}
                   disabled={loading}
-                  className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition disabled:opacity-50 whitespace-nowrap"
+                  className="px-7 py-3.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:shadow-lg transition disabled:opacity-50 whitespace-nowrap"
                 >
-                  {loading ? 'Converting...' : 'Convert to MP4'}
+                  {loading ? '⏳ Converting...' : '🚀 Convert to MP4'}
                 </button>
               </div>
               
               {error && (
-                <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-lg text-red-600">
+                <div className="mt-4 p-3 bg-red-50 border-l-4 border-red-500 text-red-600 text-sm">
                   {error}
                 </div>
               )}
 
-              <p className="mt-6 text-sm text-gray-500">
-                ✓ No registration required  ✓ Unlimited downloads  ✓ All devices supported
+              <p className="mt-5 text-xs text-gray-500 text-center">
+                No registration • Unlimited downloads • All devices
               </p>
             </div>
           </div>
         </section>
 
-        {/* Feature Showcase - Image + Text Module */}
-        <section className="container mx-auto px-4 py-16">
-          <div className="max-w-6xl mx-auto">
-            {/* MP4 Format Benefits */}
-            <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-              <div className="order-2 md:order-1">
-                <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-[4/3] bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-24 h-24 mx-auto mb-4 bg-blue-600 rounded-2xl flex items-center justify-center">
-                        <span className="text-3xl font-bold text-white">MP4</span>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Universal Format</p>
-                      <p className="text-xs text-gray-500 mt-2">1080p • 720p • 480p • 360p</p>
-                    </div>
-                  </div>
+        {/* Quick Benefits */}
+        <section className="container mx-auto px-4 py-12">
+          <div className="max-w-5xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                  </svg>
                 </div>
+                <h3 className="font-bold text-lg mb-2">HD Quality</h3>
+                <p className="text-gray-600 text-sm">Download in 1080p, 720p, or 480p - your choice</p>
               </div>
-              <div className="order-1 md:order-2">
-                <h3 className="text-3xl font-bold mb-4">Why MP4 Format?</h3>
-                <p className="text-lg text-gray-600 mb-6">
-                  MP4 is the most universal video format, supported by virtually every device and platform. When you convert Facebook videos to MP4, you ensure maximum compatibility with all your devices.
-                </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Works on all devices and platforms</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Excellent quality with small file size</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Industry standard for video</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
 
-            {/* HD Quality */}
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h3 className="text-3xl font-bold mb-4">HD Quality Downloads</h3>
-                <p className="text-lg text-gray-600 mb-6">
-                  Download Facebook videos in the highest quality available. Our converter automatically detects all available resolutions and lets you choose the best quality for your needs.
-                </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Up to 1080p Full HD</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">No quality loss during conversion</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Multiple quality options available</span>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">HD Video Quality</p>
-                      <p className="text-xs text-gray-500 mt-2">Crystal Clear • No Watermark</p>
-                    </div>
-                  </div>
+              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
                 </div>
+                <h3 className="font-bold text-lg mb-2">All Devices</h3>
+                <p className="text-gray-600 text-sm">Works on iPhone, Android, Windows, Mac</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-lg mb-2">No Watermark</h3>
+                <p className="text-gray-600 text-sm">Clean videos, no logos or branding added</p>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="container mx-auto px-4 py-16 bg-white/50">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">Why Download Facebook Videos as MP4?</h2>
-            
-            <div className="grid md:grid-cols-2 gap-6 mb-12">
+        {/* How It Works */}
+        <section className="container mx-auto px-4 py-12 bg-gradient-to-br from-blue-50 to-purple-50">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Convert Facebook to MP4</h2>
+            <div className="grid md:grid-cols-3 gap-6">
               {[
-                { icon: '📱', title: 'Universal Compatibility', desc: 'Works on iPhone, Android, Windows, Mac, and Linux' },
-                { icon: '🎬', title: 'High Quality', desc: 'Maintains excellent video quality with efficient compression' },
-                { icon: '💾', title: 'Small File Size', desc: 'Optimized compression saves storage space' },
-                { icon: '🔄', title: 'Easy Sharing', desc: 'Compatible with all social media platforms' }
-              ].map((item, i) => (
-                <div key={i} className="flex gap-4 p-6 bg-white rounded-xl shadow-md">
-                  <div className="text-4xl">{item.icon}</div>
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">{item.title}</h3>
-                    <p className="text-gray-600">{item.desc}</p>
+                { num: '1', title: 'Copy URL', desc: 'Copy the Facebook video link' },
+                { num: '2', title: 'Paste', desc: 'Paste it into the converter' },
+                { num: '3', title: 'Download', desc: 'Click convert and save MP4' }
+              ].map((step) => (
+                <div key={step.num} className="bg-white rounded-xl p-6 text-center shadow-md">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-3">
+                    {step.num}
                   </div>
+                  <h3 className="font-bold mb-1">{step.title}</h3>
+                  <p className="text-sm text-gray-600">{step.desc}</p>
                 </div>
               ))}
             </div>
-
-            <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 md:p-12">
-              <h3 className="text-2xl font-bold mb-6">How to Convert Facebook Video to MP4</h3>
-              <div className="space-y-4">
-                {[
-                  'Copy the Facebook video URL from your browser',
-                  'Paste it into the converter above',
-                  'Click "Convert to MP4" and download your video'
-                ].map((step, i) => (
-                  <div key={i} className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold">
-                      {i + 1}
-                    </div>
-                    <p className="text-gray-700 pt-1">{step}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
         </section>
 
-        <section className="container mx-auto px-4 py-16">
+        {/* FAQ */}
+        <section className="container mx-auto px-4 py-12">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
-            <div className="space-y-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+            <div className="space-y-4">
               {[
                 { 
                   q: 'How do I convert Facebook videos to MP4?', 
-                  a: 'Simply copy the Facebook video URL, paste it into our converter above, and click "Convert to MP4". The video will be processed and ready to download in seconds. No registration or software installation required.' 
+                  a: 'Copy the Facebook video URL, paste it into the converter above, and click "Convert to MP4". The video will be ready to download in seconds.' 
                 },
                 { 
-                  q: 'Is MP4 the best format for Facebook videos?', 
-                  a: 'Yes, MP4 is the most widely supported video format. It works on all devices (iPhone, Android, Windows, Mac), platforms, and media players, making it the ideal choice for downloading Facebook videos.' 
+                  q: 'Is this converter free?', 
+                  a: 'Yes, completely free with unlimited conversions. No registration, no hidden fees, no subscriptions.' 
                 },
                 { 
                   q: 'What quality can I download?', 
-                  a: 'You can download Facebook videos in the highest quality available, including HD (1080p), 720p, 480p, and 360p. Our converter automatically detects all available qualities from the source video.' 
+                  a: 'You can download in HD quality up to 1080p, depending on the source video quality. We automatically detect all available resolutions.' 
                 },
                 { 
-                  q: 'Is this Facebook to MP4 converter free?', 
-                  a: 'Yes, our Facebook to MP4 converter is 100% free with unlimited conversions. No hidden fees, no subscriptions, no registration required. Download as many videos as you want.' 
+                  q: 'Does it work on mobile?', 
+                  a: 'Yes! Works perfectly on iPhone and Android. Just copy the video link from the Facebook app and paste it into our converter.' 
                 },
                 { 
-                  q: 'Do I need to install software?', 
-                  a: 'No installation needed! Our converter works directly in your web browser on any device - desktop, mobile, or tablet. Just paste the URL and download.' 
+                  q: 'Will there be a watermark?', 
+                  a: 'No watermarks, logos, or branding. You get the clean original video.' 
                 },
                 { 
-                  q: 'Can I convert Facebook videos on mobile?', 
-                  a: 'Absolutely! Our Facebook to MP4 converter works perfectly on mobile devices. Simply open Facebook in your mobile browser, copy the video link, and paste it into our converter. Works on both iPhone and Android.' 
-                },
-                { 
-                  q: 'Will the downloaded video have a watermark?', 
-                  a: 'No, all videos downloaded through our converter are completely clean without any watermarks, logos, or branding. You get the original video exactly as it appears on Facebook.' 
-                },
-                { 
-                  q: 'How long does the conversion take?', 
-                  a: 'Conversion is usually instant! Most videos are processed and ready to download within 5-10 seconds, depending on the video length and your internet speed.' 
-                },
-                { 
-                  q: 'Can I convert private Facebook videos?', 
-                  a: 'You can only convert videos that you have permission to view on Facebook. If you can watch it on Facebook, you can convert it. For private videos, check out our Private Video Downloader page.' 
-                },
-                { 
-                  q: 'What types of Facebook videos can I convert?', 
-                  a: 'You can convert regular Facebook videos, Reels, Stories, live videos (after they end), and videos from Facebook Watch. Our converter supports all types of Facebook video content.' 
-                },
-                { 
-                  q: 'Is it legal to download Facebook videos?', 
-                  a: 'Downloading videos for personal use is generally acceptable. However, always respect copyright and content creators\' rights. Never redistribute or use downloaded content commercially without permission.' 
-                },
-                { 
-                  q: 'Why is MP4 better than other formats?', 
-                  a: 'MP4 offers the best balance of quality and file size. It\'s universally compatible, plays on all devices, supports high resolutions, and is accepted by all social media platforms. It\'s the industry standard for video.' 
+                  q: 'Can I convert private videos?', 
+                  a: 'You can convert any video you have permission to view on Facebook. For private videos, check our Private Video Downloader page.' 
                 }
               ].map((faq, i) => (
-                <details key={i} className="bg-white rounded-xl p-6 shadow-md">
-                  <summary className="font-bold text-lg cursor-pointer hover:text-blue-600 transition">
-                    {faq.q}
+                <details key={i} className="bg-white rounded-lg p-5 shadow-md border border-gray-100 group">
+                  <summary className="font-semibold cursor-pointer hover:text-blue-600 transition flex items-center justify-between">
+                    <span>{faq.q}</span>
+                    <svg className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
                   </summary>
-                  <p className="mt-4 text-gray-600 leading-relaxed">{faq.a}</p>
+                  <p className="mt-3 text-gray-600 text-sm leading-relaxed">{faq.a}</p>
                 </details>
               ))}
             </div>
