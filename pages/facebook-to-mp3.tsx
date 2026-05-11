@@ -101,7 +101,6 @@ export default function FacebookToMP3() {
           </div>
         </section>
 
-        {/* Why Choose Us - Image + Text */
         <section className="container mx-auto px-4 py-16">
           <div className="max-w-6xl mx-auto">
             {/* MP3 Format Benefits */}
@@ -196,7 +195,6 @@ export default function FacebookToMP3() {
           </div>
         </section>
 
-        {/* How It Works */}
         <section className="container mx-auto px-4 py-12 bg-gradient-to-br from-blue-50 to-purple-50">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Convert Facebook to MP3</h2>
