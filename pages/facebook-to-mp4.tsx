@@ -4,10 +4,23 @@ import Link from 'next/link'
 import Logo from '@/components/Logo'
 import Footer from '@/components/Footer'
 
+type VideoFormat = {
+  url: string
+  quality: string
+  filesize?: number
+}
+
+type VideoData = {
+  title: string
+  thumbnail: string
+  formats: VideoFormat[]
+}
+
 export default function FacebookToMP4() {
   const [url, setUrl] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [videoData, setVideoData] = useState<VideoData | null>(null)
 
   const handleDownload = async () => {
     if (!url.trim()) {
@@ -17,12 +30,13 @@ export default function FacebookToMP4() {
 
     setLoading(true)
     setError('')
+    setVideoData(null)
 
     try {
       const response = await fetch('/api/download', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ url, format: 'mp4' })
+        body: JSON.stringify({ url })
       })
 
       const data = await response.json()
@@ -31,7 +45,7 @@ export default function FacebookToMP4() {
         throw new Error(data.error || 'Failed to download video')
       }
 
-      window.location.href = data.downloadUrl
+      setVideoData(data)
     } catch (err: any) {
       setError(err.message || 'An error occurred')
     } finally {
@@ -92,6 +106,59 @@ export default function FacebookToMP4() {
               {error && (
                 <div className="mt-4 p-3 bg-red-50 border-l-4 border-red-500 text-red-600 text-sm">
                   {error}
+                </div>
+              )}
+
+              {videoData && (
+                <div className="mt-6 p-6 bg-gradient-to-br from-green-50 to-blue-50 rounded-lg border border-green-200">
+                  <div className="flex items-start gap-4 mb-4">
+                    {videoData.thumbnail && (
+                      <img 
+                        src={videoData.thumbnail} 
+                        alt={videoData.title}
+                        className="w-32 h-32 object-cover rounded-lg shadow-md"
+                      />
+                    )}
+                    <div className="flex-1">
+                      <h3 className="font-bold text-lg text-gray-900 mb-2">{videoData.title}</h3>
+                      <p className="text-sm text-gray-600 mb-3">Choose your preferred quality:</p>
+                    </div>
+                  </div>
+                  
+                  <div className="grid gap-3">
+                    {videoData.formats.map((format, index) => (
+                      <a
+                        key={index}
+                        href={format.url}
+                        download
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-between p-4 bg-white rounded-lg border-2 border-gray-200 hover:border-blue-500 hover:shadow-md transition group"
+                      >
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                            </svg>
+                          </div>
+                          <div>
+                            <p className="font-semibold text-gray-900">{format.quality}</p>
+                            {format.filesize && (
+                              <p className="text-xs text-gray-500">
+                                {(format.filesize / 1024 / 1024).toFixed(2)} MB
+                              </p>
+                            )}
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-2 text-blue-600 group-hover:text-purple-600 transition">
+                          <span className="font-semibold text-sm">Download</span>
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                          </svg>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
                 </div>
               )}
 
