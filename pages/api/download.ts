@@ -38,15 +38,20 @@ export default async function handler(
 
   try {
     // 使用 yt-dlp 获取视频信息
-    const command = `yt-dlp -j --no-warnings "${url}"`
+    const command = `yt-dlp -j --no-warnings --no-check-certificates "${url}"`
+    
+    console.log(`[yt-dlp] Fetching: ${url}`)
     
     const { stdout, stderr } = await execAsync(command, {
       timeout: 30000, // 30秒超时
     })
 
     if (stderr && !stdout) {
+      console.error(`[yt-dlp] stderr: ${stderr}`)
       throw new Error('无法获取视频信息')
     }
+    
+    console.log(`[yt-dlp] Success: ${url}`)
 
     const videoInfo = JSON.parse(stdout)
     
@@ -90,10 +95,18 @@ export default async function handler(
     })
 
   } catch (error: any) {
-    console.error('Download error:', error)
+    console.error('[yt-dlp] Error:', error.message)
+    console.error('[yt-dlp] Full error:', error)
     
     if (error.message?.includes('timeout')) {
       return res.status(408).json({ error: '请求超时，请重试' })
+    }
+    
+    // 检查是否是 yt-dlp 版本问题
+    if (error.message?.includes('Cannot parse data')) {
+      return res.status(500).json({ 
+        error: 'yt-dlp 需要更新，请联系管理员' 
+      })
     }
     
     return res.status(500).json({ 
