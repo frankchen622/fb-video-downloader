@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import Logo from '@/components/Logo'
 import Footer from '@/components/Footer'
 
@@ -217,17 +218,14 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-[4/3] bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-blue-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Facebook Video</p>
-                      <p className="text-xs text-gray-500 mt-2">HD Quality • No Watermark</p>
-                    </div>
+                  <div className="aspect-[4/3] rounded-xl overflow-hidden">
+                    <Image
+                      src="/images/video-downloader.png"
+                      alt="Facebook Video Downloader"
+                      width={1200}
+                      height={896}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -289,16 +287,14 @@ export default function Home() {
               </div>
               <div>
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-[9/16] max-w-xs mx-auto bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Facebook Reels</p>
-                      <p className="text-xs text-gray-500 mt-2">Short Videos • Vertical Format</p>
-                    </div>
+                  <div className="aspect-[9/16] max-w-xs mx-auto rounded-xl overflow-hidden">
+                    <Image
+                      src="/images/reels-downloader.png"
+                      alt="Facebook Reels Downloader"
+                      width={768}
+                      height={1376}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -308,16 +304,14 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-[9/16] max-w-xs mx-auto bg-gradient-to-br from-orange-100 to-red-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-orange-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Facebook Stories</p>
-                      <p className="text-xs text-gray-500 mt-2">24h Content • Save Forever</p>
-                    </div>
+                  <div className="aspect-[9/16] max-w-xs mx-auto rounded-xl overflow-hidden">
+                    <Image
+                      src="/images/stories-downloader.png"
+                      alt="Facebook Stories Downloader"
+                      width={768}
+                      height={1376}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
