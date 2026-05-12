@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import Logo from '@/components/Logo'
 import Footer from '@/components/Footer'
 
@@ -200,14 +201,14 @@ export default function FacebookToMP4() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-[4/3] bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-24 h-24 mx-auto mb-4 bg-blue-600 rounded-2xl flex items-center justify-center">
-                        <span className="text-3xl font-bold text-white">MP4</span>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Universal Format</p>
-                      <p className="text-xs text-gray-500 mt-2">1080p • 720p • 480p • 360p</p>
-                    </div>
+                  <div className="aspect-[4/3] rounded-xl overflow-hidden">
+                    <Image
+                      src="/images/mp4-universal-format.png"
+                      alt="Universal MP4 Format"
+                      width={1200}
+                      height={896}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -269,16 +270,14 @@ export default function FacebookToMP4() {
               </div>
               <div>
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">HD Video Quality</p>
-                      <p className="text-xs text-gray-500 mt-2">Crystal Clear • No Watermark</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <Image
+                      src="/images/mp4-hd-quality.png"
+                      alt="HD Quality Downloads"
+                      width={1376}
+                      height={768}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
