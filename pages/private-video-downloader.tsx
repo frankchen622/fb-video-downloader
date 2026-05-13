@@ -129,16 +129,14 @@ export default function PrivateVideoDownloader() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-blue-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Private Content</p>
-                      <p className="text-xs text-gray-500 mt-2">Groups • Friends • Restricted</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <Image 
+                      src="/images/private/private-downloading.png" 
+                      alt="Facebook Private Video Downloading"
+                      width={1376}
+                      height={768}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -200,16 +198,14 @@ export default function PrivateVideoDownloader() {
               </div>
               <div>
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-green-100 to-teal-100 flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-green-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">High Quality</p>
-                      <p className="text-xs text-gray-500 mt-2">1080p HD • Crystal Clear</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <Image 
+                      src="/images/private/high-quality.png" 
+                      alt="High Quality"
+                      width={1376}
+                      height={768}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -219,16 +215,14 @@ export default function PrivateVideoDownloader() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-purple-100 to-pink-100 flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Secure & Private</p>
-                      <p className="text-xs text-gray-500 mt-2">Your Privacy Protected</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <Image 
+                      src="/images/private/secure-private.png" 
+                      alt="Secure & Private"
+                      width={1376}
+                      height={768}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -290,16 +284,14 @@ export default function PrivateVideoDownloader() {
               </div>
               <div>
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-orange-100 to-yellow-100 flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-orange-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Anonymous</p>
-                      <p className="text-xs text-gray-500 mt-2">No Traces • Discreet</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <Image 
+                      src="/images/private/anonymous-downloading.png" 
+                      alt="Anonymous Downloading"
+                      width={1376}
+                      height={768}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
