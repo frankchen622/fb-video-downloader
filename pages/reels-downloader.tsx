@@ -124,7 +124,7 @@ export default function ReelsDownloader() {
 
         <section className="container mx-auto px-4 py-16">
           <div className="max-w-6xl mx-auto">
-            {/* Reels Format */}
+            {/* Feature 1: Save Viral Reels */}
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
@@ -145,192 +145,164 @@ export default function ReelsDownloader() {
               <div className="order-1 md:order-2">
                 <h3 className="text-3xl font-bold mb-4">Save Viral Reels</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Download trending Facebook Reels to watch offline, share with friends, or repost on other platforms.
+                  Download trending Facebook Reels to watch offline, share with friends, or repost on other platforms. Never lose your favorite content again.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Download any public Reel</span>
+                    <span className="text-gray-700">Download any public Reel instantly</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Preserve original quality</span>
+                    <span className="text-gray-700">Keep viral content before it disappears</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No watermark added</span>
+                    <span className="text-gray-700">Build your personal collection offline</span>
                   </li>
                 </ul>
               </div>
             </div>
 
-            {/* Mobile Friendly */}
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Feature 2: No Watermark */}
+            <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div>
-                <h3 className="text-3xl font-bold mb-4">Works on Mobile</h3>
+                <h3 className="text-3xl font-bold mb-4">No Watermark</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Download Reels directly on your phone. Perfect for saving content on the go.
+                  Get clean, watermark-free downloads every time. We don't add logos or branding—just the original Reel exactly as it appears on Facebook.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">iPhone and Android support</span>
+                    <span className="text-gray-700">Pure, unbranded downloads</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No app installation needed</span>
+                    <span className="text-gray-700">No logos or text overlays</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Save directly to camera roll</span>
+                    <span className="text-gray-700">Perfect for sharing and reposting</span>
                   </li>
                 </ul>
               </div>
               <div>
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl flex items-center justify-center">
+                  <div className="aspect-video bg-gradient-to-br from-green-100 to-teal-100 rounded-xl flex items-center justify-center">
                     <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
+                      <div className="w-20 h-20 mx-auto mb-4 bg-green-600 rounded-full flex items-center justify-center">
                         <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
                         </svg>
                       </div>
-                      <p className="text-sm text-gray-600 font-medium">Mobile Friendly</p>
-                      <p className="text-xs text-gray-500 mt-2">iOS • Android • Tablet</p>
+                      <p className="text-sm text-gray-600 font-medium">No Watermark</p>
+                      <p className="text-xs text-gray-500 mt-2">Clean • Original</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
 
-        
-
-        <section className="container mx-auto px-4 py-16">
-          <div className="max-w-6xl mx-auto">
-            {/* Reels Format */}
+            {/* Feature 3: High-Quality Downloading */}
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-[9/16] max-w-xs mx-auto bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center">
+                  <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl flex items-center justify-center">
                     <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-blue-600 rounded-full flex items-center justify-center">
+                      <div className="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
                         <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                       </div>
-                      <p className="text-sm text-gray-600 font-medium">Vertical Format</p>
-                      <p className="text-xs text-gray-500 mt-2">9:16 • Full Screen</p>
+                      <p className="text-sm text-gray-600 font-medium">High Quality</p>
+                      <p className="text-xs text-gray-500 mt-2">1080p HD</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-3xl font-bold mb-4">Save Viral Reels</h3>
+                <h3 className="text-3xl font-bold mb-4">High-Quality Downloading</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Download trending Facebook Reels to watch offline, share with friends, or repost on other platforms.
+                  Preserve the original quality of every Reel. Download in full HD (1080p) with crisp visuals and clear audio—no compression, no quality loss.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Download any public Reel</span>
+                    <span className="text-gray-700">Up to 1080p HD resolution</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Preserve original quality</span>
+                    <span className="text-gray-700">Original audio quality preserved</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No watermark added</span>
+                    <span className="text-gray-700">No pixelation or artifacts</span>
                   </li>
                 </ul>
               </div>
             </div>
 
-            {/* Mobile Friendly */}
+            {/* Feature 4: Easy to Use */}
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-3xl font-bold mb-4">Works on Mobile</h3>
+                <h3 className="text-3xl font-bold mb-4">Easy to Use</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Download Reels directly on your phone. Perfect for saving content on the go.
+                  Three simple steps: copy, paste, download. No registration, no app installation, no complicated settings. Works instantly in your browser.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">iPhone and Android support</span>
+                    <span className="text-gray-700">No account or login required</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No app installation needed</span>
+                    <span className="text-gray-700">Works on any device (phone, tablet, PC)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Save directly to camera roll</span>
+                    <span className="text-gray-700">Download in seconds, not minutes</span>
                   </li>
                 </ul>
               </div>
               <div>
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl flex items-center justify-center">
+                  <div className="aspect-video bg-gradient-to-br from-orange-100 to-yellow-100 rounded-xl flex items-center justify-center">
                     <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
+                      <div className="w-20 h-20 mx-auto mb-4 bg-orange-600 rounded-full flex items-center justify-center">
                         <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
                         </svg>
                       </div>
-                      <p className="text-sm text-gray-600 font-medium">Mobile Friendly</p>
-                      <p className="text-xs text-gray-500 mt-2">iOS • Android • Tablet</p>
+                      <p className="text-sm text-gray-600 font-medium">Easy to Use</p>
+                      <p className="text-xs text-gray-500 mt-2">Simple • Fast</p>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="container mx-auto px-4 py-12 bg-gradient-to-br from-blue-50 to-purple-50">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Download Facebook Reels</h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              {[
-                { num: '1', title: 'Copy Link', desc: 'Copy the Reels URL from Facebook' },
-                { num: '2', title: 'Paste', desc: 'Paste it into the downloader' },
-                { num: '3', title: 'Download', desc: 'Click download and save' }
-              ].map((step) => (
-                <div key={step.num} className="bg-white rounded-xl p-6 text-center shadow-md">
-                  <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-3">
-                    {step.num}
-                  </div>
-                  <h3 className="font-bold mb-1">{step.title}</h3>
-                  <p className="text-sm text-gray-600">{step.desc}</p>
-                </div>
-              ))}
             </div>
           </div>
         </section>
