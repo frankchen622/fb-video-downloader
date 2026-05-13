@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import Logo from '@/components/Logo'
 import Footer from '@/components/Footer'
 
@@ -130,16 +131,14 @@ export default function FacebookToMP3() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-[4/3] bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-24 h-24 mx-auto mb-4 bg-blue-600 rounded-2xl flex items-center justify-center">
-                        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Audio Format</p>
-                      <p className="text-xs text-gray-500 mt-2">320kbps • 256kbps • 192kbps • 128kbps</p>
-                    </div>
+                  <div className="aspect-[4/3] rounded-xl overflow-hidden">
+                    <Image 
+                      src="/images/features/universal-audio.png" 
+                      alt="Universal Audio Format"
+                      width={1200}
+                      height={896}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -207,16 +206,14 @@ export default function FacebookToMP3() {
               </div>
               <div>
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video bg-gradient-to-br from-green-100 to-teal-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-green-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Fast Conversion</p>
-                      <p className="text-xs text-gray-500 mt-2">Seconds • Not Minutes</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <Image 
+                      src="/images/features/fast-conversion.png" 
+                      alt="Lightning-Fast Conversion"
+                      width={1376}
+                      height={768}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -226,16 +223,14 @@ export default function FacebookToMP3() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">High-Quality Audio</p>
-                      <p className="text-xs text-gray-500 mt-2">Crystal Clear • No Loss</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <Image 
+                      src="/images/features/premium-quality.png" 
+                      alt="Premium Audio Quality"
+                      width={1376}
+                      height={768}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
