@@ -272,27 +272,6 @@ export default function FacebookToMP3() {
           </div>
         </section>
 
-        <section className="container mx-auto px-4 py-12 bg-gradient-to-br from-blue-50 to-purple-50">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Convert Facebook to MP3</h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              {[
-                { num: '1', title: 'Copy URL', desc: 'Copy the Facebook video link' },
-                { num: '2', title: 'Paste', desc: 'Paste it into the converter' },
-                { num: '3', title: 'Download', desc: 'Click convert and save MP3' }
-              ].map((step) => (
-                <div key={step.num} className="bg-white rounded-xl p-6 text-center shadow-md">
-                  <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-3">
-                    {step.num}
-                  </div>
-                  <h3 className="font-bold mb-1">{step.title}</h3>
-                  <p className="text-sm text-gray-600">{step.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <section className="container mx-auto px-4 py-16">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
