@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import Logo from '@/components/Logo'
 import Footer from '@/components/Footer'
 
@@ -128,17 +129,14 @@ export default function ReelsDownloader() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-[9/16] max-w-xs mx-auto bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-blue-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Vertical Format</p>
-                      <p className="text-xs text-gray-500 mt-2">9:16 • Full Screen</p>
-                    </div>
+                  <div className="aspect-[9/16] max-w-xs mx-auto rounded-2xl overflow-hidden">
+                    <Image 
+                      src="/images/reels/save-viral-reels.png" 
+                      alt="Save Viral Reels"
+                      width={768}
+                      height={1376}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -200,16 +198,14 @@ export default function ReelsDownloader() {
               </div>
               <div>
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video bg-gradient-to-br from-green-100 to-teal-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-green-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">No Watermark</p>
-                      <p className="text-xs text-gray-500 mt-2">Clean • Original</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <Image 
+                      src="/images/reels/no-watermark.webp" 
+                      alt="No Watermark"
+                      width={1376}
+                      height={768}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -219,16 +215,14 @@ export default function ReelsDownloader() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">High Quality</p>
-                      <p className="text-xs text-gray-500 mt-2">1080p HD</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <Image 
+                      src="/images/reels/high-quality.png" 
+                      alt="High-Quality Downloading"
+                      width={1376}
+                      height={768}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -290,16 +284,14 @@ export default function ReelsDownloader() {
               </div>
               <div>
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video bg-gradient-to-br from-orange-100 to-yellow-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-orange-600 rounded-full flex items-center justify-center">
-                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Easy to Use</p>
-                      <p className="text-xs text-gray-500 mt-2">Simple • Fast</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <Image 
+                      src="/images/reels/easy-to-use.png" 
+                      alt="Easy to Use"
+                      width={1376}
+                      height={768}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
