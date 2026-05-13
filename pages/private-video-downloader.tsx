@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import Logo from '@/components/Logo'
 import Footer from '@/components/Footer'
 
@@ -124,14 +125,14 @@ export default function PrivateVideoDownloader() {
 
         <section className="container mx-auto px-4 py-16">
           <div className="max-w-6xl mx-auto">
-            {/* Private Content */}
+            {/* Feature 1: Facebook Private Video Downloading */}
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div className="order-2 md:order-1">
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-[4/3] bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center">
+                  <div className="aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
                     <div className="text-center p-8">
-                      <div className="w-24 h-24 mx-auto mb-4 bg-blue-600 rounded-2xl flex items-center justify-center">
-                        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="w-20 h-20 mx-auto mb-4 bg-blue-600 rounded-full flex items-center justify-center">
+                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                         </svg>
                       </div>
@@ -142,64 +143,83 @@ export default function PrivateVideoDownloader() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-3xl font-bold mb-4">Download Private Videos</h3>
+                <h3 className="text-3xl font-bold mb-4">Facebook Private Video Downloading</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Save videos from private groups, friends-only posts, and restricted content you have permission to view.
+                  Download videos from private Facebook groups, friends-only posts, and restricted content you have permission to access. Save memories and important content securely.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Private group videos</span>
+                    <span className="text-gray-700">Access private group videos</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Friends-only posts</span>
+                    <span className="text-gray-700">Download friends-only posts</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Restricted content</span>
+                    <span className="text-gray-700">Save restricted content you can view</span>
                   </li>
                 </ul>
               </div>
             </div>
 
-            {/* How It Works */}
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Feature 2: High Quality */}
+            <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div>
-                <h3 className="text-3xl font-bold mb-4">How It Works</h3>
+                <h3 className="text-3xl font-bold mb-4">High Quality</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Our downloader respects Facebook's privacy settings. You can only download videos you have permission to view on Facebook.
+                  Preserve the original quality of private videos. Download in full HD with crisp visuals and clear audio—no compression, no quality loss.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Must be logged into Facebook</span>
+                    <span className="text-gray-700">Up to 1080p HD resolution</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Need viewing permission</span>
+                    <span className="text-gray-700">Original audio quality preserved</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Privacy settings respected</span>
+                    <span className="text-gray-700">Maintains source video quality</span>
                   </li>
                 </ul>
               </div>
               <div>
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl flex items-center justify-center">
+                  <div className="aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-green-100 to-teal-100 flex items-center justify-center">
+                    <div className="text-center p-8">
+                      <div className="w-20 h-20 mx-auto mb-4 bg-green-600 rounded-full flex items-center justify-center">
+                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <p className="text-sm text-gray-600 font-medium">High Quality</p>
+                      <p className="text-xs text-gray-500 mt-2">1080p HD • Crystal Clear</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Feature 3: Secure & Private */}
+            <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+              <div className="order-2 md:order-1">
+                <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+                  <div className="aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-purple-100 to-pink-100 flex items-center justify-center">
                     <div className="text-center p-8">
                       <div className="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
                         <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -212,123 +232,77 @@ export default function PrivateVideoDownloader() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        
-
-        <section className="container mx-auto px-4 py-16">
-          <div className="max-w-6xl mx-auto">
-            {/* Private Content */}
-            <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-              <div className="order-2 md:order-1">
-                <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-[4/3] bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-24 h-24 mx-auto mb-4 bg-blue-600 rounded-2xl flex items-center justify-center">
-                        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-gray-600 font-medium">Private Content</p>
-                      <p className="text-xs text-gray-500 mt-2">Groups • Friends • Restricted</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-3xl font-bold mb-4">Download Private Videos</h3>
+                <h3 className="text-3xl font-bold mb-4">Secure & Private</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Save videos from private groups, friends-only posts, and restricted content you have permission to view.
+                  Your login credentials and personal data are never stored or shared. We use secure connections to protect your privacy while downloading private content.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Private group videos</span>
+                    <span className="text-gray-700">End-to-end encrypted connections</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Friends-only posts</span>
+                    <span className="text-gray-700">No data storage or tracking</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Restricted content</span>
+                    <span className="text-gray-700">Your credentials stay with Facebook</span>
                   </li>
                 </ul>
               </div>
             </div>
 
-            {/* How It Works */}
+            {/* Feature 4: Anonymous Downloading */}
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-3xl font-bold mb-4">How It Works</h3>
+                <h3 className="text-3xl font-bold mb-4">Anonymous Downloading</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Our downloader respects Facebook's privacy settings. You can only download videos you have permission to view on Facebook.
+                  Download privately without leaving traces. The video owner won't be notified, and your download activity remains completely anonymous.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Must be logged into Facebook</span>
+                    <span className="text-gray-700">No download notifications sent</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Need viewing permission</span>
+                    <span className="text-gray-700">Owner won't know you downloaded</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Privacy settings respected</span>
+                    <span className="text-gray-700">Completely discreet downloading</span>
                   </li>
                 </ul>
               </div>
               <div>
                 <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                  <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl flex items-center justify-center">
+                  <div className="aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-orange-100 to-yellow-100 flex items-center justify-center">
                     <div className="text-center p-8">
-                      <div className="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
+                      <div className="w-20 h-20 mx-auto mb-4 bg-orange-600 rounded-full flex items-center justify-center">
                         <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                         </svg>
                       </div>
-                      <p className="text-sm text-gray-600 font-medium">Secure & Private</p>
-                      <p className="text-xs text-gray-500 mt-2">Your Privacy Protected</p>
+                      <p className="text-sm text-gray-600 font-medium">Anonymous</p>
+                      <p className="text-xs text-gray-500 mt-2">No Traces • Discreet</p>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="container mx-auto px-4 py-12 bg-gradient-to-br from-blue-50 to-purple-50">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Download Private Videos</h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              {[
-                { num: '1', title: 'Login', desc: 'Be logged into Facebook' },
-                { num: '2', title: 'Copy Link', desc: 'Copy the private video URL' },
-                { num: '3', title: 'Download', desc: 'Paste and download' }
-              ].map((step) => (
-                <div key={step.num} className="bg-white rounded-xl p-6 text-center shadow-md">
-                  <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-3">
-                    {step.num}
-                  </div>
-                  <h3 className="font-bold mb-1">{step.title}</h3>
-                  <p className="text-sm text-gray-600">{step.desc}</p>
-                </div>
-              ))}
             </div>
           </div>
         </section>
