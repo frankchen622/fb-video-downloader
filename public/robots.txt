@@ -6,8 +6,8 @@ Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
 
-# Sitemap
-Sitemap: https://fb-video-downloader-production.up.railway.app/sitemap.xml
+# Sitemap - Update this URL after domain binding
+Sitemap: https://dlfb.io/sitemap.xml
 
 # Crawl-delay for specific bots
 User-agent: Googlebot

@@ -26,10 +26,10 @@ export default function Document() {
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         
         {/* Canonical URL - will be overridden by page-specific canonical */}
-        <link rel="canonical" href="https://fb-video-downloader-production.up.railway.app" />
+        <link rel="canonical" href={process.env.NEXT_PUBLIC_SITE_URL || 'https://fb-video-downloader-production.up.railway.app'} />
         
         {/* Alternate languages (if you add multi-language support later) */}
-        <link rel="alternate" hrefLang="en" href="https://fb-video-downloader-production.up.railway.app" />
+        <link rel="alternate" hrefLang="en" href={process.env.NEXT_PUBLIC_SITE_URL || 'https://fb-video-downloader-production.up.railway.app'} />
         
         {/* Robots meta - allow indexing */}
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -75,7 +75,7 @@ export default function Document() {
               "@context": "https://schema.org",
               "@type": "WebApplication",
               "name": "DLFB.io - Facebook Video Downloader",
-              "url": "https://fb-video-downloader-production.up.railway.app",
+              "url": process.env.NEXT_PUBLIC_SITE_URL || "https://fb-video-downloader-production.up.railway.app",
               "description": "Download Facebook videos, Reels, Stories, and convert to MP3/MP4. Fast, free, and no watermark.",
               "applicationCategory": "MultimediaApplication",
               "operatingSystem": "Any",

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { siteConfig } from '@/config/site'
 
 interface SEOProps {
   title: string
@@ -23,7 +24,7 @@ export default function SEO({
   noindex = false,
   structuredData
 }: SEOProps) {
-  const baseUrl = 'https://fb-video-downloader-production.up.railway.app'
+  const baseUrl = siteConfig.url
   const fullCanonical = canonical ? `${baseUrl}${canonical}` : baseUrl
   const fullOgImage = ogImage.startsWith('http') ? ogImage : `${baseUrl}${ogImage}`
   

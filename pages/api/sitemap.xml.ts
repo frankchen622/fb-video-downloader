@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  const baseUrl = 'https://fb-video-downloader-production.up.railway.app'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://fb-video-downloader-production.up.railway.app'
   
   const pages = [
     { url: '/', priority: '1.0', changefreq: 'daily' },
