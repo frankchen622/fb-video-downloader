@@ -460,40 +460,18 @@ export default function FacebookToMP3() {
           </div>
         </section>
 
-        <section className="container mx-auto px-4 py-16 bg-gray-50">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Frequently Asked Questions</h2>
-            <p className="text-center text-gray-600 mb-12">Everything you need to know about Facebook to MP3 conversion</p>
-            
-            <div className="space-y-8">
-              {faqData.map((section, idx) => (
-                <div key={idx} className="bg-white rounded-2xl p-6 md:p-8 shadow-md">
-                  <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                    {section.category}
-                  </h3>
-                  <div className="space-y-4">
-                    {section.questions.map((faq, i) => (
-                      <details key={i} className="group">
-                        <summary className="font-semibold text-lg cursor-pointer hover:text-blue-600 transition py-3 border-b border-gray-100 flex justify-between items-center">
-                          <span>{faq.q}</span>
-                          <svg className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                          </svg>
-                        </summary>
-                        <p className="mt-3 text-gray-600 leading-relaxed pl-4 border-l-2 border-blue-200">{faq.a}</p>
-                      </details>
-                    ))}
-                  </div>
-                </div>
+        <section className="container mx-auto px-4 py-16">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {faqData.flatMap(section => section.questions).map((faq, i) => (
+                <details key={i} className="bg-white rounded-xl p-6 shadow-md">
+                  <summary className="font-bold text-lg cursor-pointer hover:text-blue-600 transition">
+                    {faq.q}
+                  </summary>
+                  <p className="mt-4 text-gray-600 leading-relaxed">{faq.a}</p>
+                </details>
               ))}
-            </div>
-
-            <div className="mt-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-center text-white">
-              <h3 className="text-2xl font-bold mb-3">Ready to Convert?</h3>
-              <p className="mb-6 text-blue-100">Start extracting audio from Facebook videos now - completely free!</p>
-              <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="inline-block px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:shadow-xl transition">
-                Convert Facebook to MP3 Now
-              </a>
             </div>
           </div>
         </section>
