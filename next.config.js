@@ -8,6 +8,13 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   
+  // Internationalization
+  i18n: {
+    locales: ['en', 'es', 'pt', 'fr', 'de', 'ja', 'id', 'vi', 'th', 'ar', 'zh', 'ru'],
+    defaultLocale: 'en',
+    localeDetection: true,
+  },
+  
   // SEO & Performance Optimizations
   compress: true,
   poweredByHeader: false,

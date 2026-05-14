@@ -1,33 +1,59 @@
-import { NextApiRequest, NextApiResponse } from 'next'
+import type { NextApiRequest, NextApiResponse } from 'next'
+
+const locales = ['en', 'es', 'pt', 'fr', 'de', 'ja', 'id', 'vi', 'th', 'ar', 'zh', 'ru']
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dlfb.io'
+
+const pages = [
+  '',
+  '/reels-downloader',
+  '/private-video-downloader',
+  '/facebook-to-mp3',
+  '/facebook-to-mp4',
+  '/contact',
+  '/privacy-policy',
+  '/terms-of-use',
+]
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://fb-video-downloader-production.up.railway.app'
+  const sitemap = generateSitemap()
   
-  const pages = [
-    { url: '/', priority: '1.0', changefreq: 'daily' },
-    { url: '/facebook-to-mp4', priority: '0.9', changefreq: 'weekly' },
-    { url: '/facebook-to-mp3', priority: '0.9', changefreq: 'weekly' },
-    { url: '/reels-downloader', priority: '0.9', changefreq: 'weekly' },
-    { url: '/private-video-downloader', priority: '0.9', changefreq: 'weekly' },
-    { url: '/privacy-policy', priority: '0.5', changefreq: 'monthly' },
-    { url: '/terms-of-use', priority: '0.5', changefreq: 'monthly' },
-    { url: '/contact', priority: '0.6', changefreq: 'monthly' },
-  ]
-
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-${pages.map(page => `  <url>
-    <loc>${baseUrl}${page.url}</loc>
-    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
-    <changefreq>${page.changefreq}</changefreq>
-    <priority>${page.priority}</priority>
-  </url>`).join('\n')}
-</urlset>`
-
   res.setHeader('Content-Type', 'text/xml')
   res.setHeader('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate')
   res.status(200).send(sitemap)
+}
+
+function generateSitemap(): string {
+  const urls: string[] = []
+  
+  // Generate URLs for all pages in all languages
+  for (const page of pages) {
+    for (const locale of locales) {
+      const url = locale === 'en' 
+        ? `${siteUrl}${page}`
+        : `${siteUrl}/${locale}${page}`
+      
+      const alternates = locales.map(loc => {
+        const altUrl = loc === 'en'
+          ? `${siteUrl}${page}`
+          : `${siteUrl}/${loc}${page}`
+        return `    <xhtml:link rel="alternate" hreflang="${loc}" href="${altUrl}" />`
+      }).join('\n')
+      
+      urls.push(`
+  <url>
+    <loc>${url}</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>${page === '' ? '1.0' : '0.8'}</priority>
+${alternates}
+    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}${page}" />
+  </url>`)
+    }
+  }
+  
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${urls.join('\n')}
+</urlset>`
 }

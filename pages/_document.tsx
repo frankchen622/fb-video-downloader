@@ -1,8 +1,13 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript, DocumentProps } from 'next/document'
 
-export default function Document() {
+const locales = ['en', 'es', 'pt', 'fr', 'de', 'ja', 'id', 'vi', 'th', 'ar', 'zh', 'ru']
+
+export default function Document(props: DocumentProps) {
+  const { locale = 'en' } = props.__NEXT_DATA__
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dlfb.io'
+  
   return (
-    <Html lang="en">
+    <Html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
       <Head>
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
@@ -26,10 +31,21 @@ export default function Document() {
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         
         {/* Canonical URL - will be overridden by page-specific canonical */}
-        <link rel="canonical" href={process.env.NEXT_PUBLIC_SITE_URL || 'https://fb-video-downloader-production.up.railway.app'} />
+        <link rel="canonical" href={siteUrl} />
         
-        {/* Alternate languages (if you add multi-language support later) */}
-        <link rel="alternate" hrefLang="en" href={process.env.NEXT_PUBLIC_SITE_URL || 'https://fb-video-downloader-production.up.railway.app'} />
+        {/* Hreflang tags for multilingual SEO */}
+        <link rel="alternate" hrefLang="x-default" href={siteUrl} />
+        {locales.map((loc) => (
+          <link
+            key={loc}
+            rel="alternate"
+            hrefLang={loc}
+            href={`${siteUrl}${loc === 'en' ? '' : `/${loc}`}`}
+          />
+        ))}
+        
+        {/* Alternate languages */}
+        <link rel="alternate" hrefLang="en" href={siteUrl} />
         
         {/* Robots meta - allow indexing */}
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
