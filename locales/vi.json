@@ -1,50 +1,25 @@
 {
   "common": {
     "siteName": "DLFB.io",
-    "tagline": "Trình Tải Video Facebook",
-    "download": "Tải xuống",
     "paste": "Dán URL video Facebook vào đây...",
-    "downloadButton": "Tải Video",
-    "loading": "Đang tải...",
-    "error": "Lỗi",
-    "success": "Thành công"
+    "downloadButton": "Tải xuống",
+    "processing": "Đang xử lý...",
+    "enterUrl": "Vui lòng nhập URL video Facebook",
+    "noRegistration": "Không cần đăng ký",
+    "unlimitedDownloads": "Tải xuống không giới hạn",
+    "allDevices": "Hỗ trợ tất cả thiết bị"
   },
   "nav": {
-    "home": "Trang chủ",
-    "reelsDownloader": "Tải Reels",
-    "privateVideo": "Video Riêng tư",
-    "toMP3": "Facebook sang MP3",
-    "toMP4": "Facebook sang MP4",
-    "contact": "Liên hệ",
-    "privacy": "Chính sách Bảo mật",
-    "terms": "Điều khoản Sử dụng"
+    "toMP3": "FB sang MP3",
+    "toMP4": "FB sang MP4"
   },
   "home": {
-    "title": "Trình Tải Video Facebook - Tải Video, Reels & Stories FB",
-    "description": "Tải video, Reels và Stories Facebook chất lượng HD. Nhanh, miễn phí và không có watermark. Chuyển đổi Facebook sang MP3/MP4.",
-    "h1": "Trình Tải Video Facebook",
-    "subtitle": "Tải video, Reels và Stories Facebook chất lượng HD",
-    "features": {
-      "title": "Tại sao chọn DLFB.io?",
-      "fast": "Cực Nhanh",
-      "fastDesc": "Tải video trong vài giây",
-      "quality": "Chất lượng HD",
-      "qualityDesc": "Chất lượng tốt nhất có sẵn",
-      "free": "100% Miễn phí",
-      "freeDesc": "Không cần đăng ký",
-      "noWatermark": "Không Watermark",
-      "noWatermarkDesc": "Tải xuống sạch sẽ"
-    },
-    "howTo": {
-      "title": "Cách Tải Video Facebook",
-      "step1": "Sao chép URL video Facebook",
-      "step2": "Dán URL vào ô phía trên",
-      "step3": "Nhấp vào nút Tải xuống",
-      "step4": "Lưu video vào thiết bị của bạn"
-    }
-  },
-  "footer": {
-    "copyright": "© 2024 DLFB.io. Bảo lưu mọi quyền.",
-    "disclaimer": "Công cụ này không liên kết với Facebook/Meta."
+    "metaTitle": "Trình Tải Video Facebook - Tải Video FB HD Miễn Phí | Không Watermark",
+    "metaDescription": "Tải video, Reels và Stories Facebook chất lượng HD miễn phí. Trình tải video FB nhanh không có watermark, không có quảng cáo. Lưu video Facebook thành MP4/MP3. Hoạt động trên tất cả thiết bị.",
+    "h1": "Tải Video Facebook",
+    "h1Highlight": "trong Vài Giây - Hoàn Toàn Miễn Phí",
+    "subtitle": "Lưu bất kỳ video, reel hoặc story Facebook nào vào thiết bị của bạn chỉ trong ba bước đơn giản. Không cần đăng ký, không cần cài đặt phần mềm, không có watermark. Tải video FB chất lượng HD (1080p) sang MP4 hoặc trích xuất âm thanh sang MP3. Hoạt động trên iPhone, Android, Windows và Mac.",
+    "featuresTitle": "Giải Pháp Hoàn Chỉnh cho Nội Dung Facebook",
+    "featuresSubtitle": "Mọi thứ bạn cần để tải xuống và chuyển đổi video, reels, stories Facebook và hơn thế nữa"
   }
 }

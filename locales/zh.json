@@ -1,50 +1,25 @@
 {
   "common": {
     "siteName": "DLFB.io",
-    "tagline": "Facebook视频下载器",
-    "download": "下载",
     "paste": "在此粘贴Facebook视频链接...",
-    "downloadButton": "下载视频",
-    "loading": "加载中...",
-    "error": "错误",
-    "success": "成功"
+    "downloadButton": "下载",
+    "processing": "处理中...",
+    "enterUrl": "请输入Facebook视频链接",
+    "noRegistration": "无需注册",
+    "unlimitedDownloads": "无限下载",
+    "allDevices": "支持所有设备"
   },
   "nav": {
-    "home": "首页",
-    "reelsDownloader": "Reels下载器",
-    "privateVideo": "私密视频",
-    "toMP3": "Facebook转MP3",
-    "toMP4": "Facebook转MP4",
-    "contact": "联系我们",
-    "privacy": "隐私政策",
-    "terms": "使用条款"
+    "toMP3": "FB转MP3",
+    "toMP4": "FB转MP4"
   },
   "home": {
-    "title": "Facebook视频下载器 - 下载FB视频、Reels和Stories",
-    "description": "下载Facebook视频、Reels、Stories，支持高清画质。快速、免费、无水印。支持Facebook转MP3/MP4。",
-    "h1": "Facebook视频下载器",
-    "subtitle": "下载Facebook视频、Reels和Stories，支持高清画质",
-    "features": {
-      "title": "为什么选择DLFB.io？",
-      "fast": "闪电般快速",
-      "fastDesc": "几秒钟内下载视频",
-      "quality": "高清画质",
-      "qualityDesc": "最佳可用画质",
-      "free": "100%免费",
-      "freeDesc": "无需注册",
-      "noWatermark": "无水印",
-      "noWatermarkDesc": "纯净下载"
-    },
-    "howTo": {
-      "title": "如何下载Facebook视频",
-      "step1": "复制Facebook视频链接",
-      "step2": "将链接粘贴到上方输入框",
-      "step3": "点击下载按钮",
-      "step4": "将视频保存到您的设备"
-    }
-  },
-  "footer": {
-    "copyright": "© 2024 DLFB.io. 保留所有权利。",
-    "disclaimer": "本工具与Facebook/Meta无关联。"
+    "metaTitle": "Facebook视频下载器 - 免费下载FB高清视频 | 无水印",
+    "metaDescription": "免费下载Facebook视频、Reels、Stories，支持高清画质。快速的FB视频下载器，无水印、无广告。将Facebook视频保存为MP4/MP3。支持所有设备。",
+    "h1": "下载Facebook视频",
+    "h1Highlight": "几秒钟内完成 - 完全免费",
+    "subtitle": "只需三个简单步骤，即可将任何Facebook视频、reel或story保存到您的设备。无需注册，无需安装软件，无水印。以高清画质(1080p)下载FB视频为MP4或提取音频为MP3。支持iPhone、Android、Windows和Mac。",
+    "featuresTitle": "Facebook内容的完整解决方案",
+    "featuresSubtitle": "下载和转换Facebook视频、reels、stories等所需的一切"
   }
 }

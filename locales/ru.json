@@ -1,50 +1,25 @@
 {
   "common": {
     "siteName": "DLFB.io",
-    "tagline": "Загрузчик видео с Facebook",
-    "download": "Скачать",
     "paste": "Вставьте URL видео Facebook здесь...",
-    "downloadButton": "Скачать видео",
-    "loading": "Загрузка...",
-    "error": "Ошибка",
-    "success": "Успешно"
+    "downloadButton": "Скачать",
+    "processing": "Обработка...",
+    "enterUrl": "Пожалуйста, введите URL видео Facebook",
+    "noRegistration": "Регистрация не требуется",
+    "unlimitedDownloads": "Неограниченные загрузки",
+    "allDevices": "Поддерживается на всех устройствах"
   },
   "nav": {
-    "home": "Главная",
-    "reelsDownloader": "Загрузчик Reels",
-    "privateVideo": "Приватное видео",
-    "toMP3": "Facebook в MP3",
-    "toMP4": "Facebook в MP4",
-    "contact": "Контакты",
-    "privacy": "Политика конфиденциальности",
-    "terms": "Условия использования"
+    "toMP3": "FB в MP3",
+    "toMP4": "FB в MP4"
   },
   "home": {
-    "title": "Загрузчик видео с Facebook - Скачать видео, Reels и Stories с FB",
-    "description": "Скачивайте видео, Reels и Stories с Facebook в HD качестве. Быстро, бесплатно и без водяных знаков. Конвертируйте Facebook в MP3/MP4.",
-    "h1": "Загрузчик видео с Facebook",
-    "subtitle": "Скачивайте видео, Reels и Stories с Facebook в HD качестве",
-    "features": {
-      "title": "Почему стоит выбрать DLFB.io?",
-      "fast": "Молниеносная скорость",
-      "fastDesc": "Скачивайте видео за секунды",
-      "quality": "HD качество",
-      "qualityDesc": "Лучшее доступное качество",
-      "free": "100% бесплатно",
-      "freeDesc": "Регистрация не требуется",
-      "noWatermark": "Без водяных знаков",
-      "noWatermarkDesc": "Чистые загрузки"
-    },
-    "howTo": {
-      "title": "Как скачать видео с Facebook",
-      "step1": "Скопируйте URL видео Facebook",
-      "step2": "Вставьте URL в поле выше",
-      "step3": "Нажмите кнопку Скачать",
-      "step4": "Сохраните видео на устройство"
-    }
-  },
-  "footer": {
-    "copyright": "© 2024 DLFB.io. Все права защищены.",
-    "disclaimer": "Этот инструмент не связан с Facebook/Meta."
+    "metaTitle": "Загрузчик Видео Facebook - Скачать Видео FB в HD Бесплатно | Без Водяных Знаков",
+    "metaDescription": "Скачивайте видео, Reels и Stories Facebook в HD качестве бесплатно. Быстрый загрузчик видео FB без водяных знаков, без рекламы. Сохраняйте видео Facebook в MP4/MP3. Работает на всех устройствах.",
+    "h1": "Скачать Видео Facebook",
+    "h1Highlight": "за Секунды - Совершенно Бесплатно",
+    "subtitle": "Сохраните любое видео, reel или story Facebook на свое устройство всего за три простых шага. Без регистрации, без установки программного обеспечения, без водяных знаков. Скачивайте видео FB в HD качестве (1080p) в MP4 или извлекайте аудио в MP3. Работает на iPhone, Android, Windows и Mac.",
+    "featuresTitle": "Полное Решение для Контента Facebook",
+    "featuresSubtitle": "Все, что вам нужно для загрузки и конвертации видео, reels, stories Facebook и многого другого"
   }
 }

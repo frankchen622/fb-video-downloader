@@ -1,50 +1,25 @@
 {
   "common": {
     "siteName": "DLFB.io",
-    "tagline": "ดาวน์โหลดวิดีโอ Facebook",
-    "download": "ดาวน์โหลด",
     "paste": "วาง URL วิดีโอ Facebook ที่นี่...",
-    "downloadButton": "ดาวน์โหลดวิดีโอ",
-    "loading": "กำลังโหลด...",
-    "error": "ข้อผิดพลาด",
-    "success": "สำเร็จ"
+    "downloadButton": "ดาวน์โหลด",
+    "processing": "กำลังประมวลผล...",
+    "enterUrl": "กรุณาใส่ URL วิดีโอ Facebook",
+    "noRegistration": "ไม่ต้องลงทะเบียน",
+    "unlimitedDownloads": "ดาวน์โหลดไม่จำกัด",
+    "allDevices": "รองรับทุกอุปกรณ์"
   },
   "nav": {
-    "home": "หน้าแรก",
-    "reelsDownloader": "ดาวน์โหลด Reels",
-    "privateVideo": "วิดีโอส่วนตัว",
-    "toMP3": "Facebook เป็น MP3",
-    "toMP4": "Facebook เป็น MP4",
-    "contact": "ติดต่อ",
-    "privacy": "นโยบายความเป็นส่วนตัว",
-    "terms": "เงื่อนไขการใช้งาน"
+    "toMP3": "FB เป็น MP3",
+    "toMP4": "FB เป็น MP4"
   },
   "home": {
-    "title": "ดาวน์โหลดวิดีโอ Facebook - ดาวน์โหลดวิดีโอ Reels และ Stories จาก FB",
-    "description": "ดาวน์โหลดวิดีโอ Reels และ Stories จาก Facebook ในคุณภาพ HD รวดเร็ว ฟรี และไม่มีลายน้ำ แปลง Facebook เป็น MP3/MP4",
+    "metaTitle": "ดาวน์โหลดวิดีโอ Facebook - ดาวน์โหลดวิดีโอ FB HD ฟรี | ไม่มีลายน้ำ",
+    "metaDescription": "ดาวน์โหลดวิดีโอ Reels และ Stories จาก Facebook ในคุณภาพ HD ฟรี ดาวน์โหลดวิดีโอ FB รวดเร็วไม่มีลายน้ำ ไม่มีโฆษณา บันทึกวิดีโอ Facebook เป็น MP4/MP3 ใช้งานได้กับทุกอุปกรณ์",
     "h1": "ดาวน์โหลดวิดีโอ Facebook",
-    "subtitle": "ดาวน์โหลดวิดีโอ Reels และ Stories จาก Facebook ในคุณภาพ HD",
-    "features": {
-      "title": "ทำไมต้องเลือก DLFB.io?",
-      "fast": "รวดเร็วเหมือนสายฟ้า",
-      "fastDesc": "ดาวน์โหลดวิดีโอในไม่กี่วินาที",
-      "quality": "คุณภาพ HD",
-      "qualityDesc": "คุณภาพที่ดีที่สุดที่มี",
-      "free": "ฟรี 100%",
-      "freeDesc": "ไม่ต้องลงทะเบียน",
-      "noWatermark": "ไม่มีลายน้ำ",
-      "noWatermarkDesc": "ดาวน์โหลดสะอาด"
-    },
-    "howTo": {
-      "title": "วิธีดาวน์โหลดวิดีโอ Facebook",
-      "step1": "คัดลอก URL วิดีโอ Facebook",
-      "step2": "วาง URL ในช่องด้านบน",
-      "step3": "คลิกปุ่มดาวน์โหลด",
-      "step4": "บันทึกวิดีโอลงในอุปกรณ์ของคุณ"
-    }
-  },
-  "footer": {
-    "copyright": "© 2024 DLFB.io สงวนลิขสิทธิ์",
-    "disclaimer": "เครื่องมือนี้ไม่เกี่ยวข้องกับ Facebook/Meta"
+    "h1Highlight": "ในไม่กี่วินาที - ฟรีทั้งหมด",
+    "subtitle": "บันทึกวิดีโอ reel หรือ story ใดๆ จาก Facebook ลงในอุปกรณ์ของคุณด้วยเพียงสามขั้นตอนง่ายๆ ไม่ต้องลงทะเบียน ไม่ต้องติดตั้งซอฟต์แวร์ ไม่มีลายน้ำ ดาวน์โหลดวิดีโอ FB ในคุณภาพ HD (1080p) เป็น MP4 หรือแยกเสียงเป็น MP3 ใช้งานได้บน iPhone, Android, Windows และ Mac",
+    "featuresTitle": "โซลูชันครบวงจรสำหรับเนื้อหา Facebook",
+    "featuresSubtitle": "ทุกสิ่งที่คุณต้องการเพื่อดาวน์โหลดและแปลงวิดีโอ reels stories จาก Facebook และอื่นๆ"
   }
 }

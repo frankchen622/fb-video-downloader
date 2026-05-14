@@ -1,50 +1,25 @@
 {
   "common": {
     "siteName": "DLFB.io",
-    "tagline": "Téléchargeur de Vidéos Facebook",
-    "download": "Télécharger",
     "paste": "Collez l'URL de la vidéo Facebook ici...",
-    "downloadButton": "Télécharger la Vidéo",
-    "loading": "Chargement...",
-    "error": "Erreur",
-    "success": "Succès"
+    "downloadButton": "Télécharger",
+    "processing": "Traitement...",
+    "enterUrl": "Veuillez entrer une URL de vidéo Facebook",
+    "noRegistration": "Aucune inscription requise",
+    "unlimitedDownloads": "Téléchargements illimités",
+    "allDevices": "Compatible avec tous les appareils"
   },
   "nav": {
-    "home": "Accueil",
-    "reelsDownloader": "Téléchargeur de Reels",
-    "privateVideo": "Vidéo Privée",
-    "toMP3": "Facebook vers MP3",
-    "toMP4": "Facebook vers MP4",
-    "contact": "Contact",
-    "privacy": "Politique de Confidentialité",
-    "terms": "Conditions d'Utilisation"
+    "toMP3": "FB vers MP3",
+    "toMP4": "FB vers MP4"
   },
   "home": {
-    "title": "Téléchargeur de Vidéos Facebook - Télécharger Vidéos, Reels et Stories FB",
-    "description": "Téléchargez des vidéos, Reels et Stories Facebook en qualité HD. Rapide, gratuit et sans filigrane. Convertissez Facebook en MP3/MP4.",
-    "h1": "Téléchargeur de Vidéos Facebook",
-    "subtitle": "Téléchargez des vidéos, Reels et Stories Facebook en qualité HD",
-    "features": {
-      "title": "Pourquoi choisir DLFB.io?",
-      "fast": "Ultra Rapide",
-      "fastDesc": "Téléchargez des vidéos en quelques secondes",
-      "quality": "Qualité HD",
-      "qualityDesc": "Meilleure qualité disponible",
-      "free": "100% Gratuit",
-      "freeDesc": "Aucune inscription requise",
-      "noWatermark": "Sans Filigrane",
-      "noWatermarkDesc": "Téléchargements propres"
-    },
-    "howTo": {
-      "title": "Comment Télécharger des Vidéos Facebook",
-      "step1": "Copiez l'URL de la vidéo Facebook",
-      "step2": "Collez l'URL dans la case ci-dessus",
-      "step3": "Cliquez sur le bouton Télécharger",
-      "step4": "Enregistrez la vidéo sur votre appareil"
-    }
-  },
-  "footer": {
-    "copyright": "© 2024 DLFB.io. Tous droits réservés.",
-    "disclaimer": "Cet outil n'est pas affilié à Facebook/Meta."
+    "metaTitle": "Téléchargeur de Vidéos Facebook - Télécharger Vidéos FB en HD Gratuit | Sans Filigrane",
+    "metaDescription": "Téléchargez des vidéos, Reels et Stories Facebook en qualité HD gratuitement. Téléchargeur de vidéos FB rapide sans filigrane, sans publicités. Enregistrez des vidéos Facebook en MP4/MP3. Fonctionne sur tous les appareils.",
+    "h1": "Télécharger des Vidéos Facebook",
+    "h1Highlight": "en Quelques Secondes - Complètement Gratuit",
+    "subtitle": "Enregistrez n'importe quelle vidéo, reel ou story Facebook sur votre appareil en seulement trois étapes simples. Pas d'inscription, pas d'installation de logiciel, pas de filigranes. Téléchargez des vidéos FB en qualité HD (1080p) en MP4 ou extrayez l'audio en MP3. Fonctionne sur iPhone, Android, Windows et Mac.",
+    "featuresTitle": "Solution Complète pour le Contenu Facebook",
+    "featuresSubtitle": "Tout ce dont vous avez besoin pour télécharger et convertir des vidéos, reels, stories Facebook et plus"
   }
 }

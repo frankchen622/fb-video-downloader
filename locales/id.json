@@ -1,50 +1,25 @@
 {
   "common": {
     "siteName": "DLFB.io",
-    "tagline": "Pengunduh Video Facebook",
-    "download": "Unduh",
     "paste": "Tempel URL video Facebook di sini...",
-    "downloadButton": "Unduh Video",
-    "loading": "Memuat...",
-    "error": "Kesalahan",
-    "success": "Berhasil"
+    "downloadButton": "Unduh",
+    "processing": "Memproses...",
+    "enterUrl": "Silakan masukkan URL video Facebook",
+    "noRegistration": "Tidak perlu registrasi",
+    "unlimitedDownloads": "Unduhan tidak terbatas",
+    "allDevices": "Didukung di semua perangkat"
   },
   "nav": {
-    "home": "Beranda",
-    "reelsDownloader": "Pengunduh Reels",
-    "privateVideo": "Video Pribadi",
-    "toMP3": "Facebook ke MP3",
-    "toMP4": "Facebook ke MP4",
-    "contact": "Kontak",
-    "privacy": "Kebijakan Privasi",
-    "terms": "Syarat Penggunaan"
+    "toMP3": "FB ke MP3",
+    "toMP4": "FB ke MP4"
   },
   "home": {
-    "title": "Pengunduh Video Facebook - Unduh Video, Reels & Stories FB",
-    "description": "Unduh video, Reels, dan Stories Facebook dalam kualitas HD. Cepat, gratis, dan tanpa watermark. Konversi Facebook ke MP3/MP4.",
-    "h1": "Pengunduh Video Facebook",
-    "subtitle": "Unduh video, Reels, dan Stories Facebook dalam kualitas HD",
-    "features": {
-      "title": "Mengapa Memilih DLFB.io?",
-      "fast": "Sangat Cepat",
-      "fastDesc": "Unduh video dalam hitungan detik",
-      "quality": "Kualitas HD",
-      "qualityDesc": "Kualitas terbaik yang tersedia",
-      "free": "100% Gratis",
-      "freeDesc": "Tidak perlu registrasi",
-      "noWatermark": "Tanpa Watermark",
-      "noWatermarkDesc": "Unduhan bersih"
-    },
-    "howTo": {
-      "title": "Cara Mengunduh Video Facebook",
-      "step1": "Salin URL video Facebook",
-      "step2": "Tempel URL di kotak di atas",
-      "step3": "Klik tombol Unduh",
-      "step4": "Simpan video ke perangkat Anda"
-    }
-  },
-  "footer": {
-    "copyright": "© 2024 DLFB.io. Hak cipta dilindungi.",
-    "disclaimer": "Alat ini tidak berafiliasi dengan Facebook/Meta."
+    "metaTitle": "Pengunduh Video Facebook - Unduh Video FB HD Gratis | Tanpa Watermark",
+    "metaDescription": "Unduh video, Reels, dan Stories Facebook dalam kualitas HD gratis. Pengunduh video FB cepat tanpa watermark, tanpa iklan. Simpan video Facebook ke MP4/MP3. Berfungsi di semua perangkat.",
+    "h1": "Unduh Video Facebook",
+    "h1Highlight": "dalam Hitungan Detik - Sepenuhnya Gratis",
+    "subtitle": "Simpan video, reel, atau story Facebook apa pun ke perangkat Anda hanya dalam tiga langkah sederhana. Tanpa registrasi, tanpa instalasi perangkat lunak, tanpa watermark. Unduh video FB dalam kualitas HD (1080p) ke MP4 atau ekstrak audio ke MP3. Berfungsi di iPhone, Android, Windows, dan Mac.",
+    "featuresTitle": "Solusi Lengkap untuk Konten Facebook",
+    "featuresSubtitle": "Semua yang Anda butuhkan untuk mengunduh dan mengonversi video, reels, stories Facebook, dan lainnya"
   }
 }

@@ -1,50 +1,25 @@
 {
   "common": {
     "siteName": "DLFB.io",
-    "tagline": "Facebook Video Downloader",
-    "download": "Herunterladen",
     "paste": "Facebook-Video-URL hier einfügen...",
-    "downloadButton": "Video Herunterladen",
-    "loading": "Wird geladen...",
-    "error": "Fehler",
-    "success": "Erfolg"
+    "downloadButton": "Herunterladen",
+    "processing": "Wird verarbeitet...",
+    "enterUrl": "Bitte geben Sie eine Facebook-Video-URL ein",
+    "noRegistration": "Keine Registrierung erforderlich",
+    "unlimitedDownloads": "Unbegrenzte Downloads",
+    "allDevices": "Auf allen Geräten unterstützt"
   },
   "nav": {
-    "home": "Startseite",
-    "reelsDownloader": "Reels Downloader",
-    "privateVideo": "Privates Video",
-    "toMP3": "Facebook zu MP3",
-    "toMP4": "Facebook zu MP4",
-    "contact": "Kontakt",
-    "privacy": "Datenschutzrichtlinie",
-    "terms": "Nutzungsbedingungen"
+    "toMP3": "FB zu MP3",
+    "toMP4": "FB zu MP4"
   },
   "home": {
-    "title": "Facebook Video Downloader - FB Videos, Reels & Stories Herunterladen",
-    "description": "Laden Sie Facebook-Videos, Reels und Stories in HD-Qualität herunter. Schnell, kostenlos und ohne Wasserzeichen. Konvertieren Sie Facebook zu MP3/MP4.",
-    "h1": "Facebook Video Downloader",
-    "subtitle": "Laden Sie Facebook-Videos, Reels und Stories in HD-Qualität herunter",
-    "features": {
-      "title": "Warum DLFB.io wählen?",
-      "fast": "Blitzschnell",
-      "fastDesc": "Videos in Sekunden herunterladen",
-      "quality": "HD-Qualität",
-      "qualityDesc": "Beste verfügbare Qualität",
-      "free": "100% Kostenlos",
-      "freeDesc": "Keine Registrierung erforderlich",
-      "noWatermark": "Kein Wasserzeichen",
-      "noWatermarkDesc": "Saubere Downloads"
-    },
-    "howTo": {
-      "title": "So laden Sie Facebook-Videos herunter",
-      "step1": "Kopieren Sie die Facebook-Video-URL",
-      "step2": "Fügen Sie die URL in das Feld oben ein",
-      "step3": "Klicken Sie auf die Schaltfläche Herunterladen",
-      "step4": "Speichern Sie das Video auf Ihrem Gerät"
-    }
-  },
-  "footer": {
-    "copyright": "© 2024 DLFB.io. Alle Rechte vorbehalten.",
-    "disclaimer": "Dieses Tool ist nicht mit Facebook/Meta verbunden."
+    "metaTitle": "Facebook Video Downloader - FB Videos in HD Kostenlos Herunterladen | Kein Wasserzeichen",
+    "metaDescription": "Laden Sie Facebook-Videos, Reels und Stories kostenlos in HD-Qualität herunter. Schneller FB-Video-Downloader ohne Wasserzeichen, ohne Werbung. Speichern Sie Facebook-Videos als MP4/MP3. Funktioniert auf allen Geräten.",
+    "h1": "Facebook-Videos Herunterladen",
+    "h1Highlight": "in Sekunden - Völlig Kostenlos",
+    "subtitle": "Speichern Sie jedes Facebook-Video, Reel oder Story auf Ihrem Gerät in nur drei einfachen Schritten. Keine Registrierung, keine Softwareinstallation, keine Wasserzeichen. Laden Sie FB-Videos in HD-Qualität (1080p) als MP4 herunter oder extrahieren Sie Audio als MP3. Funktioniert auf iPhone, Android, Windows und Mac.",
+    "featuresTitle": "Komplettlösung für Facebook-Inhalte",
+    "featuresSubtitle": "Alles, was Sie zum Herunterladen und Konvertieren von Facebook-Videos, Reels, Stories und mehr benötigen"
   }
 }

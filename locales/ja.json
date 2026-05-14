@@ -1,50 +1,25 @@
 {
   "common": {
     "siteName": "DLFB.io",
-    "tagline": "Facebook動画ダウンローダー",
-    "download": "ダウンロード",
     "paste": "Facebook動画のURLをここに貼り付けてください...",
-    "downloadButton": "動画をダウンロード",
-    "loading": "読み込み中...",
-    "error": "エラー",
-    "success": "成功"
+    "downloadButton": "ダウンロード",
+    "processing": "処理中...",
+    "enterUrl": "Facebook動画のURLを入力してください",
+    "noRegistration": "登録不要",
+    "unlimitedDownloads": "無制限ダウンロード",
+    "allDevices": "すべてのデバイスに対応"
   },
   "nav": {
-    "home": "ホーム",
-    "reelsDownloader": "Reelsダウンローダー",
-    "privateVideo": "プライベート動画",
-    "toMP3": "FacebookからMP3へ",
-    "toMP4": "FacebookからMP4へ",
-    "contact": "お問い合わせ",
-    "privacy": "プライバシーポリシー",
-    "terms": "利用規約"
+    "toMP3": "FBからMP3へ",
+    "toMP4": "FBからMP4へ"
   },
   "home": {
-    "title": "Facebook動画ダウンローダー - FB動画、Reels、Storiesをダウンロード",
-    "description": "Facebook動画、Reels、StoriesをHD画質でダウンロード。高速、無料、透かしなし。FacebookをMP3/MP4に変換。",
-    "h1": "Facebook動画ダウンローダー",
-    "subtitle": "Facebook動画、Reels、StoriesをHD画質でダウンロード",
-    "features": {
-      "title": "DLFB.ioを選ぶ理由",
-      "fast": "超高速",
-      "fastDesc": "数秒で動画をダウンロード",
-      "quality": "HD画質",
-      "qualityDesc": "最高品質で提供",
-      "free": "100%無料",
-      "freeDesc": "登録不要",
-      "noWatermark": "透かしなし",
-      "noWatermarkDesc": "クリーンなダウンロード"
-    },
-    "howTo": {
-      "title": "Facebook動画のダウンロード方法",
-      "step1": "Facebook動画のURLをコピー",
-      "step2": "上のボックスにURLを貼り付け",
-      "step3": "ダウンロードボタンをクリック",
-      "step4": "デバイスに動画を保存"
-    }
-  },
-  "footer": {
-    "copyright": "© 2024 DLFB.io. 全著作権所有。",
-    "disclaimer": "このツールはFacebook/Metaと提携していません。"
+    "metaTitle": "Facebook動画ダウンローダー - FB動画を無料でHDダウンロード | 透かしなし",
+    "metaDescription": "Facebook動画、Reels、StoriesをHD画質で無料ダウンロード。透かしなし、広告なしの高速FB動画ダウンローダー。Facebook動画をMP4/MP3で保存。すべてのデバイスで動作。",
+    "h1": "Facebook動画をダウンロード",
+    "h1Highlight": "数秒で - 完全無料",
+    "subtitle": "わずか3つの簡単なステップで、任意のFacebook動画、リール、ストーリーをデバイスに保存できます。登録不要、ソフトウェアのインストール不要、透かしなし。FB動画をHD画質(1080p)でMP4にダウンロードするか、音声をMP3に抽出します。iPhone、Android、Windows、Macで動作します。",
+    "featuresTitle": "Facebookコンテンツの完全ソリューション",
+    "featuresSubtitle": "Facebook動画、リール、ストーリーなどをダウンロードして変換するために必要なすべて"
   }
 }
