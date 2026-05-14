@@ -91,7 +91,7 @@ export default function Document(props: DocumentProps) {
               "@context": "https://schema.org",
               "@type": "WebApplication",
               "name": "DLFB.io - Facebook Video Downloader",
-              "url": process.env.NEXT_PUBLIC_SITE_URL || "https://fb-video-downloader-production.up.railway.app",
+              "url": siteUrl,
               "description": "Download Facebook videos, Reels, Stories, and convert to MP3/MP4. Fast, free, and no watermark.",
               "applicationCategory": "MultimediaApplication",
               "operatingSystem": "Any",
