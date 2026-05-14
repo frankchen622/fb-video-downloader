@@ -4,8 +4,8 @@ import GoogleAnalytics from '@/components/GoogleAnalytics'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
-// Replace with your actual Google Analytics ID
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID || ''
+// Google Analytics ID
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-2T1WDN0Z05'
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
