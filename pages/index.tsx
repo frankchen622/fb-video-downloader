@@ -3,15 +3,17 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import { useTranslation } from '@/hooks/useTranslation'
 
 export default function Home() {
+  const { t } = useTranslation()
   const [url, setUrl] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
   const handleDownload = async () => {
     if (!url.trim()) {
-      setError('Please enter a Facebook video URL')
+      setError(t('common.enterUrl'))
       return
     }
 
@@ -43,8 +45,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Facebook Video Downloader - Download FB Videos in HD Free | No Watermark</title>
-        <meta name="description" content="Download Facebook videos, Reels & Stories in HD quality for free. Fast FB video downloader with no watermark, no ads. Save Facebook videos to MP4/MP3. Works on all devices." />
+        <title>{t('home.metaTitle')}</title>
+        <meta name="description" content={t('home.metaDescription')} />
         <meta name="keywords" content="facebook video downloader, download facebook video, fb video downloader, facebook to mp4, facebook reels download, download fb video, save facebook video, facebook video download online, fb downloader, facebook video download hd, private facebook video downloader, facebook to mp3, download reels facebook, save fb video, facebook story download, free facebook video downloader, no watermark" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -78,13 +80,13 @@ export default function Home() {
         <section className="container mx-auto px-4 py-16 md:py-24">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Download Facebook Videos
+              {t('home.h1')}
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                in Seconds - Completely Free
+                {t('home.h1Highlight')}
               </span>
             </h2>
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-              Save any Facebook video, reel, or story to your device in just three simple steps. No registration, no software installation, no watermarks. Download FB videos in HD quality (1080p) to MP4 or extract audio to MP3. Works on iPhone, Android, Windows, and Mac.
+              {t('home.subtitle')}
             </p>
 
             {/* Download Box */}
@@ -94,7 +96,7 @@ export default function Home() {
                   type="text"
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
-                  placeholder="Paste Facebook video URL here..."
+                  placeholder={t('common.paste')}
                   className="flex-1 px-6 py-4 text-lg border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition"
                   onKeyPress={(e) => e.key === 'Enter' && handleDownload()}
                 />
@@ -103,7 +105,7 @@ export default function Home() {
                   disabled={loading}
                   className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"
                 >
-                  {loading ? 'Processing...' : 'Download'}
+                  {loading ? t('common.processing') : t('common.downloadButton')}
                 </button>
               </div>
               
@@ -114,7 +116,7 @@ export default function Home() {
               )}
 
               <p className="mt-6 text-sm text-gray-500">
-                ✓ No registration required  ✓ Unlimited downloads  ✓ All devices supported
+                ✓ {t('common.noRegistration')}  ✓ {t('common.unlimitedDownloads')}  ✓ {t('common.allDevices')}
               </p>
             </div>
           </div>
@@ -124,9 +126,11 @@ export default function Home() {
         <section id="features" className="container mx-auto px-4 py-16 bg-white/50">
           <div className="max-w-6xl mx-auto">
             <h3 className="text-3xl md:text-4xl font-bold text-center mb-4">
-              Complete Solution for Facebook Content
+              {t('home.featuresTitle')}
             </h3>
             <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
+              {t('home.featuresSubtitle')}
+            </p>
               dlfb.io is the best free Facebook video downloader for saving videos, reels, photos, and stories in high quality. Download FB videos online without watermark, no registration required. Works on all devices.
             </p>
             <div className="grid md:grid-cols-3 gap-8">
