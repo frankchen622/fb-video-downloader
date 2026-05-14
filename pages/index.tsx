@@ -131,8 +131,6 @@ export default function Home() {
             <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
               {t('home.featuresSubtitle')}
             </p>
-              dlfb.io is the best free Facebook video downloader for saving videos, reels, photos, and stories in high quality. Download FB videos online without watermark, no registration required. Works on all devices.
-            </p>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 { 
