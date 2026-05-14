@@ -1,0 +1,50 @@
+{
+  "common": {
+    "siteName": "DLFB.io",
+    "tagline": "Facebook動画ダウンローダー",
+    "download": "ダウンロード",
+    "paste": "Facebook動画のURLをここに貼り付けてください...",
+    "downloadButton": "動画をダウンロード",
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功"
+  },
+  "nav": {
+    "home": "ホーム",
+    "reelsDownloader": "Reelsダウンローダー",
+    "privateVideo": "プライベート動画",
+    "toMP3": "FacebookからMP3へ",
+    "toMP4": "FacebookからMP4へ",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "home": {
+    "title": "Facebook動画ダウンローダー - FB動画、Reels、Storiesをダウンロード",
+    "description": "Facebook動画、Reels、StoriesをHD画質でダウンロード。高速、無料、透かしなし。FacebookをMP3/MP4に変換。",
+    "h1": "Facebook動画ダウンローダー",
+    "subtitle": "Facebook動画、Reels、StoriesをHD画質でダウンロード",
+    "features": {
+      "title": "DLFB.ioを選ぶ理由",
+      "fast": "超高速",
+      "fastDesc": "数秒で動画をダウンロード",
+      "quality": "HD画質",
+      "qualityDesc": "最高品質で提供",
+      "free": "100%無料",
+      "freeDesc": "登録不要",
+      "noWatermark": "透かしなし",
+      "noWatermarkDesc": "クリーンなダウンロード"
+    },
+    "howTo": {
+      "title": "Facebook動画のダウンロード方法",
+      "step1": "Facebook動画のURLをコピー",
+      "step2": "上のボックスにURLを貼り付け",
+      "step3": "ダウンロードボタンをクリック",
+      "step4": "デバイスに動画を保存"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 DLFB.io. 全著作権所有。",
+    "disclaimer": "このツールはFacebook/Metaと提携していません。"
+  }
+}

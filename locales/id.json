@@ -1,0 +1,50 @@
+{
+  "common": {
+    "siteName": "DLFB.io",
+    "tagline": "Pengunduh Video Facebook",
+    "download": "Unduh",
+    "paste": "Tempel URL video Facebook di sini...",
+    "downloadButton": "Unduh Video",
+    "loading": "Memuat...",
+    "error": "Kesalahan",
+    "success": "Berhasil"
+  },
+  "nav": {
+    "home": "Beranda",
+    "reelsDownloader": "Pengunduh Reels",
+    "privateVideo": "Video Pribadi",
+    "toMP3": "Facebook ke MP3",
+    "toMP4": "Facebook ke MP4",
+    "contact": "Kontak",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Penggunaan"
+  },
+  "home": {
+    "title": "Pengunduh Video Facebook - Unduh Video, Reels & Stories FB",
+    "description": "Unduh video, Reels, dan Stories Facebook dalam kualitas HD. Cepat, gratis, dan tanpa watermark. Konversi Facebook ke MP3/MP4.",
+    "h1": "Pengunduh Video Facebook",
+    "subtitle": "Unduh video, Reels, dan Stories Facebook dalam kualitas HD",
+    "features": {
+      "title": "Mengapa Memilih DLFB.io?",
+      "fast": "Sangat Cepat",
+      "fastDesc": "Unduh video dalam hitungan detik",
+      "quality": "Kualitas HD",
+      "qualityDesc": "Kualitas terbaik yang tersedia",
+      "free": "100% Gratis",
+      "freeDesc": "Tidak perlu registrasi",
+      "noWatermark": "Tanpa Watermark",
+      "noWatermarkDesc": "Unduhan bersih"
+    },
+    "howTo": {
+      "title": "Cara Mengunduh Video Facebook",
+      "step1": "Salin URL video Facebook",
+      "step2": "Tempel URL di kotak di atas",
+      "step3": "Klik tombol Unduh",
+      "step4": "Simpan video ke perangkat Anda"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 DLFB.io. Hak cipta dilindungi.",
+    "disclaimer": "Alat ini tidak berafiliasi dengan Facebook/Meta."
+  }
+}
