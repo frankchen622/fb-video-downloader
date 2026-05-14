@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '@/components/Logo'
+import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export default function FacebookToMP3() {
@@ -242,17 +241,7 @@ export default function FacebookToMP3() {
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-        <header className="container mx-auto px-4 py-6">
-          <div className="flex items-center justify-between">
-            <Logo />
-            <nav className="hidden md:flex gap-6 text-sm text-gray-600">
-              <Link href="/facebook-to-mp4" className="hover:text-blue-600 transition">FB to MP4</Link>
-              <Link href="/facebook-to-mp3" className="text-blue-600 font-semibold">FB to MP3</Link>
-              <Link href="/reels-downloader" className="hover:text-blue-600 transition">Reels</Link>
-              <Link href="/private-video-downloader" className="hover:text-blue-600 transition">Private Videos</Link>
-            </nav>
-          </div>
-        </header>
+        <Header />
 
         <section className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-4xl mx-auto text-center">

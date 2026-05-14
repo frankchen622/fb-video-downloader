@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '@/components/Logo'
+import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -73,18 +72,7 @@ export default function Home() {
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-        {/* Header */}
-        <header className="container mx-auto px-4 py-6">
-          <div className="flex items-center justify-between">
-            <Logo />
-            <nav className="hidden md:flex gap-6 text-sm text-gray-600">
-              <Link href="/facebook-to-mp4" className="hover:text-blue-600 transition">FB to MP4</Link>
-              <Link href="/facebook-to-mp3" className="hover:text-blue-600 transition">FB to MP3</Link>
-              <Link href="/reels-downloader" className="hover:text-blue-600 transition">Reels</Link>
-              <Link href="/private-video-downloader" className="hover:text-blue-600 transition">Private Videos</Link>
-            </nav>
-          </div>
-        </header>
+        <Header />
 
         {/* Hero Section */}
         <section className="container mx-auto px-4 py-16 md:py-24">
