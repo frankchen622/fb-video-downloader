@@ -55,20 +55,31 @@ export default function Home() {
         <meta property="og:title" content="Facebook Video Downloader - Download FB Videos in HD Free" />
         <meta property="og:description" content="Download Facebook videos in HD quality for free. Fast, no watermark, no ads." />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://dlfb.io" />
+        <meta property="og:image" content="https://dlfb.io/images/og-default.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="DLFB.io" />
         
-        {/* Schema.org */}
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Facebook Video Downloader - Download FB Videos in HD Free" />
+        <meta name="twitter:description" content="Download Facebook videos in HD quality for free. Fast, no watermark, no ads." />
+        <meta name="twitter:image" content="https://dlfb.io/images/og-default.png" />
+        
+        {/* FAQPage Schema */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "WebApplication",
-            "name": "Facebook Video Downloader",
-            "description": "Download Facebook videos in HD quality for free",
-            "applicationCategory": "MultimediaApplication",
-            "offers": {
-              "@type": "Offer",
-              "price": "0",
-              "priceCurrency": "USD"
-            }
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "How do I download Facebook videos?", "acceptedAnswer": { "@type": "Answer", "text": "Just copy the video URL from Facebook, paste it into our downloader, and click the download button. Save Facebook videos in HD quality (1080p) to MP4 format. No registration required." }},
+              { "@type": "Question", "name": "Is this Facebook video downloader really free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! Our FB video downloader is 100% free with unlimited downloads. No hidden costs, subscriptions, or premium plans." }},
+              { "@type": "Question", "name": "Can I download Facebook videos on mobile?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely! Works perfectly on iPhone, iPad, Android phones, and tablets. No app installation needed - use directly in your mobile browser." }},
+              { "@type": "Question", "name": "Can I download Facebook Reels?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! Download Facebook Reels in full quality. Just copy the Reels URL and paste it into our downloader." }},
+              { "@type": "Question", "name": "Will downloaded videos have watermarks?", "acceptedAnswer": { "@type": "Answer", "text": "No watermarks! All downloads are completely clean without any watermarks, logos, or branding." }},
+              { "@type": "Question", "name": "Can I convert Facebook videos to MP3?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! Extract high-quality audio from any Facebook video and save it as MP3 (up to 320kbps)." }}
+            ]
           })
         }} />
       </Head>
@@ -79,12 +90,12 @@ export default function Home() {
         {/* Hero Section */}
         <section className="container mx-auto px-4 py-16 md:py-24">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               {t('home.h1')}
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
                 {t('home.h1Highlight')}
               </span>
-            </h2>
+            </h1>
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
               {t('home.subtitle')}
             </p>
@@ -222,7 +233,7 @@ export default function Home() {
               <div className="order-1 md:order-2">
                 <h3 className="text-3xl font-bold mb-4">Video Downloader</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Download Facebook videos in HD quality with just one click. fGet supports all video formats and resolutions, allowing you to save Facebook videos to your device in MP4 format for offline viewing anytime, anywhere.
+                  Download Facebook videos in HD quality with just one click. DLFB.io supports all video formats and resolutions, allowing you to save Facebook videos to your device in MP4 format for offline viewing anytime, anywhere.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">

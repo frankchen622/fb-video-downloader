@@ -77,7 +77,7 @@ export default function Footer() {
           <div className="pt-8 border-t border-gray-200">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600">
               <p>
-                © 2024 dlfb.io. All rights reserved.
+                © {new Date().getFullYear()} dlfb.io. All rights reserved.
               </p>
               <p className="text-center md:text-right">
                 <strong className="text-gray-700">Disclaimer:</strong> We are not affiliated with Facebook or Meta. All trademarks belong to their respective owners.
