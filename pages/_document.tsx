@@ -35,8 +35,8 @@ export default function Document() {
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta name="googlebot" content="index, follow" />
         
-        {/* Verification tags (add your actual verification codes) */}
-        {/* <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" /> */}
+        {/* Verification tags */}
+        <meta name="google-site-verification" content="s-5NUaMGFOEj0zGnus67EfPg69dOhzVz6-synzPFujc" />
         {/* <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" /> */}
         
         {/* Author and Publisher */}
