@@ -4,56 +4,46 @@ const locales = ['en', 'es', 'pt', 'fr', 'de', 'ja', 'id', 'vi', 'th', 'ar', 'zh
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dlfb.io'
 
 const pages = [
-  '',
-  '/reels-downloader',
-  '/private-video-downloader',
-  '/facebook-to-mp3',
-  '/facebook-to-mp4',
-  '/contact',
-  '/privacy-policy',
-  '/terms-of-use',
+  { path: '', priority: '1.0', changefreq: 'daily' },
+  { path: '/reels-downloader', priority: '0.9', changefreq: 'weekly' },
+  { path: '/private-video-downloader', priority: '0.9', changefreq: 'weekly' },
+  { path: '/facebook-to-mp3', priority: '0.9', changefreq: 'weekly' },
+  { path: '/facebook-to-mp4', priority: '0.9', changefreq: 'weekly' },
+  { path: '/contact', priority: '0.6', changefreq: 'monthly' },
+  { path: '/privacy-policy', priority: '0.5', changefreq: 'monthly' },
+  { path: '/terms-of-use', priority: '0.5', changefreq: 'monthly' },
 ]
+
+// Fixed lastmod - only update when content actually changes
+const LAST_CONTENT_UPDATE = '2026-05-18'
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const sitemap = generateSitemap()
   
-  res.setHeader('Content-Type', 'text/xml')
-  res.setHeader('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate')
+  res.setHeader('Content-Type', 'text/xml; charset=utf-8')
+  res.setHeader('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate=604800')
   res.status(200).send(sitemap)
 }
 
 function generateSitemap(): string {
   const urls: string[] = []
   
-  // Generate URLs for all pages in all languages
+  // Generate URLs - one entry per page (not per locale)
+  // hreflang should be in HTML <head>, not sitemap
   for (const page of pages) {
-    for (const locale of locales) {
-      const url = locale === 'en' 
-        ? `${siteUrl}${page}`
-        : `${siteUrl}/${locale}${page}`
-      
-      const alternates = locales.map(loc => {
-        const altUrl = loc === 'en'
-          ? `${siteUrl}${page}`
-          : `${siteUrl}/${loc}${page}`
-        return `    <xhtml:link rel="alternate" hreflang="${loc}" href="${altUrl}" />`
-      }).join('\n')
-      
-      urls.push(`
-  <url>
+    // Only add English version to sitemap
+    const url = `${siteUrl}${page.path}`
+    
+    urls.push(`  <url>
     <loc>${url}</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>${page === '' ? '1.0' : '0.8'}</priority>
-${alternates}
-    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}${page}" />
+    <lastmod>${LAST_CONTENT_UPDATE}</lastmod>
+    <changefreq>${page.changefreq}</changefreq>
+    <priority>${page.priority}</priority>
   </url>`)
-    }
   }
   
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.join('\n')}
 </urlset>`
 }
