@@ -3,11 +3,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import { useRouter } from 'next/router'
 
 export default function PrivateVideoDownloader() {
+  const router = useRouter()
+  const { locale = 'en' } = router
   const [url, setUrl] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  
+  const siteUrl = 'https://dlfb.io'
+  const pagePath = '/private-video-downloader'
+  const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
 
   const handleDownload = async () => {
     if (!url.trim()) {
@@ -45,7 +52,7 @@ export default function PrivateVideoDownloader() {
         <title>Private Facebook Video Downloader - Download Private FB Videos</title>
         <meta name="description" content="Download private Facebook videos you have permission to view. Save videos from private groups, friends-only posts, and restricted content." />
         <meta name="keywords" content="private facebook video downloader, download private fb video, facebook group video download, friends only video" />
-        <link rel="canonical" href="https://dlfb.io/private-video-downloader" />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">

@@ -2,10 +2,17 @@ import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Logo from '@/components/Logo'
+import { useRouter } from 'next/router'
 
 export default function Contact() {
+  const router = useRouter()
+  const { locale = 'en' } = router
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
   const [submitted, setSubmitted] = useState(false)
+  
+  const siteUrl = 'https://dlfb.io'
+  const pagePath = '/contact'
+  const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -18,7 +25,7 @@ export default function Contact() {
       <Head>
         <title>Contact Us - dlfb.io</title>
         <meta name="description" content="Contact dlfb.io for support, feedback, or inquiries about our Facebook video downloader service." />
-        <link rel="canonical" href="https://dlfb.io/contact" />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">

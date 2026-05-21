@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import { useRouter } from 'next/router'
 
 type VideoFormat = {
   url: string
@@ -17,7 +18,13 @@ type VideoData = {
 }
 
 export default function FacebookToMP4() {
+  const router = useRouter()
+  const { locale = 'en' } = router
   const [url, setUrl] = useState('')
+  
+  const siteUrl = 'https://dlfb.io'
+  const pagePath = '/facebook-to-mp4'
+  const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [videoData, setVideoData] = useState<VideoData | null>(null)
@@ -59,7 +66,7 @@ export default function FacebookToMP4() {
         <title>Facebook to MP4 Converter - Download FB Videos as MP4 Free | HD Quality</title>
         <meta name="description" content="Convert Facebook videos to MP4 format in HD quality (1080p, 720p). Free online FB to MP4 converter - no watermark, no registration. Download Facebook videos as MP4 on any device." />
         <meta name="keywords" content="facebook to mp4, fb to mp4, facebook video to mp4, convert facebook video to mp4, facebook to mp4 converter, fb video mp4, facebook mp4 download, convert fb to mp4, facebook to mp4 converter online, facebook video mp4 download, save facebook to mp4, facebook link to mp4, fb mp4 converter, facebook to mp4 hd, free facebook to mp4 converter" />
-        <link rel="canonical" href="https://dlfb.io/facebook-to-mp4" />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">

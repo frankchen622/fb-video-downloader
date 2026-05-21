@@ -6,10 +6,13 @@ import Footer from '@/components/Footer'
 import { useTranslation } from '@/hooks/useTranslation'
 
 export default function Home() {
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
   const [url, setUrl] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  
+  const siteUrl = 'https://dlfb.io'
+  const canonicalUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
 
   const handleDownload = async () => {
     if (!url.trim()) {
@@ -50,13 +53,13 @@ export default function Home() {
         <meta name="keywords" content="facebook video downloader, download facebook video, fb video downloader, facebook to mp4, facebook reels download, download fb video, save facebook video, facebook video download online, fb downloader, facebook video download hd, private facebook video downloader, facebook to mp3, download reels facebook, save fb video, facebook story download, free facebook video downloader, no watermark" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://dlfb.io" />
+        <link rel="canonical" href={canonicalUrl} />
         
         {/* Open Graph */}
         <meta property="og:title" content="Facebook Video Downloader - Download FB Videos in HD Free" />
         <meta property="og:description" content="Download Facebook videos in HD quality for free. Fast, no watermark, no ads." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://dlfb.io" />
+        <meta property="og:url" content={canonicalUrl} />
         <meta property="og:image" content="https://dlfb.io/images/og-default.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />

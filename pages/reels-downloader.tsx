@@ -3,11 +3,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import { useRouter } from 'next/router'
 
 export default function ReelsDownloader() {
+  const router = useRouter()
+  const { locale = 'en' } = router
   const [url, setUrl] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  
+  const siteUrl = 'https://dlfb.io'
+  const pagePath = '/reels-downloader'
+  const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
 
   const handleDownload = async () => {
     if (!url.trim()) {
@@ -45,7 +52,7 @@ export default function ReelsDownloader() {
         <title>Facebook Reels Downloader - Download FB Reels in HD Free</title>
         <meta name="description" content="Download Facebook Reels videos in HD quality for free. Save viral short videos, funny clips, and trending reels without watermark. Fast and easy." />
         <meta name="keywords" content="facebook reels downloader, download fb reels, reels video download, facebook short videos, save reels" />
-        <link rel="canonical" href="https://dlfb.io/reels-downloader" />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">

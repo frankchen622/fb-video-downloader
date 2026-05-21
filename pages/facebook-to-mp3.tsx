@@ -3,11 +3,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import { useRouter } from 'next/router'
 
 export default function FacebookToMP3() {
+  const router = useRouter()
+  const { locale = 'en' } = router
   const [url, setUrl] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  
+  const siteUrl = 'https://dlfb.io'
+  const pagePath = '/facebook-to-mp3'
+  const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
 
   const handleDownload = async () => {
     if (!url.trim()) {
@@ -238,7 +245,7 @@ export default function FacebookToMP3() {
         <title>Facebook to MP3 Converter - Extract Audio from FB Videos Free | Download Facebook Music</title>
         <meta name="description" content="Convert Facebook videos to MP3 audio files free. Extract high-quality audio from Facebook Reels, Stories, Live videos. Facebook to MP3 320kbps. No software needed." />
         <meta name="keywords" content="facebook to mp3, facebook video to mp3, facebook mp3 converter, fb to mp3, facebook audio download, facebook music download, facebook reels to mp3, facebook to mp3 320kbps, download facebook mp3, convert facebook to mp3" />
-        <link rel="canonical" href="https://dlfb.io/facebook-to-mp3" />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">

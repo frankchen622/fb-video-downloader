@@ -1,14 +1,22 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Logo from '@/components/Logo'
+import { useRouter } from 'next/router'
 
 export default function TermsOfUse() {
+  const router = useRouter()
+  const { locale = 'en' } = router
+  
+  const siteUrl = 'https://dlfb.io'
+  const pagePath = '/terms-of-use'
+  const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
+  
   return (
     <>
       <Head>
         <title>Terms of Use - dlfb.io</title>
         <meta name="description" content="Terms of use for dlfb.io Facebook video downloader. Read our terms and conditions before using our service." />
-        <link rel="canonical" href="https://dlfb.io/terms-of-use" />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">

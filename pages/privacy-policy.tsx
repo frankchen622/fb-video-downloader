@@ -1,14 +1,22 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Logo from '@/components/Logo'
+import { useRouter } from 'next/router'
 
 export default function PrivacyPolicy() {
+  const router = useRouter()
+  const { locale = 'en' } = router
+  
+  const siteUrl = 'https://dlfb.io'
+  const pagePath = '/privacy-policy'
+  const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
+  
   return (
     <>
       <Head>
         <title>Privacy Policy - dlfb.io</title>
         <meta name="description" content="Privacy policy for dlfb.io Facebook video downloader. Learn how we protect your privacy and handle your data." />
-        <link rel="canonical" href="https://dlfb.io/privacy-policy" />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
