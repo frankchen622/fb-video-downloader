@@ -8,6 +8,7 @@ export default function TermsOfUse() {
       <Head>
         <title>Terms of Use - dlfb.io</title>
         <meta name="description" content="Terms of use for dlfb.io Facebook video downloader. Read our terms and conditions before using our service." />
+        <link rel="canonical" href="https://dlfb.io/terms-of-use" />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">

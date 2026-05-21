@@ -45,6 +45,7 @@ export default function ReelsDownloader() {
         <title>Facebook Reels Downloader - Download FB Reels in HD Free</title>
         <meta name="description" content="Download Facebook Reels videos in HD quality for free. Save viral short videos, funny clips, and trending reels without watermark. Fast and easy." />
         <meta name="keywords" content="facebook reels downloader, download fb reels, reels video download, facebook short videos, save reels" />
+        <link rel="canonical" href="https://dlfb.io/reels-downloader" />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">

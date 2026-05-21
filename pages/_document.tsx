@@ -30,9 +30,6 @@ export default function Document(props: DocumentProps) {
         <link rel="dns-prefetch" href="https://www.facebook.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         
-        {/* Canonical URL - will be overridden by page-specific canonical */}
-        <link rel="canonical" href={siteUrl} />
-        
         {/* Hreflang tags for multilingual SEO */}
         <link rel="alternate" hrefLang="x-default" href={siteUrl} />
         {locales.map((loc) => (

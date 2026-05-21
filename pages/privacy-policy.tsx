@@ -8,6 +8,7 @@ export default function PrivacyPolicy() {
       <Head>
         <title>Privacy Policy - dlfb.io</title>
         <meta name="description" content="Privacy policy for dlfb.io Facebook video downloader. Learn how we protect your privacy and handle your data." />
+        <link rel="canonical" href="https://dlfb.io/privacy-policy" />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">

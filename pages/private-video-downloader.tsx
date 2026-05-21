@@ -45,6 +45,7 @@ export default function PrivateVideoDownloader() {
         <title>Private Facebook Video Downloader - Download Private FB Videos</title>
         <meta name="description" content="Download private Facebook videos you have permission to view. Save videos from private groups, friends-only posts, and restricted content." />
         <meta name="keywords" content="private facebook video downloader, download private fb video, facebook group video download, friends only video" />
+        <link rel="canonical" href="https://dlfb.io/private-video-downloader" />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">

@@ -18,6 +18,7 @@ export default function Contact() {
       <Head>
         <title>Contact Us - dlfb.io</title>
         <meta name="description" content="Contact dlfb.io for support, feedback, or inquiries about our Facebook video downloader service." />
+        <link rel="canonical" href="https://dlfb.io/contact" />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">

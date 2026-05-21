@@ -50,6 +50,7 @@ export default function Home() {
         <meta name="keywords" content="facebook video downloader, download facebook video, fb video downloader, facebook to mp4, facebook reels download, download fb video, save facebook video, facebook video download online, fb downloader, facebook video download hd, private facebook video downloader, facebook to mp3, download reels facebook, save fb video, facebook story download, free facebook video downloader, no watermark" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://dlfb.io" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Facebook Video Downloader - Download FB Videos in HD Free" />
