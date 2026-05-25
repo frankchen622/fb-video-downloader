@@ -171,7 +171,34 @@
     "button": "🔒 Download Video",
     "downloading": "⏳ Downloading...",
     "enterUrl": "Please enter a Facebook video URL",
-    "footer": "Requires viewing permission • Respects privacy settings"
+    "footer": "Requires viewing permission • Respects privacy settings",
+    "howToTitle": "How to Download Private Videos",
+    "step1Title": "Copy Link",
+    "step1Desc": "Copy the video URL from Facebook",
+    "step2Title": "Paste URL",
+    "step2Desc": "Paste it into the downloader above",
+    "step3Title": "Download",
+    "step3Desc": "Click download and save your video",
+    "feature1Title": "Facebook Private Video Downloading",
+    "feature1Desc": "Download videos from private Facebook groups, friends-only posts, and restricted content you have permission to access. Save memories and important content securely.",
+    "feature1Point1": "Access private group videos",
+    "feature1Point2": "Download friends-only posts",
+    "feature1Point3": "Save restricted content securely",
+    "feature2Title": "High Quality",
+    "feature2Desc": "Download private Facebook videos in full HD quality. We preserve the original quality up to 1080p with no compression or quality loss.",
+    "feature2Point1": "Up to 1080p HD resolution",
+    "feature2Point2": "No quality loss",
+    "feature2Point3": "Original audio quality preserved",
+    "feature3Title": "Secure & Private",
+    "feature3Desc": "Your privacy is our priority. We don't store your credentials, download history, or personal information. All downloads are processed securely.",
+    "feature3Point1": "No credential storage",
+    "feature3Point2": "Encrypted connections",
+    "feature3Point3": "No tracking or logging",
+    "feature4Title": "Anonymous Downloading",
+    "feature4Desc": "Download private videos completely anonymously. The video owner won't be notified when you download private content.",
+    "feature4Point1": "Completely anonymous download",
+    "feature4Point2": "No owner notification",
+    "feature4Point3": "Your privacy protected"
   },
   "footer": {
     "copyright": "© 2024 DLFB.io. All rights reserved.",
@@ -422,6 +449,71 @@
       {
         "q": "Can I download Reels in HD quality?",
         "a": "Yes! Our service preserves HD quality up to 1080p. Get crystal clear video download every time."
+      }
+    ]
+  },
+  "privateFaq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "How to download private Facebook videos?",
+        "a": "Using our facebook private video downloader is easy: 1) Make sure you can view the video on Facebook, 2) Copy the video URL, 3) Paste it into our downloader, 4) Click download. Our tool works with all private content you have access to."
+      },
+      {
+        "q": "Can I download a private Facebook video?",
+        "a": "Yes! You can download a private facebook video if you have viewing permission. Our tool respects privacy settings and only works with content you're authorized to view."
+      },
+      {
+        "q": "Do I need to be logged into Facebook?",
+        "a": "Yes, you must be logged into Facebook to download private content. Our downloader requires your viewing permission to access private content."
+      },
+      {
+        "q": "Will the video owner know I downloaded it?",
+        "a": "No! Our downloader provides completely anonymous downloading. The video owner won't be notified when you download private videos."
+      },
+      {
+        "q": "Can I download videos from private groups?",
+        "a": "Yes! If you're a member of the private group, you can download private video content. Our downloader works with all private group videos you can view."
+      },
+      {
+        "q": "Does it work on mobile phones?",
+        "a": "Yes! You can download private facebook videos on mobile on both iPhone and Android. Our downloader works directly in your mobile browser without any app."
+      },
+      {
+        "q": "Is this private video downloader free?",
+        "a": "Completely free! Our downloader has no hidden costs. Download private facebook content as many times as you want without paying."
+      },
+      {
+        "q": "Can I download private Facebook Reels?",
+        "a": "Yes! Our tool supports private Reels download. If you can view the private Reel, you can download it using our downloader."
+      },
+      {
+        "q": "Will there be a watermark on downloaded videos?",
+        "a": "No watermarks! Our feature ensures clean downloads. You get the original video exactly as it appears on Facebook."
+      },
+      {
+        "q": "What quality are downloaded private videos?",
+        "a": "Our downloader preserves original HD quality. When you download private content, you get the same quality as on Facebook - up to 1080p."
+      },
+      {
+        "q": "Can I download private videos without an app?",
+        "a": "Yes! No app needed. Our web-based downloader works directly in your browser. Just visit our site for instant download."
+      },
+      {
+        "q": "Is it safe to use this downloader?",
+        "a": "Completely safe! Our downloader doesn't store your credentials or personal data. We use secure encrypted connections for all downloads."
+      },
+      {
+        "q": "How fast is the download?",
+        "a": "Very fast! Our service typically completes in 10-30 seconds depending on video length and your internet speed."
+      },
+      {
+        "q": "Do I need to install any software?",
+        "a": "No installation required! Our web-based downloader works entirely in your browser. No extensions, plugins, or apps needed."
+      },
+      {
+        "q": "What format are downloaded videos?",
+        "a": "Downloaded private videos are in MP4 format, compatible with all devices. We provide universal MP4 files."
       }
     ]
   }

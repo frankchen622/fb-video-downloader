@@ -171,7 +171,34 @@
     "button": "🔒 Descargar Video",
     "downloading": "⏳ Descargando...",
     "enterUrl": "Por favor ingresa una URL de video de Facebook",
-    "footer": "Requiere permiso de visualización • Respeta la configuración de privacidad"
+    "footer": "Requiere permiso de visualización • Respeta la configuración de privacidad",
+    "howToTitle": "Cómo Descargar Videos Privados",
+    "step1Title": "Copiar Enlace",
+    "step1Desc": "Copia la URL del video de Facebook",
+    "step2Title": "Pegar URL",
+    "step2Desc": "Pégala en el descargador arriba",
+    "step3Title": "Descargar",
+    "step3Desc": "Haz clic en descargar y guarda tu video",
+    "feature1Title": "Descarga de Videos Privados de Facebook",
+    "feature1Desc": "Descarga videos de grupos privados de Facebook, publicaciones solo para amigos y contenido restringido al que tienes permiso de acceso. Guarda recuerdos y contenido importante de forma segura.",
+    "feature1Point1": "Accede a videos de grupos privados",
+    "feature1Point2": "Descarga publicaciones solo para amigos",
+    "feature1Point3": "Guarda contenido restringido de forma segura",
+    "feature2Title": "Alta Calidad",
+    "feature2Desc": "Descarga videos privados de Facebook en calidad HD completa. Preservamos la calidad original hasta 1080p, sin compresión ni pérdida de calidad.",
+    "feature2Point1": "Hasta resolución HD 1080p",
+    "feature2Point2": "Sin pérdida de calidad",
+    "feature2Point3": "Calidad de audio original preservada",
+    "feature3Title": "Seguro y Privado",
+    "feature3Desc": "Tu privacidad es nuestra prioridad. No almacenamos tus credenciales, historial de descargas ni información personal. Todas las descargas se procesan de forma segura.",
+    "feature3Point1": "Sin almacenamiento de credenciales",
+    "feature3Point2": "Conexiones encriptadas",
+    "feature3Point3": "Sin seguimiento ni registro",
+    "feature4Title": "Descarga Anónima",
+    "feature4Desc": "Descarga videos privados de forma completamente anónima. El propietario del video no será notificado cuando descargues contenido privado.",
+    "feature4Point1": "Descarga completamente anónima",
+    "feature4Point2": "Sin notificaciones al propietario",
+    "feature4Point3": "Tu privacidad protegida"
   },
   "footer": {
     "copyright": "© 2024 DLFB.io. Todos los derechos reservados.",
@@ -422,6 +449,71 @@
       {
         "q": "¿Puedo descargar Reels en calidad HD?",
         "a": "¡Sí! Nuestro servicio preserva la calidad HD hasta 1080p. Obtén descarga de video cristalina cada vez."
+      }
+    ]
+  },
+  "privateFaq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "q": "¿Cómo descargar videos privados de Facebook?",
+        "a": "Usar nuestro descargador de videos privados de Facebook es fácil: 1) Asegúrate de poder ver el video en Facebook, 2) Copia la URL del video, 3) Pégala en nuestro descargador, 4) Haz clic en descargar. Funciona con todo el contenido privado al que tienes acceso."
+      },
+      {
+        "q": "¿Puedo descargar un video privado de Facebook?",
+        "a": "¡Sí! Puedes descargar un video privado de Facebook si tienes permiso de visualización. Nuestra herramienta respeta la configuración de privacidad y solo funciona con contenido que estás autorizado a ver."
+      },
+      {
+        "q": "¿Necesito iniciar sesión en Facebook?",
+        "a": "Sí, debes estar conectado a Facebook para descargar contenido privado. Nuestro descargador requiere tu permiso de visualización para acceder al contenido privado."
+      },
+      {
+        "q": "¿El propietario del video sabrá que lo descargué?",
+        "a": "¡No! Nuestro descargador proporciona descarga completamente anónima. El propietario del video no será notificado cuando descargues videos privados."
+      },
+      {
+        "q": "¿Puedo descargar videos de grupos privados?",
+        "a": "¡Sí! Si eres miembro del grupo privado, puedes descargar contenido de video privado. Nuestro descargador funciona con todos los videos de grupos privados que puedes ver."
+      },
+      {
+        "q": "¿Funciona en teléfonos móviles?",
+        "a": "¡Sí! Puedes descargar videos privados de Facebook en móvil tanto en iPhone como en Android. Nuestro descargador funciona directamente en tu navegador móvil sin ninguna aplicación."
+      },
+      {
+        "q": "¿Este descargador de videos privados es gratis?",
+        "a": "¡Completamente gratis! Nuestro descargador no tiene costos ocultos. Descarga contenido privado de Facebook tantas veces como quieras sin pagar."
+      },
+      {
+        "q": "¿Puedo descargar Reels privados de Facebook?",
+        "a": "¡Sí! Nuestra herramienta soporta descarga de Reels privados. Si puedes ver el Reel privado, puedes descargarlo usando nuestro descargador."
+      },
+      {
+        "q": "¿Habrá marca de agua en los videos descargados?",
+        "a": "¡Sin marcas de agua! Nuestra función asegura descargas limpias. Obtienes el video original exactamente como aparece en Facebook."
+      },
+      {
+        "q": "¿En qué calidad se descargan los videos privados?",
+        "a": "Nuestro descargador preserva la calidad HD original. Cuando descargas contenido privado, obtienes la misma calidad que en Facebook - hasta 1080p."
+      },
+      {
+        "q": "¿Puedo descargar videos privados sin una aplicación?",
+        "a": "¡Sí! No se necesita aplicación. Nuestro descargador basado en web funciona directamente en tu navegador. Solo visita nuestro sitio para descarga instantánea."
+      },
+      {
+        "q": "¿Es seguro usar este descargador?",
+        "a": "¡Completamente seguro! Nuestro descargador no almacena tus credenciales ni datos personales. Usamos conexiones encriptadas seguras para todas las descargas."
+      },
+      {
+        "q": "¿Qué tan rápida es la descarga?",
+        "a": "¡Muy rápida! Nuestro servicio típicamente se completa en 10-30 segundos dependiendo de la duración del video y tu velocidad de internet."
+      },
+      {
+        "q": "¿Necesito instalar algún software?",
+        "a": "¡No se requiere instalación! Nuestro descargador basado en web funciona completamente en tu navegador. Sin extensiones, plugins o aplicaciones necesarias."
+      },
+      {
+        "q": "¿En qué formato se descargan los videos?",
+        "a": "Los videos privados descargados están en formato MP4, compatible con todos los dispositivos. Proporcionamos archivos MP4 universales."
       }
     ]
   }
