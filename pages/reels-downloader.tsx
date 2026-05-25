@@ -69,7 +69,7 @@ export default function ReelsDownloader() {
   return (
     <>
       <Head>
-        <title>{t('reels.title')} - Download FB Reels in HD Free</title>
+        <title>Facebook Reels Downloader - Download FB Reels in HD Free</title>
         <meta name="description" content="Download Facebook Reels videos in HD quality for free. Save viral short videos, funny clips, and trending reels without watermark. Fast and easy." />
         <meta name="keywords" content="facebook reels downloader, download fb reels, reels video download, facebook short videos, save reels" />
         <link rel="canonical" href={canonicalUrl} />
