@@ -20,6 +20,476 @@
     "h1Highlight": "trong Vài Giây - Hoàn Toàn Miễn Phí",
     "subtitle": "Lưu bất kỳ video, reel hoặc story Facebook nào vào thiết bị của bạn chỉ trong ba bước đơn giản. Không cần đăng ký, không cần cài đặt phần mềm, không có watermark. Tải video FB chất lượng HD (1080p) sang MP4 hoặc trích xuất âm thanh sang MP3. Hoạt động trên iPhone, Android, Windows và Mac.",
     "featuresTitle": "Giải Pháp Hoàn Chỉnh cho Nội Dung Facebook",
-    "featuresSubtitle": "Mọi thứ bạn cần để tải xuống và chuyển đổi video, reels, stories Facebook và hơn thế nữa"
+    "featuresSubtitle": "Mọi thứ bạn cần để tải xuống và chuyển đổi video, reels, stories Facebook và hơn thế nữa",
+    "stepsTitle": "Tải Video Facebook Chưa Bao Giờ Dễ Dàng Đến Thế",
+    "stepsSubtitle": "Làm theo ba bước đơn giản này để lưu bất kỳ video, reel hoặc ảnh Facebook nào vào thiết bị của bạn trong vài giây. Không cần đăng ký, không cần cài đặt phần mềm.",
+    "step1Title": "Sao Chép Liên Kết",
+    "step1Desc": "Mở Facebook và sao chép URL video từ thanh địa chỉ hoặc menu chia sẻ",
+    "step2Title": "Dán URL",
+    "step2Desc": "Quay lại đây và dán liên kết vào ô nhập ở trên",
+    "step3Title": "Tải Xuống",
+    "step3Desc": "Nhấp vào nút tải xuống và lưu video của bạn ở chất lượng HD",
+    "feature1Title": "Tải Video HD",
+    "feature1Desc": "Tải video Facebook ở chất lượng cao nhất có sẵn, lên đến 1080p Full HD",
+    "feature2Title": "Reels và Stories",
+    "feature2Desc": "Lưu Facebook Reels và Stories trước khi chúng biến mất",
+    "feature3Title": "Trích Xuất Âm Thanh",
+    "feature3Desc": "Chuyển đổi video Facebook sang file âm thanh MP3",
+    "feature4Title": "Video Riêng Tư",
+    "feature4Desc": "Tải video Facebook riêng tư với quyền phù hợp",
+    "feature5Title": "Không Watermark",
+    "feature5Desc": "Tải xuống sạch sẽ không có watermark hoặc thương hiệu",
+    "feature6Title": "Mọi Thiết Bị",
+    "feature6Desc": "Hoạt động trên iPhone, Android, Windows, Mac và máy tính bảng",
+    "videoDownloaderTitle": "Trình Tải Video",
+    "videoDownloaderDesc": "Tải video Facebook chất lượng HD chỉ với một cú nhấp chuột. DLFB.io hỗ trợ tất cả các định dạng và độ phân giải video, cho phép bạn lưu video Facebook ở định dạng MP4 vào thiết bị của mình để xem ngoại tuyến bất cứ lúc nào, bất cứ nơi đâu.",
+    "videoDownloaderFeature1": "Chất lượng HD lên đến 1080p",
+    "videoDownloaderFeature2": "Không có watermark hoặc logo",
+    "videoDownloaderFeature3": "Hoạt động trên mọi thiết bị",
+    "reelsDownloaderTitle": "Trình Tải Reels",
+    "reelsDownloaderDesc": "Tải video Facebook Reels ở độ phân giải cao. Hoàn hảo để lưu video ngắn hài hước, hướng dẫn hoặc reels viral để xem ngoại tuyến hoặc chia sẻ với bạn bè.",
+    "reelsDownloaderFeature1": "Lưu reels trước khi chúng biến mất",
+    "reelsDownloaderFeature2": "Tải xuống ở chất lượng đầy đủ",
+    "reelsDownloaderFeature3": "Nhanh chóng và dễ sử dụng",
+    "storiesDownloaderTitle": "Trình Tải Stories",
+    "storiesDownloaderDesc": "Chụp và lưu Facebook Stories trước khi chúng biến mất. Tải stories từ bất kỳ tài khoản Facebook công khai nào ở chất lượng đầy đủ và lưu giữ những khoảnh khắc đáng nhớ sẽ mất sau 24 giờ.",
+    "storiesDownloaderFeature1": "Lưu stories vĩnh viễn",
+    "storiesDownloaderFeature2": "Tải xuống trước giới hạn 24 giờ",
+    "storiesDownloaderFeature3": "Giữ nguyên chất lượng gốc"
+  },
+  "homeFaq": {
+    "title": "Câu Hỏi Thường Gặp",
+    "items": [
+      {
+        "q": "Làm thế nào để tải video Facebook?",
+        "a": "Tải video Facebook dễ dàng với trình tải xuống miễn phí của chúng tôi. Chỉ cần sao chép URL video Facebook, dán vào trình tải xuống của chúng tôi ở trên và nhấp vào nút tải xuống. Bạn có thể lưu video Facebook ở chất lượng HD (1080p, 720p, 480p) ở định dạng MP4. Không cần đăng ký hoặc cài đặt phần mềm - hoạt động trực tiếp trong trình duyệt của bạn trên bất kỳ thiết bị nào."
+      },
+      {
+        "q": "Trình tải video Facebook này có thực sự miễn phí không?",
+        "a": "Có! Trình tải video FB của chúng tôi 100% miễn phí với tải xuống không giới hạn. Không có phí ẩn, đăng ký hoặc gói cao cấp. Tải xuống video, reels và stories Facebook nhiều như bạn muốn mà không phải trả tiền."
+      },
+      {
+        "q": "Tôi có thể tải video Facebook ở chất lượng nào?",
+        "a": "Bạn có thể tải video Facebook ở chất lượng cao nhất có sẵn từ nguồn. Công cụ của chúng tôi hỗ trợ chất lượng HD lên đến 1080p, cũng như 720p, 480p và 360p. Chúng tôi tự động phát hiện tất cả các chất lượng video có sẵn."
+      },
+      {
+        "q": "Tôi có thể tải video Facebook trên điện thoại không?",
+        "a": "Hoàn toàn có thể! Trình tải video Facebook của chúng tôi hoạt động hoàn hảo trên thiết bị di động. Dù bạn đang sử dụng iPhone, iPad, điện thoại Android hay máy tính bảng, bạn có thể dễ dàng tải video Facebook."
+      },
+      {
+        "q": "Tôi có cần cài đặt phần mềm để tải video FB không?",
+        "a": "Không cần cài đặt! Không giống như các ứng dụng tải video Facebook khác, công cụ trực tuyến của chúng tôi hoạt động trực tiếp trong trình duyệt web của bạn. Không có phần mềm, tiện ích mở rộng hoặc ứng dụng nào cần tải xuống hoặc cài đặt."
+      },
+      {
+        "q": "Tôi có thể tải Facebook Reels không?",
+        "a": "Có! Công cụ của chúng tôi hỗ trợ tải Facebook Reels ngoài video thông thường. Bạn có thể tải Facebook Reels ở chất lượng đầy đủ và lưu vào thiết bị của mình để xem ngoại tuyến."
+      },
+      {
+        "q": "Tôi có thể tải Facebook Stories không?",
+        "a": "Có, bạn có thể tải Facebook Stories bằng công cụ của chúng tôi. Vì stories biến mất sau 24 giờ, trình tải Facebook Stories của chúng tôi cho phép bạn lưu chúng vĩnh viễn."
+      },
+      {
+        "q": "Video tải xuống có watermark không?",
+        "a": "Không có watermark! Tất cả video được tải xuống qua trình tải video Facebook của chúng tôi đều hoàn toàn sạch sẽ không có watermark, logo hoặc thương hiệu."
+      },
+      {
+        "q": "Tôi có thể chuyển đổi video Facebook sang MP3 không?",
+        "a": "Có! Công cụ của chúng tôi bao gồm bộ chuyển đổi Facebook sang MP3. Bạn có thể trích xuất âm thanh chất lượng cao từ bất kỳ video Facebook nào và lưu dưới dạng MP3 (lên đến 320kbps)."
+      },
+      {
+        "q": "Sử dụng trình tải video Facebook này có an toàn không?",
+        "a": "Có, trình tải Facebook của chúng tôi 100% an toàn. Chúng tôi không lưu trữ video của bạn, không theo dõi tải xuống của bạn và không thu thập thông tin cá nhân. Quyền riêng tư của bạn được bảo vệ."
+      }
+    ]
+  },
+  "mp4": {
+    "title": "Facebook sang MP4",
+    "subtitle": "Chuyển đổi video FB sang MP4 • Chất lượng HD • Miễn phí",
+    "placeholder": "Dán URL video Facebook...",
+    "button": "🎬 Chuyển đổi sang MP4",
+    "converting": "⏳ Đang chuyển đổi...",
+    "enterUrl": "Vui lòng nhập URL video Facebook",
+    "footer": "Chất lượng HD • Định dạng phổ biến • Hoạt động mọi nơi",
+    "howToTitle": "Cách Chuyển Đổi Facebook sang MP4",
+    "step1Title": "Sao Chép URL",
+    "step1Desc": "Sao chép liên kết video Facebook",
+    "step2Title": "Dán",
+    "step2Desc": "Dán vào bộ chuyển đổi",
+    "step3Title": "Tải Xuống",
+    "step3Desc": "Nhấp chuyển đổi và lưu MP4",
+    "whyChooseTitle": "Tại Sao Chọn Bộ Chuyển Đổi Facebook sang MP4 Của Chúng Tôi?",
+    "feature1Title": "Định Dạng MP4 Phổ Biến",
+    "feature1Desc": "MP4 là định dạng video phổ biến được hỗ trợ bởi tất cả thiết bị và nền tảng.",
+    "feature1Point1": "Hoạt động trên mọi thiết bị và nền tảng",
+    "feature1Point2": "Chất lượng cao với kích thước file nhỏ",
+    "feature1Point3": "Tiêu chuẩn ngành cho video",
+    "feature2Title": "Tải Xuống Chất Lượng HD",
+    "feature2Desc": "Tải video Facebook ở chất lượng cao nhất có sẵn.",
+    "feature2Point1": "Lên đến 1080p Full HD",
+    "feature2Point2": "Không mất chất lượng khi chuyển đổi",
+    "feature2Point3": "Nhiều tùy chọn chất lượng có sẵn"
+  },
+  "mp3": {
+    "title": "Facebook sang MP3",
+    "subtitle": "Chuyển đổi video FB sang MP3 • Chất lượng cao • Miễn phí",
+    "placeholder": "Dán URL video Facebook...",
+    "button": "🎵 Chuyển đổi sang MP3",
+    "converting": "⏳ Đang chuyển đổi...",
+    "enterUrl": "Vui lòng nhập URL video Facebook",
+    "footer": "Âm thanh chất lượng cao • Định dạng phổ biến • Hoạt động mọi nơi",
+    "howToTitle": "Cách Chuyển Đổi Facebook sang MP3",
+    "step1Title": "Sao Chép URL",
+    "step1Desc": "Sao chép liên kết video Facebook",
+    "step2Title": "Dán",
+    "step2Desc": "Dán vào bộ chuyển đổi",
+    "step3Title": "Tải MP3",
+    "step3Desc": "Nhấp chuyển đổi và lưu âm thanh",
+    "whyChooseTitle": "Tại Sao Chọn DLFB.io?",
+    "feature1Title": "Trích Xuất Âm Thanh Chất Lượng Cao",
+    "feature1Desc": "Trích xuất âm thanh chất lượng cao từ bất kỳ video Facebook nào.",
+    "feature1Point1": "Lên đến 320kbps chất lượng âm thanh",
+    "feature1Point2": "Không mất chất lượng khi chuyển đổi",
+    "feature1Point3": "Định dạng MP3 phổ biến",
+    "feature2Title": "Nhanh và Dễ Dàng",
+    "feature2Desc": "Chuyển đổi video Facebook sang MP3 trong vài giây.",
+    "feature2Point1": "Chuyển đổi tức thì",
+    "feature2Point2": "Không cần đăng ký",
+    "feature2Point3": "Hoạt động trên mọi thiết bị",
+    "feature3Title": "Tương Thích Phổ Biến",
+    "feature3Desc": "File MP3 hoạt động trên mọi thiết bị và trình phát nhạc.",
+    "feature3Point1": "Hoạt động trên mọi thiết bị",
+    "feature3Point2": "Tương thích với mọi trình phát",
+    "feature3Point3": "Kích thước file nhỏ"
+  },
+  "reels": {
+    "title": "Trình Tải Facebook Reels",
+    "subtitle": "Tải FB Reels • Không watermark • Miễn phí",
+    "placeholder": "Dán URL Facebook Reel...",
+    "button": "⚡ Tải Reel",
+    "downloading": "⏳ Đang tải xuống...",
+    "enterUrl": "Vui lòng nhập URL Facebook Reel",
+    "footer": "Không watermark • Chất lượng cao • Nhanh",
+    "howToTitle": "Cách Tải Facebook Reels",
+    "step1Title": "Sao Chép Liên Kết",
+    "step1Desc": "Sao chép URL Facebook Reel",
+    "step2Title": "Dán URL",
+    "step2Desc": "Dán vào trình tải ở trên",
+    "step3Title": "Tải Xuống",
+    "step3Desc": "Nhấp tải xuống và lưu",
+    "feature1Title": "Lưu Reels Viral",
+    "feature1Desc": "Tải Facebook Reels đang thịnh hành để xem ngoại tuyến.",
+    "feature1Point1": "Tải bất kỳ Facebook Reel công khai nào",
+    "feature1Point2": "Lưu trước khi chúng biến mất",
+    "feature1Point3": "Tạo bộ sưu tập ngoại tuyến cá nhân",
+    "feature2Title": "Không Watermark",
+    "feature2Desc": "Nhận tải xuống sạch sẽ không có watermark mỗi lần.",
+    "feature2Point1": "Tải xuống thuần túy không có thương hiệu",
+    "feature2Point2": "Không có logo hoặc thương hiệu được thêm vào",
+    "feature2Point3": "Video gốc được giữ nguyên",
+    "feature3Title": "Tải Xuống Chất Lượng Cao",
+    "feature3Desc": "Tải Facebook Reels ở chất lượng cao nhất có sẵn.",
+    "feature3Point1": "Lên đến độ phân giải HD 1080p",
+    "feature3Point2": "Không mất chất lượng",
+    "feature3Point3": "Chất lượng âm thanh gốc được giữ nguyên",
+    "feature4Title": "Dễ Sử Dụng",
+    "feature4Desc": "Ba bước đơn giản: sao chép, dán, tải xuống.",
+    "feature4Point1": "Không cần đăng ký",
+    "feature4Point2": "Hoạt động trên mọi thiết bị",
+    "feature4Point3": "Tải xuống tức thì"
+  },
+  "private": {
+    "title": "Trình Tải Video Riêng Tư Facebook",
+    "subtitle": "Tải video FB riêng tư • An toàn • Miễn phí",
+    "placeholder": "Dán URL video Facebook riêng tư...",
+    "button": "🔒 Tải Video Riêng Tư",
+    "downloading": "⏳ Đang tải xuống...",
+    "enterUrl": "Vui lòng nhập URL video Facebook",
+    "footer": "An toàn • Riêng tư • Ẩn danh",
+    "howToTitle": "Cách Tải Video Riêng Tư",
+    "step1Title": "Sao Chép Liên Kết",
+    "step1Desc": "Sao chép URL video Facebook",
+    "step2Title": "Dán URL",
+    "step2Desc": "Dán vào trình tải ở trên",
+    "step3Title": "Tải Xuống",
+    "step3Desc": "Nhấp tải xuống và lưu video của bạn",
+    "feature1Title": "Tải Video Riêng Tư Facebook",
+    "feature1Desc": "Tải video từ nhóm Facebook riêng tư.",
+    "feature1Point1": "Truy cập video nhóm riêng tư",
+    "feature1Point2": "Tải bài đăng chỉ dành cho bạn bè",
+    "feature1Point3": "Lưu nội dung hạn chế một cách an toàn",
+    "feature1Point3Alt": "Lưu nội dung hạn chế mà bạn có thể xem",
+    "feature2Title": "Chất Lượng Cao",
+    "feature2Desc": "Tải video Facebook riêng tư ở chất lượng HD đầy đủ.",
+    "feature2DescAlt": "Giữ nguyên chất lượng gốc của video riêng tư. Tải xuống ở Full HD với hình ảnh sắc nét và âm thanh rõ ràng—không nén, không mất chất lượng.",
+    "feature2Point1": "Lên đến độ phân giải HD 1080p",
+    "feature2Point2": "Không mất chất lượng",
+    "feature2Point2Alt": "Duy trì chất lượng video nguồn",
+    "feature2Point3": "Chất lượng âm thanh gốc được giữ nguyên",
+    "feature3Title": "An Toàn và Riêng Tư",
+    "feature3Desc": "Quyền riêng tư của bạn là ưu tiên của chúng tôi.",
+    "feature3DescAlt": "Thông tin đăng nhập và dữ liệu cá nhân của bạn không bao giờ được lưu trữ hoặc chia sẻ. Chúng tôi sử dụng kết nối an toàn để bảo vệ quyền riêng tư của bạn khi tải nội dung riêng tư.",
+    "feature3Point1": "Không lưu trữ thông tin đăng nhập",
+    "feature3Point1Alt": "Kết nối mã hóa đầu cuối",
+    "feature3Point2": "Kết nối được mã hóa",
+    "feature3Point2Alt": "Không lưu trữ hoặc theo dõi dữ liệu",
+    "feature3Point3": "Không theo dõi hoặc ghi nhật ký",
+    "feature3Point3Alt": "Thông tin đăng nhập của bạn ở lại với Facebook",
+    "feature4Title": "Tải Xuống Ẩn Danh",
+    "feature4Desc": "Tải video riêng tư hoàn toàn ẩn danh.",
+    "feature4DescAlt": "Tải xuống riêng tư mà không để lại dấu vết. Chủ sở hữu video sẽ không được thông báo và hoạt động tải xuống của bạn vẫn hoàn toàn ẩn danh.",
+    "feature4Point1": "Tải xuống hoàn toàn ẩn danh",
+    "feature4Point1Alt": "Không gửi thông báo tải xuống",
+    "feature4Point2": "Không thông báo cho chủ sở hữu",
+    "feature4Point2Alt": "Chủ sở hữu sẽ không biết bạn đã tải xuống",
+    "feature4Point3": "Quyền riêng tư của bạn được bảo vệ",
+    "feature4Point3Alt": "Tải xuống hoàn toàn kín đáo"
+  },
+  "mp4Faq": {
+    "title": "Câu Hỏi Thường Gặp",
+    "items": [
+      {
+        "q": "Làm thế nào để chuyển đổi video Facebook sang MP4?",
+        "a": "Chỉ cần sao chép URL video Facebook, dán vào bộ chuyển đổi ở trên và nhấp \"Chuyển đổi sang MP4\". Video sẽ được xử lý trong vài giây."
+      },
+      {
+        "q": "MP4 có phải là định dạng tốt nhất cho video Facebook không?",
+        "a": "Có, MP4 là định dạng video được hỗ trợ rộng rãi nhất. Hoạt động trên mọi thiết bị, nền tảng và trình phát media."
+      },
+      {
+        "q": "Tôi có thể tải xuống ở chất lượng nào?",
+        "a": "Bạn có thể tải xuống ở chất lượng lên đến 1080p HD. Chúng tôi tự động phát hiện tất cả chất lượng có sẵn."
+      },
+      {
+        "q": "Bộ chuyển đổi Facebook sang MP4 này có miễn phí không?",
+        "a": "Có, bộ chuyển đổi của chúng tôi 100% miễn phí với chuyển đổi không giới hạn."
+      },
+      {
+        "q": "Tôi có cần cài đặt phần mềm không?",
+        "a": "Không cần cài đặt! Bộ chuyển đổi của chúng tôi hoạt động trực tiếp trong trình duyệt web của bạn."
+      },
+      {
+        "q": "Tôi có thể chuyển đổi video Facebook trên điện thoại không?",
+        "a": "Hoàn toàn có thể! Bộ chuyển đổi của chúng tôi hoạt động hoàn hảo trên thiết bị di động."
+      },
+      {
+        "q": "Video tải xuống có watermark không?",
+        "a": "Không, tất cả video tải xuống qua bộ chuyển đổi của chúng tôi đều hoàn toàn sạch sẽ không có watermark."
+      },
+      {
+        "q": "Chuyển đổi mất bao lâu?",
+        "a": "Chuyển đổi thường là tức thì! Hầu hết video được xử lý trong 5-10 giây."
+      },
+      {
+        "q": "Tôi có thể chuyển đổi video Facebook riêng tư không?",
+        "a": "Bạn chỉ có thể chuyển đổi video mà bạn có quyền xem trên Facebook."
+      },
+      {
+        "q": "Tôi có thể chuyển đổi loại video Facebook nào?",
+        "a": "Bạn có thể chuyển đổi video Facebook thông thường, Reels, Stories, video trực tiếp và video Facebook Watch."
+      },
+      {
+        "q": "Tải video Facebook có hợp pháp không?",
+        "a": "Tải video cho mục đích cá nhân thường được chấp nhận. Tuy nhiên, luôn tôn trọng bản quyền."
+      },
+      {
+        "q": "Tại sao MP4 tốt hơn các định dạng khác?",
+        "a": "MP4 cung cấp sự cân bằng tốt nhất giữa chất lượng và kích thước file."
+      }
+    ]
+  },
+  "mp3Faq": {
+    "title": "Câu Hỏi Thường Gặp",
+    "items": [
+      {
+        "q": "Làm thế nào để chuyển đổi video Facebook sang MP3?",
+        "a": "Chỉ cần sao chép URL video Facebook, dán vào bộ chuyển đổi và nhấp \"Chuyển đổi sang MP3\"."
+      },
+      {
+        "q": "Bộ chuyển đổi này có miễn phí không?",
+        "a": "Có, 100% miễn phí với chuyển đổi không giới hạn."
+      },
+      {
+        "q": "Chất lượng âm thanh MP3 là bao nhiêu?",
+        "a": "Chúng tôi trích xuất âm thanh ở chất lượng cao nhất, lên đến 320kbps."
+      },
+      {
+        "q": "Tôi có thể chuyển đổi trên điện thoại không?",
+        "a": "Hoàn toàn có thể! Hoạt động trên iPhone và Android."
+      },
+      {
+        "q": "Tôi có cần cài đặt phần mềm không?",
+        "a": "Không! Hoạt động trực tiếp trong trình duyệt của bạn."
+      },
+      {
+        "q": "Chuyển đổi mất bao lâu?",
+        "a": "Thường là tức thì! Hầu hết video được xử lý trong 5-10 giây."
+      },
+      {
+        "q": "Tôi có thể chuyển đổi Reels sang MP3 không?",
+        "a": "Có! Công cụ của chúng tôi hỗ trợ chuyển đổi Reels sang MP3."
+      },
+      {
+        "q": "File MP3 có watermark không?",
+        "a": "Không, tất cả file âm thanh đều hoàn toàn sạch sẽ."
+      },
+      {
+        "q": "Tôi có thể chuyển đổi video riêng tư không?",
+        "a": "Chỉ video mà bạn có quyền xem."
+      },
+      {
+        "q": "Tại sao chọn MP3?",
+        "a": "MP3 là định dạng âm thanh được hỗ trợ rộng rãi nhất."
+      },
+      {
+        "q": "Tôi có thể chuyển đổi video dài không?",
+        "a": "Có, công cụ của chúng tôi hỗ trợ video với độ dài bất kỳ."
+      },
+      {
+        "q": "MP3 có hoạt động trên iPhone không?",
+        "a": "Có! File MP3 hoạt động hoàn hảo trên iPhone."
+      },
+      {
+        "q": "Tôi có thể sử dụng MP3 thương mại không?",
+        "a": "Luôn tôn trọng bản quyền và quyền của người tạo nội dung."
+      },
+      {
+        "q": "Tôi có thể chuyển đổi loại nội dung nào?",
+        "a": "Video thông thường, Reels, video trực tiếp và video Watch."
+      },
+      {
+        "q": "Có an toàn không?",
+        "a": "Có, 100% an toàn. Chúng tôi không lưu trữ file hoặc thu thập thông tin cá nhân."
+      }
+    ]
+  },
+  "reelsFaq": {
+    "title": "Câu Hỏi Thường Gặp",
+    "items": [
+      {
+        "q": "Làm thế nào để tải Facebook Reels?",
+        "a": "Sao chép URL Reel, dán vào trình tải và nhấp tải xuống."
+      },
+      {
+        "q": "Có watermark không?",
+        "a": "Không! Tất cả tải xuống đều hoàn toàn sạch sẽ."
+      },
+      {
+        "q": "Tôi có thể tải ở chất lượng nào?",
+        "a": "Lên đến 1080p HD."
+      },
+      {
+        "q": "Có miễn phí không?",
+        "a": "Hoàn toàn miễn phí!"
+      },
+      {
+        "q": "Có hoạt động trên điện thoại không?",
+        "a": "Có! Hoạt động hoàn hảo trên trình duyệt di động."
+      },
+      {
+        "q": "Làm thế nào để tìm URL Reel?",
+        "a": "Mở Reel trên Facebook, nhấp chuột phải và sao chép liên kết."
+      },
+      {
+        "q": "Tôi có thể tải Reels riêng tư không?",
+        "a": "Chỉ Reels mà bạn có quyền xem."
+      },
+      {
+        "q": "Tôi có cần ứng dụng không?",
+        "a": "Không! Trình tải web của chúng tôi hoạt động trực tiếp trong trình duyệt."
+      },
+      {
+        "q": "Có an toàn không?",
+        "a": "Hoàn toàn an toàn!"
+      },
+      {
+        "q": "Tôi có thể tải nhiều Reels không?",
+        "a": "Có! Sử dụng trình tải của chúng tôi nhiều lần."
+      },
+      {
+        "q": "Tôi có thể tải Reels HD không?",
+        "a": "Có! Trình tải của chúng tôi giữ nguyên chất lượng HD đầy đủ."
+      },
+      {
+        "q": "Tải xuống nhanh như thế nào?",
+        "a": "Rất nhanh! Thường hoàn thành trong 10-30 giây."
+      },
+      {
+        "q": "Tôi có cần cài đặt phần mềm không?",
+        "a": "Không! Hoạt động hoàn toàn trong trình duyệt."
+      },
+      {
+        "q": "Tôi có thể tải Reels trên iPhone không?",
+        "a": "Có! Hoạt động trên Safari iPhone."
+      },
+      {
+        "q": "Reels tải xuống ở định dạng nào?",
+        "a": "Định dạng MP4, tương thích với mọi thiết bị."
+      }
+    ]
+  },
+  "privateFaq": {
+    "title": "Câu Hỏi Thường Gặp",
+    "items": [
+      {
+        "q": "Làm thế nào để tải video Facebook riêng tư?",
+        "a": "Đảm bảo bạn có thể xem video trên Facebook, sao chép URL, dán vào công cụ và nhấp tải xuống."
+      },
+      {
+        "q": "Chủ sở hữu có biết không?",
+        "a": "Không! Chúng tôi cung cấp tải xuống hoàn toàn ẩn danh."
+      },
+      {
+        "q": "Có an toàn không?",
+        "a": "Có, 100% an toàn."
+      },
+      {
+        "q": "Có miễn phí không?",
+        "a": "Hoàn toàn miễn phí!"
+      },
+      {
+        "q": "Có hoạt động trên điện thoại không?",
+        "a": "Có! Hoạt động trên iPhone và Android."
+      },
+      {
+        "q": "Tôi có cần đăng nhập Facebook không?",
+        "a": "Có, bạn cần đăng nhập để tải nội dung riêng tư."
+      },
+      {
+        "q": "Tôi có thể tải video từ nhóm riêng tư không?",
+        "a": "Có! Nếu bạn là thành viên nhóm."
+      },
+      {
+        "q": "Tôi có thể tải Reels riêng tư không?",
+        "a": "Có! Công cụ của chúng tôi hỗ trợ tải Reels riêng tư."
+      },
+      {
+        "q": "Video có watermark không?",
+        "a": "Không! Chúng tôi đảm bảo tải xuống sạch sẽ."
+      },
+      {
+        "q": "Video riêng tư được tải ở chất lượng nào?",
+        "a": "Trình tải của chúng tôi giữ nguyên chất lượng HD gốc."
+      },
+      {
+        "q": "Tôi có thể tải video riêng tư mà không cần ứng dụng không?",
+        "a": "Có! Không cần ứng dụng."
+      },
+      {
+        "q": "Có an toàn không?",
+        "a": "Hoàn toàn an toàn!"
+      },
+      {
+        "q": "Tải xuống nhanh như thế nào?",
+        "a": "Rất nhanh! Thường hoàn thành trong 10-30 giây."
+      },
+      {
+        "q": "Tôi có cần cài đặt phần mềm không?",
+        "a": "Không! Hoạt động hoàn toàn trong trình duyệt."
+      },
+      {
+        "q": "Video tải xuống ở định dạng nào?",
+        "a": "Định dạng MP4, tương thích với mọi thiết bị."
+      }
+    ]
   }
 }
