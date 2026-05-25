@@ -60,19 +60,17 @@ export default function Home() {
   }
 
   const handleFormatDownload = (downloadUrl: string, filename: string) => {
-    // 方案1: 尝试在新标签页打开（浏览器会自动下载视频）
-    const newWindow = window.open(downloadUrl, '_blank')
+    // 使用后端代理下载，避免跨域问题
+    const proxyUrl = `/api/proxy-download?url=${encodeURIComponent(downloadUrl)}&filename=${encodeURIComponent(filename)}`
     
-    // 方案2: 如果弹窗被阻止，提供复制链接选项
-    if (!newWindow) {
-      // 复制链接到剪贴板
-      navigator.clipboard.writeText(downloadUrl).then(() => {
-        alert('下载链接已复制到剪贴板！请在新标签页粘贴访问。\nDownload link copied! Please paste in a new tab.')
-      }).catch(() => {
-        // 如果复制失败，显示链接
-        alert(`请复制此链接在新标签页打开：\n${downloadUrl}`)
-      })
-    }
+    // 创建隐藏的 a 标签触发下载
+    const link = document.createElement('a')
+    link.href = proxyUrl
+    link.download = filename
+    link.style.display = 'none'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
   }
 
   return (
