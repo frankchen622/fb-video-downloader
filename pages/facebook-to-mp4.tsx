@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { useRouter } from 'next/router'
+import { useTranslation } from '@/hooks/useTranslation'
 
 type VideoFormat = {
   url: string
@@ -20,6 +21,7 @@ type VideoData = {
 export default function FacebookToMP4() {
   const router = useRouter()
   const { locale = 'en' } = router
+  const { t } = useTranslation()
   const [url, setUrl] = useState('')
   
   const siteUrl = 'https://dlfb.io'
@@ -31,7 +33,7 @@ export default function FacebookToMP4() {
 
   const handleDownload = async () => {
     if (!url.trim()) {
-      setError('Please enter a Facebook video URL')
+      setError(t('mp4.enterUrl'))
       return
     }
 
@@ -63,7 +65,7 @@ export default function FacebookToMP4() {
   return (
     <>
       <Head>
-        <title>Facebook to MP4 Converter - Download FB Videos as MP4 Free | HD Quality</title>
+        <title>{t('mp4.title')} Converter - Download FB Videos as MP4 Free | HD Quality</title>
         <meta name="description" content="Convert Facebook videos to MP4 format in HD quality (1080p, 720p). Free online FB to MP4 converter - no watermark, no registration. Download Facebook videos as MP4 on any device." />
         <meta name="keywords" content="facebook to mp4, fb to mp4, facebook video to mp4, convert facebook video to mp4, facebook to mp4 converter, fb video mp4, facebook mp4 download, convert fb to mp4, facebook to mp4 converter online, facebook video mp4 download, save facebook to mp4, facebook link to mp4, fb mp4 converter, facebook to mp4 hd, free facebook to mp4 converter" />
         <link rel="canonical" href={canonicalUrl} />
@@ -76,7 +78,7 @@ export default function FacebookToMP4() {
         <section className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Facebook to MP4
+              {t('mp4.title')}
             </h1>
             <p className="text-lg text-gray-600 mb-10">
               Convert FB videos to MP4 in HD • Free • No watermark
@@ -88,7 +90,7 @@ export default function FacebookToMP4() {
                   type="text"
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
-                  placeholder="Paste Facebook video URL..."
+                  placeholder={t('mp4.placeholder')}
                   className="flex-1 px-5 py-3.5 text-base border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition"
                   onKeyPress={(e) => e.key === 'Enter' && handleDownload()}
                 />
@@ -170,7 +172,7 @@ export default function FacebookToMP4() {
         {/* 3-Step Process */}
         <section className="container mx-auto px-4 py-12 bg-gradient-to-br from-blue-50 to-purple-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Convert Facebook to MP4</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Convert {t('mp4.title')}</h2>
             <div className="grid md:grid-cols-3 gap-6">
               {[
                 { num: '1', title: 'Copy URL', desc: 'Copy the Facebook video link' },
@@ -192,7 +194,7 @@ export default function FacebookToMP4() {
         {/* Why Choose Us - Image + Text */}
         <section className="container mx-auto px-4 py-16">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Why Choose Our Facebook to MP4 Converter?</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">Why Choose Our {t('mp4.title')} Converter?</h2>
             
             {/* Feature 1 */}
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
@@ -301,8 +303,8 @@ export default function FacebookToMP4() {
                   a: 'You can download Facebook videos in the highest quality available, including HD (1080p), 720p, 480p, and 360p. Our converter automatically detects all available qualities from the source video.' 
                 },
                 { 
-                  q: 'Is this Facebook to MP4 converter free?', 
-                  a: 'Yes, our Facebook to MP4 converter is 100% free with unlimited conversions. No hidden fees, no subscriptions, no registration required. Download as many videos as you want.' 
+                  q: 'Is this {t('mp4.title')} converter free?', 
+                  a: 'Yes, our {t('mp4.title')} converter is 100% free with unlimited conversions. No hidden fees, no subscriptions, no registration required. Download as many videos as you want.' 
                 },
                 { 
                   q: 'Do I need to install software?', 
@@ -310,7 +312,7 @@ export default function FacebookToMP4() {
                 },
                 { 
                   q: 'Can I convert Facebook videos on mobile?', 
-                  a: 'Absolutely! Our Facebook to MP4 converter works perfectly on mobile devices. Simply open Facebook in your mobile browser, copy the video link, and paste it into our converter. Works on both iPhone and Android.' 
+                  a: 'Absolutely! Our {t('mp4.title')} converter works perfectly on mobile devices. Simply open Facebook in your mobile browser, copy the video link, and paste it into our converter. Works on both iPhone and Android.' 
                 },
                 { 
                   q: 'Will the downloaded video have a watermark?', 

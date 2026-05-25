@@ -4,10 +4,12 @@ import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { useRouter } from 'next/router'
+import { useTranslation } from '@/hooks/useTranslation'
 
 export default function FacebookToMP3() {
   const router = useRouter()
   const { locale = 'en' } = router
+  const { t } = useTranslation()
   const [url, setUrl] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
@@ -23,7 +25,7 @@ export default function FacebookToMP3() {
 
   const handleDownload = async () => {
     if (!url.trim()) {
-      setError('Please enter a Facebook video URL')
+      setError(t('mp3.enterUrl'))
       return
     }
 
@@ -273,10 +275,10 @@ export default function FacebookToMP3() {
         <section className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Facebook to MP3 Converter
+              {t('mp3.title')}
             </h1>
             <p className="text-lg text-gray-600 mb-10">
-              Extract audio from FB videos • High quality up to 320kbps • Free & Fast
+              {t('mp3.subtitle')}
             </p>
 
             <div className="bg-white rounded-xl shadow-lg p-6 md:p-8 border border-gray-100">
@@ -285,7 +287,7 @@ export default function FacebookToMP3() {
                   type="text"
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
-                  placeholder="Paste Facebook video URL..."
+                  placeholder={t('mp3.placeholder')}
                   className="flex-1 px-5 py-3.5 text-base border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition"
                   onKeyPress={(e) => e.key === 'Enter' && handleDownload()}
                 />
@@ -294,7 +296,7 @@ export default function FacebookToMP3() {
                   disabled={loading}
                   className="px-7 py-3.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:shadow-lg transition disabled:opacity-50 whitespace-nowrap"
                 >
-                  {loading ? '⏳ Extracting...' : '🎵 Convert to MP3'}
+                  {loading ? t('mp3.extracting') : t('mp3.button')}
                 </button>
               </div>
               
