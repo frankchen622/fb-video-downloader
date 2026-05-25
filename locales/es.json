@@ -76,7 +76,30 @@
     "button": "🎵 Convertir a MP3",
     "extracting": "⏳ Extrayendo...",
     "enterUrl": "Por favor ingresa una URL de video de Facebook",
-    "footer": "Audio de alta calidad hasta 320kbps • Conversión rápida • Sin software necesario"
+    "footer": "Audio de alta calidad hasta 320kbps • Conversión rápida • Sin software necesario",
+    "howToTitle": "Cómo Convertir Facebook a MP3",
+    "step1Title": "Copiar URL",
+    "step1Desc": "Copia el enlace del video de Facebook",
+    "step2Title": "Pegar",
+    "step2Desc": "Pégalo en el convertidor",
+    "step3Title": "Descargar",
+    "step3Desc": "Haz clic en convertir y guarda el MP3",
+    "whyChooseTitle": "¿Por Qué Elegir DLFB.io?",
+    "feature1Title": "Formato de Audio Universal",
+    "feature1Desc": "MP3 funciona en todas partes. Extrae audio de videos de Facebook y reprodúcelo en cualquier dispositivo: smartphones, tablets, computadoras o reproductores de música. Sin problemas de compatibilidad, nunca.",
+    "feature1Point1": "Compatible con todos los dispositivos y plataformas",
+    "feature1Point2": "Funciona con todos los reproductores y aplicaciones de música",
+    "feature1Point3": "Perfecto para música, podcasts, discursos y contenido de audio",
+    "feature2Title": "Conversión Ultrarrápida",
+    "feature2Desc": "Sin esperas. Nuestro convertidor extrae audio en segundos, no minutos. Solo pega el enlace, haz clic en convertir y descarga tu MP3 instantáneamente.",
+    "feature2Point1": "La conversión se completa en segundos",
+    "feature2Point2": "No se requiere instalación de software",
+    "feature2Point3": "Funciona directamente en tu navegador",
+    "feature3Title": "Calidad de Audio Premium",
+    "feature3Desc": "Obtén el mejor sonido posible. Preservamos la calidad de audio original hasta 320kbps de bitrate: cristalino, sin artefactos de compresión.",
+    "feature3Point1": "Salida de alta calidad hasta 320kbps",
+    "feature3Point2": "Sin pérdida de calidad durante la extracción",
+    "feature3Point3": "Múltiples opciones de bitrate (128/192/256/320kbps)"
   },
   "mp4": {
     "title": "Facebook a MP4",
@@ -242,6 +265,71 @@
       {
         "q": "¿Por qué MP4 es mejor que otros formatos?",
         "a": "MP4 ofrece el mejor equilibrio entre calidad y tamaño de archivo. Es universalmente compatible, se reproduce en todos los dispositivos, soporta altas resoluciones y es aceptado por todas las plataformas de redes sociales. Es el estándar de la industria para video."
+      }
+    ]
+  },
+  "mp3Faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "q": "¿Cómo convertir video de Facebook a MP3?",
+        "a": "Usar nuestro convertidor de Facebook a MP3 es simple: 1) Copia el enlace del video de Facebook, 2) Pégalo en el cuadro del convertidor, 3) Haz clic en \"Convertir\", 4) Descarga tu archivo MP3. Soportamos todos los tipos de contenido de Facebook incluyendo Reels de Facebook a MP3, Stories de Facebook a MP3 y Facebook Live a MP3."
+      },
+      {
+        "q": "¿Puedo descargar música y canciones de Facebook?",
+        "a": "¡Sí! Nuestra herramienta soporta descarga de canciones de Facebook, descarga de música de Facebook en MP3, descarga de audio de Facebook en MP3 y extracción de audio de videos de Facebook. Perfecto para música, podcasts y cualquier contenido de audio compartido en Facebook."
+      },
+      {
+        "q": "¿Qué tipos de contenido de Facebook son soportados?",
+        "a": "Nuestro descargador de MP3 de Facebook soporta: ✅ Publicaciones de video regulares (descarga de video de Facebook en MP3), ✅ Videos cortos Reels, ✅ Stories, ✅ Repeticiones de transmisiones en vivo (Facebook Live a MP3), ✅ Videos privados (descargar video privado de Facebook a MP3), ✅ Publicaciones de audio (audio de Facebook en MP3)."
+      },
+      {
+        "q": "¿Cuál es la calidad del MP3 de salida?",
+        "a": "Ofrecemos múltiples opciones de calidad: Estándar (128kbps), Alta calidad (Facebook a MP3 320kbps a 320kbps), y coincidencia automática con la calidad del video original. Usa nuestro convertidor de Facebook a MP3 320kbps para la mejor experiencia de audio."
+      },
+      {
+        "q": "¿Puedo convertir videos MP4 a MP3?",
+        "a": "¡Sí! Nuestra herramienta soporta conversión de Facebook MP4 a MP3, convertidor de Facebook MP4 a MP3 para procesamiento por lotes, y convertir Facebook MP4 a MP3 en línea rápidamente. Descarga Facebook MP4 a MP3 con un clic."
+      },
+      {
+        "q": "¿Qué formatos de salida son soportados?",
+        "a": "Formatos principales: MP3 (más popular), M4A (optimizado para dispositivos Apple), y convertidor de Facebook MP3 MP4 soportando formatos de video y audio."
+      },
+      {
+        "q": "¿Puedo usar esto en móvil?",
+        "a": "¡Totalmente compatible con móviles! No necesitas una aplicación de descarga de MP3 de Facebook - úsalo directamente en tu navegador. Funciona con el convertidor de Facebook Lite para dispositivos de bajas especificaciones, soporta Android e iOS. Nuestra aplicación de descarga de MP3 de Facebook está basada en web."
+      },
+      {
+        "q": "¿Necesito instalar software?",
+        "a": "¡No se necesita instalación! Somos una herramienta en línea de Facebook a MP3: ✅ Convertidor de video de Facebook a MP3 en línea gratis, ✅ Convertir Facebook a MP3 en línea, ✅ Convertidor de MP3 de Facebook en línea en el navegador, ✅ Descargar video de Facebook a MP3 en línea instantáneamente."
+      },
+      {
+        "q": "¿Esta herramienta es gratis?",
+        "a": "¡Completamente gratis! Convertidor de Facebook a MP3 gratis, convertidor de video de Facebook a MP3 gratis con usos ilimitados, convertidor de MP3 de Facebook gratis sin tarifas ocultas, y descarga gratis de video de Facebook a MP3 para siempre."
+      },
+      {
+        "q": "¿Hay límites de uso?",
+        "a": "Sin límites: ✅ Descargas diarias ilimitadas, ✅ Sin restricciones de tamaño de archivo, ✅ No se requiere registro de cuenta, ✅ Descarga de MP3 de Facebook gratis en cualquier momento, en cualquier lugar."
+      },
+      {
+        "q": "¿Puedo descargar videos privados?",
+        "a": "Sí, pero con condiciones: Debes tener permiso para ver el video, usa nuestra función de descargar video privado de Facebook a MP3, inicia sesión en tu cuenta de Facebook, y la descarga de video privado de Facebook en MP3 protege tu privacidad."
+      },
+      {
+        "q": "¿Mis datos están seguros?",
+        "a": "Absolutamente seguro: 🔒 No almacenamos tus enlaces de video, 🔒 No se registra historial de descargas, 🔒 No se recopila información personal, 🔒 Convertidor de Facebook a MP3 privado con protección de privacidad."
+      },
+      {
+        "q": "¿Qué tan rápida es la conversión?",
+        "a": "Muy rápida: ⚡ Tiempo promedio de conversión: 10-30 segundos, ⚡ Descarga instantánea de video de Facebook a MP3 en línea gratis, ⚡ Conversión por lotes soportada, ⚡ Facebook rápido a MP3 con servidores de alta velocidad."
+      },
+      {
+        "q": "¿Puedo descargar por lotes?",
+        "a": "Operaciones por lotes soportadas: 📦 Convertir múltiples videos simultáneamente, 📦 Procesamiento por lotes del convertidor de descarga de MP3 de Facebook, 📦 Descarga de todos los archivos con un clic, 📦 Facebook por lotes a MP3 para eficiencia."
+      },
+      {
+        "q": "¿Qué navegadores son soportados?",
+        "a": "Todos los navegadores soportados: ✅ Chrome / Edge, ✅ Firefox, ✅ Safari, ✅ Opera, ✅ Navegadores móviles."
       }
     ]
   }

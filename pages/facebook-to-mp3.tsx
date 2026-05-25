@@ -354,19 +354,19 @@ export default function FacebookToMP3() {
 
         <section className="container mx-auto px-4 py-12 bg-gradient-to-br from-blue-50 to-purple-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Convert Facebook to MP3</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">{t('mp3.howToTitle')}</h2>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { num: '1', title: 'Copy URL', desc: 'Copy the Facebook video link' },
-                { num: '2', title: 'Paste', desc: 'Paste it into the converter' },
-                { num: '3', title: 'Download', desc: 'Click convert and save MP3' }
+                { num: '1', titleKey: 'mp3.step1Title', descKey: 'mp3.step1Desc' },
+                { num: '2', titleKey: 'mp3.step2Title', descKey: 'mp3.step2Desc' },
+                { num: '3', titleKey: 'mp3.step3Title', descKey: 'mp3.step3Desc' }
               ].map((step) => (
                 <div key={step.num} className="bg-white rounded-xl p-6 text-center shadow-md">
                   <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-3">
                     {step.num}
                   </div>
-                  <h3 className="font-bold mb-1">{step.title}</h3>
-                  <p className="text-sm text-gray-600">{step.desc}</p>
+                  <h3 className="font-bold mb-1">{t(step.titleKey)}</h3>
+                  <p className="text-sm text-gray-600">{t(step.descKey)}</p>
                 </div>
               ))}
             </div>
@@ -375,7 +375,7 @@ export default function FacebookToMP3() {
 
         <section className="container mx-auto px-4 py-16">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose DLFB.io?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">{t('mp3.whyChooseTitle')}</h2>
             
             {/* Feature 1: Universal Audio Format */}
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
@@ -395,29 +395,29 @@ export default function FacebookToMP3() {
               <div className="order-1 md:order-2">
                 <div className="flex items-center gap-3 mb-4">
                   <span className="text-4xl">🎵</span>
-                  <h3 className="text-3xl font-bold">Universal Audio Format</h3>
+                  <h3 className="text-3xl font-bold">{t('mp3.feature1Title')}</h3>
                 </div>
                 <p className="text-lg text-gray-600 mb-6">
-                  MP3 works everywhere. Extract audio from Facebook videos and play it on any device—smartphones, tablets, computers, or music players. No compatibility issues, ever.
+                  {t('mp3.feature1Desc')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Compatible with all devices and platforms</span>
+                    <span className="text-gray-700">{t('mp3.feature1Point1')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Works with every music player and app</span>
+                    <span className="text-gray-700">{t('mp3.feature1Point2')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Perfect for music, podcasts, speeches, and audio content</span>
+                    <span className="text-gray-700">{t('mp3.feature1Point3')}</span>
                   </li>
                 </ul>
               </div>
@@ -428,29 +428,29 @@ export default function FacebookToMP3() {
               <div>
                 <div className="flex items-center gap-3 mb-4">
                   <span className="text-4xl">⚡</span>
-                  <h3 className="text-3xl font-bold">Lightning-Fast Conversion</h3>
+                  <h3 className="text-3xl font-bold">{t('mp3.feature2Title')}</h3>
                 </div>
                 <p className="text-lg text-gray-600 mb-6">
-                  No waiting around. Our converter extracts audio in seconds, not minutes. Just paste the link, click convert, and download your MP3 instantly.
+                  {t('mp3.feature2Desc')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Conversion completes in seconds</span>
+                    <span className="text-gray-700">{t('mp3.feature2Point1')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No software installation required</span>
+                    <span className="text-gray-700">{t('mp3.feature2Point2')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Works directly in your browser</span>
+                    <span className="text-gray-700">{t('mp3.feature2Point3')}</span>
                   </li>
                 </ul>
               </div>
@@ -487,29 +487,29 @@ export default function FacebookToMP3() {
               <div className="order-1 md:order-2">
                 <div className="flex items-center gap-3 mb-4">
                   <span className="text-4xl">💎</span>
-                  <h3 className="text-3xl font-bold">Premium Audio Quality</h3>
+                  <h3 className="text-3xl font-bold">{t('mp3.feature3Title')}</h3>
                 </div>
                 <p className="text-lg text-gray-600 mb-6">
-                  Get the best sound possible. We preserve the original audio quality up to 320kbps bitrate—crystal clear, no compression artifacts.
+                  {t('mp3.feature3Desc')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Up to 320kbps high-quality output</span>
+                    <span className="text-gray-700">{t('mp3.feature3Point1')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No quality loss during extraction</span>
+                    <span className="text-gray-700">{t('mp3.feature3Point2')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Multiple bitrate options (128/192/256/320kbps)</span>
+                    <span className="text-gray-700">{t('mp3.feature3Point3')}</span>
                   </li>
                 </ul>
               </div>
@@ -519,7 +519,7 @@ export default function FacebookToMP3() {
 
         <section className="container mx-auto px-4 py-16">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">{t('mp3Faq.title')}</h2>
             <div className="space-y-6">
               {faqData.flatMap(section => section.questions).map((faq, i) => (
                 <details key={i} className="bg-white rounded-xl p-6 shadow-md">
