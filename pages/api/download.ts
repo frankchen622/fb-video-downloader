@@ -25,7 +25,7 @@ export default async function handler(
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  const { url } = req.body
+  const { url, format } = req.body
 
   if (!url || typeof url !== 'string') {
     return res.status(400).json({ error: '请提供有效的视频链接' })
@@ -59,32 +59,62 @@ export default async function handler(
     const formats: VideoFormat[] = []
     
     if (videoInfo.formats) {
-      // 筛选出有视频流的格式
-      const videoFormats = videoInfo.formats.filter(
-        (f: any) => f.vcodec !== 'none' && f.url
-      )
+      if (format === 'mp3') {
+        // 提取音频格式
+        const audioFormats = videoInfo.formats.filter(
+          (f: any) => f.acodec !== 'none' && f.vcodec === 'none' && f.url
+        )
 
-      // 按分辨率排序，取最好的几个
-      const sortedFormats = videoFormats
-        .sort((a: any, b: any) => (b.height || 0) - (a.height || 0))
-        .slice(0, 3)
+        // 如果没有纯音频格式，从视频中提取音频
+        if (audioFormats.length === 0) {
+          const videoFormats = videoInfo.formats.filter(
+            (f: any) => f.vcodec !== 'none' && f.acodec !== 'none' && f.url
+          )
+          
+          videoFormats.slice(0, 3).forEach((f: any) => {
+            formats.push({
+              url: f.url,
+              quality: `Audio from ${f.height || 'default'}p (${f.ext})`,
+              filesize: f.filesize || undefined,
+            })
+          })
+        } else {
+          audioFormats.slice(0, 3).forEach((f: any) => {
+            formats.push({
+              url: f.url,
+              quality: `${f.abr || 'default'}kbps (${f.ext})`,
+              filesize: f.filesize || undefined,
+            })
+          })
+        }
+      } else {
+        // 筛选出有视频流的格式
+        const videoFormats = videoInfo.formats.filter(
+          (f: any) => f.vcodec !== 'none' && f.url
+        )
 
-      sortedFormats.forEach((format: any) => {
-        formats.push({
-          url: format.url,
-          quality: format.height 
-            ? `${format.height}p (${format.ext})` 
-            : `${format.ext}`,
-          filesize: format.filesize || undefined,
+        // 按分辨率排序，取最好的几个
+        const sortedFormats = videoFormats
+          .sort((a: any, b: any) => (b.height || 0) - (a.height || 0))
+          .slice(0, 3)
+
+        sortedFormats.forEach((format: any) => {
+          formats.push({
+            url: format.url,
+            quality: format.height 
+              ? `${format.height}p (${format.ext})` 
+              : `${format.ext}`,
+            filesize: format.filesize || undefined,
+          })
         })
-      })
+      }
     }
 
     // 如果没有找到格式，使用默认 URL
     if (formats.length === 0 && videoInfo.url) {
       formats.push({
         url: videoInfo.url,
-        quality: '默认画质',
+        quality: format === 'mp3' ? 'Audio' : '默认画质',
       })
     }
 

@@ -11,6 +11,11 @@ export default function FacebookToMP3() {
   const [url, setUrl] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [audioInfo, setAudioInfo] = useState<{
+    title: string
+    thumbnail?: string
+    formats: Array<{ url: string; quality: string; filesize?: number }>
+  } | null>(null)
   
   const siteUrl = 'https://dlfb.io'
   const pagePath = '/facebook-to-mp3'
@@ -24,6 +29,7 @@ export default function FacebookToMP3() {
 
     setLoading(true)
     setError('')
+    setAudioInfo(null)
 
     try {
       const response = await fetch('/api/download', {
@@ -38,12 +44,25 @@ export default function FacebookToMP3() {
         throw new Error(data.error || 'Failed to extract audio')
       }
 
-      window.location.href = data.downloadUrl
+      setAudioInfo(data)
     } catch (err: any) {
       setError(err.message || 'An error occurred')
     } finally {
       setLoading(false)
     }
+  }
+
+  const handleFormatDownload = (downloadUrl: string, filename: string) => {
+    // 使用后端代理下载
+    const proxyUrl = `/api/proxy-download?url=${encodeURIComponent(downloadUrl)}&filename=${encodeURIComponent(filename)}`
+    
+    const link = document.createElement('a')
+    link.href = proxyUrl
+    link.download = filename
+    link.style.display = 'none'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
   }
 
   const faqData = [
@@ -282,6 +301,45 @@ export default function FacebookToMP3() {
               {error && (
                 <div className="mt-4 p-3 bg-red-50 border-l-4 border-red-500 text-red-600 text-sm">
                   {error}
+                </div>
+              )}
+
+              {audioInfo && (
+                <div className="mt-6 p-6 bg-gray-50 rounded-xl border border-gray-200">
+                  <div className="flex gap-4 mb-4">
+                    {audioInfo.thumbnail && (
+                      <img 
+                        src={audioInfo.thumbnail} 
+                        alt={audioInfo.title}
+                        className="w-24 h-24 object-cover rounded-lg"
+                      />
+                    )}
+                    <div className="flex-1">
+                      <h3 className="font-bold text-lg mb-2">{audioInfo.title}</h3>
+                      <p className="text-sm text-gray-600">Choose audio quality to download:</p>
+                    </div>
+                  </div>
+                  <div className="space-y-3">
+                    {audioInfo.formats.map((format, index) => (
+                      <button
+                        key={index}
+                        onClick={() => handleFormatDownload(format.url, `${audioInfo.title}.mp3`)}
+                        className="w-full flex items-center justify-between p-4 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200"
+                      >
+                        <div className="flex items-center gap-3">
+                          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                          </svg>
+                          <span className="font-bold text-lg">Download {format.quality}</span>
+                        </div>
+                        {format.filesize && (
+                          <span className="text-sm bg-white/20 px-3 py-1 rounded-full">
+                            {(format.filesize / 1024 / 1024).toFixed(2)} MB
+                          </span>
+                        )}
+                      </button>
+                    ))}
+                  </div>
                 </div>
               )}
 
