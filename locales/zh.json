@@ -44,7 +44,30 @@
     "feature5Title": "无水印",
     "feature5Desc": "干净的下载，没有任何水印或品牌标识",
     "feature6Title": "所有设备",
-    "feature6Desc": "适用于 iPhone、Android、Windows、Mac 和平板电脑"
+    "feature6Desc": "适用于 iPhone、Android、Windows、Mac 和平板电脑",
+    "stepsTitle": "下载 Facebook 视频从未如此简单",
+    "stepsSubtitle": "按照这三个简单步骤，在几秒钟内将任何 Facebook 视频、reel 或照片保存到您的设备。无需注册，无需安装软件。",
+    "step1Title": "复制链接",
+    "step1Desc": "打开 Facebook 并从地址栏或分享菜单复制视频 URL",
+    "step2Title": "粘贴 URL",
+    "step2Desc": "返回这里并将链接粘贴到上面的输入框中",
+    "step3Title": "下载",
+    "step3Desc": "点击下载按钮并以高清质量保存您的视频",
+    "videoDownloaderTitle": "视频下载器",
+    "videoDownloaderDesc": "一键下载高清 Facebook 视频。DLFB.io 支持所有视频格式和分辨率，让您可以将 Facebook 视频以 MP4 格式保存到设备上，随时随地离线观看。",
+    "videoDownloaderFeature1": "高达 1080p 高清质量",
+    "videoDownloaderFeature2": "无水印或标志",
+    "videoDownloaderFeature3": "适用于所有设备",
+    "reelsDownloaderTitle": "Reels 下载器",
+    "reelsDownloaderDesc": "以高清质量下载 Facebook Reels 视频。非常适合保存有趣的短视频内容、教程或病毒式 reels，以便离线观看或与朋友分享。",
+    "reelsDownloaderFeature1": "在消失之前保存 Reels",
+    "reelsDownloaderFeature2": "完整质量下载",
+    "reelsDownloaderFeature3": "快速且易于使用",
+    "storiesDownloaderTitle": "Stories 下载器",
+    "storiesDownloaderDesc": "在 Facebook Stories 消失之前捕获并保存它们。以完整质量下载任何公开 Facebook 账户的 stories，保存那些在 24 小时后会丢失的难忘时刻。",
+    "storiesDownloaderFeature1": "永久保存 stories",
+    "storiesDownloaderFeature2": "在 24 小时到期前下载",
+    "storiesDownloaderFeature3": "保留原始质量"
   },
   "mp3": {
     "title": "Facebook 转 MP3 转换器",
@@ -53,7 +76,29 @@
     "button": "🎵 转换为 MP3",
     "extracting": "⏳ 提取中...",
     "enterUrl": "请输入 Facebook 视频链接",
-    "footer": "高质量音频最高 320kbps • 快速转换 • 无需软件"
+    "footer": "高质量音频最高 320kbps • 快速转换 • 无需软件",
+    "howToTitle": "如何将 Facebook 转换为 MP3",
+    "step1Title": "复制 URL",
+    "step1Desc": "复制 Facebook 视频链接",
+    "step2Title": "粘贴",
+    "step2Desc": "粘贴到转换器",
+    "step3Title": "下载 MP3",
+    "step3Desc": "点击转换并保存音频",
+    "feature1Title": "高质量音频提取",
+    "feature1Desc": "从任何 Facebook 视频中提取高质量音频。我们的 Facebook 到 MP3 转换器保留原始音频质量，最高可达 320kbps，非常适合音乐、播客和访谈。",
+    "feature1Point1": "高达 320kbps 音频质量",
+    "feature1Point2": "转换过程中无质量损失",
+    "feature1Point3": "通用 MP3 格式",
+    "feature2Title": "快速简便",
+    "feature2Desc": "在几秒钟内将 Facebook 视频转换为 MP3。只需粘贴 URL，点击转换并下载您的音频文件。无需注册，无需安装软件，无麻烦。",
+    "feature2Point1": "即时转换",
+    "feature2Point2": "无需注册",
+    "feature2Point3": "适用于所有设备",
+    "feature3Title": "通用兼容性",
+    "feature3Desc": "MP3 文件适用于所有设备和音乐播放器。在您的手机、电脑、汽车或任何 MP3 播放器上播放。与 iPhone、Android、Windows、Mac 等兼容。",
+    "feature3Point1": "适用于所有设备",
+    "feature3Point2": "与所有播放器兼容",
+    "feature3Point3": "文件大小小"
   },
   "mp4": {
     "title": "Facebook 转 MP4",
@@ -62,7 +107,25 @@
     "button": "🎬 转换为 MP4",
     "converting": "⏳ 转换中...",
     "enterUrl": "请输入 Facebook 视频链接",
-    "footer": "高清质量 • 通用格式 • 随处可用"
+    "footer": "高清质量 • 通用格式 • 随处可用",
+    "howToTitle": "如何将 Facebook 转换为 MP4",
+    "step1Title": "复制 URL",
+    "step1Desc": "复制 Facebook 视频链接",
+    "step2Title": "粘贴",
+    "step2Desc": "粘贴到转换器",
+    "step3Title": "下载",
+    "step3Desc": "点击转换并保存 MP4",
+    "whyChooseTitle": "为什么选择我们的 Facebook 到 MP4 转换器？",
+    "feature1Title": "通用 MP4 格式",
+    "feature1Desc": "MP4 是通用视频格式，所有设备和平台都支持。将 Facebook 视频转换为 MP4 以获得最大兼容性。",
+    "feature1Point1": "适用于所有设备和平台",
+    "feature1Point2": "高质量，文件大小小",
+    "feature1Point3": "视频行业标准",
+    "feature2Title": "高清质量下载",
+    "feature2Desc": "以最高可用质量下载 Facebook 视频。我们的转换器检测所有分辨率，让您选择最佳质量。",
+    "feature2Point1": "高达 1080p 全高清",
+    "feature2Point2": "转换过程中无质量损失",
+    "feature2Point3": "多种质量选项可用"
   },
   "reels": {
     "title": "Facebook Reels 下载器",
@@ -71,7 +134,34 @@
     "button": "🎬 下载 Reel",
     "downloading": "⏳ 下载中...",
     "enterUrl": "请输入 Facebook Reels 链接",
-    "footer": "高清质量 • 无水印 • 保存热门内容"
+    "footer": "高清质量 • 无水印 • 保存热门内容",
+    "howToTitle": "如何下载 Facebook Reels",
+    "step1Title": "复制链接",
+    "step1Desc": "复制 Facebook Reel 的 URL",
+    "step2Title": "粘贴 URL",
+    "step2Desc": "粘贴到上面的下载器",
+    "step3Title": "下载",
+    "step3Desc": "点击下载并保存",
+    "feature1Title": "保存病毒式 Reels",
+    "feature1Desc": "下载热门 Facebook Reels 以供离线观看。在消失之前保存有趣的短视频内容、教程或病毒式 reels。非常适合内容创作者和社交媒体爱好者。",
+    "feature1Point1": "下载任何公开的 Facebook Reel",
+    "feature1Point2": "在消失之前保存",
+    "feature1Point3": "建立您的个人离线收藏",
+    "feature2Title": "无水印",
+    "feature2Desc": "每次都获得干净、无水印的下载。我们不添加标志或品牌标识——只有原始 Reel，与 Facebook 上显示的完全一样。",
+    "feature2Point1": "纯净、无品牌的下载",
+    "feature2Point2": "不添加标志或品牌标识",
+    "feature2Point3": "保留原始视频",
+    "feature3Title": "高质量下载",
+    "feature3Desc": "以最高可用质量下载 Facebook Reels。我们保留原始视频质量，最高可达 1080p，确保您保存的 Reels 看起来与 Facebook 上一样好。",
+    "feature3Point1": "高达 1080p 高清分辨率",
+    "feature3Point2": "无质量损失",
+    "feature3Point3": "保留原始音频质量",
+    "feature4Title": "易于使用",
+    "feature4Desc": "三个简单步骤：复制、粘贴、下载。无需注册，无需安装应用程序，无复杂设置。在您的浏览器中即时运行。",
+    "feature4Point1": "无需注册",
+    "feature4Point2": "适用于所有设备",
+    "feature4Point3": "即时下载"
   },
   "private": {
     "title": "私密视频下载器",
@@ -80,10 +170,350 @@
     "button": "🔒 下载视频",
     "downloading": "⏳ 下载中...",
     "enterUrl": "请输入 Facebook 视频链接",
-    "footer": "需要查看权限 • 尊重隐私设置"
+    "footer": "需要查看权限 • 尊重隐私设置",
+    "howToTitle": "如何下载私密视频",
+    "step1Title": "复制链接",
+    "step1Desc": "复制 Facebook 视频的 URL",
+    "step2Title": "粘贴 URL",
+    "step2Desc": "粘贴到上面的下载器",
+    "step3Title": "下载",
+    "step3Desc": "点击下载并保存您的视频",
+    "feature1Title": "Facebook 私密视频下载",
+    "feature1Desc": "从私密 Facebook 群组、仅限朋友的帖子和您有权访问的受限内容下载视频。安全地保存回忆和重要内容。",
+    "feature1Point1": "访问私密群组视频",
+    "feature1Point2": "下载仅限朋友的帖子",
+    "feature1Point3": "安全地保存受限内容",
+    "feature2Title": "高质量",
+    "feature2Desc": "以完整高清质量下载私密 Facebook 视频。我们保留原始质量，最高可达 1080p，无压缩或质量损失。",
+    "feature2Point1": "高达 1080p 高清分辨率",
+    "feature2Point2": "无质量损失",
+    "feature2Point3": "保留原始音频质量",
+    "feature3Title": "安全和私密",
+    "feature3Desc": "您的隐私是我们的首要任务。我们不存储您的凭据、下载历史或个人信息。所有下载都经过安全处理。",
+    "feature3Point1": "不存储凭据",
+    "feature3Point2": "加密连接",
+    "feature3Point3": "无跟踪或记录",
+    "feature4Title": "匿名下载",
+    "feature4Desc": "完全匿名地下载私密视频。当您下载私密内容时，视频所有者不会收到通知。",
+    "feature4Point1": "完全匿名下载",
+    "feature4Point2": "不通知所有者",
+    "feature4Point3": "保护您的隐私"
   },
   "footer": {
     "copyright": "© 2024 DLFB.io. 保留所有权利。",
     "disclaimer": "本工具不隶属于 Facebook/Meta。"
+  },
+  "homeFaq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "q": "如何下载 Facebook 视频？",
+        "a": "使用我们的免费下载器下载 Facebook 视频很简单。只需复制 Facebook 视频 URL，将其粘贴到上面的下载器中，然后点击下载按钮。您可以以高清质量（1080p、720p、480p）将 Facebook 视频保存为 MP4 格式。无需注册或安装软件 - 直接在任何设备的浏览器中使用。"
+      },
+      {
+        "q": "这个 Facebook 视频下载器真的免费吗？",
+        "a": "是的！我们的 FB 视频下载器 100% 免费，无限下载。没有隐藏费用、订阅或高级计划。随心所欲地下载任意数量的 Facebook 视频、Reels 和 Stories，无需付费。我们相信每个人都应该免费访问以保存他们喜欢的 Facebook 内容。"
+      },
+      {
+        "q": "我可以以什么质量下载 Facebook 视频？",
+        "a": "您可以以源视频的最高可用质量下载 Facebook 视频。我们的 Facebook 视频下载工具支持高达 1080p 的高清质量，以及 720p、480p 和 360p。我们会自动检测所有可用的视频质量，让您选择最适合您需求的选项。"
+      },
+      {
+        "q": "我可以在手机上下载 Facebook 视频吗？",
+        "a": "当然可以！我们的 Facebook 视频下载器在移动设备上完美运行。无论您使用 iPhone、iPad、Android 手机还是平板电脑，都可以轻松下载 Facebook 视频。只需在移动浏览器中打开 Facebook，复制视频链接，将其粘贴到我们的 FB 下载器中，然后将视频保存到您的设备。适用于 iOS 和 Android。"
+      },
+      {
+        "q": "我需要安装软件来下载 FB 视频吗？",
+        "a": "无需安装！与其他 Facebook 视频下载器应用不同，我们的在线工具直接在您的网络浏览器中运行。无需下载或安装任何软件、扩展程序或应用程序。这使其比可下载的 Facebook 下载器软件更安全、更方便。"
+      },
+      {
+        "q": "我可以下载 Facebook Reels 吗？",
+        "a": "可以！我们的工具除了常规视频外还支持下载 Facebook Reels。您可以以完整质量下载 Facebook Reels 并将其保存到设备上以供离线观看。只需复制 Reel URL 并将其粘贴到我们的下载器中。非常适合在消失之前保存有趣的短视频内容、教程或病毒式 reels。"
+      },
+      {
+        "q": "我可以下载 Facebook Stories 吗？",
+        "a": "可以，您可以使用我们的工具下载 Facebook Stories。由于 Stories 在 24 小时后消失，我们的 Facebook stories 下载器可让您永久保存它们。以完整质量下载任何公开 Facebook 账户的 stories。保存那些否则会丢失的难忘时刻。只需在过期前粘贴 story URL。"
+      },
+      {
+        "q": "下载的视频会有水印吗？",
+        "a": "没有水印！通过我们的 Facebook 视频下载器下载的所有视频都是完全干净的，没有水印、标志或品牌标识。您获得的是原始视频，与 Facebook 上显示的完全一样。我们不会在您下载的内容上添加任何标记 - 只有纯净、干净的视频文件。"
+      },
+      {
+        "q": "我可以将 Facebook 视频转换为 MP3 吗？",
+        "a": "可以！我们的工具包括 Facebook 到 MP3 转换器。您可以从任何 Facebook 视频中提取高质量音频并将其保存为 MP3（最高 320kbps）。非常适合保存 Facebook 视频中的音乐、播客、访谈或任何音频内容。只需使用我们的 FB 到 MP3 转换器功能仅下载音频。"
+      },
+      {
+        "q": "我可以以什么格式下载 Facebook 视频？",
+        "a": "我们的 Facebook 视频下载器支持 MP4 格式，这是在所有设备和平台上运行的最通用的视频格式。您还可以将 Facebook 视频转换为 MP3 音频格式。MP4 与 iPhone、Android、Windows、Mac、智能电视和所有媒体播放器兼容。它以可管理的文件大小提供出色的质量。"
+      },
+      {
+        "q": "下载过程有多快？",
+        "a": "我们的 Facebook 视频下载服务超快！大多数视频在 5-10 秒内处理完毕并准备好下载。实际下载速度取决于您的互联网连接和视频文件大小。我们使用优化的服务器来确保尽可能快的下载体验。无需等待，无延迟 - 只需即时下载。"
+      },
+      {
+        "q": "我可以下载私密 Facebook 视频吗？",
+        "a": "您只能下载您有权查看的 Facebook 视频。如果您可以在 Facebook 上观看视频（包括与您共享的私密视频），则可以使用我们的工具下载它。但是，您无法下载您无权访问的私人账户的视频。始终尊重隐私和内容创作者的权利。"
+      },
+      {
+        "q": "使用这个 Facebook 视频下载器安全吗？",
+        "a": "是的，我们的 Facebook 下载器 100% 安全。我们不存储您的视频、跟踪您的下载或收集个人信息。您的隐私受到保护。我们不需要注册或登录，因此您的 Facebook 账户保持安全。所有下载都以安全和匿名的方式处理。"
+      },
+      {
+        "q": "下载 Facebook 视频合法吗？",
+        "a": "为个人使用下载 Facebook 视频通常是可以接受的。但是，您应该始终尊重版权和内容创作者的权利。未经原创作者许可，切勿重新分发、转发或商业使用下载的内容。负责任和道德地使用我们的 FB 视频下载器。"
+      },
+      {
+        "q": "它适用于所有设备吗？",
+        "a": "是的！我们的 Facebook 视频下载器适用于所有设备和平台。在 iPhone、iPad、Android 手机、Android 平板电脑、Windows PC、Mac、Linux 甚至 Chromebook 上下载 FB 视频。我们的在线工具完全响应并针对所有屏幕尺寸进行了优化。无论您使用什么设备，都可以轻松保存 Facebook 视频。"
+      }
+    ]
+  },
+  "mp4Faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "q": "如何将 Facebook 视频转换为 MP4？",
+        "a": "只需复制 Facebook 视频 URL，将其粘贴到上面的转换器中，然后点击\"转换为 MP4\"。视频将在几秒钟内处理完毕并准备好下载。无需注册或安装软件。"
+      },
+      {
+        "q": "MP4 是 Facebook 视频的最佳格式吗？",
+        "a": "是的，MP4 是支持最广泛的视频格式。它适用于所有设备（iPhone、Android、Windows、Mac）、平台和媒体播放器，使其成为下载 Facebook 视频的理想选择。"
+      },
+      {
+        "q": "我可以以什么质量下载？",
+        "a": "您可以以最高可用质量下载 Facebook 视频，包括高清 (1080p)、720p、480p 和 360p。我们的转换器会自动检测源视频的所有可用质量。"
+      },
+      {
+        "q": "这个 Facebook 到 MP4 转换器免费吗？",
+        "a": "是的，我们的 Facebook 到 MP4 转换器 100% 免费，无限转换。没有隐藏费用、订阅或注册要求。随心所欲地下载任意数量的视频。"
+      },
+      {
+        "q": "我需要安装软件吗？",
+        "a": "无需安装！我们的转换器直接在您的网络浏览器中运行，适用于任何设备 - 台式机、移动设备或平板电脑。只需粘贴 URL 并下载。"
+      },
+      {
+        "q": "我可以在手机上转换 Facebook 视频吗？",
+        "a": "当然可以！我们的 Facebook 到 MP4 转换器在移动设备上完美运行。只需在移动浏览器中打开 Facebook，复制视频链接并将其粘贴到我们的转换器中。适用于 iPhone 和 Android。"
+      },
+      {
+        "q": "下载的视频会有水印吗？",
+        "a": "不会，通过我们的转换器下载的所有视频都是完全干净的，没有水印、标志或品牌标识。您获得的是原始视频，与 Facebook 上显示的完全一样。"
+      },
+      {
+        "q": "转换需要多长时间？",
+        "a": "转换通常是即时的！大多数视频在 5-10 秒内处理完毕并准备好下载，具体取决于视频长度和您的互联网速度。"
+      },
+      {
+        "q": "我可以转换私密 Facebook 视频吗？",
+        "a": "您只能转换您有权在 Facebook 上查看的视频。如果您可以在 Facebook 上观看，就可以转换。对于私密视频，请查看我们的私密视频下载器页面。"
+      },
+      {
+        "q": "我可以转换哪些类型的 Facebook 视频？",
+        "a": "您可以转换常规 Facebook 视频、Reels、Stories、直播视频（结束后）和 Facebook Watch 视频。我们的转换器支持所有类型的 Facebook 视频内容。"
+      },
+      {
+        "q": "下载 Facebook 视频合法吗？",
+        "a": "为个人使用下载视频通常是可以接受的。但是，始终尊重版权和内容创作者的权利。未经许可，切勿重新分发或商业使用下载的内容。"
+      },
+      {
+        "q": "为什么 MP4 比其他格式更好？",
+        "a": "MP4 在质量和文件大小之间提供了最佳平衡。它具有通用兼容性，可在所有设备上播放，支持高分辨率，并被所有社交媒体平台接受。它是视频的行业标准。"
+      }
+    ]
+  },
+  "mp3Faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "q": "如何将 Facebook 视频转换为 MP3？",
+        "a": "只需复制 Facebook 视频 URL，将其粘贴到上面的转换器中，然后点击\"转换为 MP3\"。音频将被提取并在几秒钟内准备好下载。无需注册或安装软件。"
+      },
+      {
+        "q": "这个 Facebook 到 MP3 转换器免费吗？",
+        "a": "是的，我们的 Facebook 到 MP3 转换器 100% 免费，无限转换。没有隐藏费用、订阅或注册要求。随心所欲地将任意数量的视频转换为 MP3。"
+      },
+      {
+        "q": "MP3 音频的质量如何？",
+        "a": "我们的转换器以最高可用质量提取音频，最高可达 320kbps。最终质量取决于 Facebook 视频的原始音频质量。我们在转换过程中保留最佳质量。"
+      },
+      {
+        "q": "我可以在手机上将 Facebook 视频转换为 MP3 吗？",
+        "a": "当然可以！我们的 Facebook 到 MP3 转换器在移动设备上完美运行。只需在移动浏览器中打开 Facebook，复制视频链接并将其粘贴到我们的转换器中。适用于 iPhone 和 Android。"
+      },
+      {
+        "q": "我需要安装软件吗？",
+        "a": "无需安装！我们的转换器直接在您的网络浏览器中运行，适用于任何设备。无需下载、扩展程序或应用程序。只需访问我们的网站并开始转换。"
+      },
+      {
+        "q": "转换需要多长时间？",
+        "a": "转换通常是即时的！大多数视频在 5-10 秒内处理完毕，MP3 音频准备好下载，具体取决于视频长度和您的互联网速度。"
+      },
+      {
+        "q": "我可以将 Facebook Reels 转换为 MP3 吗？",
+        "a": "可以！我们的工具支持将 Facebook Reels 转换为 MP3。只需复制 Reel URL 并将其粘贴到我们的转换器中。非常适合保存病毒式 Reels 中的音乐或音频。"
+      },
+      {
+        "q": "MP3 文件会有水印吗？",
+        "a": "不会，通过我们的转换器下载的所有音频文件都是完全干净的，没有水印或音频品牌标识。您获得的是 Facebook 视频中的原始纯音频。"
+      },
+      {
+        "q": "我可以将私密 Facebook 视频转换为 MP3 吗？",
+        "a": "您只能转换您有权在 Facebook 上查看的视频。如果您可以在 Facebook 上观看，就可以将音频转换为 MP3。对于私密视频，请查看我们的私密视频下载器页面。"
+      },
+      {
+        "q": "为什么选择 MP3 而不是其他音频格式？",
+        "a": "MP3 是支持最广泛的音频格式。它适用于所有设备、音乐播放器和平台。它以小文件大小提供出色的音频质量，使其非常适合存储和共享。"
+      },
+      {
+        "q": "我可以转换长 Facebook 视频为 MP3 吗？",
+        "a": "可以，我们的工具支持任何长度的视频。无论是短片段还是长视频，您都可以转换为 MP3。处理时间可能因视频长度而异。"
+      },
+      {
+        "q": "MP3 音频可以在我的 iPhone 上使用吗？",
+        "a": "可以！MP3 文件在 iPhone 上完美运行。您可以在音乐应用中播放它们，将它们保存到 iCloud，或使用任何第三方音乐播放器。MP3 与 iOS 完全兼容。"
+      },
+      {
+        "q": "我可以商业使用下载的 MP3 音频吗？",
+        "a": "始终尊重版权和内容创作者的权利。为个人使用下载音频通常是可以接受的，但未经原创作者许可，切勿重新分发或商业使用下载的内容。"
+      },
+      {
+        "q": "我可以将哪些类型的 Facebook 内容转换为 MP3？",
+        "a": "您可以将常规 Facebook 视频、Reels、直播视频（结束后）和 Facebook Watch 视频转换为 MP3。我们的工具从任何类型的 Facebook 视频内容中提取音频。"
+      },
+      {
+        "q": "使用这个 Facebook 到 MP3 转换器安全吗？",
+        "a": "是的，我们的转换器 100% 安全。我们不存储您的文件、跟踪您的下载或收集个人信息。您的隐私受到保护。所有下载都以安全和匿名的方式处理。"
+      }
+    ]
+  },
+  "reelsFaq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "q": "如何下载 Facebook Reels？",
+        "a": "使用我们的 Facebook Reels 下载工具很简单：1) 复制 Facebook Reel 的 URL，2) 粘贴到我们的下载器中，3) 点击下载。我们的服务适用于所有公开的 Reels。"
+      },
+      {
+        "q": "我可以在手机上下载 FB Reels 吗？",
+        "a": "可以！我们的 Facebook Reels 下载工具在移动浏览器上完美运行。无需应用程序 - 只需直接在手机上使用我们的基于网络的下载器。适用于 iPhone 和 Android。"
+      },
+      {
+        "q": "这个 Facebook Reels 下载器免费吗？",
+        "a": "完全免费！我们的 Facebook Reels 下载器没有隐藏费用。随心所欲地下载任意数量的 Reels，无需付费。"
+      },
+      {
+        "q": "我可以以什么质量下载 FB Reels？",
+        "a": "您可以以最高可用质量下载 Facebook Reels，最高可达 1080p 高清。我们的下载器保留原始视频质量。"
+      },
+      {
+        "q": "下载的 Reels 会有水印吗？",
+        "a": "不会！我们的 Facebook Reels 无水印下载功能确保干净的下载。您获得的是原始 Reel，没有添加标志或品牌标识。"
+      },
+      {
+        "q": "如何找到 Reel 的 URL？",
+        "a": "在 Facebook 上打开 Reel，右键点击（或点击分享）并复制链接。然后粘贴到我们的 Facebook Reels 下载器中开始下载。"
+      },
+      {
+        "q": "我可以下载私密 Facebook Reels 吗？",
+        "a": "您只能下载您有权查看的 Reels。如果您可以在 Facebook 上观看，就可以下载。对于私密内容，请查看我们的私密视频下载器页面。"
+      },
+      {
+        "q": "我需要应用程序来下载 FB Reels 吗？",
+        "a": "不需要！我们的基于网络的 Facebook Reels 下载器直接在您的浏览器中运行。只需访问我们的网站即可即时下载 Reels。"
+      },
+      {
+        "q": "使用这个下载器安全吗？",
+        "a": "完全安全！我们的 FB Reels 下载器不存储您的凭据或个人数据。我们对所有下载使用安全的加密连接。"
+      },
+      {
+        "q": "我可以下载多个 Reels 吗？",
+        "a": "可以！重复使用我们的 Facebook Reels 下载器下载多个视频。您每天可以下载的 Reels 数量没有限制。"
+      },
+      {
+        "q": "我可以以高清质量下载 Reels 吗？",
+        "a": "可以！我们的 Facebook Reels 下载器保留完整的高清质量。以最高可用分辨率下载 Reels。"
+      },
+      {
+        "q": "下载速度有多快？",
+        "a": "非常快！我们的 Facebook Reels 下载服务通常在 10-30 秒内完成，具体取决于视频长度和您的互联网速度。"
+      },
+      {
+        "q": "我需要安装任何软件吗？",
+        "a": "无需安装！我们的基于网络的 Facebook Reels 下载器完全在您的浏览器中运行。不需要扩展程序、插件或应用程序。"
+      },
+      {
+        "q": "我可以在 iPhone 上下载 Reels 吗？",
+        "a": "可以！我们的 Facebook Reels 下载器适用于 iPhone Safari。无需任何应用程序即可将 Reels 直接下载到您的设备。"
+      },
+      {
+        "q": "下载的 Reels 是什么格式？",
+        "a": "下载的 Reels 为 MP4 格式，与所有设备兼容。我们的服务提供通用 MP4 文件。"
+      }
+    ]
+  },
+  "privateFaq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "q": "如何下载私密 Facebook 视频？",
+        "a": "使用我们的 Facebook 私密视频下载器很简单：1) 确保您可以在 Facebook 上查看视频，2) 复制视频 URL，3) 粘贴到我们的下载器中，4) 点击下载。适用于您有权访问的所有私密内容。"
+      },
+      {
+        "q": "我可以下载私密 Facebook 视频吗？",
+        "a": "可以！如果您有查看权限，就可以下载私密 Facebook 视频。我们的工具尊重隐私设置，仅适用于您被授权查看的内容。"
+      },
+      {
+        "q": "我需要登录 Facebook 吗？",
+        "a": "是的，您必须登录 Facebook 才能下载私密内容。我们的下载器需要您的查看权限才能访问私密内容。"
+      },
+      {
+        "q": "视频所有者会知道我下载了吗？",
+        "a": "不会！我们的下载器提供完全匿名的下载。当您下载私密视频时，视频所有者不会收到通知。"
+      },
+      {
+        "q": "我可以下载私密群组的视频吗？",
+        "a": "可以！如果您是私密群组的成员，就可以下载私密视频内容。我们的下载器适用于您可以查看的所有私密群组视频。"
+      },
+      {
+        "q": "它适用于手机吗？",
+        "a": "可以！您可以在 iPhone 和 Android 上的手机上下载私密 Facebook 视频。我们的下载器直接在您的移动浏览器中运行，无需任何应用程序。"
+      },
+      {
+        "q": "这个私密视频下载器免费吗？",
+        "a": "完全免费！我们的下载器没有隐藏费用。随心所欲地下载任意数量的私密 Facebook 内容，无需付费。"
+      },
+      {
+        "q": "我可以下载私密 Facebook Reels 吗？",
+        "a": "可以！我们的工具支持下载私密 Reels。如果您可以查看私密 Reel，就可以使用我们的下载器下载它。"
+      },
+      {
+        "q": "下载的视频会有水印吗？",
+        "a": "没有水印！我们的功能确保干净的下载。您获得的是原始视频，与 Facebook 上显示的完全一样。"
+      },
+      {
+        "q": "私密视频以什么质量下载？",
+        "a": "我们的下载器保留原始高清质量。当您下载私密内容时，您获得的质量与 Facebook 上相同 - 最高可达 1080p。"
+      },
+      {
+        "q": "我可以在没有应用程序的情况下下载私密视频吗？",
+        "a": "可以！不需要应用程序。我们的基于网络的下载器直接在您的浏览器中运行。只需访问我们的网站即可即时下载。"
+      },
+      {
+        "q": "使用这个下载器安全吗？",
+        "a": "完全安全！我们的下载器不存储您的凭据或个人数据。我们对所有下载使用安全的加密连接。"
+      },
+      {
+        "q": "下载速度有多快？",
+        "a": "非常快！我们的服务通常在 10-30 秒内完成，具体取决于视频长度和您的互联网速度。"
+      },
+      {
+        "q": "我需要安装任何软件吗？",
+        "a": "无需安装！我们的基于网络的下载器完全在您的浏览器中运行。不需要扩展程序、插件或应用程序。"
+      },
+      {
+        "q": "下载的视频是什么格式？",
+        "a": "下载的私密视频为 MP4 格式，与所有设备兼容。我们提供通用 MP4 文件。"
+      }
+    ]
   }
 }
