@@ -198,7 +198,18 @@
     "feature4Desc": "Download private videos completely anonymously. The video owner won't be notified when you download private content.",
     "feature4Point1": "Completely anonymous download",
     "feature4Point2": "No owner notification",
-    "feature4Point3": "Your privacy protected"
+    "feature4Point3": "Your privacy protected",
+    "feature1Point3Alt": "Save restricted content you can view",
+    "feature2DescAlt": "Preserve the original quality of private videos. Download in full HD with crisp visuals and clear audio—no compression, no quality loss.",
+    "feature2Point2Alt": "Maintains source video quality",
+    "feature3DescAlt": "Your login credentials and personal data are never stored or shared. We use secure connections to protect your privacy while downloading private content.",
+    "feature3Point1Alt": "End-to-end encrypted connections",
+    "feature3Point2Alt": "No data storage or tracking",
+    "feature3Point3Alt": "Your credentials stay with Facebook",
+    "feature4DescAlt": "Download privately without leaving traces. The video owner won't be notified, and your download activity remains completely anonymous.",
+    "feature4Point1Alt": "No download notifications sent",
+    "feature4Point2Alt": "Owner won't know you downloaded",
+    "feature4Point3Alt": "Completely discreet downloading"
   },
   "footer": {
     "copyright": "© 2024 DLFB.io. All rights reserved.",

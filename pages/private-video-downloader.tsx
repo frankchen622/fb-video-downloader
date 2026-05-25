@@ -152,7 +152,7 @@ export default function PrivateVideoDownloader() {
               )}
 
               <p className="mt-5 text-xs text-gray-500 text-center">
-                Requires viewing permission • Respects privacy settings
+                {t('private.subtitle')}
               </p>
             </div>
           </div>
@@ -218,7 +218,7 @@ export default function PrivateVideoDownloader() {
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Save restricted content you can view</span>
+                    <span className="text-gray-700">{t('private.feature1Point3Alt')}</span>
                   </li>
                 </ul>
               </div>
@@ -229,7 +229,7 @@ export default function PrivateVideoDownloader() {
               <div>
                 <h3 className="text-3xl font-bold mb-4">{t('private.feature2Title')}</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Preserve the original quality of private videos. Download in full HD with crisp visuals and clear audio—no compression, no quality loss.
+                  {t('private.feature2DescAlt')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
@@ -248,7 +248,7 @@ export default function PrivateVideoDownloader() {
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Maintains source video quality</span>
+                    <span className="text-gray-700">{t('private.feature2Point2Alt')}</span>
                   </li>
                 </ul>
               </div>
@@ -285,26 +285,26 @@ export default function PrivateVideoDownloader() {
               <div className="order-1 md:order-2">
                 <h3 className="text-3xl font-bold mb-4">{t('private.feature3Title')}</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Your login credentials and personal data are never stored or shared. We use secure connections to protect your privacy while downloading private content.
+                  {t('private.feature3DescAlt')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">End-to-end encrypted connections</span>
+                    <span className="text-gray-700">{t('private.feature3Point1Alt')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No data storage or tracking</span>
+                    <span className="text-gray-700">{t('private.feature3Point2Alt')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Your credentials stay with Facebook</span>
+                    <span className="text-gray-700">{t('private.feature3Point3Alt')}</span>
                   </li>
                 </ul>
               </div>
@@ -315,26 +315,26 @@ export default function PrivateVideoDownloader() {
               <div>
                 <h3 className="text-3xl font-bold mb-4">{t('private.feature4Title')}</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Download privately without leaving traces. The video owner won't be notified, and your download activity remains completely anonymous.
+                  {t('private.feature4DescAlt')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No download notifications sent</span>
+                    <span className="text-gray-700">{t('private.feature4Point1Alt')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Owner won't know you downloaded</span>
+                    <span className="text-gray-700">{t('private.feature4Point2Alt')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Completely discreet downloading</span>
+                    <span className="text-gray-700">{t('private.feature4Point3Alt')}</span>
                   </li>
                 </ul>
               </div>
