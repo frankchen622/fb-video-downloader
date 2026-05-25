@@ -217,39 +217,39 @@ export default function Home() {
               {[
                 { 
                   icon: '🎬', 
-                  title: 'HD Video Downloader', 
-                  desc: 'Download Facebook videos in HD quality with just one click. Save videos in MP4 format for offline viewing anytime, anywhere. Supports all video formats and resolutions up to 1080p.'
+                  titleKey: 'home.feature1Title', 
+                  descKey: 'home.feature1Desc'
                 },
                 { 
                   icon: '🎵', 
-                  title: 'Audio Extractor', 
-                  desc: 'Extract high-quality audio from any Facebook video. Perfect for saving music, podcasts, or interviews in MP3 format (up to 320kbps) for offline listening.'
+                  titleKey: 'home.feature2Title', 
+                  descKey: 'home.feature2Desc'
                 },
                 { 
                   icon: '📱', 
-                  title: 'Reels & Stories', 
-                  desc: 'Download Facebook Reels and Stories before they disappear. Save entertaining short-form content, tutorials, or viral reels in full quality to watch offline or share with friends.'
+                  titleKey: 'home.feature3Title', 
+                  descKey: 'home.feature3Desc'
                 },
                 { 
                   icon: '⚡', 
-                  title: 'Lightning Fast', 
-                  desc: 'Download videos in seconds with our optimized servers. No waiting, no delays - just instant downloads at maximum speed.'
+                  titleKey: 'home.feature4Title', 
+                  descKey: 'home.feature4Desc'
                 },
                 { 
                   icon: '🚫', 
-                  title: 'No Watermarks', 
-                  desc: 'Clean downloads without any watermarks, logos, or branding. Get pure, original content exactly as it appears on Facebook.'
+                  titleKey: 'home.feature5Title', 
+                  descKey: 'home.feature5Desc'
                 },
                 { 
                   icon: '🔒', 
-                  title: 'Safe & Private', 
-                  desc: 'Your privacy is protected. We don\'t store your data, track your activity, or require any personal information. 100% secure and anonymous.'
+                  titleKey: 'home.feature6Title', 
+                  descKey: 'home.feature6Desc'
                 }
               ].map((feature, i) => (
                 <div key={i} className="p-6 rounded-xl bg-white shadow-md hover:shadow-xl transition text-center">
                   <div className="text-4xl mb-4">{feature.icon}</div>
-                  <h4 className="text-xl font-bold mb-3">{feature.title}</h4>
-                  <p className="text-gray-600 leading-relaxed">{feature.desc}</p>
+                  <h4 className="text-xl font-bold mb-3">{t(feature.titleKey)}</h4>
+                  <p className="text-gray-600 leading-relaxed">{t(feature.descKey)}</p>
                 </div>
               ))}
             </div>
@@ -263,20 +263,20 @@ export default function Home() {
               Downloading Facebook Videos Has Never Been Easier
             </h3>
             <p className="text-xl text-gray-600 text-center mb-12">
-              Follow these three simple steps to save any Facebook video, reel, or photo to your device in seconds. No registration, no software installation required.
+              {t('home.stepsSubtitle')}
             </p>
             <div className="grid md:grid-cols-3 gap-8">
               {[
-                { step: '01', title: 'Copy Link', desc: 'Open Facebook and copy the video URL from the address bar or share menu' },
-                { step: '02', title: 'Paste URL', desc: 'Return here and paste the link into the input field above' },
-                { step: '03', title: 'Download', desc: 'Click the download button and save your video in HD quality' }
+                { step: '01', titleKey: 'home.step1Title', descKey: 'home.step1Desc' },
+                { step: '02', titleKey: 'home.step2Title', descKey: 'home.step2Desc' },
+                { step: '03', titleKey: 'home.step3Title', descKey: 'home.step3Desc' }
               ].map((item, i) => (
                 <div key={i} className="text-center">
                   <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 flex items-center justify-center text-white text-2xl font-bold">
                     {item.step}
                   </div>
-                  <h4 className="text-xl font-bold mb-2">{item.title}</h4>
-                  <p className="text-gray-600">{item.desc}</p>
+                  <h4 className="text-xl font-bold mb-2">{t(item.titleKey)}</h4>
+                  <p className="text-gray-600">{t(item.descKey)}</p>
                 </div>
               ))}
             </div>
@@ -302,28 +302,28 @@ export default function Home() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-3xl font-bold mb-4">Video Downloader</h3>
+                <h3 className="text-3xl font-bold mb-4">{t('home.videoDownloaderTitle')}</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Download Facebook videos in HD quality with just one click. DLFB.io supports all video formats and resolutions, allowing you to save Facebook videos to your device in MP4 format for offline viewing anytime, anywhere.
+                  {t('home.videoDownloaderDesc')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">HD quality up to 1080p</span>
+                    <span className="text-gray-700">{t('home.videoDownloaderFeature1')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No watermarks or logos</span>
+                    <span className="text-gray-700">{t('home.videoDownloaderFeature2')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Works on all devices</span>
+                    <span className="text-gray-700">{t('home.videoDownloaderFeature3')}</span>
                   </li>
                 </ul>
               </div>
@@ -332,28 +332,28 @@ export default function Home() {
             {/* Reels Downloader */}
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div>
-                <h3 className="text-3xl font-bold mb-4">Reels Downloader</h3>
+                <h3 className="text-3xl font-bold mb-4">{t('home.reelsDownloaderTitle')}</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Download Facebook Reels videos in high definition. Perfect for saving entertaining short-form content, tutorials, or viral reels to watch offline or share with friends.
+                  {t('home.reelsDownloaderDesc')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Save Reels before they disappear</span>
+                    <span className="text-gray-700">{t('home.reelsDownloaderFeature1')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Full quality downloads</span>
+                    <span className="text-gray-700">{t('home.reelsDownloaderFeature2')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Fast and easy to use</span>
+                    <span className="text-gray-700">{t('home.reelsDownloaderFeature3')}</span>
                   </li>
                 </ul>
               </div>
@@ -388,28 +388,28 @@ export default function Home() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-3xl font-bold mb-4">Stories Downloader</h3>
+                <h3 className="text-3xl font-bold mb-4">{t('home.storiesDownloaderTitle')}</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Capture and save Facebook Stories before they disappear. Download stories from any public Facebook account in full quality, preserving memorable moments that would otherwise be lost after 24 hours.
+                  {t('home.storiesDownloaderDesc')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Save stories permanently</span>
+                    <span className="text-gray-700">{t('home.storiesDownloaderFeature1')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Download before 24h expiration</span>
+                    <span className="text-gray-700">{t('home.storiesDownloaderFeature2')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Original quality preserved</span>
+                    <span className="text-gray-700">{t('home.storiesDownloaderFeature3')}</span>
                   </li>
                 </ul>
               </div>
