@@ -76,7 +76,29 @@
     "button": "🎵 Converter para MP3",
     "extracting": "⏳ Extraindo...",
     "enterUrl": "Por favor, insira um URL de vídeo do Facebook",
-    "footer": "Áudio de alta qualidade até 320kbps • Conversão rápida • Sem software necessário"
+    "footer": "Áudio de alta qualidade até 320kbps • Conversão rápida • Sem software necessário",
+    "howToTitle": "Como Converter Facebook para MP3",
+    "step1Title": "Copiar URL",
+    "step1Desc": "Copie o link do vídeo do Facebook",
+    "step2Title": "Colar",
+    "step2Desc": "Cole no conversor",
+    "step3Title": "Baixar MP3",
+    "step3Desc": "Clique em converter e salve o áudio",
+    "feature1Title": "Extração de Áudio de Alta Qualidade",
+    "feature1Desc": "Extraia áudio de alta qualidade de qualquer vídeo do Facebook. Nosso conversor de Facebook para MP3 preserva a qualidade de áudio original até 320kbps, perfeito para música, podcasts e entrevistas.",
+    "feature1Point1": "Até 320kbps de qualidade de áudio",
+    "feature1Point2": "Sem perda de qualidade durante a conversão",
+    "feature1Point3": "Formato MP3 universal",
+    "feature2Title": "Rápido e Fácil",
+    "feature2Desc": "Converta vídeos do Facebook para MP3 em segundos. Basta colar a URL, clicar em converter e baixar seu arquivo de áudio. Sem registro, sem instalação de software, sem complicações.",
+    "feature2Point1": "Conversão instantânea",
+    "feature2Point2": "Sem registro necessário",
+    "feature2Point3": "Funciona em todos os dispositivos",
+    "feature3Title": "Compatibilidade Universal",
+    "feature3Desc": "Arquivos MP3 funcionam em todos os dispositivos e reprodutores de música. Reproduza em seu telefone, computador, carro ou qualquer reprodutor de MP3. Compatível com iPhone, Android, Windows, Mac e mais.",
+    "feature3Point1": "Funciona em todos os dispositivos",
+    "feature3Point2": "Compatível com todos os reprodutores",
+    "feature3Point3": "Tamanho de arquivo pequeno"
   },
   "mp4": {
     "title": "Facebook para MP4",
@@ -112,7 +134,34 @@
     "button": "🎬 Baixar Reel",
     "downloading": "⏳ Baixando...",
     "enterUrl": "Por favor, insira um URL de Reel do Facebook",
-    "footer": "Qualidade HD • Sem marca d'água • Salve conteúdo viral"
+    "footer": "Qualidade HD • Sem marca d'água • Salve conteúdo viral",
+    "howToTitle": "Como Baixar Reels do Facebook",
+    "step1Title": "Copiar Link",
+    "step1Desc": "Copie a URL do Reel do Facebook",
+    "step2Title": "Colar URL",
+    "step2Desc": "Cole no baixador acima",
+    "step3Title": "Baixar",
+    "step3Desc": "Clique em baixar e salve",
+    "feature1Title": "Salvar Reels Virais",
+    "feature1Desc": "Baixe Reels do Facebook em tendência para assistir offline. Salve conteúdo de formato curto e divertido, tutoriais ou reels virais antes que desapareçam. Perfeito para criadores de conteúdo e entusiastas de mídia social.",
+    "feature1Point1": "Baixe qualquer Reel público do Facebook",
+    "feature1Point2": "Salve antes que desapareçam",
+    "feature1Point3": "Construa sua coleção pessoal offline",
+    "feature2Title": "Sem Marca d'Água",
+    "feature2Desc": "Obtenha downloads limpos e sem marca d'água toda vez. Não adicionamos logos ou branding—apenas o Reel original exatamente como aparece no Facebook.",
+    "feature2Point1": "Downloads puros e sem marca",
+    "feature2Point2": "Sem logos ou branding adicionados",
+    "feature2Point3": "Vídeo original preservado",
+    "feature3Title": "Download de Alta Qualidade",
+    "feature3Desc": "Baixe Reels do Facebook na mais alta qualidade disponível. Preservamos a qualidade de vídeo original até 1080p, garantindo que seus Reels salvos pareçam tão bons quanto no Facebook.",
+    "feature3Point1": "Até resolução HD 1080p",
+    "feature3Point2": "Sem perda de qualidade",
+    "feature3Point3": "Qualidade de áudio original preservada",
+    "feature4Title": "Fácil de Usar",
+    "feature4Desc": "Três passos simples: copiar, colar, baixar. Sem registro, sem instalação de aplicativo, sem configurações complicadas. Funciona instantaneamente no seu navegador.",
+    "feature4Point1": "Sem registro necessário",
+    "feature4Point2": "Funciona em todos os dispositivos",
+    "feature4Point3": "Downloads instantâneos"
   },
   "private": {
     "title": "Baixador de Vídeos Privados",
@@ -121,7 +170,34 @@
     "button": "🔒 Baixar Vídeo",
     "downloading": "⏳ Baixando...",
     "enterUrl": "Por favor, insira um URL de vídeo do Facebook",
-    "footer": "Requer permissão de visualização • Respeita configurações de privacidade"
+    "footer": "Requer permissão de visualização • Respeita configurações de privacidade",
+    "howToTitle": "Como Baixar Vídeos Privados",
+    "step1Title": "Copiar Link",
+    "step1Desc": "Copie a URL do vídeo do Facebook",
+    "step2Title": "Colar URL",
+    "step2Desc": "Cole no baixador acima",
+    "step3Title": "Baixar",
+    "step3Desc": "Clique em baixar e salve seu vídeo",
+    "feature1Title": "Download de Vídeos Privados do Facebook",
+    "feature1Desc": "Baixe vídeos de grupos privados do Facebook, postagens apenas para amigos e conteúdo restrito ao qual você tem permissão de acesso. Salve memórias e conteúdo importante com segurança.",
+    "feature1Point1": "Acesse vídeos de grupos privados",
+    "feature1Point2": "Baixe postagens apenas para amigos",
+    "feature1Point3": "Salve conteúdo restrito com segurança",
+    "feature2Title": "Alta Qualidade",
+    "feature2Desc": "Baixe vídeos privados do Facebook em qualidade HD completa. Preservamos a qualidade original até 1080p sem compressão ou perda de qualidade.",
+    "feature2Point1": "Até resolução HD 1080p",
+    "feature2Point2": "Sem perda de qualidade",
+    "feature2Point3": "Qualidade de áudio original preservada",
+    "feature3Title": "Seguro e Privado",
+    "feature3Desc": "Sua privacidade é nossa prioridade. Não armazenamos suas credenciais, histórico de downloads ou informações pessoais. Todos os downloads são processados com segurança.",
+    "feature3Point1": "Sem armazenamento de credenciais",
+    "feature3Point2": "Conexões criptografadas",
+    "feature3Point3": "Sem rastreamento ou registro",
+    "feature4Title": "Download Anônimo",
+    "feature4Desc": "Baixe vídeos privados de forma completamente anônima. O proprietário do vídeo não será notificado quando você baixar conteúdo privado.",
+    "feature4Point1": "Download completamente anônimo",
+    "feature4Point2": "Sem notificação ao proprietário",
+    "feature4Point3": "Sua privacidade protegida"
   },
   "footer": {
     "copyright": "© 2024 DLFB.io. Todos os direitos reservados.",
@@ -242,6 +318,201 @@
       {
         "q": "Por que MP4 é melhor que outros formatos?",
         "a": "MP4 oferece o melhor equilíbrio entre qualidade e tamanho de arquivo. É universalmente compatível, reproduz em todos os dispositivos, suporta altas resoluções e é aceito por todas as plataformas de mídia social. É o padrão da indústria para vídeo."
+      }
+    ]
+  },
+  "mp3Faq": {
+    "title": "Perguntas Frequentes",
+    "items": [
+      {
+        "q": "Como converter vídeo do Facebook para MP3?",
+        "a": "Simplesmente copie a URL do vídeo do Facebook, cole em nosso conversor acima e clique em \"Converter para MP3\". O áudio será extraído e pronto para download em segundos. Sem registro ou instalação de software necessária."
+      },
+      {
+        "q": "Este conversor de Facebook para MP3 é grátis?",
+        "a": "Sim, nosso conversor de Facebook para MP3 é 100% grátis com conversões ilimitadas. Sem taxas ocultas, sem assinaturas, sem registro necessário. Converta quantos vídeos quiser para MP3."
+      },
+      {
+        "q": "Qual é a qualidade do áudio MP3?",
+        "a": "Nosso conversor extrai áudio na mais alta qualidade disponível, até 320kbps. A qualidade final depende da qualidade de áudio original do vídeo do Facebook. Preservamos a melhor qualidade possível durante a conversão."
+      },
+      {
+        "q": "Posso converter vídeos do Facebook para MP3 no celular?",
+        "a": "Absolutamente! Nosso conversor de Facebook para MP3 funciona perfeitamente em dispositivos móveis. Basta abrir o Facebook no seu navegador móvel, copiar o link do vídeo e colá-lo em nosso conversor. Funciona em iPhone e Android."
+      },
+      {
+        "q": "Preciso instalar software?",
+        "a": "Nenhuma instalação necessária! Nosso conversor funciona diretamente no seu navegador web em qualquer dispositivo. Sem downloads, sem extensões, sem aplicativos. Basta visitar nosso site e começar a converter."
+      },
+      {
+        "q": "Quanto tempo leva a conversão?",
+        "a": "A conversão geralmente é instantânea! A maioria dos vídeos é processada e o áudio MP3 está pronto para download em 5-10 segundos, dependendo do comprimento do vídeo e da sua velocidade de internet."
+      },
+      {
+        "q": "Posso converter Reels do Facebook para MP3?",
+        "a": "Sim! Nossa ferramenta suporta a conversão de Reels do Facebook para MP3. Basta copiar a URL do Reel e colá-la em nosso conversor. Perfeito para salvar música ou áudio de Reels virais."
+      },
+      {
+        "q": "O arquivo MP3 terá marca d'água?",
+        "a": "Não, todos os arquivos de áudio baixados através do nosso conversor são completamente limpos sem marcas d'água ou branding de áudio. Você obtém o áudio original puro do vídeo do Facebook."
+      },
+      {
+        "q": "Posso converter vídeos privados do Facebook para MP3?",
+        "a": "Você só pode converter vídeos que tem permissão para visualizar no Facebook. Se você pode assistir no Facebook, pode converter o áudio para MP3. Para vídeos privados, confira nossa página de Baixador de Vídeos Privados."
+      },
+      {
+        "q": "Por que escolher MP3 em vez de outros formatos de áudio?",
+        "a": "MP3 é o formato de áudio mais amplamente suportado. Funciona em todos os dispositivos, reprodutores de música e plataformas. Oferece excelente qualidade de áudio com tamanhos de arquivo pequenos, tornando-o perfeito para armazenamento e compartilhamento."
+      },
+      {
+        "q": "Posso converter vídeos longos do Facebook para MP3?",
+        "a": "Sim, nossa ferramenta suporta vídeos de qualquer duração. Seja um clipe curto ou um vídeo longo, você pode converter para MP3. O tempo de processamento pode variar com base no comprimento do vídeo."
+      },
+      {
+        "q": "O áudio MP3 funcionará no meu iPhone?",
+        "a": "Sim! Arquivos MP3 funcionam perfeitamente no iPhone. Você pode reproduzi-los no aplicativo Música, salvá-los no iCloud ou usar qualquer reprodutor de música de terceiros. MP3 é totalmente compatível com iOS."
+      },
+      {
+        "q": "Posso usar o áudio MP3 baixado comercialmente?",
+        "a": "Sempre respeite os direitos autorais e os direitos dos criadores de conteúdo. Baixar áudio para uso pessoal é geralmente aceitável, mas nunca redistribua ou use conteúdo baixado comercialmente sem permissão do criador original."
+      },
+      {
+        "q": "Que tipos de conteúdo do Facebook posso converter para MP3?",
+        "a": "Você pode converter vídeos regulares do Facebook, Reels, vídeos ao vivo (após terminarem) e vídeos do Facebook Watch para MP3. Nossa ferramenta extrai áudio de qualquer tipo de conteúdo de vídeo do Facebook."
+      },
+      {
+        "q": "É seguro usar este conversor de Facebook para MP3?",
+        "a": "Sim, nosso conversor é 100% seguro. Não armazenamos seus arquivos, rastreamos seus downloads ou coletamos informações pessoais. Sua privacidade está protegida. Todos os downloads são processados de forma segura e anônima."
+      }
+    ]
+  },
+  "reelsFaq": {
+    "title": "Perguntas Frequentes",
+    "items": [
+      {
+        "q": "Como baixar Reels do Facebook?",
+        "a": "Usar nossa ferramenta de download de Reels do Facebook é simples: 1) Copie a URL do Reel do Facebook, 2) Cole em nosso baixador, 3) Clique em baixar. Nosso serviço funciona com todos os Reels públicos."
+      },
+      {
+        "q": "Posso baixar Reels do FB no celular?",
+        "a": "Sim! Nossa ferramenta de download de Reels do Facebook funciona perfeitamente em navegadores móveis. Sem necessidade de aplicativo - basta usar nosso baixador baseado na web diretamente no seu telefone. Funciona em iPhone e Android."
+      },
+      {
+        "q": "Este baixador de Reels do Facebook é grátis?",
+        "a": "Completamente grátis! Nosso baixador de Reels do Facebook não tem custos ocultos. Baixe quantos Reels quiser sem pagar."
+      },
+      {
+        "q": "Em que qualidade posso baixar Reels do FB?",
+        "a": "Você pode baixar Reels do Facebook na mais alta qualidade disponível, até 1080p HD. Nosso baixador preserva a qualidade de vídeo original."
+      },
+      {
+        "q": "Os Reels baixados terão marca d'água?",
+        "a": "Não! Nosso recurso de download de Reels do Facebook sem marca d'água garante downloads limpos. Você obtém o Reel original sem logos ou branding adicionados."
+      },
+      {
+        "q": "Como encontrar a URL do Reel?",
+        "a": "Abra o Reel no Facebook, clique com o botão direito (ou toque em compartilhar) e copie o link. Em seguida, cole em nosso baixador de Reels do Facebook para começar a baixar."
+      },
+      {
+        "q": "Posso baixar Reels privados do Facebook?",
+        "a": "Você só pode baixar Reels que tem permissão para visualizar. Se você pode assistir no Facebook, pode baixar. Para conteúdo privado, confira nossa página de Baixador de Vídeos Privados."
+      },
+      {
+        "q": "Preciso de um aplicativo para baixar Reels do FB?",
+        "a": "Não! Nosso baixador de Reels do Facebook baseado na web funciona diretamente no seu navegador. Basta visitar nosso site para download instantâneo de Reels."
+      },
+      {
+        "q": "É seguro usar este baixador?",
+        "a": "Completamente seguro! Nosso baixador de Reels do FB não armazena suas credenciais ou dados pessoais. Usamos conexões criptografadas seguras para todos os downloads."
+      },
+      {
+        "q": "Posso baixar múltiplos Reels?",
+        "a": "Sim! Use nosso baixador de Reels do Facebook repetidamente para múltiplos vídeos. Não há limites diários em quantos Reels você pode baixar."
+      },
+      {
+        "q": "Posso baixar Reels em HD?",
+        "a": "Sim! Nosso baixador de Reels do Facebook preserva a qualidade HD completa. Baixe Reels na mais alta resolução disponível."
+      },
+      {
+        "q": "Quão rápido é o download?",
+        "a": "Muito rápido! Nosso serviço de download de Reels do Facebook geralmente completa em 10-30 segundos, dependendo do comprimento do vídeo e da sua velocidade de internet."
+      },
+      {
+        "q": "Preciso instalar algum software?",
+        "a": "Nenhuma instalação necessária! Nosso baixador de Reels do Facebook baseado na web funciona inteiramente no seu navegador. Sem extensões, plugins ou aplicativos necessários."
+      },
+      {
+        "q": "Posso baixar Reels no iPhone?",
+        "a": "Sim! Nosso baixador de Reels do Facebook funciona no Safari do iPhone. Baixe Reels diretamente para o seu dispositivo sem nenhum aplicativo."
+      },
+      {
+        "q": "Em que formato são os Reels baixados?",
+        "a": "Os Reels baixados estão em formato MP4, compatível com todos os dispositivos. Nosso serviço fornece arquivos MP4 universais."
+      }
+    ]
+  },
+  "privateFaq": {
+    "title": "Perguntas Frequentes",
+    "items": [
+      {
+        "q": "Como baixar vídeos privados do Facebook?",
+        "a": "Usar nosso baixador de vídeos privados do Facebook é fácil: 1) Certifique-se de poder visualizar o vídeo no Facebook, 2) Copie a URL do vídeo, 3) Cole em nosso baixador, 4) Clique em baixar. Funciona com todo o conteúdo privado ao qual você tem acesso."
+      },
+      {
+        "q": "Posso baixar um vídeo privado do Facebook?",
+        "a": "Sim! Você pode baixar um vídeo privado do Facebook se tiver permissão de visualização. Nossa ferramenta respeita as configurações de privacidade e só funciona com conteúdo que você está autorizado a ver."
+      },
+      {
+        "q": "Preciso estar conectado ao Facebook?",
+        "a": "Sim, você deve estar conectado ao Facebook para baixar conteúdo privado. Nosso baixador requer sua permissão de visualização para acessar conteúdo privado."
+      },
+      {
+        "q": "O proprietário do vídeo saberá que eu baixei?",
+        "a": "Não! Nosso baixador fornece download completamente anônimo. O proprietário do vídeo não será notificado quando você baixar vídeos privados."
+      },
+      {
+        "q": "Posso baixar vídeos de grupos privados?",
+        "a": "Sim! Se você é membro do grupo privado, pode baixar conteúdo de vídeo privado. Nosso baixador funciona com todos os vídeos de grupos privados que você pode visualizar."
+      },
+      {
+        "q": "Funciona em telefones celulares?",
+        "a": "Sim! Você pode baixar vídeos privados do Facebook no celular tanto em iPhone quanto em Android. Nosso baixador funciona diretamente no seu navegador móvel sem nenhum aplicativo."
+      },
+      {
+        "q": "Este baixador de vídeos privados é grátis?",
+        "a": "Completamente grátis! Nosso baixador não tem custos ocultos. Baixe conteúdo privado do Facebook quantas vezes quiser sem pagar."
+      },
+      {
+        "q": "Posso baixar Reels privados do Facebook?",
+        "a": "Sim! Nossa ferramenta suporta download de Reels privados. Se você pode visualizar o Reel privado, pode baixá-lo usando nosso baixador."
+      },
+      {
+        "q": "Haverá marca d'água nos vídeos baixados?",
+        "a": "Sem marcas d'água! Nosso recurso garante downloads limpos. Você obtém o vídeo original exatamente como aparece no Facebook."
+      },
+      {
+        "q": "Em que qualidade são baixados os vídeos privados?",
+        "a": "Nosso baixador preserva a qualidade HD original. Quando você baixa conteúdo privado, obtém a mesma qualidade do Facebook - até 1080p."
+      },
+      {
+        "q": "Posso baixar vídeos privados sem um aplicativo?",
+        "a": "Sim! Nenhum aplicativo necessário. Nosso baixador baseado na web funciona diretamente no seu navegador. Basta visitar nosso site para download instantâneo."
+      },
+      {
+        "q": "É seguro usar este baixador?",
+        "a": "Completamente seguro! Nosso baixador não armazena suas credenciais ou dados pessoais. Usamos conexões criptografadas seguras para todos os downloads."
+      },
+      {
+        "q": "Quão rápido é o download?",
+        "a": "Muito rápido! Nosso serviço geralmente completa em 10-30 segundos, dependendo da duração do vídeo e da sua velocidade de internet."
+      },
+      {
+        "q": "Preciso instalar algum software?",
+        "a": "Nenhuma instalação necessária! Nosso baixador baseado na web funciona completamente no seu navegador. Sem extensões, plugins ou aplicativos necessários."
+      },
+      {
+        "q": "Em que formato são os vídeos baixados?",
+        "a": "Os vídeos privados baixados estão em formato MP4, compatível com todos os dispositivos. Fornecemos arquivos MP4 universais."
       }
     ]
   }
