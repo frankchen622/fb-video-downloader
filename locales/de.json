@@ -1,10 +1,392 @@
 {
-  "common": {"siteName": "DLFB.io", "tagline": "Facebook Video Downloader", "download": "Herunterladen", "paste": "Facebook-Video-URL hier einfügen...", "downloadButton": "Herunterladen", "processing": "Verarbeitung...", "loading": "Laden...", "error": "Fehler", "success": "Erfolg", "enterUrl": "Bitte geben Sie eine Facebook-Video-URL ein", "noRegistration": "Keine Registrierung erforderlich", "unlimitedDownloads": "Unbegrenzte Downloads", "allDevices": "Kompatibel mit allen Geräten", "chooseQuality": "Qualität zum Herunterladen wählen:"},
-  "nav": {"home": "Startseite", "reelsDownloader": "Reels Downloader", "privateVideo": "Privates Video", "toMP3": "FB zu MP3", "toMP4": "FB zu MP4", "contact": "Kontakt", "privacy": "Datenschutzrichtlinie", "terms": "Nutzungsbedingungen"},
-  "home": {"metaTitle": "Facebook Video Downloader - FB Videos in HD Kostenlos Herunterladen | Kein Wasserzeichen", "metaDescription": "Laden Sie Facebook-Videos, Reels und Stories kostenlos in HD-Qualität herunter. Schneller FB-Video-Downloader ohne Wasserzeichen, ohne Werbung. Speichern Sie Facebook-Videos als MP4/MP3. Funktioniert auf allen Geräten.", "h1": "Facebook-Videos Herunterladen", "h1Highlight": "in Sekunden - Völlig Kostenlos", "subtitle": "Speichern Sie jedes Facebook-Video, Reel oder Story auf Ihrem Gerät in nur drei einfachen Schritten. Keine Registrierung, keine Softwareinstallation, keine Wasserzeichen. Laden Sie FB-Videos in HD-Qualität (1080p) als MP4 herunter oder extrahieren Sie Audio als MP3. Funktioniert auf iPhone, Android, Windows und Mac.", "featuresTitle": "Komplettlösung für Facebook-Inhalte", "featuresSubtitle": "Alles, was Sie zum Herunterladen und Konvertieren von Facebook-Videos, Reels, Stories und mehr benötigen", "feature1Title": "HD-Video-Downloads", "feature1Desc": "Laden Sie Facebook-Videos in höchster verfügbarer Qualität herunter, bis zu 1080p Full HD", "feature2Title": "Reels und Stories", "feature2Desc": "Speichern Sie Facebook Reels und Stories, bevor sie verschwinden", "feature3Title": "Audio-Extraktion", "feature3Desc": "Konvertieren Sie Facebook-Videos in MP3-Audiodateien", "feature4Title": "Private Videos", "feature4Desc": "Laden Sie private Facebook-Videos mit entsprechender Berechtigung herunter", "feature5Title": "Kein Wasserzeichen", "feature5Desc": "Saubere Downloads ohne Wasserzeichen oder Branding", "feature6Title": "Alle Geräte", "feature6Desc": "Funktioniert auf iPhone, Android, Windows, Mac und Tablets"},
-  "mp3": {"title": "Facebook zu MP3 Konverter", "subtitle": "Audio aus FB-Videos extrahieren • Hohe Qualität bis 320kbps • Kostenlos & Schnell", "placeholder": "Facebook-Video-URL einfügen...", "button": "🎵 In MP3 konvertieren", "extracting": "⏳ Extrahieren...", "enterUrl": "Bitte geben Sie eine Facebook-Video-URL ein", "footer": "Hochwertige Audio bis 320kbps • Schnelle Konvertierung • Keine Software erforderlich"},
-  "mp4": {"title": "Facebook zu MP4", "subtitle": "FB-Videos in MP4 konvertieren • HD-Qualität • Kostenlos", "placeholder": "Facebook-Video-URL einfügen...", "button": "🎬 In MP4 konvertieren", "converting": "⏳ Konvertieren...", "enterUrl": "Bitte geben Sie eine Facebook-Video-URL ein", "footer": "HD-Qualität • Universelles Format • Funktioniert überall"},
-  "reels": {"title": "Facebook Reels Downloader", "subtitle": "FB Reels in HD herunterladen • Kein Wasserzeichen • Kostenlos", "placeholder": "Facebook Reels URL einfügen...", "button": "🎬 Reel herunterladen", "downloading": "⏳ Herunterladen...", "enterUrl": "Bitte geben Sie eine Facebook Reels URL ein", "footer": "HD-Qualität • Kein Wasserzeichen • Virale Inhalte speichern"},
-  "private": {"title": "Private Video Downloader", "subtitle": "Private FB-Videos herunterladen • Gruppen • Nur-Freunde-Beiträge", "placeholder": "Private Facebook-Video-URL einfügen...", "button": "🔒 Video herunterladen", "downloading": "⏳ Herunterladen...", "enterUrl": "Bitte geben Sie eine Facebook-Video-URL ein", "footer": "Erfordert Anzeigeberechtigung • Respektiert Datenschutzeinstellungen"},
-  "footer": {"copyright": "© 2024 DLFB.io. Alle Rechte vorbehalten.", "disclaimer": "Dieses Tool ist nicht mit Facebook/Meta verbunden."}
+  "common": {
+    "siteName": "DLFB.io",
+    "tagline": "Facebook Video Downloader",
+    "download": "Herunterladen",
+    "paste": "Facebook-Video-URL hier einfügen...",
+    "downloadButton": "Herunterladen",
+    "processing": "Verarbeitung...",
+    "loading": "Laden...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "enterUrl": "Bitte geben Sie eine Facebook-Video-URL ein",
+    "noRegistration": "Keine Registrierung erforderlich",
+    "unlimitedDownloads": "Unbegrenzte Downloads",
+    "allDevices": "Kompatibel mit allen Geräten",
+    "chooseQuality": "Qualität zum Herunterladen wählen:"
+  },
+  "nav": {
+    "home": "Startseite",
+    "reelsDownloader": "Reels Downloader",
+    "privateVideo": "Privates Video",
+    "toMP3": "FB zu MP3",
+    "toMP4": "FB zu MP4",
+    "contact": "Kontakt",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  },
+  "home": {
+    "metaTitle": "Facebook Video Downloader - FB Videos in HD Kostenlos Herunterladen | Kein Wasserzeichen",
+    "metaDescription": "Laden Sie Facebook-Videos, Reels und Stories kostenlos in HD-Qualität herunter. Schneller FB-Video-Downloader ohne Wasserzeichen, ohne Werbung. Speichern Sie Facebook-Videos als MP4/MP3. Funktioniert auf allen Geräten.",
+    "h1": "Facebook-Videos Herunterladen",
+    "h1Highlight": "in Sekunden - Völlig Kostenlos",
+    "subtitle": "Speichern Sie jedes Facebook-Video, Reel oder Story auf Ihrem Gerät in nur drei einfachen Schritten. Keine Registrierung, keine Softwareinstallation, keine Wasserzeichen. Laden Sie FB-Videos in HD-Qualität (1080p) als MP4 herunter oder extrahieren Sie Audio als MP3. Funktioniert auf iPhone, Android, Windows und Mac.",
+    "featuresTitle": "Komplettlösung für Facebook-Inhalte",
+    "featuresSubtitle": "Alles, was Sie zum Herunterladen und Konvertieren von Facebook-Videos, Reels, Stories und mehr benötigen",
+    "feature1Title": "HD-Video-Downloads",
+    "feature1Desc": "Laden Sie Facebook-Videos in höchster verfügbarer Qualität herunter, bis zu 1080p Full HD",
+    "feature2Title": "Reels und Stories",
+    "feature2Desc": "Speichern Sie Facebook Reels und Stories, bevor sie verschwinden",
+    "feature3Title": "Audio-Extraktion",
+    "feature3Desc": "Konvertieren Sie Facebook-Videos in MP3-Audiodateien",
+    "feature4Title": "Private Videos",
+    "feature4Desc": "Laden Sie private Facebook-Videos mit entsprechender Berechtigung herunter",
+    "feature5Title": "Kein Wasserzeichen",
+    "feature5Desc": "Saubere Downloads ohne Wasserzeichen oder Branding",
+    "feature6Title": "Alle Geräte",
+    "feature6Desc": "Funktioniert auf iPhone, Android, Windows, Mac und Tablets",
+    "stepsTitle": "Facebook-Videos Herunterladen War Noch Nie So Einfach",
+    "stepsSubtitle": "Folgen Sie diesen drei einfachen Schritten, um jedes Facebook-Video, Reel oder Foto in Sekunden auf Ihrem Gerät zu speichern. Keine Registrierung, keine Softwareinstallation erforderlich.",
+    "step1Title": "Link Kopieren",
+    "step1Desc": "Öffnen Sie Facebook und kopieren Sie die Video-URL aus der Adressleiste oder dem Teilen-Menü",
+    "step2Title": "URL Einfügen",
+    "step2Desc": "Kehren Sie hierher zurück und fügen Sie den Link in das Eingabefeld oben ein",
+    "step3Title": "Herunterladen",
+    "step3Desc": "Klicken Sie auf die Download-Schaltfläche und speichern Sie Ihr Video in HD-Qualität",
+    "videoDownloaderTitle": "Video-Downloader",
+    "videoDownloaderDesc": "Laden Sie Facebook-Videos in HD-Qualität mit einem Klick herunter. DLFB.io unterstützt alle Videoformate und Auflösungen, sodass Sie Facebook-Videos im MP4-Format auf Ihrem Gerät speichern können, um sie jederzeit und überall offline anzusehen.",
+    "videoDownloaderFeature1": "HD-Qualität bis zu 1080p",
+    "videoDownloaderFeature2": "Ohne Wasserzeichen oder Logo",
+    "videoDownloaderFeature3": "Funktioniert auf allen Geräten",
+    "reelsDownloaderTitle": "Reels-Downloader",
+    "reelsDownloaderDesc": "Laden Sie Facebook Reels-Videos in hoher Auflösung herunter. Perfekt zum Speichern von lustigen Kurzvideos, Tutorials oder viralen Reels zum Offline-Ansehen oder Teilen mit Freunden.",
+    "reelsDownloaderFeature1": "Speichern Sie Reels, bevor sie verschwinden",
+    "reelsDownloaderFeature2": "Download in voller Qualität",
+    "reelsDownloaderFeature3": "Schnell und einfach zu bedienen",
+    "storiesDownloaderTitle": "Stories-Downloader",
+    "storiesDownloaderDesc": "Erfassen und speichern Sie Facebook Stories, bevor sie verschwinden. Laden Sie Stories von jedem öffentlichen Facebook-Konto in voller Qualität herunter und bewahren Sie unvergessliche Momente, die sonst nach 24 Stunden verloren wären.",
+    "storiesDownloaderFeature1": "Speichern Sie Stories dauerhaft",
+    "storiesDownloaderFeature2": "Herunterladen vor Ablauf der 24 Stunden",
+    "storiesDownloaderFeature3": "Original-Qualität erhalten"
+  },
+  "mp3": {
+    "title": "Facebook zu MP3",
+    "subtitle": "FB-Videos zu MP3 konvertieren • Hohe Qualität • Kostenlos",
+    "placeholder": "Facebook-Video-URL einfügen...",
+    "button": "🎵 Zu MP3 konvertieren",
+    "extracting": "⏳ Extrahieren...",
+    "enterUrl": "Bitte geben Sie eine Facebook-Video-URL ein",
+    "footer": "Hohe Audioqualität • Universelles Format • Funktioniert überall",
+    "converting": "⏳ Konvertierung läuft...",
+    "howToTitle": "So Konvertieren Sie Facebook zu MP3",
+    "step1Title": "URL Kopieren",
+    "step1Desc": "Kopieren Sie den Facebook-Video-Link",
+    "step2Title": "Einfügen",
+    "step2Desc": "In den Konverter einfügen",
+    "step3Title": "MP3 Herunterladen",
+    "step3Desc": "Auf Konvertieren klicken und Audio speichern",
+    "whyChooseTitle": "Warum DLFB.io Wählen?",
+    "feature1Title": "Hochwertige Audio-Extraktion",
+    "feature1Desc": "Extrahieren Sie hochwertiges Audio aus jedem Facebook-Video.",
+    "feature1Point1": "Bis zu 320kbps Audioqualität",
+    "feature1Point2": "Kein Qualitätsverlust bei der Konvertierung",
+    "feature1Point3": "Universelles MP3-Format",
+    "feature2Title": "Schnell und Einfach",
+    "feature2Desc": "Konvertieren Sie Facebook-Videos in Sekunden zu MP3.",
+    "feature2Point1": "Sofortige Konvertierung",
+    "feature2Point2": "Keine Registrierung erforderlich",
+    "feature2Point3": "Funktioniert auf allen Geräten",
+    "feature3Title": "Universelle Kompatibilität",
+    "feature3Desc": "MP3-Dateien funktionieren auf allen Geräten und Musikplayern.",
+    "feature3Point1": "Funktioniert auf allen Geräten",
+    "feature3Point2": "Kompatibel mit allen Playern",
+    "feature3Point3": "Kleine Dateigröße"
+  },
+  "mp4": {
+    "title": "Facebook zu MP4",
+    "subtitle": "FB-Videos zu MP4 konvertieren • HD-Qualität • Kostenlos",
+    "placeholder": "Facebook-Video-URL einfügen...",
+    "button": "🎬 Zu MP4 konvertieren",
+    "converting": "⏳ Konvertierung läuft...",
+    "enterUrl": "Bitte geben Sie eine Facebook-Video-URL ein",
+    "footer": "HD-Qualität • Universelles Format • Funktioniert überall",
+    "howToTitle": "So Konvertieren Sie Facebook zu MP4",
+    "step1Title": "URL Kopieren",
+    "step1Desc": "Kopieren Sie den Facebook-Video-Link",
+    "step2Title": "Einfügen",
+    "step2Desc": "In den Konverter einfügen",
+    "step3Title": "Herunterladen",
+    "step3Desc": "Auf Konvertieren klicken und MP4 speichern",
+    "whyChooseTitle": "Warum Unseren Facebook-zu-MP4-Konverter Wählen?",
+    "feature1Title": "Universelles MP4-Format",
+    "feature1Desc": "MP4 ist das universelle Videoformat, das von allen Geräten und Plattformen unterstützt wird.",
+    "feature1Point1": "Funktioniert auf allen Geräten und Plattformen",
+    "feature1Point2": "Hohe Qualität bei kleiner Dateigröße",
+    "feature1Point3": "Industriestandard für Video",
+    "feature2Title": "HD-Qualität Downloads",
+    "feature2Desc": "Laden Sie Facebook-Videos in höchster verfügbarer Qualität herunter.",
+    "feature2Point1": "Bis zu 1080p Full HD",
+    "feature2Point2": "Kein Qualitätsverlust bei der Konvertierung",
+    "feature2Point3": "Mehrere Qualitätsoptionen verfügbar"
+  },
+  "reels": {
+    "title": "Facebook Reels Downloader",
+    "subtitle": "FB Reels herunterladen • Ohne Wasserzeichen • Kostenlos",
+    "placeholder": "Facebook Reel-URL einfügen...",
+    "button": "⚡ Reel Herunterladen",
+    "downloading": "⏳ Wird heruntergeladen...",
+    "enterUrl": "Bitte geben Sie eine Facebook Reel-URL ein",
+    "footer": "Ohne Wasserzeichen • Hohe Qualität • Schnell",
+    "howToTitle": "So Laden Sie Facebook Reels Herunter",
+    "step1Title": "Link Kopieren",
+    "step1Desc": "Kopieren Sie die Facebook Reel-URL",
+    "step2Title": "URL Einfügen",
+    "step2Desc": "In den Downloader oben einfügen",
+    "step3Title": "Herunterladen",
+    "step3Desc": "Auf Herunterladen klicken und speichern",
+    "feature1Title": "Virale Reels Speichern",
+    "feature1Desc": "Laden Sie trendige Facebook Reels zum Offline-Ansehen herunter.",
+    "feature1Point1": "Laden Sie jedes öffentliche Facebook Reel herunter",
+    "feature1Point2": "Speichern Sie, bevor sie verschwinden",
+    "feature1Point3": "Erstellen Sie Ihre persönliche Offline-Sammlung",
+    "feature2Title": "Ohne Wasserzeichen",
+    "feature2Desc": "Erhalten Sie jedes Mal saubere, wasserzeichenfreie Downloads.",
+    "feature2Point1": "Reine, markenfreie Downloads",
+    "feature2Point2": "Keine hinzugefügten Logos oder Branding",
+    "feature2Point3": "Original-Video erhalten",
+    "feature3Title": "Hochqualitäts-Download",
+    "feature3Desc": "Laden Sie Facebook Reels in höchster verfügbarer Qualität herunter.",
+    "feature3Point1": "Bis zu 1080p HD-Auflösung",
+    "feature3Point2": "Kein Qualitätsverlust",
+    "feature3Point3": "Original-Audioqualität erhalten",
+    "feature4Title": "Einfach zu Bedienen",
+    "feature4Desc": "Drei einfache Schritte: kopieren, einfügen, herunterladen.",
+    "feature4Point1": "Keine Registrierung erforderlich",
+    "feature4Point2": "Funktioniert auf allen Geräten",
+    "feature4Point3": "Sofortige Downloads"
+  },
+  "private": {
+    "title": "Facebook Private Video Downloader",
+    "subtitle": "Private FB-Videos herunterladen • Sicher • Kostenlos",
+    "placeholder": "Private Facebook-Video-URL einfügen...",
+    "button": "🔒 Privates Video Herunterladen",
+    "downloading": "⏳ Wird heruntergeladen...",
+    "enterUrl": "Bitte geben Sie eine Facebook-Video-URL ein",
+    "footer": "Sicher • Privat • Anonym",
+    "howToTitle": "So Laden Sie Private Videos Herunter",
+    "step1Title": "Link Kopieren",
+    "step1Desc": "Kopieren Sie die Facebook-Video-URL",
+    "step2Title": "URL Einfügen",
+    "step2Desc": "In den Downloader oben einfügen",
+    "step3Title": "Herunterladen",
+    "step3Desc": "Auf Herunterladen klicken und Video speichern",
+    "feature1Title": "Facebook Private Video Download",
+    "feature1Desc": "Laden Sie Videos aus privaten Facebook-Gruppen herunter.",
+    "feature1Point1": "Zugriff auf Videos privater Gruppen",
+    "feature1Point2": "Nur-Freunde-Beiträge herunterladen",
+    "feature1Point3": "Eingeschränkte Inhalte sicher speichern",
+    "feature1Point3Alt": "Speichern Sie eingeschränkte Inhalte, die Sie sehen können",
+    "feature2Title": "Hohe Qualität",
+    "feature2Desc": "Laden Sie private Facebook-Videos in voller HD-Qualität herunter.",
+    "feature2DescAlt": "Bewahren Sie die Originalqualität privater Videos. Laden Sie in Full HD mit scharfen Bildern und klarem Ton herunter—ohne Kompression, ohne Qualitätsverlust.",
+    "feature2Point1": "Bis zu 1080p HD-Auflösung",
+    "feature2Point2": "Kein Qualitätsverlust",
+    "feature2Point2Alt": "Behält die Qualität des Quellvideos bei",
+    "feature2Point3": "Original-Audioqualität erhalten",
+    "feature3Title": "Sicher und Privat",
+    "feature3Desc": "Ihre Privatsphäre ist unsere Priorität.",
+    "feature3DescAlt": "Ihre Anmeldedaten und persönlichen Daten werden niemals gespeichert oder geteilt. Wir verwenden sichere Verbindungen, um Ihre Privatsphäre beim Herunterladen privater Inhalte zu schützen.",
+    "feature3Point1": "Keine Speicherung von Anmeldedaten",
+    "feature3Point1Alt": "Ende-zu-Ende-verschlüsselte Verbindungen",
+    "feature3Point2": "Verschlüsselte Verbindungen",
+    "feature3Point2Alt": "Keine Datenspeicherung oder Tracking",
+    "feature3Point3": "Kein Tracking oder Logging",
+    "feature3Point3Alt": "Ihre Anmeldedaten bleiben bei Facebook",
+    "feature4Title": "Anonymer Download",
+    "feature4Desc": "Laden Sie private Videos vollständig anonym herunter.",
+    "feature4DescAlt": "Laden Sie privat herunter, ohne Spuren zu hinterlassen. Der Videobesitzer wird nicht benachrichtigt, und Ihre Download-Aktivität bleibt vollständig anonym.",
+    "feature4Point1": "Vollständig anonymer Download",
+    "feature4Point1Alt": "Keine Download-Benachrichtigungen gesendet",
+    "feature4Point2": "Keine Benachrichtigung an den Besitzer",
+    "feature4Point2Alt": "Besitzer wird nicht wissen, dass Sie heruntergeladen haben",
+    "feature4Point3": "Ihre Privatsphäre geschützt",
+    "feature4Point3Alt": "Vollständig diskretes Herunterladen"
+  },
+  "footer": {
+    "copyright": "© 2024 DLFB.io. Alle Rechte vorbehalten.",
+    "disclaimer": "Dieses Tool ist nicht mit Facebook/Meta verbunden."
+  },
+  "homeFaq": {
+    "title": "Häufig Gestellte Fragen",
+    "items": [
+      {
+        "q": "Wie lade ich Facebook-Videos herunter?",
+        "a": "Das Herunterladen von Facebook-Videos ist einfach mit unserem kostenlosen Downloader. Kopieren Sie einfach die Facebook-Video-URL, fügen Sie sie in unseren Downloader oben ein und klicken Sie auf die Download-Schaltfläche. Sie können Facebook-Videos in HD-Qualität (1080p, 720p, 480p) im MP4-Format speichern. Keine Registrierung oder Softwareinstallation erforderlich - funktioniert direkt in Ihrem Browser auf jedem Gerät."
+      },
+      {
+        "q": "Ist dieser Facebook-Video-Downloader wirklich kostenlos?",
+        "a": "Ja! Unser FB-Video-Downloader ist 100% kostenlos mit unbegrenzten Downloads. Keine versteckten Gebühren, Abonnements oder Premium-Pläne. Laden Sie so viele Facebook-Videos, Reels und Stories herunter, wie Sie möchten, ohne etwas zu bezahlen."
+      },
+      {
+        "q": "In welcher Qualität kann ich Facebook-Videos herunterladen?",
+        "a": "Sie können Facebook-Videos in der höchsten verfügbaren Qualität von der Quelle herunterladen. Unser Tool unterstützt HD-Qualität bis zu 1080p sowie 720p, 480p und 360p. Wir erkennen automatisch alle verfügbaren Videoqualitäten."
+      },
+      {
+        "q": "Kann ich Facebook-Videos auf dem Handy herunterladen?",
+        "a": "Absolut! Unser Facebook-Video-Downloader funktioniert perfekt auf mobilen Geräten. Egal ob Sie ein iPhone, iPad, Android-Telefon oder Tablet verwenden, Sie können Facebook-Videos einfach herunterladen."
+      },
+      {
+        "q": "Muss ich Software installieren, um FB-Videos herunterzuladen?",
+        "a": "Keine Installation erforderlich! Im Gegensatz zu anderen Facebook-Video-Downloader-Apps funktioniert unser Online-Tool direkt in Ihrem Webbrowser. Keine Software, Erweiterungen oder Apps zum Herunterladen oder Installieren erforderlich."
+      },
+      {
+        "q": "Kann ich Facebook Reels herunterladen?",
+        "a": "Ja! Unser Tool unterstützt das Herunterladen von Facebook Reels zusätzlich zu regulären Videos. Sie können Facebook Reels in voller Qualität herunterladen und auf Ihrem Gerät zum Offline-Ansehen speichern."
+      },
+      {
+        "q": "Kann ich Facebook Stories herunterladen?",
+        "a": "Ja, Sie können Facebook Stories mit unserem Tool herunterladen. Da Stories nach 24 Stunden verschwinden, ermöglicht Ihnen unser Facebook Stories Downloader, sie dauerhaft zu speichern."
+      },
+      {
+        "q": "Haben heruntergeladene Videos Wasserzeichen?",
+        "a": "Keine Wasserzeichen! Alle über unseren Facebook-Video-Downloader heruntergeladenen Videos sind vollständig sauber ohne Wasserzeichen, Logos oder Branding."
+      },
+      {
+        "q": "Kann ich Facebook-Videos in MP3 konvertieren?",
+        "a": "Ja! Unser Tool enthält einen Facebook-zu-MP3-Konverter. Sie können hochwertiges Audio aus jedem Facebook-Video extrahieren und als MP3 (bis zu 320kbps) speichern."
+      },
+      {
+        "q": "Ist es sicher, diesen Facebook-Video-Downloader zu verwenden?",
+        "a": "Ja, unser Facebook-Downloader ist 100% sicher. Wir speichern Ihre Videos nicht, verfolgen Ihre Downloads nicht und sammeln keine persönlichen Informationen. Ihre Privatsphäre ist geschützt."
+      }
+    ]
+  },
+  "mp4Faq": {
+    "title": "Häufig Gestellte Fragen",
+    "items": [
+      {
+        "q": "Wie konvertiere ich Facebook-Videos zu MP4?",
+        "a": "Kopieren Sie einfach die Facebook-Video-URL, fügen Sie sie in den Konverter oben ein und klicken Sie auf \"Zu MP4 konvertieren\". Das Video wird in Sekunden verarbeitet."
+      },
+      {
+        "q": "Ist MP4 das beste Format für Facebook-Videos?",
+        "a": "Ja, MP4 ist das am weitesten unterstützte Videoformat. Es funktioniert auf allen Geräten (iPhone, Android, Windows, Mac), Plattformen und Mediaplayern."
+      },
+      {
+        "q": "In welcher Qualität kann ich herunterladen?",
+        "a": "Sie können in Qualitäten bis zu 1080p HD herunterladen. Wir erkennen automatisch alle verfügbaren Qualitäten."
+      },
+      {
+        "q": "Ist dieser Facebook-zu-MP4-Konverter kostenlos?",
+        "a": "Ja, unser Konverter ist 100% kostenlos mit unbegrenzten Konvertierungen. Keine versteckten Gebühren oder Abonnements."
+      },
+      {
+        "q": "Muss ich Software installieren?",
+        "a": "Keine Installation erforderlich! Unser Konverter funktioniert direkt in Ihrem Webbrowser auf jedem Gerät."
+      },
+      {
+        "q": "Kann ich Facebook-Videos auf dem Handy konvertieren?",
+        "a": "Absolut! Unser Konverter funktioniert perfekt auf mobilen Geräten. Funktioniert auf iPhone und Android."
+      },
+      {
+        "q": "Wird das heruntergeladene Video ein Wasserzeichen haben?",
+        "a": "Nein, alle über unseren Konverter heruntergeladenen Videos sind vollständig sauber ohne Wasserzeichen."
+      },
+      {
+        "q": "Wie lange dauert die Konvertierung?",
+        "a": "Die Konvertierung ist normalerweise sofort! Die meisten Videos werden in 5-10 Sekunden verarbeitet."
+      },
+      {
+        "q": "Kann ich private Facebook-Videos konvertieren?",
+        "a": "Sie können nur Videos konvertieren, die Sie auf Facebook sehen dürfen. Für private Videos siehe unsere Private Video Downloader-Seite."
+      },
+      {
+        "q": "Welche Arten von Facebook-Videos kann ich konvertieren?",
+        "a": "Sie können reguläre Facebook-Videos, Reels, Stories, Live-Videos (nach Ende) und Facebook Watch-Videos konvertieren."
+      },
+      {
+        "q": "Ist es legal, Facebook-Videos herunterzuladen?",
+        "a": "Das Herunterladen von Videos für den persönlichen Gebrauch ist im Allgemeinen akzeptabel. Respektieren Sie jedoch immer Urheberrechte und Rechte der Ersteller."
+      },
+      {
+        "q": "Warum ist MP4 besser als andere Formate?",
+        "a": "MP4 bietet das beste Gleichgewicht zwischen Qualität und Dateigröße. Es ist universell kompatibel und der Industriestandard für Video."
+      }
+    ]
+  },
+  "mp3Faq": {
+    "title": "Häufig Gestellte Fragen",
+    "items": [
+      {
+        "q": "Wie konvertiere ich ein Facebook-Video zu MP3?",
+        "a": "Kopieren Sie einfach die Facebook-Video-URL, fügen Sie sie in den Konverter ein und klicken Sie auf \"Zu MP3 konvertieren\". Das Audio wird in Sekunden extrahiert."
+      },
+      {
+        "q": "Ist dieser Facebook-zu-MP3-Konverter kostenlos?",
+        "a": "Ja, unser Konverter ist 100% kostenlos mit unbegrenzten Konvertierungen."
+      },
+      {
+        "q": "Welche Audioqualität hat MP3?",
+        "a": "Wir extrahieren Audio in höchster verfügbarer Qualität, bis zu 320kbps."
+      },
+      {
+        "q": "Kann ich Facebook-Videos auf dem Handy zu MP3 konvertieren?",
+        "a": "Absolut! Unser Konverter funktioniert perfekt auf iPhone und Android."
+      },
+      {
+        "q": "Muss ich Software installieren?",
+        "a": "Keine Installation erforderlich! Unser Konverter funktioniert direkt in Ihrem Browser."
+      }
+    ]
+  },
+  "reelsFaq": {
+    "title": "Häufig Gestellte Fragen",
+    "items": [
+      {
+        "q": "Wie lade ich Facebook Reels herunter?",
+        "a": "Kopieren Sie die Reel-URL, fügen Sie sie in den Downloader ein und klicken Sie auf Herunterladen."
+      },
+      {
+        "q": "Wird es ein Wasserzeichen geben?",
+        "a": "Nein! Alle Downloads sind vollständig sauber ohne Wasserzeichen."
+      },
+      {
+        "q": "In welcher Qualität kann ich herunterladen?",
+        "a": "Sie können in Qualitäten bis zu 1080p HD herunterladen."
+      },
+      {
+        "q": "Ist es kostenlos?",
+        "a": "Vollständig kostenlos! Laden Sie so viele Reels herunter, wie Sie möchten."
+      },
+      {
+        "q": "Funktioniert es auf dem Handy?",
+        "a": "Ja! Funktioniert perfekt auf mobilen Browsern. Keine App erforderlich."
+      }
+    ]
+  },
+  "privateFaq": {
+    "title": "Häufig Gestellte Fragen",
+    "items": [
+      {
+        "q": "Wie lade ich private Facebook-Videos herunter?",
+        "a": "Stellen Sie sicher, dass Sie das Video auf Facebook sehen können, kopieren Sie die URL, fügen Sie sie in unser Tool ein und klicken Sie auf Herunterladen."
+      },
+      {
+        "q": "Wird der Besitzer es wissen?",
+        "a": "Nein! Wir bieten vollständig anonyme Downloads. Der Videobesitzer wird nicht benachrichtigt."
+      },
+      {
+        "q": "Ist es sicher?",
+        "a": "Ja, 100% sicher. Wir speichern Ihre Anmeldedaten oder persönlichen Informationen nicht."
+      },
+      {
+        "q": "Ist es kostenlos?",
+        "a": "Vollständig kostenlos! Laden Sie private Facebook-Inhalte so oft herunter, wie Sie möchten."
+      },
+      {
+        "q": "Funktioniert es auf dem Handy?",
+        "a": "Ja! Funktioniert auf iPhone und Android. Keine App erforderlich."
+      }
+    ]
+  }
 }
