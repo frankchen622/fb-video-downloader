@@ -1,7 +1,89 @@
 {
-  "common": {"siteName": "DLFB.io", "download": "下载", "paste": "在此粘贴 Facebook 视频链接...", "downloadButton": "下载", "processing": "处理中...", "enterUrl": "请输入 Facebook 视频链接", "noRegistration": "无需注册", "unlimitedDownloads": "无限下载", "allDevices": "支持所有设备", "chooseQuality": "选择下载质量:"},
-  "mp3": {"title": "Facebook 转 MP3 转换器", "subtitle": "从 FB 视频提取音频 • 高质量最高 320kbps • 免费快速", "placeholder": "粘贴 Facebook 视频链接...", "button": "🎵 转换为 MP3", "extracting": "⏳ 提取中...", "enterUrl": "请输入 Facebook 视频链接", "footer": "高质量音频最高 320kbps • 快速转换 • 无需软件"},
-  "mp4": {"title": "Facebook 转 MP4", "subtitle": "将 FB 视频转换为 MP4 • 高清质量 • 免费", "placeholder": "粘贴 Facebook 视频链接...", "button": "🎬 转换为 MP4", "converting": "⏳ 转换中...", "enterUrl": "请输入 Facebook 视频链接", "footer": "高清质量 • 通用格式 • 随处可用"},
-  "reels": {"title": "Facebook Reels 下载器", "subtitle": "下载 FB Reels 高清视频 • 无水印 • 免费", "placeholder": "粘贴 Facebook Reels 链接...", "button": "🎬 下载 Reel", "downloading": "⏳ 下载中...", "enterUrl": "请输入 Facebook Reels 链接", "footer": "高清质量 • 无水印 • 保存热门内容"},
-  "private": {"title": "私密视频下载器", "subtitle": "下载私密 FB 视频 • 群组 • 仅好友可见帖子", "placeholder": "粘贴私密 Facebook 视频链接...", "button": "🔒 下载视频", "downloading": "⏳ 下载中...", "enterUrl": "请输入 Facebook 视频链接", "footer": "需要查看权限 • 尊重隐私设置"}
+  "common": {
+    "siteName": "DLFB.io",
+    "tagline": "Facebook 视频下载器",
+    "download": "下载",
+    "paste": "在此粘贴 Facebook 视频链接...",
+    "downloadButton": "下载",
+    "processing": "处理中...",
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "enterUrl": "请输入 Facebook 视频链接",
+    "noRegistration": "无需注册",
+    "unlimitedDownloads": "无限下载",
+    "allDevices": "支持所有设备",
+    "chooseQuality": "选择下载质量:"
+  },
+  "nav": {
+    "home": "首页",
+    "reelsDownloader": "Reels 下载器",
+    "privateVideo": "私密视频",
+    "toMP3": "FB 转 MP3",
+    "toMP4": "FB 转 MP4",
+    "contact": "联系我们",
+    "privacy": "隐私政策",
+    "terms": "使用条款"
+  },
+  "home": {
+    "metaTitle": "Facebook 视频下载器 - 免费下载 FB 高清视频 | 无水印",
+    "metaDescription": "免费下载 Facebook 视频、Reels 和 Stories 高清内容。快速的 FB 视频下载器，无水印，无广告。将 Facebook 视频保存为 MP4/MP3。支持所有设备。",
+    "h1": "下载 Facebook 视频",
+    "h1Highlight": "几秒钟内 - 完全免费",
+    "subtitle": "只需三个简单步骤，即可将任何 Facebook 视频、reel 或 story 保存到您的设备。无需注册，无需安装软件，无水印。以高清质量 (1080p) 下载 FB 视频为 MP4 或提取音频为 MP3。适用于 iPhone、Android、Windows 和 Mac。",
+    "featuresTitle": "Facebook 内容的完整解决方案",
+    "featuresSubtitle": "下载和转换 Facebook 视频、reels、stories 等所需的一切",
+    "feature1Title": "高清视频下载",
+    "feature1Desc": "以最高可用质量下载 Facebook 视频，最高可达 1080p 全高清",
+    "feature2Title": "Reels 和 Stories",
+    "feature2Desc": "在 Facebook Reels 和 Stories 消失之前保存它们",
+    "feature3Title": "音频提取",
+    "feature3Desc": "将 Facebook 视频转换为 MP3 音频文件",
+    "feature4Title": "私密视频",
+    "feature4Desc": "通过适当授权下载私密 Facebook 视频",
+    "feature5Title": "无水印",
+    "feature5Desc": "干净的下载，没有任何水印或品牌标识",
+    "feature6Title": "所有设备",
+    "feature6Desc": "适用于 iPhone、Android、Windows、Mac 和平板电脑"
+  },
+  "mp3": {
+    "title": "Facebook 转 MP3 转换器",
+    "subtitle": "从 FB 视频提取音频 • 高质量最高 320kbps • 免费快速",
+    "placeholder": "粘贴 Facebook 视频链接...",
+    "button": "🎵 转换为 MP3",
+    "extracting": "⏳ 提取中...",
+    "enterUrl": "请输入 Facebook 视频链接",
+    "footer": "高质量音频最高 320kbps • 快速转换 • 无需软件"
+  },
+  "mp4": {
+    "title": "Facebook 转 MP4",
+    "subtitle": "将 FB 视频转换为 MP4 • 高清质量 • 免费",
+    "placeholder": "粘贴 Facebook 视频链接...",
+    "button": "🎬 转换为 MP4",
+    "converting": "⏳ 转换中...",
+    "enterUrl": "请输入 Facebook 视频链接",
+    "footer": "高清质量 • 通用格式 • 随处可用"
+  },
+  "reels": {
+    "title": "Facebook Reels 下载器",
+    "subtitle": "下载 FB Reels 高清视频 • 无水印 • 免费",
+    "placeholder": "粘贴 Facebook Reels 链接...",
+    "button": "🎬 下载 Reel",
+    "downloading": "⏳ 下载中...",
+    "enterUrl": "请输入 Facebook Reels 链接",
+    "footer": "高清质量 • 无水印 • 保存热门内容"
+  },
+  "private": {
+    "title": "私密视频下载器",
+    "subtitle": "下载私密 FB 视频 • 群组 • 仅好友可见帖子",
+    "placeholder": "粘贴私密 Facebook 视频链接...",
+    "button": "🔒 下载视频",
+    "downloading": "⏳ 下载中...",
+    "enterUrl": "请输入 Facebook 视频链接",
+    "footer": "需要查看权限 • 尊重隐私设置"
+  },
+  "footer": {
+    "copyright": "© 2024 DLFB.io. 保留所有权利。",
+    "disclaimer": "本工具不隶属于 Facebook/Meta。"
+  }
 }
