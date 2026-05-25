@@ -332,5 +332,70 @@
         "a": "Todos los navegadores soportados: ✅ Chrome / Edge, ✅ Firefox, ✅ Safari, ✅ Opera, ✅ Navegadores móviles."
       }
     ]
+  },
+  "reelsFaq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "q": "¿Cómo descargar Reels de Facebook?",
+        "a": "Usar nuestra herramienta de descarga de Reels de Facebook es simple: 1) Copia la URL del Reel de Facebook, 2) Pégala en nuestro descargador, 3) Haz clic en descargar. Nuestro servicio funciona con todos los Reels públicos."
+      },
+      {
+        "q": "¿Puedo descargar Reels de FB en móvil?",
+        "a": "¡Sí! Nuestra herramienta funciona perfectamente en navegadores móviles. No necesitas una aplicación - solo usa nuestro descargador basado en web directamente en tu teléfono. Funciona en iPhone y Android."
+      },
+      {
+        "q": "¿Este descargador de Reels de Facebook es gratis?",
+        "a": "¡Completamente gratis! Nuestro descargador de Reels de Facebook es 100% gratis sin costos ocultos. Descarga tantos Reels como quieras. No se requiere registro."
+      },
+      {
+        "q": "¿En qué calidad se descargan los Reels?",
+        "a": "Nuestro servicio preserva la calidad original, típicamente HD (1080p). Cuando descargas Reels, obtienes la misma calidad que en Facebook. Mantenemos la resolución completa."
+      },
+      {
+        "q": "¿Los Reels descargados tienen marcas de agua?",
+        "a": "¡Sin marcas de agua! Cuando usas nuestra herramienta, obtienes videos limpios. Nuestro servicio no agrega ningún logo. Perfecto para compartir."
+      },
+      {
+        "q": "¿Cómo encontrar la URL de Reels de Facebook?",
+        "a": "Abre el Reel en Facebook, toca el menú de tres puntos, selecciona \"Copiar enlace\". Luego pégalo en nuestro descargador. Funciona para todos los Reels públicos."
+      },
+      {
+        "q": "¿Puedo descargar Reels privados de Facebook?",
+        "a": "Puedes descargar Reels privados si tienes permiso de visualización en Facebook. Nuestra herramienta respeta la configuración de privacidad. Inicia sesión en Facebook primero."
+      },
+      {
+        "q": "¿Funciona sin instalar aplicaciones?",
+        "a": "¡Sí! No se necesita aplicación. Nuestro descargador basado en web funciona directamente en tu navegador. Solo visita nuestro sitio para descarga instantánea sin instalación."
+      },
+      {
+        "q": "¿Puedo descargar múltiples Reels a la vez?",
+        "a": "Sí, puedes descargar Reels uno por uno rápidamente. Nuestro servicio es lo suficientemente rápido para descarga por lotes. Usa nuestro descargador repetidamente para múltiples videos."
+      },
+      {
+        "q": "¿Qué tan rápida es la descarga?",
+        "a": "¡Muy rápida! Nuestro servicio típicamente se completa en 10-30 segundos. La velocidad de descarga depende de tu conexión a internet y la duración del video."
+      },
+      {
+        "q": "¿Puedo guardar Reels de Facebook en mi teléfono?",
+        "a": "¡Absolutamente! Usa nuestra herramienta en móvil para guardar directamente en tu dispositivo. Nuestro servicio funciona en todos los smartphones para guardar fácilmente."
+      },
+      {
+        "q": "¿Es seguro el descargador de Reels de Facebook?",
+        "a": "¡Completamente seguro! Nuestro descargador no almacena tus datos ni videos. No requerimos inicio de sesión para Reels públicos. Descarga segura garantizada."
+      },
+      {
+        "q": "¿En qué formato se descargan los Reels?",
+        "a": "Los Reels descargados están en formato MP4, compatible con todos los dispositivos. Proporcionamos archivos MP4 universales que se reproducen en todas partes."
+      },
+      {
+        "q": "¿Puedo descargar Reels de Facebook en PC?",
+        "a": "¡Sí! Nuestro descargador funciona perfectamente en Windows, Mac y Linux. Usa nuestro servicio en cualquier navegador de computadora."
+      },
+      {
+        "q": "¿Puedo descargar Reels en calidad HD?",
+        "a": "¡Sí! Nuestro servicio preserva la calidad HD hasta 1080p. Obtén descarga de video cristalina cada vez."
+      }
+    ]
   }
 }

@@ -332,5 +332,70 @@
         "a": "All browsers supported: ✅ Chrome / Edge, ✅ Firefox, ✅ Safari, ✅ Opera, ✅ Mobile browsers."
       }
     ]
+  },
+  "reelsFaq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "How to download Facebook Reels?",
+        "a": "Using our Facebook reels download tool is simple: 1) Copy the Reels URL from Facebook, 2) Paste it into our downloader, 3) Click download. Our service works with all public Reels."
+      },
+      {
+        "q": "Can I download FB Reels on mobile?",
+        "a": "Yes! Our tool works perfectly on mobile browsers. No need for an app - just use our web-based downloader directly on your phone. Works on both iPhone and Android."
+      },
+      {
+        "q": "Is this Facebook Reels downloader free?",
+        "a": "Completely free! Our Facebook Reels downloader is 100% free with no hidden costs. Download as many Reels as you want. No registration needed."
+      },
+      {
+        "q": "What quality are downloaded Reels?",
+        "a": "Our service preserves original quality, typically HD (1080p). When you download Reels, you get the same quality as on Facebook. We maintain full resolution."
+      },
+      {
+        "q": "Do downloaded Reels have watermarks?",
+        "a": "No watermarks! When you use our tool, you get clean videos. Our service doesn't add any logos. Perfect for sharing."
+      },
+      {
+        "q": "How to find Facebook Reels URL?",
+        "a": "Open the Reel on Facebook, tap the three dots menu, select \"Copy link\". Then paste into our downloader. Works for all public Reels."
+      },
+      {
+        "q": "Can I download private Facebook Reels?",
+        "a": "You can download private Reels if you have viewing permission on Facebook. Our tool respects privacy settings. Login to Facebook first."
+      },
+      {
+        "q": "Does it work without installing apps?",
+        "a": "Yes! No app needed. Our web-based downloader works directly in your browser. Just visit our site for instant download without any installation."
+      },
+      {
+        "q": "Can I download multiple Reels at once?",
+        "a": "Yes, you can download Reels one by one quickly. Our service is fast enough for batch downloading. Use our downloader repeatedly for multiple videos."
+      },
+      {
+        "q": "How fast is the download?",
+        "a": "Very fast! Our service typically completes in 10-30 seconds. Download speed depends on your internet connection and video length."
+      },
+      {
+        "q": "Can I save Facebook Reels to my phone?",
+        "a": "Absolutely! Use our tool on mobile to save directly to your device. Our service works on all smartphones for easy saving."
+      },
+      {
+        "q": "Is Facebook Reels downloader safe?",
+        "a": "Completely safe! Our downloader doesn't store your data or videos. We don't require login for public Reels. Safe download guaranteed."
+      },
+      {
+        "q": "What file format are downloaded Reels?",
+        "a": "Downloaded Reels are in MP4 format, compatible with all devices. We provide universal MP4 files that play everywhere."
+      },
+      {
+        "q": "Can I download Facebook Reels on PC?",
+        "a": "Yes! Our downloader works perfectly on Windows, Mac, and Linux. Use our service on any computer browser."
+      },
+      {
+        "q": "Can I download Reels in HD quality?",
+        "a": "Yes! Our service preserves HD quality up to 1080p. Get crystal clear video download every time."
+      }
+    ]
   }
 }
