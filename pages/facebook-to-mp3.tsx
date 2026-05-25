@@ -521,7 +521,7 @@ export default function FacebookToMP3() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">{t('mp3Faq.title')}</h2>
             <div className="space-y-6">
-              {faqData.flatMap(section => section.questions).map((faq, i) => (
+              {(Array.isArray(t('mp3Faq.items', { returnObjects: true })) ? t('mp3Faq.items', { returnObjects: true }) : []).map((faq: any, i: number) => (
                 <details key={i} className="bg-white rounded-xl p-6 shadow-md">
                   <summary className="font-bold text-lg cursor-pointer hover:text-blue-600 transition">
                     {faq.q}
