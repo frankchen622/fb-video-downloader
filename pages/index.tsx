@@ -424,7 +424,7 @@ export default function Home() {
               {t('homeFaq.title')}
             </h3>
             <div className="space-y-6">
-              {(t('homeFaq.items', { returnObjects: true }) as Array<{q: string, a: string}>).map((faq, i) => (
+              {(Array.isArray(t('homeFaq.items', { returnObjects: true })) ? t('homeFaq.items', { returnObjects: true }) : []).map((faq: any, i: number) => (
                 <details key={i} className="bg-white rounded-xl p-6 shadow-md">
                   <summary className="font-bold text-lg cursor-pointer hover:text-blue-600 transition">
                     {faq.q}

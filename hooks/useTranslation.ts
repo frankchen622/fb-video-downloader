@@ -31,7 +31,7 @@ export function useTranslation() {
   const router = useRouter()
   const { locale = 'en' } = router
   
-  const t = (key: string): string => {
+  const t = (key: string, options?: { returnObjects?: boolean }): any => {
     const keys = key.split('.')
     let value: any = translations[locale] || translations.en
     
@@ -39,6 +39,12 @@ export function useTranslation() {
       value = value?.[k]
     }
     
+    // If returnObjects is true and value is an object/array, return it
+    if (options?.returnObjects && (typeof value === 'object')) {
+      return value
+    }
+    
+    // Otherwise return as string
     return value || key
   }
   
