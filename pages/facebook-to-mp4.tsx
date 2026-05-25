@@ -172,19 +172,19 @@ export default function FacebookToMP4() {
         {/* 3-Step Process */}
         <section className="container mx-auto px-4 py-12 bg-gradient-to-br from-blue-50 to-purple-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Convert Facebook to MP4</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">{t('mp4.howToTitle')}</h2>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { num: '1', title: 'Copy URL', desc: 'Copy the Facebook video link' },
-                { num: '2', title: 'Paste', desc: 'Paste it into the converter' },
-                { num: '3', title: 'Download', desc: 'Click convert and save MP4' }
+                { num: '1', titleKey: 'mp4.step1Title', descKey: 'mp4.step1Desc' },
+                { num: '2', titleKey: 'mp4.step2Title', descKey: 'mp4.step2Desc' },
+                { num: '3', titleKey: 'mp4.step3Title', descKey: 'mp4.step3Desc' }
               ].map((step) => (
                 <div key={step.num} className="bg-white rounded-xl p-6 text-center shadow-md">
                   <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-3">
                     {step.num}
                   </div>
-                  <h3 className="font-bold mb-1">{step.title}</h3>
-                  <p className="text-sm text-gray-600">{step.desc}</p>
+                  <h3 className="font-bold mb-1">{t(step.titleKey)}</h3>
+                  <p className="text-sm text-gray-600">{t(step.descKey)}</p>
                 </div>
               ))}
             </div>
@@ -194,7 +194,7 @@ export default function FacebookToMP4() {
         {/* Why Choose Us - Image + Text */}
         <section className="container mx-auto px-4 py-16">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Why Choose Our Facebook to MP4 Converter?</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">{t('mp4.whyChooseTitle')}</h2>
             
             {/* Feature 1 */}
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
@@ -212,28 +212,28 @@ export default function FacebookToMP4() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-3xl font-bold mb-4">Universal MP4 Format</h3>
+                <h3 className="text-3xl font-bold mb-4">{t('mp4.feature1Title')}</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  MP4 is the universal video format, supported by every device and platform. Convert Facebook videos to MP4 for maximum compatibility.
+                  {t('mp4.feature1Desc')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Works on all devices and platforms</span>
+                    <span className="text-gray-700">{t('mp4.feature1Point1')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">High quality with small file size</span>
+                    <span className="text-gray-700">{t('mp4.feature1Point2')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Industry standard for video</span>
+                    <span className="text-gray-700">{t('mp4.feature1Point3')}</span>
                   </li>
                 </ul>
               </div>
@@ -242,28 +242,28 @@ export default function FacebookToMP4() {
             {/* Feature 2 */}
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-3xl font-bold mb-4">HD Quality Downloads</h3>
+                <h3 className="text-3xl font-bold mb-4">{t('mp4.feature2Title')}</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Download Facebook videos in the highest quality available. Our converter detects all resolutions and lets you choose the best quality.
+                  {t('mp4.feature2Desc')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Up to 1080p Full HD</span>
+                    <span className="text-gray-700">{t('mp4.feature2Point1')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No quality loss during conversion</span>
+                    <span className="text-gray-700">{t('mp4.feature2Point2')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Multiple quality options available</span>
+                    <span className="text-gray-700">{t('mp4.feature2Point3')}</span>
                   </li>
                 </ul>
               </div>
