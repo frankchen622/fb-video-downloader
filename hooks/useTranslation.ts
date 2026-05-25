@@ -39,13 +39,23 @@ export function useTranslation() {
       value = value?.[k]
     }
     
-    // If returnObjects is true and value is an object/array, return it
-    if (options?.returnObjects && (typeof value === 'object')) {
+    // If value is undefined, return the key
+    if (value === undefined) {
+      return key
+    }
+    
+    // If returnObjects is explicitly true, return the value as-is (could be object/array)
+    if (options?.returnObjects === true) {
       return value
     }
     
-    // Otherwise return as string
-    return value || key
+    // Otherwise, convert to string (for normal text translations)
+    if (typeof value === 'object') {
+      // If it's an object but returnObjects wasn't requested, return the key
+      return key
+    }
+    
+    return String(value)
   }
   
   return { t, locale }
