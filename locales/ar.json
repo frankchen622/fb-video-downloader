@@ -43,7 +43,19 @@
     "storiesDownloaderDesc": "التقط واحفظ قصص فيسبوك قبل أن تختفي. قم بتنزيل قصص من أي حساب فيسبوك عام بجودة كاملة، مع الحفاظ على اللحظات التي لا تُنسى والتي قد تُفقد بعد 24 ساعة.",
     "storiesDownloaderFeature1": "احفظ القصص بشكل دائم",
     "storiesDownloaderFeature2": "قم بالتنزيل قبل انتهاء صلاحية 24 ساعة",
-    "storiesDownloaderFeature3": "الحفاظ على الجودة الأصلية"
+    "storiesDownloaderFeature3": "الحفاظ على الجودة الأصلية",
+    "feature1Title": "تنزيل فيديوهات عالية الدقة",
+    "feature1Desc": "قم بتنزيل فيديوهات فيسبوك بأعلى جودة متاحة، حتى 1080p Full HD",
+    "feature2Title": "ريلز وقصص",
+    "feature2Desc": "احفظ ريلز وقصص فيسبوك قبل أن تختفي",
+    "feature3Title": "استخراج الصوت",
+    "feature3Desc": "قم بتحويل فيديوهات فيسبوك إلى ملفات صوت MP3",
+    "feature4Title": "فيديوهات خاصة",
+    "feature4Desc": "قم بتنزيل فيديوهات فيسبوك الخاصة بالتفويض المناسب",
+    "feature5Title": "بدون علامات مائية",
+    "feature5Desc": "تنزيلات نظيفة بدون أي علامات مائية أو علامات تجارية",
+    "feature6Title": "جميع الأجهزة",
+    "feature6Desc": "يعمل على iPhone وAndroid وWindows وMac والأجهزة اللوحية"
   },
   "homeFaq": {
     "title": "الأسئلة الشائعة",
