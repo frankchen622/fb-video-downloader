@@ -160,19 +160,19 @@ export default function ReelsDownloader() {
 
         <section className="container mx-auto px-4 py-12 bg-gradient-to-br from-blue-50 to-purple-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Download Facebook Reels</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">{t('reels.howToTitle')}</h2>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { num: '1', title: 'Copy Link', desc: 'Copy the Reels URL from Facebook' },
-                { num: '2', title: 'Paste', desc: 'Paste it into the downloader' },
-                { num: '3', title: 'Download', desc: 'Click download and save' }
+                { num: '1', titleKey: 'reels.step1Title', descKey: 'reels.step1Desc' },
+                { num: '2', titleKey: 'reels.step2Title', descKey: 'reels.step2Desc' },
+                { num: '3', titleKey: 'reels.step3Title', descKey: 'reels.step3Desc' }
               ].map((step) => (
                 <div key={step.num} className="bg-white rounded-xl p-6 text-center shadow-md">
                   <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-3">
                     {step.num}
                   </div>
-                  <h3 className="font-bold mb-1">{step.title}</h3>
-                  <p className="text-sm text-gray-600">{step.desc}</p>
+                  <h3 className="font-bold mb-1">{t(step.titleKey)}</h3>
+                  <p className="text-sm text-gray-600">{t(step.descKey)}</p>
                 </div>
               ))}
             </div>
@@ -197,28 +197,28 @@ export default function ReelsDownloader() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-3xl font-bold mb-4">Save Viral Reels</h3>
+                <h3 className="text-3xl font-bold mb-4">{t('reels.feature1Title')}</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Download trending Facebook Reels to watch offline, share with friends, or repost on other platforms. Never lose your favorite content again.
+                  {t('reels.feature1Desc')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Download any public Reel instantly</span>
+                    <span className="text-gray-700">{t('reels.feature1Point1')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Keep viral content before it disappears</span>
+                    <span className="text-gray-700">{t('reels.feature1Point2')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Build your personal collection offline</span>
+                    <span className="text-gray-700">{t('reels.feature1Point3')}</span>
                   </li>
                 </ul>
               </div>
@@ -227,28 +227,28 @@ export default function ReelsDownloader() {
             {/* Feature 2: No Watermark */}
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div>
-                <h3 className="text-3xl font-bold mb-4">No Watermark</h3>
+                <h3 className="text-3xl font-bold mb-4">{t('reels.feature2Title')}</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Get clean, watermark-free downloads every time. We don't add logos or branding—just the original Reel exactly as it appears on Facebook.
+                  {t('reels.feature2Desc')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Pure, unbranded downloads</span>
+                    <span className="text-gray-700">{t('reels.feature2Point1')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No logos or text overlays</span>
+                    <span className="text-gray-700">{t('reels.feature2Point2')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Perfect for sharing and reposting</span>
+                    <span className="text-gray-700">{t('reels.feature2Point3')}</span>
                   </li>
                 </ul>
               </div>
@@ -283,28 +283,28 @@ export default function ReelsDownloader() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-3xl font-bold mb-4">High-Quality Downloading</h3>
+                <h3 className="text-3xl font-bold mb-4">{t('reels.feature3Title')}</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Preserve the original quality of every Reel. Download in full HD (1080p) with crisp visuals and clear audio—no compression, no quality loss.
+                  {t('reels.feature3Desc')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Up to 1080p HD resolution</span>
+                    <span className="text-gray-700">{t('reels.feature3Point1')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Original audio quality preserved</span>
+                    <span className="text-gray-700">{t('reels.feature3Point2')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No pixelation or artifacts</span>
+                    <span className="text-gray-700">{t('reels.feature3Point3')}</span>
                   </li>
                 </ul>
               </div>
@@ -313,28 +313,28 @@ export default function ReelsDownloader() {
             {/* Feature 4: Easy to Use */}
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-3xl font-bold mb-4">Easy to Use</h3>
+                <h3 className="text-3xl font-bold mb-4">{t('reels.feature4Title')}</h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Three simple steps: copy, paste, download. No registration, no app installation, no complicated settings. Works instantly in your browser.
+                  {t('reels.feature4Desc')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">No account or login required</span>
+                    <span className="text-gray-700">{t('reels.feature4Point1')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Works on any device (phone, tablet, PC)</span>
+                    <span className="text-gray-700">{t('reels.feature4Point2')}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Download in seconds, not minutes</span>
+                    <span className="text-gray-700">{t('reels.feature4Point3')}</span>
                   </li>
                 </ul>
               </div>
