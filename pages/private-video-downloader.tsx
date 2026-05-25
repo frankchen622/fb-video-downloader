@@ -163,9 +163,9 @@ export default function PrivateVideoDownloader() {
             <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">How to Download Private Videos</h2>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { num: '1', title: 'Login', desc: 'Be logged into Facebook' },
-                { num: '2', title: 'Copy Link', desc: 'Copy the private video URL' },
-                { num: '3', title: 'Download', desc: 'Paste and download' }
+                { num: '1', title: 'Copy Link', desc: 'Copy the video URL from Facebook' },
+                { num: '2', title: 'Paste URL', desc: 'Paste it into the downloader above' },
+                { num: '3', title: 'Download', desc: 'Click download and save your video' }
               ].map((step) => (
                 <div key={step.num} className="bg-white rounded-xl p-6 text-center shadow-md">
                   <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-3">
