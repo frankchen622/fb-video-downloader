@@ -11,6 +11,11 @@ export default function ReelsDownloader() {
   const [url, setUrl] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [videoInfo, setVideoInfo] = useState<{
+    title: string
+    thumbnail?: string
+    formats: Array<{ url: string; quality: string; filesize?: number }>
+  } | null>(null)
   
   const siteUrl = 'https://dlfb.io'
   const pagePath = '/reels-downloader'
@@ -24,12 +29,13 @@ export default function ReelsDownloader() {
 
     setLoading(true)
     setError('')
+    setVideoInfo(null)
 
     try {
       const response = await fetch('/api/download', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ url, type: 'reels' })
+        body: JSON.stringify({ url })
       })
 
       const data = await response.json()
@@ -38,12 +44,24 @@ export default function ReelsDownloader() {
         throw new Error(data.error || 'Failed to download reel')
       }
 
-      window.location.href = data.downloadUrl
+      setVideoInfo(data)
     } catch (err: any) {
       setError(err.message || 'An error occurred')
     } finally {
       setLoading(false)
     }
+  }
+
+  const handleFormatDownload = (downloadUrl: string, filename: string) => {
+    const proxyUrl = `/api/proxy-download?url=${encodeURIComponent(downloadUrl)}&filename=${encodeURIComponent(filename)}`
+    
+    const link = document.createElement('a')
+    link.href = proxyUrl
+    link.download = filename
+    link.style.display = 'none'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
   }
 
   return (
@@ -89,6 +107,45 @@ export default function ReelsDownloader() {
               {error && (
                 <div className="mt-4 p-3 bg-red-50 border-l-4 border-red-500 text-red-600 text-sm">
                   {error}
+                </div>
+              )}
+
+              {videoInfo && (
+                <div className="mt-6 p-6 bg-gray-50 rounded-xl border border-gray-200">
+                  <div className="flex gap-4 mb-4">
+                    {videoInfo.thumbnail && (
+                      <img 
+                        src={videoInfo.thumbnail} 
+                        alt={videoInfo.title}
+                        className="w-24 h-24 object-cover rounded-lg"
+                      />
+                    )}
+                    <div className="flex-1">
+                      <h3 className="font-bold text-lg mb-2">{videoInfo.title}</h3>
+                      <p className="text-sm text-gray-600">Choose quality to download:</p>
+                    </div>
+                  </div>
+                  <div className="space-y-3">
+                    {videoInfo.formats.map((format, index) => (
+                      <button
+                        key={index}
+                        onClick={() => handleFormatDownload(format.url, `${videoInfo.title}.mp4`)}
+                        className="w-full flex items-center justify-between p-4 bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200"
+                      >
+                        <div className="flex items-center gap-3">
+                          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
+                          </svg>
+                          <span className="font-bold text-lg">Download {format.quality}</span>
+                        </div>
+                        {format.filesize && (
+                          <span className="text-sm bg-white/20 px-3 py-1 rounded-full">
+                            {(format.filesize / 1024 / 1024).toFixed(2)} MB
+                          </span>
+                        )}
+                      </button>
+                    ))}
+                  </div>
                 </div>
               )}
 
