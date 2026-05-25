@@ -127,7 +127,71 @@
     "copyright": "© 2024 DLFB.io. Todos los derechos reservados.",
     "disclaimer": "Esta herramienta no está afiliada con Facebook/Meta."
   },
-  "homeFaq": null,
+  "homeFaq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "q": "¿Cómo descargo videos de Facebook?",
+        "a": "Descargar videos de Facebook es simple con nuestro descargador gratuito. Solo copia la URL del video de Facebook, pégala en nuestro descargador arriba y haz clic en el botón de descarga. Puedes guardar videos de Facebook en calidad HD (1080p, 720p, 480p) en formato MP4. No se requiere registro ni instalación de software - funciona directamente en tu navegador en cualquier dispositivo."
+      },
+      {
+        "q": "¿Este descargador de videos de Facebook es realmente gratis?",
+        "a": "¡Sí! Nuestro descargador de videos FB es 100% gratis con descargas ilimitadas. No hay costos ocultos, suscripciones ni planes premium. Descarga tantos videos, Reels y Stories de Facebook como quieras sin pagar nada. Creemos que todos deberían tener acceso gratuito para guardar su contenido favorito de Facebook."
+      },
+      {
+        "q": "¿En qué calidad puedo descargar videos de Facebook?",
+        "a": "Puedes descargar videos de Facebook en la más alta calidad disponible de la fuente. Nuestra herramienta de descarga de videos de Facebook soporta calidad HD hasta 1080p, así como 720p, 480p y 360p. Detectamos automáticamente todas las calidades de video disponibles y te dejamos elegir la mejor opción para tus necesidades. Descarga videos FB en HD para la mejor experiencia de visualización."
+      },
+      {
+        "q": "¿Puedo descargar videos de Facebook en móvil?",
+        "a": "¡Absolutamente! Nuestro descargador de videos de Facebook funciona perfectamente en dispositivos móviles. Ya sea que uses un iPhone, iPad, teléfono Android o tablet, puedes descargar videos de Facebook fácilmente. Solo abre Facebook en tu navegador móvil, copia el enlace del video, pégalo en nuestro descargador FB y guarda el video en tu dispositivo. Funciona en iOS y Android."
+      },
+      {
+        "q": "¿Necesito instalar software para descargar videos FB?",
+        "a": "¡No se requiere instalación! A diferencia de otras aplicaciones de descarga de videos de Facebook, nuestra herramienta en línea funciona directamente en tu navegador web. No necesitas descargar ni instalar ningún software, extensiones o aplicaciones. Simplemente visita nuestro sitio web, pega la URL del video de Facebook y descarga. Esto lo hace más seguro y conveniente que el software descargable de descarga de Facebook."
+      },
+      {
+        "q": "¿Puedo descargar Reels de Facebook?",
+        "a": "¡Sí! Nuestra herramienta soporta la descarga de Reels de Facebook además de videos regulares. Puedes descargar Reels de Facebook en calidad completa y guardarlos en tu dispositivo para verlos sin conexión. Solo copia la URL del Reel y pégala en nuestro descargador. Perfecto para guardar contenido entretenido de formato corto, tutoriales o reels virales antes de que desaparezcan."
+      },
+      {
+        "q": "¿Puedo descargar Stories de Facebook?",
+        "a": "Sí, puedes descargar Stories de Facebook con nuestra herramienta. Como las Stories desaparecen después de 24 horas, nuestro descargador de stories de Facebook te permite guardarlas permanentemente. Descarga stories de cualquier cuenta pública de Facebook en calidad completa. Preserva momentos memorables que de otro modo se perderían. Solo pega la URL de la story antes de que expire."
+      },
+      {
+        "q": "¿Los videos descargados tendrán marcas de agua?",
+        "a": "¡Sin marcas de agua! Todos los videos descargados a través de nuestro descargador de videos de Facebook están completamente limpios sin marcas de agua, logos o branding. Obtienes el video original exactamente como aparece en Facebook. No agregamos ninguna marca a tu contenido descargado - solo archivos de video puros y limpios."
+      },
+      {
+        "q": "¿Puedo convertir videos de Facebook a MP3?",
+        "a": "¡Sí! Nuestra herramienta incluye un convertidor de Facebook a MP3. Puedes extraer audio de alta calidad de cualquier video de Facebook y guardarlo como MP3 (hasta 320kbps). Perfecto para guardar música, podcasts, entrevistas o cualquier contenido de audio de videos de Facebook. Solo usa nuestra función de convertidor FB a MP3 para descargar solo el audio."
+      },
+      {
+        "q": "¿En qué formatos puedo descargar videos de Facebook?",
+        "a": "Nuestro descargador de videos de Facebook soporta formato MP4, que es el formato de video más universal que funciona en todos los dispositivos y plataformas. También puedes convertir videos de Facebook a formato de audio MP3. MP4 es compatible con iPhone, Android, Windows, Mac, smart TVs y todos los reproductores multimedia. Ofrece excelente calidad con tamaños de archivo manejables."
+      },
+      {
+        "q": "¿Qué tan rápido es el proceso de descarga?",
+        "a": "¡Nuestro servicio de descarga de videos de Facebook es ultrarrápido! La mayoría de los videos se procesan y están listos para descargar en 5-10 segundos. La velocidad de descarga real depende de tu conexión a internet y el tamaño del archivo de video. Usamos servidores optimizados para asegurar la experiencia de descarga más rápida posible. Sin esperas, sin retrasos - solo descargas instantáneas."
+      },
+      {
+        "q": "¿Puedo descargar videos privados de Facebook?",
+        "a": "Solo puedes descargar videos de Facebook que tengas permiso para ver. Si puedes ver un video en Facebook (incluyendo videos privados compartidos contigo), puedes descargarlo con nuestra herramienta. Sin embargo, no puedes descargar videos de cuentas privadas a las que no tienes acceso. Siempre respeta la privacidad y los derechos de los creadores de contenido."
+      },
+      {
+        "q": "¿Es seguro usar este descargador de videos de Facebook?",
+        "a": "Sí, nuestro descargador de Facebook es 100% seguro. No almacenamos tus videos, no rastreamos tus descargas ni recopilamos información personal. Tu privacidad está protegida. No requerimos registro ni inicio de sesión, por lo que tu cuenta de Facebook permanece segura. Todas las descargas se procesan de forma segura y anónima."
+      },
+      {
+        "q": "¿Es legal descargar videos de Facebook?",
+        "a": "Descargar videos de Facebook para uso personal es generalmente aceptable. Sin embargo, siempre debes respetar los derechos de autor y los derechos de los creadores de contenido. Nunca redistribuyas, republiques o uses contenido descargado comercialmente sin permiso del creador original. Usa nuestro descargador de videos FB de manera responsable y ética."
+      },
+      {
+        "q": "¿Funciona en todos los dispositivos?",
+        "a": "¡Sí! Nuestro descargador de videos de Facebook funciona en todos los dispositivos y plataformas. Descarga videos FB en iPhone, iPad, teléfonos Android, tablets Android, PC Windows, Mac, Linux e incluso Chromebooks. Nuestra herramienta en línea es completamente responsive y optimizada para todos los tamaños de pantalla. No importa qué dispositivo uses, puedes guardar videos de Facebook fácilmente."
+      }
+    ]
+  },
   "mp4Faq": {
     "title": "Preguntas Frecuentes",
     "items": [
