@@ -102,15 +102,29 @@ export default async function handler(
       return res.status(408).json({ error: '请求超时，请重试' })
     }
     
-    // 检查是否是 yt-dlp 版本问题
+    // 检查是否是 yt-dlp 解析错误
     if (error.message?.includes('Cannot parse data')) {
       return res.status(500).json({ 
-        error: 'yt-dlp 需要更新，请联系管理员' 
+        error: '无法解析视频数据。可能原因：1) 视频链接无效或已被删除 2) 视频为私密视频 3) yt-dlp 需要更新。请检查链接或稍后重试。' 
+      })
+    }
+    
+    // 检查是否是权限问题
+    if (error.message?.includes('Private video') || error.message?.includes('login required')) {
+      return res.status(403).json({ 
+        error: '该视频为私密视频，无法下载。请确保视频为公开状态。' 
+      })
+    }
+    
+    // 检查是否是视频不存在
+    if (error.message?.includes('Video unavailable') || error.message?.includes('not found')) {
+      return res.status(404).json({ 
+        error: '视频不存在或已被删除。请检查链接是否正确。' 
       })
     }
     
     return res.status(500).json({ 
-      error: '无法下载视频，请检查链接是否正确或稍后重试' 
+      error: '无法下载视频。请检查链接是否正确或稍后重试。' 
     })
   }
 }

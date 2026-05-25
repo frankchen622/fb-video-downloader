@@ -5,11 +5,24 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { useTranslation } from '@/hooks/useTranslation'
 
+type VideoFormat = {
+  url: string
+  quality: string
+  filesize?: number
+}
+
+type VideoInfo = {
+  title: string
+  thumbnail?: string
+  formats: VideoFormat[]
+}
+
 export default function Home() {
   const { t, locale } = useTranslation()
   const [url, setUrl] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [videoInfo, setVideoInfo] = useState<VideoInfo | null>(null)
   
   const siteUrl = 'https://dlfb.io'
   const canonicalUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
@@ -22,6 +35,7 @@ export default function Home() {
 
     setLoading(true)
     setError('')
+    setVideoInfo(null)
 
     try {
       const response = await fetch('/api/download', {
@@ -36,13 +50,23 @@ export default function Home() {
         throw new Error(data.error || 'Failed to download video')
       }
 
-      // Trigger download
-      window.location.href = data.downloadUrl
+      // Set video info to display download options
+      setVideoInfo(data)
     } catch (err: any) {
       setError(err.message || 'An error occurred')
     } finally {
       setLoading(false)
     }
+  }
+
+  const handleFormatDownload = (downloadUrl: string, filename: string) => {
+    const link = document.createElement('a')
+    link.href = downloadUrl
+    link.download = filename
+    link.target = '_blank'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
   }
 
   return (
@@ -127,6 +151,45 @@ export default function Home() {
               {error && (
                 <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-lg text-red-600">
                   {error}
+                </div>
+              )}
+
+              {videoInfo && (
+                <div className="mt-6 p-6 bg-gray-50 rounded-xl border border-gray-200">
+                  <div className="flex gap-4 mb-4">
+                    {videoInfo.thumbnail && (
+                      <img 
+                        src={videoInfo.thumbnail} 
+                        alt={videoInfo.title}
+                        className="w-32 h-32 object-cover rounded-lg"
+                      />
+                    )}
+                    <div className="flex-1">
+                      <h3 className="font-bold text-lg mb-2">{videoInfo.title}</h3>
+                      <p className="text-sm text-gray-600">Choose quality to download:</p>
+                    </div>
+                  </div>
+                  <div className="space-y-2">
+                    {videoInfo.formats.map((format, index) => (
+                      <button
+                        key={index}
+                        onClick={() => handleFormatDownload(format.url, `${videoInfo.title}.mp4`)}
+                        className="w-full flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition"
+                      >
+                        <div className="flex items-center gap-3">
+                          <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
+                          </svg>
+                          <span className="font-semibold">{format.quality}</span>
+                        </div>
+                        {format.filesize && (
+                          <span className="text-sm text-gray-500">
+                            {(format.filesize / 1024 / 1024).toFixed(2)} MB
+                          </span>
+                        )}
+                      </button>
+                    ))}
+                  </div>
                 </div>
               )}
 
