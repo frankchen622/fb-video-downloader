@@ -20,6 +20,476 @@
     "h1Highlight": "dalam Hitungan Detik - Sepenuhnya Gratis",
     "subtitle": "Simpan video, reel, atau story Facebook apa pun ke perangkat Anda hanya dalam tiga langkah sederhana. Tanpa registrasi, tanpa instalasi perangkat lunak, tanpa watermark. Unduh video FB dalam kualitas HD (1080p) ke MP4 atau ekstrak audio ke MP3. Berfungsi di iPhone, Android, Windows, dan Mac.",
     "featuresTitle": "Solusi Lengkap untuk Konten Facebook",
-    "featuresSubtitle": "Semua yang Anda butuhkan untuk mengunduh dan mengonversi video, reels, stories Facebook, dan lainnya"
+    "featuresSubtitle": "Semua yang Anda butuhkan untuk mengunduh dan mengonversi video, reels, stories Facebook, dan lainnya",
+    "stepsTitle": "Mengunduh Video Facebook Tidak Pernah Semudah Ini",
+    "stepsSubtitle": "Ikuti tiga langkah sederhana ini untuk menyimpan video, reel, atau foto Facebook apa pun ke perangkat Anda dalam hitungan detik. Tanpa registrasi, tanpa instalasi perangkat lunak yang diperlukan.",
+    "step1Title": "Salin Tautan",
+    "step1Desc": "Buka Facebook dan salin URL video dari bilah alamat atau menu berbagi",
+    "step2Title": "Tempel URL",
+    "step2Desc": "Kembali ke sini dan tempel tautan ke kolom input di atas",
+    "step3Title": "Unduh",
+    "step3Desc": "Klik tombol unduh dan simpan video Anda dalam kualitas HD",
+    "feature1Title": "Unduhan Video HD",
+    "feature1Desc": "Unduh video Facebook dalam kualitas tertinggi yang tersedia, hingga 1080p Full HD",
+    "feature2Title": "Reels dan Stories",
+    "feature2Desc": "Simpan Facebook Reels dan Stories sebelum hilang",
+    "feature3Title": "Ekstraksi Audio",
+    "feature3Desc": "Konversi video Facebook ke file audio MP3",
+    "feature4Title": "Video Pribadi",
+    "feature4Desc": "Unduh video Facebook pribadi dengan izin yang sesuai",
+    "feature5Title": "Tanpa Watermark",
+    "feature5Desc": "Unduhan bersih tanpa watermark atau branding",
+    "feature6Title": "Semua Perangkat",
+    "feature6Desc": "Berfungsi di iPhone, Android, Windows, Mac, dan tablet",
+    "videoDownloaderTitle": "Pengunduh Video",
+    "videoDownloaderDesc": "Unduh video Facebook dalam kualitas HD dengan satu klik. DLFB.io mendukung semua format dan resolusi video, memungkinkan Anda menyimpan video Facebook dalam format MP4 ke perangkat Anda untuk ditonton offline kapan saja, di mana saja.",
+    "videoDownloaderFeature1": "Kualitas HD hingga 1080p",
+    "videoDownloaderFeature2": "Tanpa watermark atau logo",
+    "videoDownloaderFeature3": "Berfungsi di semua perangkat",
+    "reelsDownloaderTitle": "Pengunduh Reels",
+    "reelsDownloaderDesc": "Unduh video Facebook Reels dalam resolusi tinggi. Sempurna untuk menyimpan video pendek lucu, tutorial, atau reels viral untuk ditonton offline atau dibagikan dengan teman.",
+    "reelsDownloaderFeature1": "Simpan reels sebelum hilang",
+    "reelsDownloaderFeature2": "Unduh dalam kualitas penuh",
+    "reelsDownloaderFeature3": "Cepat dan mudah digunakan",
+    "storiesDownloaderTitle": "Pengunduh Stories",
+    "storiesDownloaderDesc": "Tangkap dan simpan Facebook Stories sebelum hilang. Unduh stories dari akun Facebook publik mana pun dalam kualitas penuh dan simpan momen tak terlupakan yang akan hilang setelah 24 jam.",
+    "storiesDownloaderFeature1": "Simpan stories secara permanen",
+    "storiesDownloaderFeature2": "Unduh sebelum batas waktu 24 jam",
+    "storiesDownloaderFeature3": "Pertahankan kualitas asli"
+  },
+  "homeFaq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      {
+        "q": "Bagaimana cara mengunduh video Facebook?",
+        "a": "Mengunduh video Facebook mudah dengan pengunduh gratis kami. Cukup salin URL video Facebook, tempel ke pengunduh kami di atas, dan klik tombol unduh. Anda dapat menyimpan video Facebook dalam kualitas HD (1080p, 720p, 480p) dalam format MP4. Tidak perlu registrasi atau instalasi perangkat lunak - berfungsi langsung di browser Anda di perangkat apa pun."
+      },
+      {
+        "q": "Apakah pengunduh video Facebook ini benar-benar gratis?",
+        "a": "Ya! Pengunduh video FB kami 100% gratis dengan unduhan tak terbatas. Tidak ada biaya tersembunyi, langganan, atau paket premium. Unduh video, reels, dan stories Facebook sebanyak yang Anda inginkan tanpa membayar apa pun."
+      },
+      {
+        "q": "Dalam kualitas apa saya dapat mengunduh video Facebook?",
+        "a": "Anda dapat mengunduh video Facebook dalam kualitas tertinggi yang tersedia dari sumber. Alat kami mendukung kualitas HD hingga 1080p, serta 720p, 480p, dan 360p. Kami secara otomatis mendeteksi semua kualitas video yang tersedia."
+      },
+      {
+        "q": "Bisakah saya mengunduh video Facebook di ponsel?",
+        "a": "Tentu saja! Pengunduh video Facebook kami berfungsi sempurna di perangkat seluler. Baik Anda menggunakan iPhone, iPad, ponsel Android, atau tablet, Anda dapat dengan mudah mengunduh video Facebook."
+      },
+      {
+        "q": "Apakah saya perlu menginstal perangkat lunak untuk mengunduh video FB?",
+        "a": "Tidak perlu instalasi! Tidak seperti aplikasi pengunduh video Facebook lainnya, alat online kami berfungsi langsung di browser web Anda. Tidak ada perangkat lunak, ekstensi, atau aplikasi yang perlu diunduh atau diinstal."
+      },
+      {
+        "q": "Bisakah saya mengunduh Facebook Reels?",
+        "a": "Ya! Alat kami mendukung pengunduhan Facebook Reels selain video biasa. Anda dapat mengunduh Facebook Reels dalam kualitas penuh dan menyimpannya ke perangkat Anda untuk ditonton offline."
+      },
+      {
+        "q": "Bisakah saya mengunduh Facebook Stories?",
+        "a": "Ya, Anda dapat mengunduh Facebook Stories dengan alat kami. Karena stories hilang setelah 24 jam, pengunduh Facebook Stories kami memungkinkan Anda menyimpannya secara permanen."
+      },
+      {
+        "q": "Apakah video yang diunduh memiliki watermark?",
+        "a": "Tidak ada watermark! Semua video yang diunduh melalui pengunduh video Facebook kami benar-benar bersih tanpa watermark, logo, atau branding."
+      },
+      {
+        "q": "Bisakah saya mengonversi video Facebook ke MP3?",
+        "a": "Ya! Alat kami menyertakan konverter Facebook ke MP3. Anda dapat mengekstrak audio berkualitas tinggi dari video Facebook apa pun dan menyimpannya sebagai MP3 (hingga 320kbps)."
+      },
+      {
+        "q": "Apakah aman menggunakan pengunduh video Facebook ini?",
+        "a": "Ya, pengunduh Facebook kami 100% aman. Kami tidak menyimpan video Anda, tidak melacak unduhan Anda, dan tidak mengumpulkan informasi pribadi. Privasi Anda dilindungi."
+      }
+    ]
+  },
+  "mp4": {
+    "title": "Facebook ke MP4",
+    "subtitle": "Konversi video FB ke MP4 • Kualitas HD • Gratis",
+    "placeholder": "Tempel URL video Facebook...",
+    "button": "🎬 Konversi ke MP4",
+    "converting": "⏳ Mengonversi...",
+    "enterUrl": "Silakan masukkan URL video Facebook",
+    "footer": "Kualitas HD • Format universal • Berfungsi di mana saja",
+    "howToTitle": "Cara Mengonversi Facebook ke MP4",
+    "step1Title": "Salin URL",
+    "step1Desc": "Salin tautan video Facebook",
+    "step2Title": "Tempel",
+    "step2Desc": "Tempel ke konverter",
+    "step3Title": "Unduh",
+    "step3Desc": "Klik konversi dan simpan MP4",
+    "whyChooseTitle": "Mengapa Memilih Konverter Facebook ke MP4 Kami?",
+    "feature1Title": "Format MP4 Universal",
+    "feature1Desc": "MP4 adalah format video universal yang didukung oleh semua perangkat dan platform.",
+    "feature1Point1": "Berfungsi di semua perangkat dan platform",
+    "feature1Point2": "Kualitas tinggi dengan ukuran file kecil",
+    "feature1Point3": "Standar industri untuk video",
+    "feature2Title": "Unduhan Kualitas HD",
+    "feature2Desc": "Unduh video Facebook dalam kualitas tertinggi yang tersedia.",
+    "feature2Point1": "Hingga 1080p Full HD",
+    "feature2Point2": "Tidak ada kehilangan kualitas saat konversi",
+    "feature2Point3": "Beberapa opsi kualitas tersedia"
+  },
+  "mp3": {
+    "title": "Facebook ke MP3",
+    "subtitle": "Konversi video FB ke MP3 • Kualitas tinggi • Gratis",
+    "placeholder": "Tempel URL video Facebook...",
+    "button": "🎵 Konversi ke MP3",
+    "converting": "⏳ Mengonversi...",
+    "enterUrl": "Silakan masukkan URL video Facebook",
+    "footer": "Audio berkualitas tinggi • Format universal • Berfungsi di mana saja",
+    "howToTitle": "Cara Mengonversi Facebook ke MP3",
+    "step1Title": "Salin URL",
+    "step1Desc": "Salin tautan video Facebook",
+    "step2Title": "Tempel",
+    "step2Desc": "Tempel ke konverter",
+    "step3Title": "Unduh MP3",
+    "step3Desc": "Klik konversi dan simpan audio",
+    "whyChooseTitle": "Mengapa Memilih DLFB.io?",
+    "feature1Title": "Ekstraksi Audio Berkualitas Tinggi",
+    "feature1Desc": "Ekstrak audio berkualitas tinggi dari video Facebook apa pun.",
+    "feature1Point1": "Hingga 320kbps kualitas audio",
+    "feature1Point2": "Tidak ada kehilangan kualitas saat konversi",
+    "feature1Point3": "Format MP3 universal",
+    "feature2Title": "Cepat dan Mudah",
+    "feature2Desc": "Konversi video Facebook ke MP3 dalam hitungan detik.",
+    "feature2Point1": "Konversi instan",
+    "feature2Point2": "Tidak perlu registrasi",
+    "feature2Point3": "Berfungsi di semua perangkat",
+    "feature3Title": "Kompatibilitas Universal",
+    "feature3Desc": "File MP3 berfungsi di semua perangkat dan pemutar musik.",
+    "feature3Point1": "Berfungsi di semua perangkat",
+    "feature3Point2": "Kompatibel dengan semua pemutar",
+    "feature3Point3": "Ukuran file kecil"
+  },
+  "reels": {
+    "title": "Pengunduh Facebook Reels",
+    "subtitle": "Unduh FB Reels • Tanpa watermark • Gratis",
+    "placeholder": "Tempel URL Facebook Reel...",
+    "button": "⚡ Unduh Reel",
+    "downloading": "⏳ Mengunduh...",
+    "enterUrl": "Silakan masukkan URL Facebook Reel",
+    "footer": "Tanpa watermark • Kualitas tinggi • Cepat",
+    "howToTitle": "Cara Mengunduh Facebook Reels",
+    "step1Title": "Salin Tautan",
+    "step1Desc": "Salin URL Facebook Reel",
+    "step2Title": "Tempel URL",
+    "step2Desc": "Tempel ke pengunduh di atas",
+    "step3Title": "Unduh",
+    "step3Desc": "Klik unduh dan simpan",
+    "feature1Title": "Simpan Reels Viral",
+    "feature1Desc": "Unduh Facebook Reels yang sedang tren untuk ditonton offline.",
+    "feature1Point1": "Unduh Facebook Reel publik apa pun",
+    "feature1Point2": "Simpan sebelum hilang",
+    "feature1Point3": "Buat koleksi offline pribadi Anda",
+    "feature2Title": "Tanpa Watermark",
+    "feature2Desc": "Dapatkan unduhan bersih tanpa watermark setiap saat.",
+    "feature2Point1": "Unduhan murni tanpa merek",
+    "feature2Point2": "Tidak ada logo atau branding yang ditambahkan",
+    "feature2Point3": "Video asli dipertahankan",
+    "feature3Title": "Unduhan Kualitas Tinggi",
+    "feature3Desc": "Unduh Facebook Reels dalam kualitas tertinggi yang tersedia.",
+    "feature3Point1": "Hingga resolusi HD 1080p",
+    "feature3Point2": "Tidak ada kehilangan kualitas",
+    "feature3Point3": "Kualitas audio asli dipertahankan",
+    "feature4Title": "Mudah Digunakan",
+    "feature4Desc": "Tiga langkah sederhana: salin, tempel, unduh.",
+    "feature4Point1": "Tidak perlu registrasi",
+    "feature4Point2": "Berfungsi di semua perangkat",
+    "feature4Point3": "Unduhan instan"
+  },
+  "private": {
+    "title": "Pengunduh Video Pribadi Facebook",
+    "subtitle": "Unduh video FB pribadi • Aman • Gratis",
+    "placeholder": "Tempel URL video Facebook pribadi...",
+    "button": "🔒 Unduh Video Pribadi",
+    "downloading": "⏳ Mengunduh...",
+    "enterUrl": "Silakan masukkan URL video Facebook",
+    "footer": "Aman • Pribadi • Anonim",
+    "howToTitle": "Cara Mengunduh Video Pribadi",
+    "step1Title": "Salin Tautan",
+    "step1Desc": "Salin URL video Facebook",
+    "step2Title": "Tempel URL",
+    "step2Desc": "Tempel ke pengunduh di atas",
+    "step3Title": "Unduh",
+    "step3Desc": "Klik unduh dan simpan video Anda",
+    "feature1Title": "Unduhan Video Pribadi Facebook",
+    "feature1Desc": "Unduh video dari grup Facebook pribadi.",
+    "feature1Point1": "Akses video grup pribadi",
+    "feature1Point2": "Unduh postingan khusus teman",
+    "feature1Point3": "Simpan konten terbatas dengan aman",
+    "feature1Point3Alt": "Simpan konten terbatas yang dapat Anda lihat",
+    "feature2Title": "Kualitas Tinggi",
+    "feature2Desc": "Unduh video Facebook pribadi dalam kualitas HD penuh.",
+    "feature2DescAlt": "Pertahankan kualitas asli video pribadi. Unduh dalam Full HD dengan visual tajam dan audio jernih—tanpa kompresi, tanpa kehilangan kualitas.",
+    "feature2Point1": "Hingga resolusi HD 1080p",
+    "feature2Point2": "Tidak ada kehilangan kualitas",
+    "feature2Point2Alt": "Mempertahankan kualitas video sumber",
+    "feature2Point3": "Kualitas audio asli dipertahankan",
+    "feature3Title": "Aman dan Pribadi",
+    "feature3Desc": "Privasi Anda adalah prioritas kami.",
+    "feature3DescAlt": "Kredensial login dan data pribadi Anda tidak pernah disimpan atau dibagikan. Kami menggunakan koneksi aman untuk melindungi privasi Anda saat mengunduh konten pribadi.",
+    "feature3Point1": "Tidak ada penyimpanan kredensial",
+    "feature3Point1Alt": "Koneksi terenkripsi end-to-end",
+    "feature3Point2": "Koneksi terenkripsi",
+    "feature3Point2Alt": "Tidak ada penyimpanan atau pelacakan data",
+    "feature3Point3": "Tidak ada pelacakan atau logging",
+    "feature3Point3Alt": "Kredensial Anda tetap di Facebook",
+    "feature4Title": "Unduhan Anonim",
+    "feature4Desc": "Unduh video pribadi sepenuhnya secara anonim.",
+    "feature4DescAlt": "Unduh secara pribadi tanpa meninggalkan jejak. Pemilik video tidak akan diberi tahu dan aktivitas unduhan Anda tetap sepenuhnya anonim.",
+    "feature4Point1": "Unduhan sepenuhnya anonim",
+    "feature4Point1Alt": "Tidak ada notifikasi unduhan yang dikirim",
+    "feature4Point2": "Tidak ada notifikasi ke pemilik",
+    "feature4Point2Alt": "Pemilik tidak akan tahu Anda mengunduh",
+    "feature4Point3": "Privasi Anda dilindungi",
+    "feature4Point3Alt": "Unduhan sepenuhnya tersembunyi"
+  },
+  "mp4Faq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      {
+        "q": "Bagaimana cara mengonversi video Facebook ke MP4?",
+        "a": "Cukup salin URL video Facebook, tempel ke konverter di atas, dan klik \"Konversi ke MP4\". Video akan diproses dalam hitungan detik."
+      },
+      {
+        "q": "Apakah MP4 format terbaik untuk video Facebook?",
+        "a": "Ya, MP4 adalah format video yang paling banyak didukung. Berfungsi di semua perangkat (iPhone, Android, Windows, Mac), platform, dan pemutar media."
+      },
+      {
+        "q": "Dalam kualitas apa saya dapat mengunduh?",
+        "a": "Anda dapat mengunduh dalam kualitas hingga 1080p HD. Kami secara otomatis mendeteksi semua kualitas yang tersedia."
+      },
+      {
+        "q": "Apakah konverter Facebook ke MP4 ini gratis?",
+        "a": "Ya, konverter kami 100% gratis dengan konversi tak terbatas. Tidak ada biaya tersembunyi atau langganan."
+      },
+      {
+        "q": "Apakah saya perlu menginstal perangkat lunak?",
+        "a": "Tidak perlu instalasi! Konverter kami berfungsi langsung di browser web Anda di perangkat apa pun."
+      },
+      {
+        "q": "Bisakah saya mengonversi video Facebook di ponsel?",
+        "a": "Tentu saja! Konverter kami berfungsi sempurna di perangkat seluler. Berfungsi di iPhone dan Android."
+      },
+      {
+        "q": "Apakah video yang diunduh akan memiliki watermark?",
+        "a": "Tidak, semua video yang diunduh melalui konverter kami benar-benar bersih tanpa watermark."
+      },
+      {
+        "q": "Berapa lama waktu konversi?",
+        "a": "Konversi biasanya instan! Sebagian besar video diproses dalam 5-10 detik."
+      },
+      {
+        "q": "Bisakah saya mengonversi video Facebook pribadi?",
+        "a": "Anda hanya dapat mengonversi video yang Anda miliki izin untuk melihat di Facebook. Untuk video pribadi, lihat halaman Pengunduh Video Pribadi kami."
+      },
+      {
+        "q": "Jenis video Facebook apa yang dapat saya konversi?",
+        "a": "Anda dapat mengonversi video Facebook biasa, Reels, Stories, video langsung (setelah selesai), dan video Facebook Watch."
+      },
+      {
+        "q": "Apakah legal mengunduh video Facebook?",
+        "a": "Mengunduh video untuk penggunaan pribadi umumnya dapat diterima. Namun, selalu hormati hak cipta dan hak pembuat konten."
+      },
+      {
+        "q": "Mengapa MP4 lebih baik dari format lain?",
+        "a": "MP4 menawarkan keseimbangan terbaik antara kualitas dan ukuran file. Ini kompatibel secara universal dan merupakan standar industri untuk video."
+      }
+    ]
+  },
+  "mp3Faq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      {
+        "q": "Bagaimana cara mengonversi video Facebook ke MP3?",
+        "a": "Cukup salin URL video Facebook, tempel ke konverter, dan klik \"Konversi ke MP3\". Audio akan diekstrak dalam hitungan detik."
+      },
+      {
+        "q": "Apakah konverter Facebook ke MP3 ini gratis?",
+        "a": "Ya, konverter kami 100% gratis dengan konversi tak terbatas."
+      },
+      {
+        "q": "Berapa kualitas audio MP3?",
+        "a": "Kami mengekstrak audio dalam kualitas tertinggi yang tersedia, hingga 320kbps."
+      },
+      {
+        "q": "Bisakah saya mengonversi video Facebook ke MP3 di ponsel?",
+        "a": "Tentu saja! Konverter kami berfungsi sempurna di iPhone dan Android."
+      },
+      {
+        "q": "Apakah saya perlu menginstal perangkat lunak?",
+        "a": "Tidak perlu instalasi! Konverter kami berfungsi langsung di browser Anda."
+      },
+      {
+        "q": "Berapa lama waktu konversi?",
+        "a": "Konversi biasanya instan! Sebagian besar video diproses dalam 5-10 detik."
+      },
+      {
+        "q": "Bisakah saya mengonversi Facebook Reels ke MP3?",
+        "a": "Ya! Alat kami mendukung konversi Facebook Reels ke MP3."
+      },
+      {
+        "q": "Apakah file MP3 akan memiliki watermark?",
+        "a": "Tidak, semua file audio benar-benar bersih tanpa watermark."
+      },
+      {
+        "q": "Bisakah saya mengonversi video Facebook pribadi ke MP3?",
+        "a": "Anda hanya dapat mengonversi video yang Anda miliki izin untuk melihat di Facebook."
+      },
+      {
+        "q": "Mengapa memilih MP3 daripada format audio lain?",
+        "a": "MP3 adalah format audio yang paling banyak didukung. Berfungsi di semua perangkat, pemutar musik, dan platform."
+      },
+      {
+        "q": "Bisakah saya mengonversi video Facebook yang panjang ke MP3?",
+        "a": "Ya, alat kami mendukung video dengan panjang berapa pun."
+      },
+      {
+        "q": "Apakah audio MP3 akan berfungsi di iPhone saya?",
+        "a": "Ya! File MP3 berfungsi sempurna di iPhone."
+      },
+      {
+        "q": "Bisakah saya menggunakan audio MP3 yang diunduh secara komersial?",
+        "a": "Selalu hormati hak cipta dan hak pembuat konten."
+      },
+      {
+        "q": "Jenis konten Facebook apa yang dapat saya konversi ke MP3?",
+        "a": "Anda dapat mengonversi video Facebook biasa, Reels, video langsung, dan video Facebook Watch ke MP3."
+      },
+      {
+        "q": "Apakah aman menggunakan konverter Facebook ke MP3 ini?",
+        "a": "Ya, konverter kami 100% aman. Kami tidak menyimpan file Anda, tidak melacak unduhan Anda, dan tidak mengumpulkan informasi pribadi."
+      }
+    ]
+  },
+  "reelsFaq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      {
+        "q": "Bagaimana cara mengunduh Facebook Reels?",
+        "a": "Salin URL Reel, tempel ke pengunduh, dan klik unduh."
+      },
+      {
+        "q": "Apakah akan ada watermark?",
+        "a": "Tidak! Semua unduhan benar-benar bersih tanpa watermark."
+      },
+      {
+        "q": "Dalam kualitas apa saya dapat mengunduh?",
+        "a": "Anda dapat mengunduh dalam kualitas hingga 1080p HD."
+      },
+      {
+        "q": "Apakah gratis?",
+        "a": "Sepenuhnya gratis! Unduh Reels sebanyak yang Anda inginkan."
+      },
+      {
+        "q": "Apakah berfungsi di ponsel?",
+        "a": "Ya! Berfungsi sempurna di browser seluler. Tidak perlu aplikasi."
+      },
+      {
+        "q": "Bagaimana cara menemukan URL Reel?",
+        "a": "Buka Reel di Facebook, klik kanan (atau ketuk bagikan) dan salin tautan."
+      },
+      {
+        "q": "Bisakah saya mengunduh Facebook Reels pribadi?",
+        "a": "Anda hanya dapat mengunduh Reels yang Anda miliki izin untuk melihat."
+      },
+      {
+        "q": "Apakah saya memerlukan aplikasi untuk mengunduh FB Reels?",
+        "a": "Tidak! Pengunduh berbasis web kami berfungsi langsung di browser Anda."
+      },
+      {
+        "q": "Apakah aman menggunakan pengunduh ini?",
+        "a": "Sepenuhnya aman! Kami tidak menyimpan kredensial atau data pribadi Anda."
+      },
+      {
+        "q": "Bisakah saya mengunduh beberapa Reels?",
+        "a": "Ya! Gunakan pengunduh kami berulang kali untuk beberapa video."
+      },
+      {
+        "q": "Bisakah saya mengunduh Reels dalam HD?",
+        "a": "Ya! Pengunduh kami mempertahankan kualitas HD penuh."
+      },
+      {
+        "q": "Seberapa cepat unduhan?",
+        "a": "Sangat cepat! Biasanya selesai dalam 10-30 detik."
+      },
+      {
+        "q": "Apakah saya perlu menginstal perangkat lunak?",
+        "a": "Tidak perlu instalasi! Pengunduh berbasis web kami berfungsi sepenuhnya di browser Anda."
+      },
+      {
+        "q": "Bisakah saya mengunduh Reels di iPhone?",
+        "a": "Ya! Pengunduh kami berfungsi di Safari iPhone."
+      },
+      {
+        "q": "Dalam format apa Reels yang diunduh?",
+        "a": "Reels yang diunduh dalam format MP4, kompatibel dengan semua perangkat."
+      }
+    ]
+  },
+  "privateFaq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      {
+        "q": "Bagaimana cara mengunduh video Facebook pribadi?",
+        "a": "Pastikan Anda dapat melihat video di Facebook, salin URL, tempel ke alat kami, dan klik unduh."
+      },
+      {
+        "q": "Apakah pemilik akan tahu?",
+        "a": "Tidak! Kami menyediakan unduhan sepenuhnya anonim. Pemilik video tidak akan diberi tahu."
+      },
+      {
+        "q": "Apakah aman?",
+        "a": "Ya, 100% aman. Kami tidak menyimpan kredensial atau informasi pribadi Anda."
+      },
+      {
+        "q": "Apakah gratis?",
+        "a": "Sepenuhnya gratis! Unduh konten Facebook pribadi sebanyak yang Anda inginkan."
+      },
+      {
+        "q": "Apakah berfungsi di ponsel?",
+        "a": "Ya! Berfungsi di iPhone dan Android. Tidak perlu aplikasi."
+      },
+      {
+        "q": "Apakah saya perlu masuk ke Facebook?",
+        "a": "Ya, Anda perlu masuk ke Facebook untuk mengunduh konten pribadi."
+      },
+      {
+        "q": "Bisakah saya mengunduh video dari grup pribadi?",
+        "a": "Ya! Jika Anda adalah anggota grup pribadi, Anda dapat mengunduh konten video pribadi."
+      },
+      {
+        "q": "Bisakah saya mengunduh Facebook Reels pribadi?",
+        "a": "Ya! Alat kami mendukung pengunduhan Reels pribadi."
+      },
+      {
+        "q": "Apakah video yang diunduh akan memiliki watermark?",
+        "a": "Tidak ada watermark! Kami menjamin unduhan bersih."
+      },
+      {
+        "q": "Dalam kualitas apa video pribadi diunduh?",
+        "a": "Pengunduh kami mempertahankan kualitas HD asli. Hingga 1080p."
+      },
+      {
+        "q": "Bisakah saya mengunduh video pribadi tanpa aplikasi?",
+        "a": "Ya! Tidak perlu aplikasi. Pengunduh berbasis web kami berfungsi langsung di browser Anda."
+      },
+      {
+        "q": "Apakah aman menggunakan pengunduh ini?",
+        "a": "Sepenuhnya aman! Kami tidak menyimpan kredensial atau data pribadi Anda."
+      },
+      {
+        "q": "Seberapa cepat unduhan?",
+        "a": "Sangat cepat! Biasanya selesai dalam 10-30 detik."
+      },
+      {
+        "q": "Apakah saya perlu menginstal perangkat lunak?",
+        "a": "Tidak perlu instalasi! Pengunduh berbasis web kami berfungsi sepenuhnya di browser Anda."
+      },
+      {
+        "q": "Dalam format apa video yang diunduh?",
+        "a": "Video pribadi yang diunduh dalam format MP4, kompatibel dengan semua perangkat."
+      }
+    ]
   }
 }
