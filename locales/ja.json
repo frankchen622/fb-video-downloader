@@ -43,7 +43,19 @@
     "storiesDownloaderDesc": "消える前にFacebookストーリーをキャプチャして保存。公開Facebookアカウントからストーリーをフル品質でダウンロードし、24時間後に失われる忘れられない瞬間を保存します。",
     "storiesDownloaderFeature1": "ストーリーを永久に保存",
     "storiesDownloaderFeature2": "24時間の期限前にダウンロード",
-    "storiesDownloaderFeature3": "オリジナル品質を維持"
+    "storiesDownloaderFeature3": "オリジナル品質を維持",
+    "feature1Title": "HD動画ダウンロード",
+    "feature1Desc": "利用可能な最高品質でFacebook動画をダウンロード、最大1080pフルHD",
+    "feature2Title": "リールとストーリー",
+    "feature2Desc": "消える前にFacebook ReelsとStoriesを保存",
+    "feature3Title": "オーディオ抽出",
+    "feature3Desc": "Facebook動画をMP3オーディオファイルに変換",
+    "feature4Title": "プライベート動画",
+    "feature4Desc": "適切な権限でプライベートFacebook動画をダウンロード",
+    "feature5Title": "透かしなし",
+    "feature5Desc": "透かしやブランディングなしのクリーンなダウンロード",
+    "feature6Title": "すべてのデバイス",
+    "feature6Desc": "iPhone、Android、Windows、Mac、タブレットで動作"
   },
   "homeFaq": {
     "title": "よくある質問",
