@@ -4,7 +4,6 @@ import Link from 'next/link'
 import Logo from '@/components/Logo'
 import { useRouter } from 'next/router'
 
-// Import translations - add more as they become available
 const loadTranslations = (locale: string) => {
   try {
     return require(`@/locales/pages-${locale}.json`)
@@ -18,6 +17,8 @@ export default function Contact() {
   const { locale = 'en' } = router
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
   const [submitted, setSubmitted] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [error, setError] = useState('')
   
   const translations = loadTranslations(locale)
   const t = translations.contact
@@ -26,9 +27,36 @@ export default function Contact() {
   const pagePath = '/contact'
   const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setSubmitted(true)
+    setIsSubmitting(true)
+    setError('')
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ...formData,
+          locale
+        }),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to submit form')
+      }
+
+      setSubmitted(true)
+      setFormData({ name: '', email: '', message: '' })
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to submit form')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -65,59 +93,71 @@ export default function Contact() {
                   </button>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
-                      {t.nameLabel}
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      required
-                      value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition"
-                      placeholder={t.namePlaceholder}
-                    />
-                  </div>
+                <>
+                  {error && (
+                    <div className="mb-6 bg-red-50 border border-red-200 rounded-xl p-4 text-red-700">
+                      {error}
+                    </div>
+                  )}
+                  
+                  <form onSubmit={handleSubmit} className="space-y-6">
+                    <div>
+                      <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
+                        {t.nameLabel}
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        required
+                        value={formData.name}
+                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition"
+                        placeholder={t.namePlaceholder}
+                        disabled={isSubmitting}
+                      />
+                    </div>
 
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
-                      {t.emailLabel}
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      required
-                      value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition"
-                      placeholder={t.emailPlaceholder}
-                    />
-                  </div>
+                    <div>
+                      <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
+                        {t.emailLabel}
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        required
+                        value={formData.email}
+                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition"
+                        placeholder={t.emailPlaceholder}
+                        disabled={isSubmitting}
+                      />
+                    </div>
 
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
-                      {t.messageLabel}
-                    </label>
-                    <textarea
-                      id="message"
-                      required
-                      rows={6}
-                      value={formData.message}
-                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition resize-none"
-                      placeholder={t.messagePlaceholder}
-                    />
-                  </div>
+                    <div>
+                      <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
+                        {t.messageLabel}
+                      </label>
+                      <textarea
+                        id="message"
+                        required
+                        rows={6}
+                        value={formData.message}
+                        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition resize-none"
+                        placeholder={t.messagePlaceholder}
+                        disabled={isSubmitting}
+                      />
+                    </div>
 
-                  <button
-                    type="submit"
-                    className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition"
-                  >
-                    {t.submitButton}
-                  </button>
-                </form>
+                    <button
+                      type="submit"
+                      disabled={isSubmitting}
+                      className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      {isSubmitting ? (locale === 'es' ? 'Enviando...' : 'Sending...') : t.submitButton}
+                    </button>
+                  </form>
+                </>
               )}
 
               <div className="mt-12 pt-8 border-t border-gray-200">
