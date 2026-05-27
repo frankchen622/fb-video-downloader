@@ -4,11 +4,22 @@ import Link from 'next/link'
 import Logo from '@/components/Logo'
 import { useRouter } from 'next/router'
 
+// Import translations
+import enTranslations from '@/locales/pages-en.json'
+import esTranslations from '@/locales/pages-es.json'
+
+const translations: Record<string, any> = {
+  en: enTranslations,
+  es: esTranslations,
+}
+
 export default function Contact() {
   const router = useRouter()
   const { locale = 'en' } = router
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
   const [submitted, setSubmitted] = useState(false)
+  
+  const t = translations[locale]?.contact || translations.en.contact
   
   const siteUrl = 'https://dlfb.io'
   const pagePath = '/contact'
@@ -16,15 +27,14 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // In a real implementation, this would send the form data to a backend
     setSubmitted(true)
   }
 
   return (
     <>
       <Head>
-        <title>Contact Us - dlfb.io</title>
-        <meta name="description" content="Contact dlfb.io for support, feedback, or inquiries about our Facebook video downloader service." />
+        <title>{t.title}</title>
+        <meta name="description" content={t.metaDescription} />
         <link rel="canonical" href={canonicalUrl} />
       </Head>
 
@@ -36,32 +46,28 @@ export default function Contact() {
         <div className="container mx-auto px-4 py-16">
           <div className="max-w-2xl mx-auto">
             <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
-              <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
-              <p className="text-gray-600 mb-8">
-                Have questions, feedback, or need support? We'd love to hear from you.
-              </p>
+              <h1 className="text-4xl font-bold mb-4">{t.heading}</h1>
+              <p className="text-gray-600 mb-8">{t.subtitle}</p>
 
               {submitted ? (
                 <div className="bg-green-50 border border-green-200 rounded-xl p-6 text-center">
                   <svg className="w-16 h-16 text-green-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <h2 className="text-2xl font-bold text-green-900 mb-2">Thank You!</h2>
-                  <p className="text-green-700">
-                    Your message has been received. We'll get back to you as soon as possible.
-                  </p>
+                  <h2 className="text-2xl font-bold text-green-900 mb-2">{t.thankYouTitle}</h2>
+                  <p className="text-green-700">{t.thankYouMessage}</p>
                   <button
                     onClick={() => setSubmitted(false)}
                     className="mt-6 px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
                   >
-                    Send Another Message
+                    {t.sendAnotherButton}
                   </button>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
-                      Name
+                      {t.nameLabel}
                     </label>
                     <input
                       type="text"
@@ -70,13 +76,13 @@ export default function Contact() {
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition"
-                      placeholder="Your name"
+                      placeholder={t.namePlaceholder}
                     />
                   </div>
 
                   <div>
                     <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
-                      Email
+                      {t.emailLabel}
                     </label>
                     <input
                       type="email"
@@ -85,13 +91,13 @@ export default function Contact() {
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition"
-                      placeholder="your@email.com"
+                      placeholder={t.emailPlaceholder}
                     />
                   </div>
 
                   <div>
                     <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
-                      Message
+                      {t.messageLabel}
                     </label>
                     <textarea
                       id="message"
@@ -100,7 +106,7 @@ export default function Contact() {
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition resize-none"
-                      placeholder="How can we help you?"
+                      placeholder={t.messagePlaceholder}
                     />
                   </div>
 
@@ -108,29 +114,29 @@ export default function Contact() {
                     type="submit"
                     className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition"
                   >
-                    Send Message
+                    {t.submitButton}
                   </button>
                 </form>
               )}
 
               <div className="mt-12 pt-8 border-t border-gray-200">
-                <h3 className="font-bold text-lg mb-4">Other Ways to Reach Us</h3>
+                <h3 className="font-bold text-lg mb-4">{t.otherWaysTitle}</h3>
                 <div className="space-y-3 text-gray-600">
                   <p>
-                    <strong>Support:</strong> For technical issues or questions about using our service
+                    <strong>{t.supportLabel}</strong> {t.supportText}
                   </p>
                   <p>
-                    <strong>Feedback:</strong> We welcome your suggestions for improving dlfb.io
+                    <strong>{t.feedbackLabel}</strong> {t.feedbackText}
                   </p>
                   <p>
-                    <strong>Business Inquiries:</strong> For partnership or collaboration opportunities
+                    <strong>{t.businessLabel}</strong> {t.businessText}
                   </p>
                 </div>
               </div>
 
               <div className="mt-8">
                 <Link href="/" className="text-blue-600 hover:underline">
-                  ← Back to Home
+                  {t.backToHome}
                 </Link>
               </div>
             </div>

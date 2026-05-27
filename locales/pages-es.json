@@ -1,0 +1,139 @@
+{
+  "contact": {
+    "title": "Contáctanos - dlfb.io",
+    "metaDescription": "Contacta a dlfb.io para soporte, comentarios o consultas sobre nuestro servicio de descarga de videos de Facebook.",
+    "heading": "Contáctanos",
+    "subtitle": "¿Tienes preguntas, comentarios o necesitas soporte? Nos encantaría saber de ti.",
+    "thankYouTitle": "¡Gracias!",
+    "thankYouMessage": "Tu mensaje ha sido recibido. Te responderemos lo antes posible.",
+    "sendAnotherButton": "Enviar Otro Mensaje",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Correo Electrónico",
+    "emailPlaceholder": "tu@email.com",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "¿Cómo podemos ayudarte?",
+    "submitButton": "Enviar Mensaje",
+    "otherWaysTitle": "Otras Formas de Contactarnos",
+    "supportLabel": "Soporte:",
+    "supportText": "Para problemas técnicos o preguntas sobre el uso de nuestro servicio",
+    "feedbackLabel": "Comentarios:",
+    "feedbackText": "Agradecemos tus sugerencias para mejorar dlfb.io",
+    "businessLabel": "Consultas Comerciales:",
+    "businessText": "Para oportunidades de asociación o colaboración",
+    "backToHome": "← Volver al Inicio"
+  },
+  "privacyPolicy": {
+    "title": "Política de Privacidad - dlfb.io",
+    "metaDescription": "Política de privacidad del descargador de videos de Facebook dlfb.io. Conoce cómo protegemos tu privacidad y manejamos tus datos.",
+    "heading": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 8 de mayo de 2024",
+    "introTitle": "Introducción",
+    "introText": "En dlfb.io, tomamos tu privacidad en serio. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos tu información cuando usas nuestro servicio de descarga de videos de Facebook.",
+    "infoCollectTitle": "Información que Recopilamos",
+    "infoProvideTitle": "Información que Proporcionas",
+    "infoProvideItems": [
+      "URLs de videos que pegas en nuestro servicio",
+      "No se requiere información personal para usar nuestro servicio",
+      "No requerimos registro ni creación de cuenta"
+    ],
+    "autoCollectTitle": "Información Recopilada Automáticamente",
+    "autoCollectItems": [
+      "Datos analíticos básicos (vistas de página, tipo de navegador, tipo de dispositivo)",
+      "Dirección IP para seguridad y prevención de abuso",
+      "Cookies para funcionalidad esencial del sitio web"
+    ],
+    "howUseTitle": "Cómo Usamos Tu Información",
+    "howUseText": "Usamos la información recopilada para:",
+    "howUseItems": [
+      "Procesar tus solicitudes de descarga de videos",
+      "Mejorar nuestro servicio y experiencia de usuario",
+      "Prevenir abuso y garantizar la seguridad del servicio",
+      "Analizar patrones de uso para optimizar el rendimiento"
+    ],
+    "dataStorageTitle": "Almacenamiento y Seguridad de Datos",
+    "dataStorageItems": [
+      "No almacenamos URLs de videos ni contenido descargado",
+      "Todas las descargas se procesan en tiempo real y no se guardan en nuestros servidores",
+      "Usamos medidas de seguridad estándar de la industria para proteger tus datos",
+      "No vendemos, alquilamos ni compartimos tu información con terceros"
+    ],
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Usamos cookies esenciales para garantizar que nuestro sitio web funcione correctamente. Estas cookies no rastrean tu información personal y son necesarias para que el servicio funcione.",
+    "thirdPartyTitle": "Servicios de Terceros",
+    "thirdPartyText": "Nuestro servicio puede usar herramientas analíticas de terceros para comprender cómo los usuarios interactúan con nuestro sitio web. Estos servicios tienen sus propias políticas de privacidad.",
+    "yourRightsTitle": "Tus Derechos",
+    "yourRightsText": "Tienes derecho a:",
+    "yourRightsItems": [
+      "Acceder a cualquier información personal que tengamos sobre ti",
+      "Solicitar la eliminación de tus datos",
+      "Optar por no participar en el seguimiento analítico",
+      "Contactarnos con inquietudes sobre privacidad"
+    ],
+    "childrenTitle": "Privacidad de los Niños",
+    "childrenText": "Nuestro servicio no está destinado a usuarios menores de 13 años. No recopilamos información de niños a sabiendas.",
+    "changesTitle": "Cambios a Esta Política",
+    "changesText": "Podemos actualizar esta Política de Privacidad de vez en cuando. Los cambios se publicarán en esta página con una fecha de revisión actualizada.",
+    "contactTitle": "Contáctanos",
+    "contactText": "Si tienes preguntas sobre esta Política de Privacidad, contáctanos a través de nuestra",
+    "contactLink": "página de Contacto"
+  },
+  "termsOfUse": {
+    "title": "Términos de Uso - dlfb.io",
+    "metaDescription": "Términos de uso del servicio de descarga de videos de Facebook dlfb.io. Lee nuestros términos y condiciones antes de usar el servicio.",
+    "heading": "Términos de Uso",
+    "lastUpdated": "Última actualización: 8 de mayo de 2024",
+    "acceptanceTitle": "Aceptación de los Términos",
+    "acceptanceText": "Al acceder y usar dlfb.io, aceptas y te comprometes a cumplir con estos Términos de Uso. Si no estás de acuerdo con estos términos, por favor no uses nuestro servicio.",
+    "serviceTitle": "Descripción del Servicio",
+    "serviceText": "dlfb.io proporciona una herramienta en línea gratuita para descargar videos disponibles públicamente de Facebook. Nuestro servicio permite a los usuarios convertir y descargar videos de Facebook en varios formatos (MP4, MP3) para uso personal.",
+    "acceptableTitle": "Uso Aceptable",
+    "acceptableText": "Aceptas usar nuestro servicio solo para fines legales. No debes:",
+    "acceptableItems": [
+      "Descargar contenido con derechos de autor sin permiso del titular de los derechos",
+      "Usar contenido descargado con fines comerciales sin la autorización adecuada",
+      "Violar cualquier ley o regulación aplicable",
+      "Infringir los derechos de los creadores de contenido o titulares de derechos de autor",
+      "Usar nuestro servicio para acosar, abusar o dañar a otros",
+      "Intentar eludir cualquier medida de seguridad",
+      "Usar herramientas automatizadas para abusar de nuestro servicio"
+    ],
+    "copyrightTitle": "Derechos de Autor y Propiedad Intelectual",
+    "copyrightText": "Los usuarios son responsables de asegurarse de tener el derecho de descargar y usar cualquier contenido. Respetamos los derechos de propiedad intelectual y esperamos que nuestros usuarios hagan lo mismo. El contenido descargado sigue siendo propiedad de los titulares de derechos de autor originales.",
+    "disclaimerTitle": "Descargo de Garantías",
+    "disclaimerText": "Nuestro servicio se proporciona \"tal cual\" sin garantías, expresas o implícitas. No garantizamos:",
+    "disclaimerItems": [
+      "Servicio ininterrumpido o libre de errores",
+      "Precisión o confiabilidad del contenido descargado",
+      "Compatibilidad con todos los dispositivos o navegadores",
+      "Disponibilidad de videos o formatos específicos"
+    ],
+    "limitationTitle": "Limitación de Responsabilidad",
+    "limitationText": "dlfb.io y sus operadores no serán responsables de ningún daño directo, indirecto, incidental, especial o consecuente que resulte de:",
+    "limitationItems": [
+      "Uso o incapacidad de usar nuestro servicio",
+      "Acceso no autorizado a tus datos",
+      "Cualquier contenido descargado a través de nuestro servicio",
+      "Cualquier error u omisión en nuestro servicio"
+    ],
+    "thirdPartyTitle": "Contenido de Terceros",
+    "thirdPartyText": "No estamos afiliados con Facebook o Meta. Todas las marcas comerciales, logotipos y contenido de Facebook pertenecen a sus respectivos propietarios. No alojamos, almacenamos ni distribuimos ningún contenido de Facebook.",
+    "userRespTitle": "Responsabilidades del Usuario",
+    "userRespText": "Los usuarios son los únicos responsables de:",
+    "userRespItems": [
+      "Cumplimiento con las leyes y regulaciones de derechos de autor",
+      "Obtener los permisos necesarios antes de descargar contenido",
+      "Cómo se usa o distribuye el contenido descargado",
+      "Respetar los derechos y la privacidad de los creadores de contenido"
+    ],
+    "modificationsTitle": "Modificaciones del Servicio",
+    "modificationsText": "Nos reservamos el derecho de modificar, suspender o discontinuar nuestro servicio en cualquier momento sin previo aviso. También podemos actualizar estos Términos de Uso periódicamente.",
+    "terminationTitle": "Terminación",
+    "terminationText": "Nos reservamos el derecho de terminar o restringir el acceso a nuestro servicio para usuarios que violen estos términos o participen en comportamiento abusivo.",
+    "governingTitle": "Ley Aplicable",
+    "governingText": "Estos Términos de Uso se regirán e interpretarán de acuerdo con las leyes y regulaciones internacionales aplicables.",
+    "contactTitle": "Información de Contacto",
+    "contactText": "Para preguntas sobre estos Términos de Uso, visita nuestra",
+    "contactLink": "página de Contacto"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "contact": {
+    "title": "Contact Us - dlfb.io",
+    "metaDescription": "Contact dlfb.io for support, feedback, or inquiries about our Facebook video downloader service.",
+    "heading": "Contact Us",
+    "subtitle": "Have questions, feedback, or need support? We'd love to hear from you.",
+    "thankYouTitle": "Thank You!",
+    "thankYouMessage": "Your message has been received. We'll get back to you as soon as possible.",
+    "sendAnotherButton": "Send Another Message",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "submitButton": "Send Message",
+    "otherWaysTitle": "Other Ways to Reach Us",
+    "supportLabel": "Support:",
+    "supportText": "For technical issues or questions about using our service",
+    "feedbackLabel": "Feedback:",
+    "feedbackText": "We welcome your suggestions for improving dlfb.io",
+    "businessLabel": "Business Inquiries:",
+    "businessText": "For partnership or collaboration opportunities",
+    "backToHome": "← Back to Home"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy - dlfb.io",
+    "metaDescription": "Privacy policy for dlfb.io Facebook video downloader. Learn how we protect your privacy and handle your data.",
+    "heading": "Privacy Policy",
+    "lastUpdated": "Last updated: May 8, 2024"
+  },
+  "termsOfUse": {
+    "title": "Terms of Use - dlfb.io",
+    "metaDescription": "Terms of use for dlfb.io Facebook video downloader service. Read our terms and conditions before using the service.",
+    "heading": "Terms of Use",
+    "lastUpdated": "Last updated: May 8, 2024"
+  }
+}
