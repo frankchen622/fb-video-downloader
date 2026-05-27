@@ -76,7 +76,8 @@
     "changesText": "Podemos actualizar esta Política de Privacidad de vez en cuando. Los cambios se publicarán en esta página con una fecha de revisión actualizada.",
     "contactTitle": "Contáctanos",
     "contactText": "Si tienes preguntas sobre esta Política de Privacidad, contáctanos a través de nuestra",
-    "contactLink": "página de Contacto"
+    "contactLink": "página de Contacto",
+    "backToHome": "← Volver al Inicio"
   },
   "termsOfUse": {
     "title": "Términos de Uso - dlfb.io",
@@ -134,6 +135,7 @@
     "governingText": "Estos Términos de Uso se regirán e interpretarán de acuerdo con las leyes y regulaciones internacionales aplicables.",
     "contactTitle": "Información de Contacto",
     "contactText": "Para preguntas sobre estos Términos de Uso, visita nuestra",
-    "contactLink": "página de Contacto"
+    "contactLink": "página de Contacto",
+    "backToHome": "← Volver al Inicio"
   }
 }

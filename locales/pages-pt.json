@@ -21,7 +21,7 @@
     "feedbackText": "We welcome your suggestions for improving dlfb.io",
     "businessLabel": "Business Inquiries:",
     "businessText": "For partnership or collaboration opportunities",
-    "backToHome": "← Back to Home"
+    "backToHome": "← Voltar ao Início"
   },
   "privacyPolicy": {
     "title": "Privacy Policy - dlfb.io",
@@ -77,7 +77,7 @@
     "contactTitle": "Contact Us",
     "contactText": "If you have questions about this Privacy Policy, please contact us through our",
     "contactLink": "Contact page",
-    "backToHome": "← Back to Home"
+    "backToHome": "← Voltar ao Início"
   },
   "termsOfUse": {
     "title": "Terms of Use - dlfb.io",
@@ -136,6 +136,6 @@
     "contactTitle": "Contact Information",
     "contactText": "For questions about these Terms of Use, please visit our",
     "contactLink": "Contact page",
-    "backToHome": "← Back to Home"
+    "backToHome": "← Voltar ao Início"
   }
 }

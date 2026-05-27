@@ -1,0 +1,139 @@
+{
+  "contact": {
+    "title": "Kontaktieren Sie uns - dlfb.io",
+    "metaDescription": "Kontaktieren Sie dlfb.io für Support, Feedback oder Anfragen zu unserem Facebook-Video-Downloader-Service.",
+    "heading": "Kontaktieren Sie uns",
+    "subtitle": "Haben Sie Fragen, Feedback oder benötigen Sie Unterstützung? Wir würden gerne von Ihnen hören.",
+    "thankYouTitle": "Vielen Dank!",
+    "thankYouMessage": "Ihre Nachricht wurde empfangen. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "sendAnotherButton": "Weitere Nachricht senden",
+    "nameLabel": "Name",
+    "namePlaceholder": "Ihr Name",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "ihre@email.com",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Wie können wir Ihnen helfen?",
+    "submitButton": "Nachricht senden",
+    "otherWaysTitle": "Weitere Kontaktmöglichkeiten",
+    "supportLabel": "Support:",
+    "supportText": "Für technische Probleme oder Fragen zur Nutzung unseres Services",
+    "feedbackLabel": "Feedback:",
+    "feedbackText": "Wir freuen uns über Ihre Vorschläge zur Verbesserung von dlfb.io",
+    "businessLabel": "Geschäftliche Anfragen:",
+    "businessText": "Für Partnerschafts- oder Kooperationsmöglichkeiten",
+    "backToHome": "← Zurück zur Startseite"
+  },
+  "privacyPolicy": {
+    "title": "Datenschutzerklärung - dlfb.io",
+    "metaDescription": "Datenschutzerklärung für den Facebook-Video-Downloader dlfb.io. Erfahren Sie, wie wir Ihre Privatsphäre schützen und Ihre Daten verarbeiten.",
+    "heading": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert: 8. Mai 2024",
+    "introTitle": "Einleitung",
+    "introText": "Bei dlfb.io nehmen wir Ihre Privatsphäre ernst. Diese Datenschutzerklärung erklärt, wie wir Ihre Informationen sammeln, verwenden und schützen, wenn Sie unseren Facebook-Video-Downloader-Service nutzen.",
+    "infoCollectTitle": "Informationen, die wir sammeln",
+    "infoProvideTitle": "Von Ihnen bereitgestellte Informationen",
+    "infoProvideItems": [
+      "Video-URLs, die Sie in unseren Service einfügen",
+      "Keine persönlichen Informationen sind erforderlich, um unseren Service zu nutzen",
+      "Wir benötigen keine Registrierung oder Kontoerstellung"
+    ],
+    "autoCollectTitle": "Automatisch gesammelte Informationen",
+    "autoCollectItems": [
+      "Grundlegende Analysedaten (Seitenaufrufe, Browsertyp, Gerätetyp)",
+      "IP-Adresse für Sicherheit und Missbrauchsprävention",
+      "Cookies für wesentliche Website-Funktionalität"
+    ],
+    "howUseTitle": "Wie wir Ihre Informationen verwenden",
+    "howUseText": "Wir verwenden die gesammelten Informationen, um:",
+    "howUseItems": [
+      "Ihre Video-Download-Anfragen zu verarbeiten",
+      "Unseren Service und die Benutzererfahrung zu verbessern",
+      "Missbrauch zu verhindern und die Service-Sicherheit zu gewährleisten",
+      "Nutzungsmuster zu analysieren, um die Leistung zu optimieren"
+    ],
+    "dataStorageTitle": "Datenspeicherung und Sicherheit",
+    "dataStorageItems": [
+      "Wir speichern keine Video-URLs oder heruntergeladenen Inhalte",
+      "Alle Downloads werden in Echtzeit verarbeitet und nicht auf unseren Servern gespeichert",
+      "Wir verwenden branchenübliche Sicherheitsmaßnahmen zum Schutz Ihrer Daten",
+      "Wir verkaufen, vermieten oder teilen Ihre Informationen nicht mit Dritten"
+    ],
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Wir verwenden wesentliche Cookies, um sicherzustellen, dass unsere Website ordnungsgemäß funktioniert. Diese Cookies verfolgen Ihre persönlichen Informationen nicht und sind für den Betrieb des Services erforderlich.",
+    "thirdPartyTitle": "Dienste von Drittanbietern",
+    "thirdPartyText": "Unser Service kann Analyse-Tools von Drittanbietern verwenden, um zu verstehen, wie Benutzer mit unserer Website interagieren. Diese Dienste haben ihre eigenen Datenschutzrichtlinien.",
+    "yourRightsTitle": "Ihre Rechte",
+    "yourRightsText": "Sie haben das Recht:",
+    "yourRightsItems": [
+      "Auf alle persönlichen Informationen zuzugreifen, die wir über Sie haben",
+      "Die Löschung Ihrer Daten zu beantragen",
+      "Das Analyse-Tracking abzulehnen",
+      "Uns bei Datenschutzbedenken zu kontaktieren"
+    ],
+    "childrenTitle": "Datenschutz für Kinder",
+    "childrenText": "Unser Service ist nicht für Benutzer unter 13 Jahren bestimmt. Wir sammeln wissentlich keine Informationen von Kindern.",
+    "changesTitle": "Änderungen dieser Richtlinie",
+    "changesText": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite mit einem aktualisierten Überarbeitungsdatum veröffentlicht.",
+    "contactTitle": "Kontaktieren Sie uns",
+    "contactText": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte über unsere",
+    "contactLink": "Kontaktseite"
+  },
+  "termsOfUse": {
+    "title": "Nutzungsbedingungen - dlfb.io",
+    "metaDescription": "Nutzungsbedingungen für den Facebook-Video-Downloader-Service dlfb.io. Lesen Sie unsere Geschäftsbedingungen, bevor Sie den Service nutzen.",
+    "heading": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: 8. Mai 2024",
+    "acceptanceTitle": "Annahme der Bedingungen",
+    "acceptanceText": "Durch den Zugriff auf und die Nutzung von dlfb.io akzeptieren Sie diese Nutzungsbedingungen und verpflichten sich, diese einzuhalten. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie bitte unseren Service nicht.",
+    "serviceTitle": "Service-Beschreibung",
+    "serviceText": "dlfb.io bietet ein kostenloses Online-Tool zum Herunterladen öffentlich verfügbarer Videos von Facebook. Unser Service ermöglicht es Benutzern, Facebook-Videos in verschiedenen Formaten (MP4, MP3) für den persönlichen Gebrauch zu konvertieren und herunterzuladen.",
+    "acceptableTitle": "Akzeptable Nutzung",
+    "acceptableText": "Sie verpflichten sich, unseren Service nur für rechtmäßige Zwecke zu nutzen. Sie dürfen nicht:",
+    "acceptableItems": [
+      "Urheberrechtlich geschützte Inhalte ohne Erlaubnis des Urheberrechtsinhabers herunterladen",
+      "Heruntergeladene Inhalte für kommerzielle Zwecke ohne entsprechende Genehmigung verwenden",
+      "Gegen geltende Gesetze oder Vorschriften verstoßen",
+      "Die Rechte von Content-Erstellern oder Urheberrechtsinhabern verletzen",
+      "Unseren Service nutzen, um andere zu belästigen, zu missbrauchen oder zu schädigen",
+      "Versuchen, Sicherheitsmaßnahmen zu umgehen",
+      "Automatisierte Tools verwenden, um unseren Service zu missbrauchen"
+    ],
+    "copyrightTitle": "Urheberrecht und geistiges Eigentum",
+    "copyrightText": "Benutzer sind dafür verantwortlich sicherzustellen, dass sie das Recht haben, Inhalte herunterzuladen und zu verwenden. Wir respektieren geistige Eigentumsrechte und erwarten, dass unsere Benutzer dies ebenfalls tun. Heruntergeladene Inhalte bleiben Eigentum der ursprünglichen Urheberrechtsinhaber.",
+    "disclaimerTitle": "Haftungsausschluss",
+    "disclaimerText": "Unser Service wird \"wie besehen\" ohne jegliche Garantien, ausdrücklich oder stillschweigend, bereitgestellt. Wir garantieren nicht:",
+    "disclaimerItems": [
+      "Ununterbrochenen oder fehlerfreien Service",
+      "Genauigkeit oder Zuverlässigkeit heruntergeladener Inhalte",
+      "Kompatibilität mit allen Geräten oder Browsern",
+      "Verfügbarkeit bestimmter Videos oder Formate"
+    ],
+    "limitationTitle": "Haftungsbeschränkung",
+    "limitationText": "dlfb.io und seine Betreiber haften nicht für direkte, indirekte, zufällige, besondere oder Folgeschäden, die sich ergeben aus:",
+    "limitationItems": [
+      "Nutzung oder Unfähigkeit zur Nutzung unseres Services",
+      "Unbefugtem Zugriff auf Ihre Daten",
+      "Über unseren Service heruntergeladenen Inhalten",
+      "Fehlern oder Auslassungen in unserem Service"
+    ],
+    "thirdPartyTitle": "Inhalte von Drittanbietern",
+    "thirdPartyText": "Wir sind nicht mit Facebook oder Meta verbunden. Alle Facebook-Marken, Logos und Inhalte gehören ihren jeweiligen Eigentümern. Wir hosten, speichern oder verteilen keine Facebook-Inhalte.",
+    "userRespTitle": "Benutzerverantwortlichkeiten",
+    "userRespText": "Benutzer sind allein verantwortlich für:",
+    "userRespItems": [
+      "Einhaltung von Urheberrechtsgesetzen und -vorschriften",
+      "Einholung erforderlicher Genehmigungen vor dem Herunterladen von Inhalten",
+      "Wie heruntergeladene Inhalte verwendet oder verteilt werden",
+      "Respektierung der Rechte und Privatsphäre von Content-Erstellern"
+    ],
+    "modificationsTitle": "Service-Änderungen",
+    "modificationsText": "Wir behalten uns das Recht vor, unseren Service jederzeit ohne Vorankündigung zu ändern, auszusetzen oder einzustellen. Wir können diese Nutzungsbedingungen auch regelmäßig aktualisieren.",
+    "terminationTitle": "Kündigung",
+    "terminationText": "Wir behalten uns das Recht vor, den Zugang zu unserem Service für Benutzer zu beenden oder einzuschränken, die gegen diese Bedingungen verstoßen oder sich missbräuchlich verhalten.",
+    "governingTitle": "Anwendbares Recht",
+    "governingText": "Diese Nutzungsbedingungen unterliegen den geltenden internationalen Gesetzen und Vorschriften und sind nach diesen auszulegen.",
+    "contactTitle": "Kontaktinformationen",
+    "contactText": "Bei Fragen zu diesen Nutzungsbedingungen besuchen Sie bitte unsere",
+    "contactLink": "Kontaktseite"
+  }
+}

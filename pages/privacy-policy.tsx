@@ -3,20 +3,20 @@ import Link from 'next/link'
 import Logo from '@/components/Logo'
 import { useRouter } from 'next/router'
 
-// Import translations
-import enTranslations from '@/locales/pages-en.json'
-import esTranslations from '@/locales/pages-es.json'
-
-const translations: Record<string, any> = {
-  en: enTranslations,
-  es: esTranslations,
+const loadTranslations = (locale: string) => {
+  try {
+    return require(`@/locales/pages-${locale}.json`)
+  } catch {
+    return require('@/locales/pages-en.json')
+  }
 }
 
 export default function PrivacyPolicy() {
   const router = useRouter()
   const { locale = 'en' } = router
   
-  const t = translations[locale]?.privacyPolicy || translations.en.privacyPolicy
+  const translations = loadTranslations(locale)
+  const t = translations.privacyPolicy
   
   const siteUrl = 'https://dlfb.io'
   const pagePath = '/privacy-policy'
@@ -105,7 +105,7 @@ export default function PrivacyPolicy() {
 
             <div className="mt-12 pt-8 border-t border-gray-200">
               <Link href="/" className="text-blue-600 hover:underline">
-                ← {locale === 'es' ? 'Volver al Inicio' : 'Back to Home'}
+                ← {t.backToHome || (locale === 'es' ? 'Volver al Inicio' : 'Back to Home')}
               </Link>
             </div>
           </div>

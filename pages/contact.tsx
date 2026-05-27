@@ -4,13 +4,13 @@ import Link from 'next/link'
 import Logo from '@/components/Logo'
 import { useRouter } from 'next/router'
 
-// Import translations
-import enTranslations from '@/locales/pages-en.json'
-import esTranslations from '@/locales/pages-es.json'
-
-const translations: Record<string, any> = {
-  en: enTranslations,
-  es: esTranslations,
+// Import translations - add more as they become available
+const loadTranslations = (locale: string) => {
+  try {
+    return require(`@/locales/pages-${locale}.json`)
+  } catch {
+    return require('@/locales/pages-en.json')
+  }
 }
 
 export default function Contact() {
@@ -19,7 +19,8 @@ export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
   const [submitted, setSubmitted] = useState(false)
   
-  const t = translations[locale]?.contact || translations.en.contact
+  const translations = loadTranslations(locale)
+  const t = translations.contact
   
   const siteUrl = 'https://dlfb.io'
   const pagePath = '/contact'
