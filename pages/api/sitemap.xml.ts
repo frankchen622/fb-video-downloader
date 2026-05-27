@@ -28,18 +28,23 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 function generateSitemap(): string {
   const urls: string[] = []
   
-  // Generate URLs - one entry per page (not per locale)
-  // hreflang should be in HTML <head>, not sitemap
-  for (const page of pages) {
-    // Only add English version to sitemap
-    const url = `${siteUrl}${page.path}`
-    
-    urls.push(`  <url>
+  // Generate URLs for all locales
+  for (const locale of locales) {
+    for (const page of pages) {
+      // English is the default (no locale prefix)
+      const localePrefix = locale === 'en' ? '' : `/${locale}`
+      const url = `${siteUrl}${localePrefix}${page.path}`
+      
+      // Adjust priority for non-English pages
+      const priority = locale === 'en' ? page.priority : (parseFloat(page.priority) * 0.9).toFixed(1)
+      
+      urls.push(`  <url>
     <loc>${url}</loc>
     <lastmod>${LAST_CONTENT_UPDATE}</lastmod>
     <changefreq>${page.changefreq}</changefreq>
-    <priority>${page.priority}</priority>
+    <priority>${priority}</priority>
   </url>`)
+    }
   }
   
   return `<?xml version="1.0" encoding="UTF-8"?>
