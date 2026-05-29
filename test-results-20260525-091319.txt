@@ -1,0 +1,56 @@
+========================================
+Facebook Video Downloader - 测试报告
+测试时间: Mon May 25 09:13:19 AM CST 2026
+========================================
+
+1. 检查服务状态
+-------------------
+[0;32m✓ 服务正在运行[0m
+
+2. API 端点测试
+-------------------
+测试 健康检查 ... [0;32m✓ 通过[0m (HTTP 200)
+  响应: {"status":"ok","ytdlp":{"installed":true,"version":"2026.03.17"}}...
+
+3. 下载 API 测试
+-------------------
+测试 空 URL ... [0;31m✗ 失败[0m (HTTP 400)
+  错误: {"error":"请提供有效的视频链接"}
+测试 无效 URL ... [0;31m✗ 失败[0m (HTTP 400)
+  错误: {"error":"请提供有效的 Facebook 视频链接"}
+测试 无效 Facebook URL ... [0;31m✗ 失败[0m (HTTP 500)
+  错误: {"error":"无法下载视频。请检查链接是否正确或稍后重试。"}
+
+4. 页面加载测试
+-------------------
+测试 页面 / ... [0;32m✓ 通过[0m (HTTP 200)
+  响应: <!DOCTYPE html><html lang="en" dir="ltr"><head><meta charSet="utf-8" data-next-head=""/><meta name="...
+测试 页面 /en ... [0;32m✓ 通过[0m (HTTP 200)
+  响应: <!DOCTYPE html><html lang="en" dir="ltr"><head><meta charSet="utf-8" data-next-head=""/><meta name="...
+测试 页面 /es ... [0;32m✓ 通过[0m (HTTP 200)
+  响应: <!DOCTYPE html><html lang="es" dir="ltr"><head><meta charSet="utf-8" data-next-head=""/><meta name="...
+测试 页面 /pt ... [0;32m✓ 通过[0m (HTTP 200)
+  响应: <!DOCTYPE html><html lang="pt" dir="ltr"><head><meta charSet="utf-8" data-next-head=""/><meta name="...
+测试 页面 /fr ... [0;32m✓ 通过[0m (HTTP 200)
+  响应: <!DOCTYPE html><html lang="fr" dir="ltr"><head><meta charSet="utf-8" data-next-head=""/><meta name="...
+测试 页面 /de ... [0;32m✓ 通过[0m (HTTP 200)
+  响应: <!DOCTYPE html><html lang="de" dir="ltr"><head><meta charSet="utf-8" data-next-head=""/><meta name="...
+测试 页面 /ja ... [0;32m✓ 通过[0m (HTTP 200)
+  响应: <!DOCTYPE html><html lang="ja" dir="ltr"><head><meta charSet="utf-8" data-next-head=""/><meta name="...
+测试 页面 /zh ... [0;32m✓ 通过[0m (HTTP 200)
+  响应: <!DOCTYPE html><html lang="zh" dir="ltr"><head><meta charSet="utf-8" data-next-head=""/><meta name="...
+测试 页面 /ar ... [0;32m✓ 通过[0m (HTTP 200)
+  响应: <!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charSet="utf-8" data-next-head=""/><meta name="...
+测试 页面 /ru ... [0;32m✓ 通过[0m (HTTP 200)
+  响应: <!DOCTYPE html><html lang="ru" dir="ltr"><head><meta charSet="utf-8" data-next-head=""/><meta name="...
+测试 页面 /vi ... [0;32m✓ 通过[0m (HTTP 200)
+  响应: <!DOCTYPE html><html lang="vi" dir="ltr"><head><meta charSet="utf-8" data-next-head=""/><meta name="...
+
+5. yt-dlp 检查
+-------------------
+[0;32m✓ yt-dlp 已安装[0m (版本: 2026.03.17)
+
+========================================
+测试完成！
+详细结果已保存到: test-results-20260525-091319.txt
+========================================

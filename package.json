@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "bash scripts/install-yt-dlp.sh || echo 'yt-dlp installation skipped'"
+    "postinstall": "bash scripts/install-yt-dlp.sh || echo 'yt-dlp installation skipped'",
+    "indexnow": "node scripts/submit-indexnow.js",
+    "postbuild": "npm run indexnow || echo 'IndexNow submission skipped'"
   },
   "dependencies": {
     "next": "^15.5.16",
