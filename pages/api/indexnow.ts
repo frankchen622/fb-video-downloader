@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-const INDEXNOW_KEY = 'e1e8eb8b9ef7492b0c91668cf9efbfbc';
+const INDEXNOW_KEY = '288d231298f24d2ba6cfc155175e3f29';
 const HOST = 'dlfb.io';
 
 interface IndexNowResponse {
