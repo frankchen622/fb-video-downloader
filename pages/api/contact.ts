@@ -17,7 +17,7 @@ export default async function handler(
   }
 
   try {
-    const { name, email, message, locale = 'en' } as ContactFormData = req.body
+    const { name, email, message, locale = 'en' } = req.body as ContactFormData
 
     // Validate input
     if (!name || !email || !message) {
