@@ -127,7 +127,9 @@
     "feature2Desc": "Unduh video Facebook dalam kualitas tertinggi yang tersedia.",
     "feature2Point1": "Hingga 1080p Full HD",
     "feature2Point2": "Tidak ada kehilangan kualitas saat konversi",
-    "feature2Point3": "Beberapa opsi kualitas tersedia"
+    "feature2Point3": "Beberapa opsi kualitas tersedia",
+    "metaTitle": "Konverter Facebook ke MP4 - Unduh Video FB sebagai MP4 Gratis | Kualitas HD",
+    "metaDescription": "Konversi video Facebook ke format MP4 dalam kualitas HD (1080p, 720p). Konverter FB ke MP4 online gratis - tanpa watermark, tanpa registrasi. Unduh video Facebook sebagai MP4 di perangkat apa pun."
   },
   "mp3": {
     "title": "Facebook ke MP3",
@@ -159,7 +161,9 @@
     "feature3Desc": "File MP3 berfungsi di semua perangkat dan pemutar musik.",
     "feature3Point1": "Berfungsi di semua perangkat",
     "feature3Point2": "Kompatibel dengan semua pemutar",
-    "feature3Point3": "Ukuran file kecil"
+    "feature3Point3": "Ukuran file kecil",
+    "metaTitle": "Konverter Facebook ke MP3 - Ekstrak Audio dari Video FB Gratis | Unduh Musik Facebook",
+    "metaDescription": "Konversi video Facebook ke file audio MP3 gratis. Ekstrak audio berkualitas tinggi dari Reels, Stories, video langsung Facebook. Facebook ke MP3 320kbps. Tidak perlu software."
   },
   "reels": {
     "title": "Pengunduh Facebook Reels",
@@ -195,7 +199,9 @@
     "feature4Desc": "Tiga langkah sederhana: salin, tempel, unduh.",
     "feature4Point1": "Tidak perlu registrasi",
     "feature4Point2": "Berfungsi di semua perangkat",
-    "feature4Point3": "Unduhan instan"
+    "feature4Point3": "Unduhan instan",
+    "metaTitle": "Pengunduh Reels Facebook - Unduh Reels FB dalam HD Gratis",
+    "metaDescription": "Unduh video Reels Facebook dalam kualitas HD gratis. Simpan video pendek viral, klip lucu, dan reels trending tanpa watermark. Cepat dan mudah."
   },
   "private": {
     "title": "Pengunduh Video Pribadi Facebook",
@@ -242,7 +248,9 @@
     "feature4Point2": "Tidak ada notifikasi ke pemilik",
     "feature4Point2Alt": "Pemilik tidak akan tahu Anda mengunduh",
     "feature4Point3": "Privasi Anda dilindungi",
-    "feature4Point3Alt": "Unduhan sepenuhnya tersembunyi"
+    "feature4Point3Alt": "Unduhan sepenuhnya tersembunyi",
+    "metaTitle": "Pengunduh Video Pribadi Facebook - Unduh Video Pribadi FB",
+    "metaDescription": "Unduh video pribadi Facebook yang Anda miliki izin untuk melihat. Simpan video dari grup pribadi, postingan khusus teman, dan konten terbatas."
   },
   "mp4Faq": {
     "title": "Pertanyaan yang Sering Diajukan",

@@ -12,6 +12,7 @@
     "postbuild": "npm run indexnow || echo 'IndexNow submission skipped'"
   },
   "dependencies": {
+    "canvas": "^3.2.3",
     "next": "^15.5.16",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"

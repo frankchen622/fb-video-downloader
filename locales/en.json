@@ -99,7 +99,9 @@
     "feature3Desc": "Get the best sound possible. We preserve the original audio quality up to 320kbps bitrate—crystal clear, no compression artifacts.",
     "feature3Point1": "Up to 320kbps high-quality output",
     "feature3Point2": "No quality loss during extraction",
-    "feature3Point3": "Multiple bitrate options (128/192/256/320kbps)"
+    "feature3Point3": "Multiple bitrate options (128/192/256/320kbps)",
+    "metaTitle": "Facebook to MP3 Converter - Extract Audio from FB Videos Free | Download Facebook Music",
+    "metaDescription": "Convert Facebook videos to MP3 audio files free. Extract high-quality audio from Facebook Reels, Stories, Live videos. Facebook to MP3 320kbps. No software needed."
   },
   "mp4": {
     "title": "Facebook to MP4",
@@ -126,9 +128,13 @@
     "feature2Desc": "Download Facebook videos in the highest quality available. Our converter detects all resolutions and lets you choose the best quality.",
     "feature2Point1": "Up to 1080p Full HD",
     "feature2Point2": "No quality loss during conversion",
-    "feature2Point3": "Multiple quality options available"
+    "feature2Point3": "Multiple quality options available",
+    "metaTitle": "Facebook to MP4 Converter - Download FB Videos as MP4 Free | HD Quality",
+    "metaDescription": "Convert Facebook videos to MP4 format in HD quality (1080p, 720p). Free online FB to MP4 converter - no watermark, no registration. Download Facebook videos as MP4 on any device."
   },
   "reels": {
+    "metaTitle": "Facebook Reels Downloader - Download FB Reels in HD Free",
+    "metaDescription": "Download Facebook Reels videos in HD quality for free. Save viral short videos, funny clips, and trending reels without watermark. Fast and easy.",
     "title": "Facebook Reels Downloader",
     "subtitle": "Download FB Reels in HD • No watermark • Free",
     "placeholder": "Paste Facebook Reels URL...",
@@ -209,7 +215,9 @@
     "feature4DescAlt": "Download privately without leaving traces. The video owner won't be notified, and your download activity remains completely anonymous.",
     "feature4Point1Alt": "No download notifications sent",
     "feature4Point2Alt": "Owner won't know you downloaded",
-    "feature4Point3Alt": "Completely discreet downloading"
+    "feature4Point3Alt": "Completely discreet downloading",
+    "metaTitle": "Private Facebook Video Downloader - Download Private FB Videos",
+    "metaDescription": "Download private Facebook videos you have permission to view. Save videos from private groups, friends-only posts, and restricted content."
   },
   "footer": {
     "copyright": "© 2024 DLFB.io. All rights reserved.",

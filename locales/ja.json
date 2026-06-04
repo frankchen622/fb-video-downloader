@@ -127,7 +127,9 @@
     "feature2Desc": "利用可能な最高品質でFacebook動画をダウンロード。",
     "feature2Point1": "最大1080pフルHD",
     "feature2Point2": "変換時の品質劣化なし",
-    "feature2Point3": "複数の品質オプション利用可能"
+    "feature2Point3": "複数の品質オプション利用可能",
+    "metaTitle": "Facebook MP4変換 - FB動画をMP4で無料ダウンロード | HD品質",
+    "metaDescription": "Facebook動画をHD品質（1080p、720p）でMP4形式に変換。無料オンラインFB MP4変換 - 透かしなし、登録不要。任意のデバイスでFacebook動画をMP4としてダウンロード。"
   },
   "mp3": {
     "title": "FacebookからMP3へ",
@@ -159,7 +161,9 @@
     "feature3Desc": "MP3ファイルはすべてのデバイスと音楽プレーヤーで動作。",
     "feature3Point1": "すべてのデバイスで動作",
     "feature3Point2": "すべてのプレーヤーと互換性",
-    "feature3Point3": "小さなファイルサイズ"
+    "feature3Point3": "小さなファイルサイズ",
+    "metaTitle": "Facebook MP3変換 - FB動画から音声を無料抽出 | Facebook音楽ダウンロード",
+    "metaDescription": "Facebook動画を無料でMP3音声ファイルに変換。Facebook Reels、Stories、ライブ動画から高品質音声を抽出。Facebook MP3 320kbps。ソフトウェア不要。"
   },
   "reels": {
     "title": "Facebook Reelsダウンローダー",
@@ -195,7 +199,9 @@
     "feature4Desc": "3つの簡単なステップ：コピー、貼り付け、ダウンロード。",
     "feature4Point1": "登録不要",
     "feature4Point2": "すべてのデバイスで動作",
-    "feature4Point3": "即座にダウンロード"
+    "feature4Point3": "即座にダウンロード",
+    "metaTitle": "Facebook Reelsダウンローダー - FB Reelsを無料でHDダウンロード",
+    "metaDescription": "Facebook Reels動画を無料でHD品質でダウンロード。バイラルなショート動画、面白いクリップ、トレンドのリールを透かしなしで保存。高速で簡単。"
   },
   "private": {
     "title": "Facebookプライベート動画ダウンローダー",
@@ -242,7 +248,9 @@
     "feature4Point2": "所有者への通知なし",
     "feature4Point2Alt": "所有者はダウンロードしたことを知りません",
     "feature4Point3": "プライバシーが保護されます",
-    "feature4Point3Alt": "完全に目立たないダウンロード"
+    "feature4Point3Alt": "完全に目立たないダウンロード",
+    "metaTitle": "Facebook非公開動画ダウンローダー - 非公開FB動画をダウンロード",
+    "metaDescription": "閲覧権限のあるFacebookの非公開動画をダウンロード。非公開グループ、友達限定投稿、制限付きコンテンツの動画を保存。"
   },
   "mp4Faq": {
     "title": "よくある質問",

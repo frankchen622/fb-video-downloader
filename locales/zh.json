@@ -98,7 +98,9 @@
     "feature3Desc": "MP3 文件适用于所有设备和音乐播放器。在您的手机、电脑、汽车或任何 MP3 播放器上播放。与 iPhone、Android、Windows、Mac 等兼容。",
     "feature3Point1": "适用于所有设备",
     "feature3Point2": "与所有播放器兼容",
-    "feature3Point3": "文件大小小"
+    "feature3Point3": "文件大小小",
+    "metaTitle": "Facebook转MP3转换器 - 免费从FB视频提取音频 | 下载Facebook音乐",
+    "metaDescription": "免费将Facebook视频转换为MP3音频文件。从Facebook Reels、Stories、直播视频中提取高质量音频。Facebook转MP3 320kbps。无需软件。"
   },
   "mp4": {
     "title": "Facebook 转 MP4",
@@ -125,7 +127,9 @@
     "feature2Desc": "以最高可用质量下载 Facebook 视频。我们的转换器检测所有分辨率，让您选择最佳质量。",
     "feature2Point1": "高达 1080p 全高清",
     "feature2Point2": "转换过程中无质量损失",
-    "feature2Point3": "多种质量选项可用"
+    "feature2Point3": "多种质量选项可用",
+    "metaTitle": "Facebook转MP4转换器 - 免费下载FB视频为MP4 | 高清质量",
+    "metaDescription": "将Facebook视频转换为MP4格式，支持高清质量（1080p、720p）。免费在线FB转MP4转换器 - 无水印、无需注册。在任何设备上将Facebook视频下载为MP4。"
   },
   "reels": {
     "title": "Facebook Reels 下载器",
@@ -161,7 +165,9 @@
     "feature4Desc": "三个简单步骤：复制、粘贴、下载。无需注册，无需安装应用程序，无复杂设置。在您的浏览器中即时运行。",
     "feature4Point1": "无需注册",
     "feature4Point2": "适用于所有设备",
-    "feature4Point3": "即时下载"
+    "feature4Point3": "即时下载",
+    "metaTitle": "Facebook Reels下载器 - 免费下载FB Reels高清视频",
+    "metaDescription": "免费下载Facebook Reels高清视频。保存病毒式短视频、搞笑片段和热门reels，无水印。快速简单。"
   },
   "private": {
     "title": "私密视频下载器",
@@ -197,7 +203,9 @@
     "feature4Desc": "完全匿名地下载私密视频。当您下载私密内容时，视频所有者不会收到通知。",
     "feature4Point1": "完全匿名下载",
     "feature4Point2": "不通知所有者",
-    "feature4Point3": "保护您的隐私"
+    "feature4Point3": "保护您的隐私",
+    "metaTitle": "Facebook私密视频下载器 - 下载FB私密视频",
+    "metaDescription": "下载您有权查看的Facebook私密视频。保存来自私密群组、仅好友可见帖子和受限内容的视频。"
   },
   "footer": {
     "copyright": "© 2024 DLFB.io. 保留所有权利。",

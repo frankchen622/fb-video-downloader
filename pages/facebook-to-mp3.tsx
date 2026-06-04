@@ -263,8 +263,8 @@ export default function FacebookToMP3() {
   return (
     <>
       <Head>
-        <title>Facebook to MP3 Converter - Extract Audio from FB Videos Free | Download Facebook Music</title>
-        <meta name="description" content="Convert Facebook videos to MP3 audio files free. Extract high-quality audio from Facebook Reels, Stories, Live videos. Facebook to MP3 320kbps. No software needed." />
+        <title>{t('mp3.metaTitle')}</title>
+        <meta name="description" content={t('mp3.metaDescription')} />
         <meta name="keywords" content="facebook to mp3, facebook video to mp3, facebook mp3 converter, fb to mp3, facebook audio download, facebook music download, facebook reels to mp3, facebook to mp3 320kbps, download facebook mp3, convert facebook to mp3" />
         <link rel="canonical" href={canonicalUrl} />
       </Head>

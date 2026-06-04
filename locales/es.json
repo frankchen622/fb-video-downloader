@@ -99,7 +99,9 @@
     "feature3Desc": "Obtén el mejor sonido posible. Preservamos la calidad de audio original hasta 320kbps de bitrate: cristalino, sin artefactos de compresión.",
     "feature3Point1": "Salida de alta calidad hasta 320kbps",
     "feature3Point2": "Sin pérdida de calidad durante la extracción",
-    "feature3Point3": "Múltiples opciones de bitrate (128/192/256/320kbps)"
+    "feature3Point3": "Múltiples opciones de bitrate (128/192/256/320kbps)",
+    "metaTitle": "Convertidor de Facebook a MP3 - Extraer Audio de Videos FB Gratis | Descargar Música de Facebook",
+    "metaDescription": "Convierte videos de Facebook a archivos de audio MP3 gratis. Extrae audio de alta calidad de Reels, Stories y videos en vivo de Facebook. Facebook a MP3 320kbps. Sin software necesario."
   },
   "mp4": {
     "title": "Facebook a MP4",
@@ -126,7 +128,9 @@
     "feature2Desc": "Descarga videos de Facebook en la más alta calidad disponible. Nuestro convertidor detecta todas las resoluciones y te permite elegir la mejor calidad.",
     "feature2Point1": "Hasta 1080p Full HD",
     "feature2Point2": "Sin pérdida de calidad durante la conversión",
-    "feature2Point3": "Múltiples opciones de calidad disponibles"
+    "feature2Point3": "Múltiples opciones de calidad disponibles",
+    "metaTitle": "Convertidor de Facebook a MP4 - Descarga Videos FB como MP4 Gratis | Calidad HD",
+    "metaDescription": "Convierte videos de Facebook a formato MP4 en calidad HD (1080p, 720p). Convertidor FB a MP4 online gratis - sin marca de agua, sin registro. Descarga videos de Facebook como MP4 en cualquier dispositivo."
   },
   "reels": {
     "title": "Descargador de Reels de Facebook",
@@ -162,7 +166,9 @@
     "feature4Desc": "Tres simples pasos: copiar, pegar, descargar. Sin registro, sin instalación de aplicación, sin configuraciones complicadas. Funciona instantáneamente en tu navegador.",
     "feature4Point1": "No se requiere cuenta ni inicio de sesión",
     "feature4Point2": "Funciona en cualquier dispositivo (teléfono, tablet, PC)",
-    "feature4Point3": "Descarga en segundos, no minutos"
+    "feature4Point3": "Descarga en segundos, no minutos",
+    "metaTitle": "Descargador de Reels de Facebook - Descarga Reels FB en HD Gratis",
+    "metaDescription": "Descarga videos de Reels de Facebook en calidad HD gratis. Guarda videos cortos virales, clips divertidos y reels de tendencia sin marca de agua. Rápido y fácil."
   },
   "private": {
     "title": "Descargador de Videos Privados",
@@ -198,7 +204,9 @@
     "feature4Desc": "Descarga videos privados de forma completamente anónima. El propietario del video no será notificado cuando descargues contenido privado.",
     "feature4Point1": "Descarga completamente anónima",
     "feature4Point2": "Sin notificaciones al propietario",
-    "feature4Point3": "Tu privacidad protegida"
+    "feature4Point3": "Tu privacidad protegida",
+    "metaTitle": "Descargador de Videos Privados de Facebook - Descarga Videos Privados FB",
+    "metaDescription": "Descarga videos privados de Facebook que tienes permiso para ver. Guarda videos de grupos privados, publicaciones solo para amigos y contenido restringido."
   },
   "footer": {
     "copyright": "© 2024 DLFB.io. Todos los derechos reservados.",

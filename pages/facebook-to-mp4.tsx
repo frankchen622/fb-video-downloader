@@ -65,8 +65,8 @@ export default function FacebookToMP4() {
   return (
     <>
       <Head>
-        <title>Facebook to MP4 Converter - Download FB Videos as MP4 Free | HD Quality</title>
-        <meta name="description" content="Convert Facebook videos to MP4 format in HD quality (1080p, 720p). Free online FB to MP4 converter - no watermark, no registration. Download Facebook videos as MP4 on any device." />
+        <title>{t('mp4.metaTitle')}</title>
+        <meta name="description" content={t('mp4.metaDescription')} />
         <meta name="keywords" content="facebook to mp4, fb to mp4, facebook video to mp4, convert facebook video to mp4, facebook to mp4 converter, fb video mp4, facebook mp4 download, convert fb to mp4, facebook to mp4 converter online, facebook video mp4 download, save facebook to mp4, facebook link to mp4, fb mp4 converter, facebook to mp4 hd, free facebook to mp4 converter" />
         <link rel="canonical" href={canonicalUrl} />
       </Head>

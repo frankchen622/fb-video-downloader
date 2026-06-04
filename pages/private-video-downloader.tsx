@@ -69,8 +69,8 @@ export default function PrivateVideoDownloader() {
   return (
     <>
       <Head>
-        <title>Private Facebook Video Downloader - Download Private FB Videos</title>
-        <meta name="description" content="Download private Facebook videos you have permission to view. Save videos from private groups, friends-only posts, and restricted content." />
+        <title>{t('private.metaTitle')}</title>
+        <meta name="description" content={t('private.metaDescription')} />
         <meta name="keywords" content="private facebook video downloader, download private fb video, facebook group video download, friends only video" />
         <link rel="canonical" href={canonicalUrl} />
       </Head>
