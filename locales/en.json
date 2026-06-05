@@ -171,6 +171,8 @@
     "feature4Point3": "Download in seconds, not minutes"
   },
   "private": {
+    "metaTitle": "Private Facebook Video Downloader - Download Private FB Videos",
+    "metaDescription": "Download private Facebook videos from groups, friends-only posts, and restricted content. Safe, secure, and respects privacy settings.",
     "title": "Private Video Downloader",
     "subtitle": "Download private FB videos • Groups • Friends-only posts",
     "placeholder": "Paste private Facebook video URL...",
