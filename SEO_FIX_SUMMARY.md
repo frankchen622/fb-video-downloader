@@ -77,9 +77,9 @@ To verify the fix works:
 1. Build the project: `npm run build`
 2. Start the production server: `npm start`
 3. Visit different language versions:
-   - https://dlfb.io/reels-downloader (English)
-   - https://dlfb.io/es/reels-downloader (Spanish)
-   - https://dlfb.io/zh/reels-downloader (Chinese)
+   - https://savefbs.net/reels-downloader (English)
+   - https://savefbs.net/es/reels-downloader (Spanish)
+   - https://savefbs.net/zh/reels-downloader (Chinese)
 4. Check the `<title>` tag in each page's HTML source
 
 ## Files Changed

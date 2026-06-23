@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "DLFB.io",
+    "siteName": "SaveFBS.net",
     "paste": "Вставьте URL видео Facebook здесь...",
     "downloadButton": "Скачать",
     "processing": "Обработка...",
@@ -42,7 +42,7 @@
     "feature6Title": "Все Устройства",
     "feature6Desc": "Работает на iPhone, Android, Windows, Mac и планшетах",
     "videoDownloaderTitle": "Загрузчик Видео",
-    "videoDownloaderDesc": "Скачивайте видео Facebook в HD качестве одним кликом. DLFB.io поддерживает все форматы и разрешения видео, позволяя сохранять видео Facebook на устройство в формате MP4 для просмотра офлайн в любое время и в любом месте.",
+    "videoDownloaderDesc": "Скачивайте видео Facebook в HD качестве одним кликом. SaveFBS.net поддерживает все форматы и разрешения видео, позволяя сохранять видео Facebook на устройство в формате MP4 для просмотра офлайн в любое время и в любом месте.",
     "videoDownloaderFeature1": "HD качество до 1080p",
     "videoDownloaderFeature2": "Без водяных знаков или логотипов",
     "videoDownloaderFeature3": "Работает на всех устройствах",
@@ -146,7 +146,7 @@
     "step2Desc": "Вставьте в конвертер",
     "step3Title": "Скачать MP3",
     "step3Desc": "Нажмите конвертировать и сохраните аудио",
-    "whyChooseTitle": "Почему Выбрать DLFB.io?",
+    "whyChooseTitle": "Почему Выбрать SaveFBS.net?",
     "feature1Title": "Извлечение Высококачественного Аудио",
     "feature1Desc": "Извлекайте высококачественное аудио из любого видео Facebook.",
     "feature1Point1": "До 320kbps качества звука",

@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "DLFB.io",
+    "siteName": "SaveFBS.net",
     "tagline": "Baixador de Vídeos do Facebook",
     "download": "Baixar",
     "paste": "Cole o URL do vídeo do Facebook aqui...",
@@ -54,7 +54,7 @@
     "step3Title": "Baixar",
     "step3Desc": "Clique no botão de download e salve seu vídeo em qualidade HD",
     "videoDownloaderTitle": "Baixador de Vídeos",
-    "videoDownloaderDesc": "Baixe vídeos do Facebook em qualidade HD com apenas um clique. DLFB.io suporta todos os formatos e resoluções de vídeo, permitindo que você salve vídeos do Facebook em seu dispositivo em formato MP4 para visualização offline a qualquer hora, em qualquer lugar.",
+    "videoDownloaderDesc": "Baixe vídeos do Facebook em qualidade HD com apenas um clique. SaveFBS.net suporta todos os formatos e resoluções de vídeo, permitindo que você salve vídeos do Facebook em seu dispositivo em formato MP4 para visualização offline a qualquer hora, em qualquer lugar.",
     "videoDownloaderFeature1": "Qualidade HD até 1080p",
     "videoDownloaderFeature2": "Sem marcas d'água ou logos",
     "videoDownloaderFeature3": "Funciona em todos os dispositivos",
@@ -208,7 +208,7 @@
     "metaDescription": "Baixe vídeos privados do Facebook que você tem permissão para visualizar. Salve vídeos de grupos privados, posts só para amigos e conteúdo restrito."
   },
   "footer": {
-    "copyright": "© 2024 DLFB.io. Todos os direitos reservados.",
+    "copyright": "© 2024 SaveFBS.net. Todos os direitos reservados.",
     "disclaimer": "Esta ferramenta não é afiliada ao Facebook/Meta."
   },
   "homeFaq": {

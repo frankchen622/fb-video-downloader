@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "DLFB.io",
+    "siteName": "SaveFBS.net",
     "paste": "Facebook動画のURLをここに貼り付けてください...",
     "downloadButton": "ダウンロード",
     "processing": "処理中...",
@@ -30,7 +30,7 @@
     "step3Title": "ダウンロード",
     "step3Desc": "ダウンロードボタンをクリックして、HD品質で動画を保存します",
     "videoDownloaderTitle": "動画ダウンローダー",
-    "videoDownloaderDesc": "ワンクリックでFacebook動画をHD品質でダウンロード。DLFB.ioはすべての動画形式と解像度をサポートしており、Facebook動画をMP4形式でデバイスに保存して、いつでもどこでもオフラインで視聴できます。",
+    "videoDownloaderDesc": "ワンクリックでFacebook動画をHD品質でダウンロード。SaveFBS.netはすべての動画形式と解像度をサポートしており、Facebook動画をMP4形式でデバイスに保存して、いつでもどこでもオフラインで視聴できます。",
     "videoDownloaderFeature1": "最大1080pのHD品質",
     "videoDownloaderFeature2": "透かしやロゴなし",
     "videoDownloaderFeature3": "すべてのデバイスで動作",
@@ -146,7 +146,7 @@
     "step2Desc": "コンバーターに貼り付け",
     "step3Title": "MP3をダウンロード",
     "step3Desc": "変換をクリックしてオーディオを保存",
-    "whyChooseTitle": "DLFB.ioを選ぶ理由",
+    "whyChooseTitle": "SaveFBS.netを選ぶ理由",
     "feature1Title": "高品質オーディオ抽出",
     "feature1Desc": "任意のFacebook動画から高品質オーディオを抽出。",
     "feature1Point1": "最大320kbpsのオーディオ品質",

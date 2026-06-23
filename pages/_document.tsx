@@ -4,7 +4,7 @@ const locales = ['en', 'es', 'pt', 'fr', 'de', 'ja', 'id', 'vi', 'th', 'ar', 'zh
 
 export default function Document(props: DocumentProps) {
   const { locale = 'en' } = props.__NEXT_DATA__
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dlfb.io'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://savefbs.net'
   
   return (
     <Html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
@@ -50,11 +50,11 @@ export default function Document(props: DocumentProps) {
         {/* <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" /> */}
         
         {/* Author and Publisher */}
-        <meta name="author" content="DLFB.io" />
-        <meta name="publisher" content="DLFB.io" />
+        <meta name="author" content="SaveFBS.net" />
+        <meta name="publisher" content="SaveFBS.net" />
         
         {/* Copyright */}
-        <meta name="copyright" content="DLFB.io" />
+        <meta name="copyright" content="SaveFBS.net" />
         
         {/* Geo tags */}
         <meta name="geo.region" content="US" />
@@ -72,7 +72,7 @@ export default function Document(props: DocumentProps) {
         {/* Apple Web App */}
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="DLFB.io" />
+        <meta name="apple-mobile-web-app-title" content="SaveFBS.net" />
         
         {/* Microsoft */}
         <meta name="msapplication-config" content="/browserconfig.xml" />
@@ -84,7 +84,7 @@ export default function Document(props: DocumentProps) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebApplication",
-              "name": "DLFB.io - Facebook Video Downloader",
+              "name": "SaveFBS.net - Facebook Video Downloader",
               "url": siteUrl,
               "description": "Download Facebook videos, Reels, Stories, and convert to MP3/MP4. Fast, free, and no watermark.",
               "applicationCategory": "MultimediaApplication",

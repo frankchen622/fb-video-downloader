@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "DLFB.io",
+    "siteName": "SaveFBS.net",
     "tagline": "Descargador de Videos de Facebook",
     "download": "Descargar",
     "paste": "Pega la URL del video de Facebook aquí...",
@@ -54,7 +54,7 @@
     "step3Title": "Descargar",
     "step3Desc": "Haz clic en el botón de descarga y guarda tu video en calidad HD",
     "videoDownloaderTitle": "Descargador de Videos",
-    "videoDownloaderDesc": "Descarga videos de Facebook en calidad HD con solo un clic. DLFB.io es compatible con todos los formatos y resoluciones de video, permitiéndote guardar videos de Facebook en tu dispositivo en formato MP4 para verlos sin conexión en cualquier momento y lugar.",
+    "videoDownloaderDesc": "Descarga videos de Facebook en calidad HD con solo un clic. SaveFBS.net es compatible con todos los formatos y resoluciones de video, permitiéndote guardar videos de Facebook en tu dispositivo en formato MP4 para verlos sin conexión en cualquier momento y lugar.",
     "videoDownloaderFeature1": "Calidad HD hasta 1080p",
     "videoDownloaderFeature2": "Sin marcas de agua ni logos",
     "videoDownloaderFeature3": "Funciona en todos los dispositivos",
@@ -84,7 +84,7 @@
     "step2Desc": "Pégalo en el convertidor",
     "step3Title": "Descargar",
     "step3Desc": "Haz clic en convertir y guarda el MP3",
-    "whyChooseTitle": "¿Por Qué Elegir DLFB.io?",
+    "whyChooseTitle": "¿Por Qué Elegir SaveFBS.net?",
     "feature1Title": "Formato de Audio Universal",
     "feature1Desc": "MP3 funciona en todas partes. Extrae audio de videos de Facebook y reprodúcelo en cualquier dispositivo: smartphones, tablets, computadoras o reproductores de música. Sin problemas de compatibilidad, nunca.",
     "feature1Point1": "Compatible con todos los dispositivos y plataformas",
@@ -209,7 +209,7 @@
     "metaDescription": "Descarga videos privados de Facebook que tienes permiso para ver. Guarda videos de grupos privados, publicaciones solo para amigos y contenido restringido."
   },
   "footer": {
-    "copyright": "© 2024 DLFB.io. Todos los derechos reservados.",
+    "copyright": "© 2024 SaveFBS.net. Todos los derechos reservados.",
     "disclaimer": "Esta herramienta no está afiliada con Facebook/Meta."
   },
   "homeFaq": {

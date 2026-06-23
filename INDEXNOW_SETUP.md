@@ -13,7 +13,7 @@ public/e1e8eb8b9ef7492b0c91668cf9efbfbc.txt
 
 This file will be accessible at:
 ```
-https://dlfb.io/e1e8eb8b9ef7492b0c91668cf9efbfbc.txt
+https://savefbs.net/e1e8eb8b9ef7492b0c91668cf9efbfbc.txt
 ```
 
 ### 2. API Endpoint
@@ -52,17 +52,17 @@ Or use the bash script:
 Use the API endpoint directly:
 
 ```bash
-curl -X POST https://dlfb.io/api/indexnow \
+curl -X POST https://savefbs.net/api/indexnow \
   -H "Content-Type: application/json" \
-  -d '{"urls": ["https://dlfb.io/", "https://dlfb.io/reels-downloader"]}'
+  -d '{"urls": ["https://savefbs.net/", "https://savefbs.net/reels-downloader"]}'
 ```
 
 Or submit a single URL:
 
 ```bash
-curl -X POST https://dlfb.io/api/indexnow \
+curl -X POST https://savefbs.net/api/indexnow \
   -H "Content-Type: application/json" \
-  -d '{"url": "https://dlfb.io/facebook-to-mp3"}'
+  -d '{"url": "https://savefbs.net/facebook-to-mp3"}'
 ```
 
 ## Verification
@@ -71,15 +71,15 @@ After deployment, verify the setup:
 
 1. Check the key file is accessible:
    ```
-   curl https://dlfb.io/e1e8eb8b9ef7492b0c91668cf9efbfbc.txt
+   curl https://savefbs.net/e1e8eb8b9ef7492b0c91668cf9efbfbc.txt
    ```
    Should return: `e1e8eb8b9ef7492b0c91668cf9efbfbc`
 
 2. Test the API endpoint:
    ```bash
-   curl -X POST https://dlfb.io/api/indexnow \
+   curl -X POST https://savefbs.net/api/indexnow \
      -H "Content-Type: application/json" \
-     -d '{"url": "https://dlfb.io/"}'
+     -d '{"url": "https://savefbs.net/"}'
    ```
 
 3. Check Bing Webmaster Tools:
@@ -116,7 +116,7 @@ Make sure the file is in `public/` directory and deployed correctly.
 The key file might not be accessible or the domain doesn't match.
 
 ### API returns 400
-Check the URL format - must be absolute URLs starting with `https://dlfb.io`
+Check the URL format - must be absolute URLs starting with `https://savefbs.net`
 
 ## References
 

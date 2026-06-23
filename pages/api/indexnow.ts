@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 const INDEXNOW_KEY = '288d231298f24d2ba6cfc155175e3f29';
-const HOST = 'dlfb.io';
+const HOST = 'savefbs.net';
 
 interface IndexNowResponse {
   success: boolean;

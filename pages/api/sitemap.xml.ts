@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 const locales = ['en', 'es', 'pt', 'fr', 'de', 'ja', 'id', 'vi', 'th', 'ar', 'zh', 'ru']
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dlfb.io'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://savefbs.net'
 
 const pages = [
   { path: '', priority: '1.0', changefreq: 'daily' },

@@ -18,12 +18,12 @@
 ## URL Structure
 
 ```
-dlfb.io/          → English (default)
-dlfb.io/es/       → Spanish
-dlfb.io/pt/       → Portuguese
-dlfb.io/zh/       → Chinese
-dlfb.io/ar/       → Arabic
-dlfb.io/ru/       → Russian
+savefbs.net/          → English (default)
+savefbs.net/es/       → Spanish
+savefbs.net/pt/       → Portuguese
+savefbs.net/zh/       → Chinese
+savefbs.net/ar/       → Arabic
+savefbs.net/ru/       → Russian
 ```
 
 ## How to Use Translations
@@ -84,7 +84,7 @@ Located in `/locales/*.json`
 
 After deployment:
 
-1. Submit sitemap: `https://dlfb.io/sitemap.xml`
+1. Submit sitemap: `https://savefbs.net/sitemap.xml`
 2. Google will automatically discover all language versions
 3. Each language will be indexed separately
 

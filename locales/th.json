@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "DLFB.io",
+    "siteName": "SaveFBS.net",
     "tagline": "ตัวดาวน์โหลดวิดีโอ Facebook",
     "download": "ดาวน์โหลด",
     "paste": "วาง URL วิดีโอ Facebook ที่นี่...",
@@ -54,7 +54,7 @@
     "feature6Title": "ทุกอุปกรณ์",
     "feature6Desc": "ใช้งานได้บน iPhone, Android, Windows, Mac และแท็บเล็ต",
     "videoDownloaderTitle": "ตัวดาวน์โหลดวิดีโอ",
-    "videoDownloaderDesc": "ดาวน์โหลดวิดีโอ Facebook ในคุณภาพ HD ด้วยคลิกเดียว DLFB.io รองรับรูปแบบและความละเอียดวิดีโอทั้งหมด ช่วยให้คุณบันทึกวิดีโอ Facebook ในรูปแบบ MP4 ลงในอุปกรณ์ของคุณเพื่อดูออฟไลน์ได้ทุกที่ทุกเวลา",
+    "videoDownloaderDesc": "ดาวน์โหลดวิดีโอ Facebook ในคุณภาพ HD ด้วยคลิกเดียว SaveFBS.net รองรับรูปแบบและความละเอียดวิดีโอทั้งหมด ช่วยให้คุณบันทึกวิดีโอ Facebook ในรูปแบบ MP4 ลงในอุปกรณ์ของคุณเพื่อดูออฟไลน์ได้ทุกที่ทุกเวลา",
     "videoDownloaderFeature1": "คุณภาพ HD สูงสุด 1080p",
     "videoDownloaderFeature2": "ไม่มีลายน้ำหรือโลโก้",
     "videoDownloaderFeature3": "ใช้งานได้บนทุกอุปกรณ์",
@@ -159,7 +159,7 @@
     "step2Desc": "วางลงในตัวแปลง",
     "step3Title": "ดาวน์โหลด MP3",
     "step3Desc": "คลิกแปลงและบันทึกเสียง",
-    "whyChooseTitle": "ทำไมต้องเลือก DLFB.io?",
+    "whyChooseTitle": "ทำไมต้องเลือก SaveFBS.net?",
     "feature1Title": "แยกเสียงคุณภาพสูง",
     "feature1Desc": "แยกเสียงคุณภาพสูงจากวิดีโอ Facebook ใดๆ",
     "feature1Point1": "คุณภาพเสียงสูงสุด 320kbps",
@@ -514,7 +514,7 @@
     ]
   },
   "footer": {
-    "copyright": "© 2024 DLFB.io สงวนลิขสิทธิ์",
+    "copyright": "© 2024 SaveFBS.net สงวนลิขสิทธิ์",
     "disclaimer": "เครื่องมือนี้ไม่เกี่ยวข้องกับ Facebook/Meta"
   }
 }

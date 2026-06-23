@@ -18,7 +18,7 @@ export default function TermsOfUse() {
   const translations = loadTranslations(locale)
   const t = translations.termsOfUse
   
-  const siteUrl = 'https://dlfb.io'
+  const siteUrl = 'https://savefbs.net'
   const pagePath = '/terms-of-use'
   const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
   

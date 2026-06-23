@@ -28,7 +28,7 @@ export default function SEO({
   const fullCanonical = canonical ? `${baseUrl}${canonical}` : baseUrl
   const fullOgImage = ogImage.startsWith('http') ? ogImage : `${baseUrl}${ogImage}`
   
-  const fullTitle = title.includes('DLFB.io') ? title : `${title} | DLFB.io`
+  const fullTitle = title.includes('SaveFBS.net') ? title : `${title} | SaveFBS.net`
 
   return (
     <Head>
@@ -52,7 +52,7 @@ export default function SEO({
       <meta property="og:image" content={fullOgImage} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:site_name" content="DLFB.io" />
+      <meta property="og:site_name" content="SaveFBS.net" />
       <meta property="og:locale" content="en_US" />
       
       {/* Twitter */}
@@ -61,7 +61,7 @@ export default function SEO({
       <meta property="twitter:title" content={fullTitle} />
       <meta property="twitter:description" content={description} />
       <meta property="twitter:image" content={fullOgImage} />
-      <meta name="twitter:creator" content="@dlfb_io" />
+      <meta name="twitter:creator" content="@savefbs" />
       
       {/* Additional Meta Tags */}
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />

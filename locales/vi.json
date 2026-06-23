@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "DLFB.io",
+    "siteName": "SaveFBS.net",
     "paste": "Dán URL video Facebook vào đây...",
     "downloadButton": "Tải xuống",
     "processing": "Đang xử lý...",
@@ -42,7 +42,7 @@
     "feature6Title": "Mọi Thiết Bị",
     "feature6Desc": "Hoạt động trên iPhone, Android, Windows, Mac và máy tính bảng",
     "videoDownloaderTitle": "Trình Tải Video",
-    "videoDownloaderDesc": "Tải video Facebook chất lượng HD chỉ với một cú nhấp chuột. DLFB.io hỗ trợ tất cả các định dạng và độ phân giải video, cho phép bạn lưu video Facebook ở định dạng MP4 vào thiết bị của mình để xem ngoại tuyến bất cứ lúc nào, bất cứ nơi đâu.",
+    "videoDownloaderDesc": "Tải video Facebook chất lượng HD chỉ với một cú nhấp chuột. SaveFBS.net hỗ trợ tất cả các định dạng và độ phân giải video, cho phép bạn lưu video Facebook ở định dạng MP4 vào thiết bị của mình để xem ngoại tuyến bất cứ lúc nào, bất cứ nơi đâu.",
     "videoDownloaderFeature1": "Chất lượng HD lên đến 1080p",
     "videoDownloaderFeature2": "Không có watermark hoặc logo",
     "videoDownloaderFeature3": "Hoạt động trên mọi thiết bị",
@@ -146,7 +146,7 @@
     "step2Desc": "Dán vào bộ chuyển đổi",
     "step3Title": "Tải MP3",
     "step3Desc": "Nhấp chuyển đổi và lưu âm thanh",
-    "whyChooseTitle": "Tại Sao Chọn DLFB.io?",
+    "whyChooseTitle": "Tại Sao Chọn SaveFBS.net?",
     "feature1Title": "Trích Xuất Âm Thanh Chất Lượng Cao",
     "feature1Desc": "Trích xuất âm thanh chất lượng cao từ bất kỳ video Facebook nào.",
     "feature1Point1": "Lên đến 320kbps chất lượng âm thanh",

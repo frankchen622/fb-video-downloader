@@ -2,7 +2,7 @@
 
 ## 📋 准备工作
 
-1. 确保你已经购买了域名（例如：dlfb.io）
+1. 确保你已经购买了域名（例如：savefbs.net）
 2. 有域名的 DNS 管理权限
 3. Railway 项目已部署成功
 
@@ -17,14 +17,14 @@
 5. 找到 `Domains` 部分
 6. 点击 `+ Add Domain`
 7. 输入你的域名：
-   - 根域名：`dlfb.io`
-   - 或子域名：`www.dlfb.io`
+   - 根域名：`savefbs.net`
+   - 或子域名：`www.savefbs.net`
 
 ### 步骤 2: 配置 DNS 记录
 
 Railway 会显示需要添加的 DNS 记录。去你的域名注册商添加：
 
-#### 选项 A: 使用根域名（dlfb.io）
+#### 选项 A: 使用根域名（savefbs.net）
 
 ```
 类型: A
@@ -33,7 +33,7 @@ Railway 会显示需要添加的 DNS 记录。去你的域名注册商添加：
 TTL: 自动或 3600
 ```
 
-#### 选项 B: 使用 www 子域名（www.dlfb.io）
+#### 选项 B: 使用 www 子域名（www.savefbs.net）
 
 ```
 类型: CNAME
@@ -116,27 +116,27 @@ Railway 会自动为你的域名配置 Let's Encrypt SSL 证书，通常在域�
 进入 Railway 项目 → `Variables` 标签，添加：
 
 ```
-NEXT_PUBLIC_SITE_URL=https://dlfb.io
+NEXT_PUBLIC_SITE_URL=https://savefbs.net
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
 ```
 
 ### 2. 更新 Google Search Console
 
 1. 访问 [Google Search Console](https://search.google.com/search-console)
-2. 添加新的资源（Property）：`https://dlfb.io`
+2. 添加新的资源（Property）：`https://savefbs.net`
 3. 验证域名所有权
-4. 提交 sitemap：`https://dlfb.io/sitemap.xml`
+4. 提交 sitemap：`https://savefbs.net/sitemap.xml`
 
 ### 3. 更新 Google Analytics
 
 1. 访问 [Google Analytics](https://analytics.google.com)
-2. 更新网站 URL 为 `https://dlfb.io`
+2. 更新网站 URL 为 `https://savefbs.net`
 3. 复制 Measurement ID（格式：G-XXXXXXXXXX）
 4. 在 Railway 环境变量中设置 `NEXT_PUBLIC_GA_ID`
 
 ### 4. 更新 robots.txt
 
-robots.txt 已经更新为使用 `dlfb.io`，无需额外操作。
+robots.txt 已经更新为使用 `savefbs.net`，无需额外操作。
 
 ## ✅ 验证域名绑定
 
@@ -144,20 +144,20 @@ robots.txt 已经更新为使用 `dlfb.io`，无需额外操作。
 
 ```bash
 # 检查 A 记录
-dig dlfb.io
+dig savefbs.net
 
 # 检查 CNAME 记录
-dig www.dlfb.io
+dig www.savefbs.net
 ```
 
 ### 2. 检查 SSL 证书
 
-访问 `https://dlfb.io`，点击浏览器地址栏的锁图标，查看证书详情。
+访问 `https://savefbs.net`，点击浏览器地址栏的锁图标，查看证书详情。
 
 ### 3. 检查 SEO 配置
 
-- 访问 `https://dlfb.io/sitemap.xml` 确认 sitemap 正常
-- 访问 `https://dlfb.io/robots.txt` 确认 robots.txt 正常
+- 访问 `https://savefbs.net/sitemap.xml` 确认 sitemap 正常
+- 访问 `https://savefbs.net/robots.txt` 确认 robots.txt 正常
 - 使用 [Google Rich Results Test](https://search.google.com/test/rich-results) 测试结构化数据
 
 ## 🐛 常见问题

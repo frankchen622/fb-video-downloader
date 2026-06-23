@@ -63,14 +63,14 @@ For higher volume, upgrade to a paid plan.
 
 ## Alternative: Use Your Own Domain
 
-To send emails from your own domain (e.g., contact@dlfb.io):
+To send emails from your own domain (e.g., contact@savefbs.net):
 
 1. Add your domain in Resend dashboard
 2. Add DNS records (SPF, DKIM)
 3. Update the `from` field in `/pages/api/contact.ts`:
 
 ```typescript
-from: 'DLFB Contact <contact@dlfb.io>'
+from: 'SaveFBS Contact <contact@savefbs.net>'
 ```
 
 ## Testing

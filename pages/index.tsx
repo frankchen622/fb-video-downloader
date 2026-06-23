@@ -24,7 +24,7 @@ export default function Home() {
   const [error, setError] = useState('')
   const [videoInfo, setVideoInfo] = useState<VideoInfo | null>(null)
   
-  const siteUrl = 'https://dlfb.io'
+  const siteUrl = 'https://savefbs.net'
   const canonicalUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
 
   const handleDownload = async () => {
@@ -88,16 +88,16 @@ export default function Home() {
         <meta property="og:description" content="Download Facebook videos in HD quality for free. Fast, no watermark, no ads." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:image" content="https://dlfb.io/images/og-default.png" />
+        <meta property="og:image" content="https://savefbs.net/images/og-default.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:site_name" content="DLFB.io" />
+        <meta property="og:site_name" content="SaveFBS.net" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Facebook Video Downloader - Download FB Videos in HD Free" />
         <meta name="twitter:description" content="Download Facebook videos in HD quality for free. Fast, no watermark, no ads." />
-        <meta name="twitter:image" content="https://dlfb.io/images/og-default.png" />
+        <meta name="twitter:image" content="https://savefbs.net/images/og-default.png" />
         
         {/* FAQPage Schema */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{

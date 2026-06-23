@@ -1,5 +1,5 @@
 {
-  "common": {"siteName": "DLFB.io", "download": "下载", "paste": "在此粘贴 Facebook 视频链接...", "downloadButton": "下载", "processing": "处理中...", "enterUrl": "请输入 Facebook 视频链接", "noRegistration": "无需注册", "unlimitedDownloads": "无限下载", "allDevices": "支持所有设备", "chooseQuality": "选择下载质量:"},
+  "common": {"siteName": "SaveFBS.net", "download": "下载", "paste": "在此粘贴 Facebook 视频链接...", "downloadButton": "下载", "processing": "处理中...", "enterUrl": "请输入 Facebook 视频链接", "noRegistration": "无需注册", "unlimitedDownloads": "无限下载", "allDevices": "支持所有设备", "chooseQuality": "选择下载质量:"},
   "mp3": {"title": "Facebook 转 MP3 转换器", "subtitle": "从 FB 视频提取音频 • 高质量最高 320kbps • 免费快速", "placeholder": "粘贴 Facebook 视频链接...", "button": "🎵 转换为 MP3", "extracting": "⏳ 提取中...", "enterUrl": "请输入 Facebook 视频链接", "footer": "高质量音频最高 320kbps • 快速转换 • 无需软件"},
   "mp4": {"title": "Facebook 转 MP4", "subtitle": "将 FB 视频转换为 MP4 • 高清质量 • 免费", "placeholder": "粘贴 Facebook 视频链接...", "button": "🎬 转换为 MP4", "converting": "⏳ 转换中...", "enterUrl": "请输入 Facebook 视频链接", "footer": "高清质量 • 通用格式 • 随处可用"},
   "reels": {"title": "Facebook Reels 下载器", "subtitle": "下载 FB Reels 高清视频 • 无水印 • 免费", "placeholder": "粘贴 Facebook Reels 链接...", "button": "🎬 下载 Reel", "downloading": "⏳ 下载中...", "enterUrl": "请输入 Facebook Reels 链接", "footer": "高清质量 • 无水印 • 保存热门内容"},

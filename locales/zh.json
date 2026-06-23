@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "DLFB.io",
+    "siteName": "SaveFBS.net",
     "tagline": "Facebook 视频下载器",
     "download": "下载",
     "paste": "在此粘贴 Facebook 视频链接...",
@@ -54,7 +54,7 @@
     "step3Title": "下载",
     "step3Desc": "点击下载按钮并以高清质量保存您的视频",
     "videoDownloaderTitle": "视频下载器",
-    "videoDownloaderDesc": "一键下载高清 Facebook 视频。DLFB.io 支持所有视频格式和分辨率，让您可以将 Facebook 视频以 MP4 格式保存到设备上，随时随地离线观看。",
+    "videoDownloaderDesc": "一键下载高清 Facebook 视频。SaveFBS.net 支持所有视频格式和分辨率，让您可以将 Facebook 视频以 MP4 格式保存到设备上，随时随地离线观看。",
     "videoDownloaderFeature1": "高达 1080p 高清质量",
     "videoDownloaderFeature2": "无水印或标志",
     "videoDownloaderFeature3": "适用于所有设备",
@@ -208,7 +208,7 @@
     "metaDescription": "下载您有权查看的Facebook私密视频。保存来自私密群组、仅好友可见帖子和受限内容的视频。"
   },
   "footer": {
-    "copyright": "© 2024 DLFB.io. 保留所有权利。",
+    "copyright": "© 2024 SaveFBS.net. 保留所有权利。",
     "disclaimer": "本工具不隶属于 Facebook/Meta。"
   },
   "homeFaq": {

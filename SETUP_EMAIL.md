@@ -59,7 +59,7 @@ Resend 免费计划：
 ## 🎯 收到的邮件格式
 
 ```
-发件人：DLFB Contact Form <onboarding@resend.dev>
+发件人：SaveFBS Contact Form <onboarding@resend.dev>
 收件人：info@savefbs.com
 主题：New Contact Form Submission from [访客姓名]
 
@@ -75,13 +75,13 @@ Resend 免费计划：
 
 ### 使用自己的域名发送邮件
 
-如果你想从 `contact@dlfb.io` 发送邮件：
+如果你想从 `contact@savefbs.net` 发送邮件：
 
-1. 在 Resend 添加域名 `dlfb.io`
+1. 在 Resend 添加域名 `savefbs.net`
 2. 添加 DNS 记录（Resend 会提供）
 3. 修改 `pages/api/contact.ts` 中的 `from` 字段：
    ```typescript
-   from: 'DLFB Contact <contact@dlfb.io>'
+   from: 'SaveFBS Contact <contact@savefbs.net>'
    ```
 
 ## ❓ 常见问题

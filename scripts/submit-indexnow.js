@@ -6,7 +6,7 @@
 
 const https = require('https');
 
-const DOMAIN = 'https://dlfb.io';
+const DOMAIN = 'https://savefbs.net';
 const API_ENDPOINT = `${DOMAIN}/api/indexnow`;
 
 // All pages to submit
