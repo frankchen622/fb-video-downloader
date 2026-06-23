@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "SaveFBS.net",
+    "siteName": "DLFB.io",
     "tagline": "Téléchargeur de Vidéos Facebook",
     "download": "Télécharger",
     "paste": "Collez l'URL de la vidéo Facebook ici...",
@@ -54,7 +54,7 @@
     "step3Title": "Télécharger",
     "step3Desc": "Cliquez sur le bouton de téléchargement et enregistrez votre vidéo en qualité HD",
     "videoDownloaderTitle": "Téléchargeur de Vidéos",
-    "videoDownloaderDesc": "Téléchargez des vidéos Facebook en qualité HD en un clic. SaveFBS.net prend en charge tous les formats et résolutions vidéo, vous permettant d'enregistrer des vidéos Facebook sur votre appareil au format MP4 pour une visualisation hors ligne à tout moment, n'importe où.",
+    "videoDownloaderDesc": "Téléchargez des vidéos Facebook en qualité HD en un clic. DLFB.io prend en charge tous les formats et résolutions vidéo, vous permettant d'enregistrer des vidéos Facebook sur votre appareil au format MP4 pour une visualisation hors ligne à tout moment, n'importe où.",
     "videoDownloaderFeature1": "Qualité HD jusqu'à 1080p",
     "videoDownloaderFeature2": "Sans filigrane ni logo",
     "videoDownloaderFeature3": "Fonctionne sur tous les appareils",
@@ -85,7 +85,7 @@
     "step2Desc": "Collez dans le convertisseur",
     "step3Title": "Télécharger MP3",
     "step3Desc": "Cliquez sur convertir et enregistrez l'audio",
-    "whyChooseTitle": "Pourquoi Choisir SaveFBS.net?",
+    "whyChooseTitle": "Pourquoi Choisir DLFB.io?",
     "feature1Title": "Extraction Audio Haute Qualité",
     "feature1Desc": "Extrayez de l'audio de haute qualité de n'importe quelle vidéo Facebook.",
     "feature1Point1": "Jusqu'à 320kbps de qualité audio",
@@ -221,7 +221,7 @@
     "metaDescription": "Téléchargez des vidéos privées Facebook que vous avez la permission de voir. Enregistrez des vidéos de groupes privés, publications d'amis uniquement et contenu restreint."
   },
   "footer": {
-    "copyright": "© 2024 SaveFBS.net. Tous droits réservés.",
+    "copyright": "© 2024 DLFB.io. Tous droits réservés.",
     "disclaimer": "Cet outil n'est pas affilié à Facebook/Meta."
   },
   "homeFaq": {

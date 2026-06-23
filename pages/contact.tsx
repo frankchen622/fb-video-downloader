@@ -23,7 +23,7 @@ export default function Contact() {
   const translations = loadTranslations(locale)
   const t = translations.contact
   
-  const siteUrl = 'https://savefbs.net'
+  const siteUrl = 'https://dlfb.io'
   const pagePath = '/contact'
   const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
 

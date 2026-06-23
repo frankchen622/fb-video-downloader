@@ -24,7 +24,7 @@ export default function FacebookToMP4() {
   const { t } = useTranslation()
   const [url, setUrl] = useState('')
   
-  const siteUrl = 'https://savefbs.net'
+  const siteUrl = 'https://dlfb.io'
   const pagePath = '/facebook-to-mp4'
   const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
   const [loading, setLoading] = useState(false)

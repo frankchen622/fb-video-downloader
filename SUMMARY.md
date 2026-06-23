@@ -1,7 +1,7 @@
 # Facebook Video Downloader - 问题修复总结
 
 ## 📋 任务概述
-检查并修复 https://savefbs.net 的下载功能问题
+检查并修复 https://dlfb.io 的下载功能问题
 
 ## 🔍 发现的问题
 
@@ -182,7 +182,7 @@ Repository: https://github.com/frankchen622/fb-video-downloader
 ```
 
 ### 生产环境
-- URL: https://savefbs.net
+- URL: https://dlfb.io
 - 状态: ✅ 在线
 - 需要: 重新部署以应用最新更改
 
@@ -229,7 +229,7 @@ npm run dev
 
 ### 生产环境测试
 ```bash
-# 访问 https://savefbs.net
+# 访问 https://dlfb.io
 # 输入真实的 Facebook 视频链接
 # 验证功能正常
 ```

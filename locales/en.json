@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "SaveFBS.net",
+    "siteName": "DLFB.io",
     "tagline": "Facebook Video Downloader",
     "download": "Download",
     "paste": "Paste Facebook video URL here...",
@@ -54,7 +54,7 @@
     "step3Title": "Download",
     "step3Desc": "Click the download button and save your video in HD quality",
     "videoDownloaderTitle": "Video Downloader",
-    "videoDownloaderDesc": "Download Facebook videos in HD quality with just one click. SaveFBS.net supports all video formats and resolutions, allowing you to save Facebook videos to your device in MP4 format for offline viewing anytime, anywhere.",
+    "videoDownloaderDesc": "Download Facebook videos in HD quality with just one click. DLFB.io supports all video formats and resolutions, allowing you to save Facebook videos to your device in MP4 format for offline viewing anytime, anywhere.",
     "videoDownloaderFeature1": "HD quality up to 1080p",
     "videoDownloaderFeature2": "No watermarks or logos",
     "videoDownloaderFeature3": "Works on all devices",
@@ -84,7 +84,7 @@
     "step2Desc": "Paste it into the converter",
     "step3Title": "Download",
     "step3Desc": "Click convert and save MP3",
-    "whyChooseTitle": "Why Choose SaveFBS.net?",
+    "whyChooseTitle": "Why Choose DLFB.io?",
     "feature1Title": "Universal Audio Format",
     "feature1Desc": "MP3 works everywhere. Extract audio from Facebook videos and play it on any device—smartphones, tablets, computers, or music players. No compatibility issues, ever.",
     "feature1Point1": "Compatible with all devices and platforms",
@@ -222,7 +222,7 @@
     "metaDescription": "Download private Facebook videos you have permission to view. Save videos from private groups, friends-only posts, and restricted content."
   },
   "footer": {
-    "copyright": "© 2024 SaveFBS.net. All rights reserved.",
+    "copyright": "© 2024 DLFB.io. All rights reserved.",
     "disclaimer": "This tool is not affiliated with Facebook/Meta."
   },
   "homeFaq": {

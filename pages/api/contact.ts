@@ -56,7 +56,7 @@ export default async function handler(
         'Authorization': `Bearer ${resendApiKey}`
       },
       body: JSON.stringify({
-        from: 'SaveFBS Contact Form <onboarding@resend.dev>', // Will be replaced with your domain
+        from: 'DLFB Contact Form <onboarding@resend.dev>', // Will be replaced with your domain
         to: process.env.CONTACT_EMAIL || 'your-email@example.com',
         subject: `New Contact Form Submission from ${name}`,
         html: `
@@ -67,7 +67,7 @@ export default async function handler(
           <p><strong>Message:</strong></p>
           <p>${message.replace(/\n/g, '<br>')}</p>
           <hr>
-          <p><small>Submitted from savefbs.net contact form</small></p>
+          <p><small>Submitted from dlfb.io contact form</small></p>
         `
       })
     })

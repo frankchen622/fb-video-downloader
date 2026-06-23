@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
   const translations = loadTranslations(locale)
   const t = translations.privacyPolicy
   
-  const siteUrl = 'https://savefbs.net'
+  const siteUrl = 'https://dlfb.io'
   const pagePath = '/privacy-policy'
   const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
   

@@ -75,7 +75,7 @@ git push origin main
 部署完成后，请验证以下功能：
 
 ### 1. 前端功能
-- [ ] 访问 https://savefbs.net
+- [ ] 访问 https://dlfb.io
 - [ ] 输入测试链接: `https://www.facebook.com/reel/2156302355124918`
 - [ ] 点击 "Download" 按钮
 - [ ] 应该显示视频信息（标题、缩略图）
@@ -94,10 +94,10 @@ git push origin main
 ### 4. API 测试
 ```bash
 # 测试健康检查
-curl https://savefbs.net/api/health
+curl https://dlfb.io/api/health
 
 # 测试下载 API
-curl -X POST https://savefbs.net/api/download \
+curl -X POST https://dlfb.io/api/download \
   -H "Content-Type: application/json" \
   -d '{"url":"https://www.facebook.com/reel/2156302355124918"}'
 ```

@@ -9,9 +9,9 @@ export default function Footer() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             {/* About */}
             <div className="md:col-span-2">
-              <h3 className="text-xl font-bold mb-4">About savefbs.net</h3>
+              <h3 className="text-xl font-bold mb-4">About dlfb.io</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                savefbs.net is a free online tool to download Facebook videos, reels, and convert them to MP4 or MP3 format. Fast, secure, and easy to use on any device. No registration required.
+                dlfb.io is a free online tool to download Facebook videos, reels, and convert them to MP4 or MP3 format. Fast, secure, and easy to use on any device. No registration required.
               </p>
               <p className="text-sm text-gray-500">
                 Perfect for content creators, social media managers, digital marketers, and anyone who wants to save Facebook videos for offline viewing.
@@ -77,7 +77,7 @@ export default function Footer() {
           <div className="pt-8 border-t border-gray-200">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600">
               <p>
-                © {new Date().getFullYear()} savefbs.net. All rights reserved.
+                © {new Date().getFullYear()} dlfb.io. All rights reserved.
               </p>
               <p className="text-center md:text-right">
                 <strong className="text-gray-700">Disclaimer:</strong> We are not affiliated with Facebook or Meta. All trademarks belong to their respective owners.

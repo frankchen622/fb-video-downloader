@@ -1,7 +1,7 @@
 {
   "contact": {
-    "title": "Contáctanos - savefbs.net",
-    "metaDescription": "Contacta a savefbs.net para soporte, comentarios o consultas sobre nuestro servicio de descarga de videos de Facebook.",
+    "title": "Contáctanos - dlfb.io",
+    "metaDescription": "Contacta a dlfb.io para soporte, comentarios o consultas sobre nuestro servicio de descarga de videos de Facebook.",
     "heading": "Contáctanos",
     "subtitle": "¿Tienes preguntas, comentarios o necesitas soporte? Nos encantaría saber de ti.",
     "thankYouTitle": "¡Gracias!",
@@ -18,18 +18,18 @@
     "supportLabel": "Soporte:",
     "supportText": "Para problemas técnicos o preguntas sobre el uso de nuestro servicio",
     "feedbackLabel": "Comentarios:",
-    "feedbackText": "Agradecemos tus sugerencias para mejorar savefbs.net",
+    "feedbackText": "Agradecemos tus sugerencias para mejorar dlfb.io",
     "businessLabel": "Consultas Comerciales:",
     "businessText": "Para oportunidades de asociación o colaboración",
     "backToHome": "← Volver al Inicio"
   },
   "privacyPolicy": {
-    "title": "Política de Privacidad - savefbs.net",
-    "metaDescription": "Política de privacidad del descargador de videos de Facebook savefbs.net. Conoce cómo protegemos tu privacidad y manejamos tus datos.",
+    "title": "Política de Privacidad - dlfb.io",
+    "metaDescription": "Política de privacidad del descargador de videos de Facebook dlfb.io. Conoce cómo protegemos tu privacidad y manejamos tus datos.",
     "heading": "Política de Privacidad",
     "lastUpdated": "Última actualización: 8 de mayo de 2024",
     "introTitle": "Introducción",
-    "introText": "En savefbs.net, tomamos tu privacidad en serio. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos tu información cuando usas nuestro servicio de descarga de videos de Facebook.",
+    "introText": "En dlfb.io, tomamos tu privacidad en serio. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos tu información cuando usas nuestro servicio de descarga de videos de Facebook.",
     "infoCollectTitle": "Información que Recopilamos",
     "infoProvideTitle": "Información que Proporcionas",
     "infoProvideItems": [
@@ -80,14 +80,14 @@
     "backToHome": "← Volver al Inicio"
   },
   "termsOfUse": {
-    "title": "Términos de Uso - savefbs.net",
-    "metaDescription": "Términos de uso del servicio de descarga de videos de Facebook savefbs.net. Lee nuestros términos y condiciones antes de usar el servicio.",
+    "title": "Términos de Uso - dlfb.io",
+    "metaDescription": "Términos de uso del servicio de descarga de videos de Facebook dlfb.io. Lee nuestros términos y condiciones antes de usar el servicio.",
     "heading": "Términos de Uso",
     "lastUpdated": "Última actualización: 8 de mayo de 2024",
     "acceptanceTitle": "Aceptación de los Términos",
-    "acceptanceText": "Al acceder y usar savefbs.net, aceptas y te comprometes a cumplir con estos Términos de Uso. Si no estás de acuerdo con estos términos, por favor no uses nuestro servicio.",
+    "acceptanceText": "Al acceder y usar dlfb.io, aceptas y te comprometes a cumplir con estos Términos de Uso. Si no estás de acuerdo con estos términos, por favor no uses nuestro servicio.",
     "serviceTitle": "Descripción del Servicio",
-    "serviceText": "savefbs.net proporciona una herramienta en línea gratuita para descargar videos disponibles públicamente de Facebook. Nuestro servicio permite a los usuarios convertir y descargar videos de Facebook en varios formatos (MP4, MP3) para uso personal.",
+    "serviceText": "dlfb.io proporciona una herramienta en línea gratuita para descargar videos disponibles públicamente de Facebook. Nuestro servicio permite a los usuarios convertir y descargar videos de Facebook en varios formatos (MP4, MP3) para uso personal.",
     "acceptableTitle": "Uso Aceptable",
     "acceptableText": "Aceptas usar nuestro servicio solo para fines legales. No debes:",
     "acceptableItems": [
@@ -110,7 +110,7 @@
       "Disponibilidad de videos o formatos específicos"
     ],
     "limitationTitle": "Limitación de Responsabilidad",
-    "limitationText": "savefbs.net y sus operadores no serán responsables de ningún daño directo, indirecto, incidental, especial o consecuente que resulte de:",
+    "limitationText": "dlfb.io y sus operadores no serán responsables de ningún daño directo, indirecto, incidental, especial o consecuente que resulte de:",
     "limitationItems": [
       "Uso o incapacidad de usar nuestro servicio",
       "Acceso no autorizado a tus datos",

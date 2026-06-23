@@ -19,7 +19,7 @@ export default function ReelsDownloader() {
     formats: Array<{ url: string; quality: string; filesize?: number }>
   } | null>(null)
   
-  const siteUrl = 'https://savefbs.net'
+  const siteUrl = 'https://dlfb.io'
   const pagePath = '/reels-downloader'
   const canonicalUrl = locale === 'en' ? `${siteUrl}${pagePath}` : `${siteUrl}/${locale}${pagePath}`
 

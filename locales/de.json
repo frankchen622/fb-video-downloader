@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "SaveFBS.net",
+    "siteName": "DLFB.io",
     "tagline": "Facebook Video Downloader",
     "download": "Herunterladen",
     "paste": "Facebook-Video-URL hier einfügen...",
@@ -54,7 +54,7 @@
     "step3Title": "Herunterladen",
     "step3Desc": "Klicken Sie auf die Download-Schaltfläche und speichern Sie Ihr Video in HD-Qualität",
     "videoDownloaderTitle": "Video-Downloader",
-    "videoDownloaderDesc": "Laden Sie Facebook-Videos in HD-Qualität mit einem Klick herunter. SaveFBS.net unterstützt alle Videoformate und Auflösungen, sodass Sie Facebook-Videos im MP4-Format auf Ihrem Gerät speichern können, um sie jederzeit und überall offline anzusehen.",
+    "videoDownloaderDesc": "Laden Sie Facebook-Videos in HD-Qualität mit einem Klick herunter. DLFB.io unterstützt alle Videoformate und Auflösungen, sodass Sie Facebook-Videos im MP4-Format auf Ihrem Gerät speichern können, um sie jederzeit und überall offline anzusehen.",
     "videoDownloaderFeature1": "HD-Qualität bis zu 1080p",
     "videoDownloaderFeature2": "Ohne Wasserzeichen oder Logo",
     "videoDownloaderFeature3": "Funktioniert auf allen Geräten",
@@ -85,7 +85,7 @@
     "step2Desc": "In den Konverter einfügen",
     "step3Title": "MP3 Herunterladen",
     "step3Desc": "Auf Konvertieren klicken und Audio speichern",
-    "whyChooseTitle": "Warum SaveFBS.net Wählen?",
+    "whyChooseTitle": "Warum DLFB.io Wählen?",
     "feature1Title": "Hochwertige Audio-Extraktion",
     "feature1Desc": "Extrahieren Sie hochwertiges Audio aus jedem Facebook-Video.",
     "feature1Point1": "Bis zu 320kbps Audioqualität",
@@ -221,7 +221,7 @@
     "metaDescription": "Laden Sie private Facebook-Videos herunter, die Sie ansehen dürfen. Speichern Sie Videos aus privaten Gruppen, Nur-Freunde-Posts und eingeschränkten Inhalten."
   },
   "footer": {
-    "copyright": "© 2024 SaveFBS.net. Alle Rechte vorbehalten.",
+    "copyright": "© 2024 DLFB.io. Alle Rechte vorbehalten.",
     "disclaimer": "Dieses Tool ist nicht mit Facebook/Meta verbunden."
   },
   "homeFaq": {

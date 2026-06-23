@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "SaveFBS.net",
+    "siteName": "DLFB.io",
     "tagline": "Descargador de Videos de Facebook",
     "download": "Descargar",
     "paste": "Pega la URL del video de Facebook aquí...",
@@ -69,7 +69,7 @@
     "footer": "Requiere permiso de visualización • Respeta la configuración de privacidad"
   },
   "footer": {
-    "copyright": "© 2024 SaveFBS.net. Todos los derechos reservados.",
+    "copyright": "© 2024 DLFB.io. Todos los derechos reservados.",
     "disclaimer": "Esta herramienta no está afiliada con Facebook/Meta."
   }
 }

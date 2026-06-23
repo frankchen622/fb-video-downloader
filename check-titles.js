@@ -103,7 +103,7 @@ if (duplicates.length > 0) {
   for (const [title, urls] of duplicates) {
     console.log(`Title: "${title}"`);
     console.log(`Used by ${urls.length} pages:`);
-    urls.forEach(url => console.log(`  - https://savefbs.net${url}`));
+    urls.forEach(url => console.log(`  - https://dlfb.io${url}`));
     console.log('');
   }
 } else {
