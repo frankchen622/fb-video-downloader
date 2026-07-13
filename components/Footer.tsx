@@ -47,6 +47,11 @@ export default function Footer() {
                     Private Videos
                   </Link>
                 </li>
+                <li>
+                  <a href="https://savefbs.com/" className="text-gray-600 hover:text-blue-600 transition" target="_blank" rel="noopener noreferrer">
+                    Facebook Video Downloader
+                  </a>
+                </li>
               </ul>
             </div>
 
