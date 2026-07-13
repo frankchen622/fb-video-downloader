@@ -5,10 +5,12 @@ RUN apt-get update && apt-get install -y \
     python3 \
     python3-pip \
     ffmpeg \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
-# 安装 yt-dlp
-RUN pip3 install --break-system-packages yt-dlp
+# 安装最新版 yt-dlp（直接从官方下载二进制，绕过 pip 版本滞后问题）
+RUN curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp \
+    && chmod a+rx /usr/local/bin/yt-dlp
 
 WORKDIR /app
 
@@ -24,9 +26,10 @@ RUN npm install --legacy-peer-deps
 # 复制源代码
 COPY . .
 
-# 构建应用
-RUN npm run build
+# 构建应用（限制 Node.js 内存避免 OOM）
+RUN NODE_OPTIONS=--max-old-space-size=512 npm run build
 
 EXPOSE 3000
 
-CMD ["npm", "start"]
+# 启动时也限制内存
+CMD ["node", "--max-old-space-size=512", "node_modules/.bin/next", "start"]
