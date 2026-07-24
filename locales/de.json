@@ -21,9 +21,32 @@
     "privateVideo": "Privates Video",
     "toMP3": "FB zu MP3",
     "toMP4": "FB zu MP4",
+    "toMp4": "FB zu MP4",
+    "toMp3": "FB zu MP3",
+    "reels": "Reels",
+    "privateVideos": "Private Videos",
     "contact": "Kontakt",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen"
+  },
+  "footer": {
+    "aboutTitle": "Über dlfb.io",
+    "aboutText": "dlfb.io ist ein kostenloses Online-Tool zum Herunterladen von Facebook-Videos, Reels und deren Konvertierung in MP4- oder MP3-Format. Schnell, sicher und einfach auf jedem Gerät zu verwenden. Keine Registrierung erforderlich.",
+    "aboutDescription": "Perfekt für Content-Ersteller, Social-Media-Manager, digitale Vermarkter und alle, die Facebook-Videos für die Offline-Anzeige speichern möchten.",
+    "quickLinksTitle": "Schnelllinks",
+    "home": "Startseite",
+    "fbToMp4": "FB zu MP4",
+    "fbToMp3": "FB zu MP3",
+    "reelsDownloader": "Reels Downloader",
+    "privateVideos": "Private Videos",
+    "facebookVideoDownloader": "Facebook Video Downloader",
+    "legalTitle": "Rechtliches",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfUse": "Nutzungsbedingungen",
+    "contactUs": "Kontaktieren Sie uns",
+    "copyright": "© {year} dlfb.io. Alle Rechte vorbehalten.",
+    "disclaimer": "Haftungsausschluss:",
+    "disclaimerText": "Wir sind nicht mit Facebook oder Meta verbunden. Alle Marken gehören ihren jeweiligen Eigentümern."
   },
   "home": {
     "metaTitle": "Facebook Video Downloader - FB Videos in HD Kostenlos Herunterladen | Kein Wasserzeichen",
@@ -219,10 +242,6 @@
     "feature4Point3Alt": "Vollständig diskretes Herunterladen",
     "metaTitle": "Private Facebook Video Downloader - Private FB Videos Herunterladen",
     "metaDescription": "Laden Sie private Facebook-Videos herunter, die Sie ansehen dürfen. Speichern Sie Videos aus privaten Gruppen, Nur-Freunde-Posts und eingeschränkten Inhalten."
-  },
-  "footer": {
-    "copyright": "© 2024 DLFB.io. Alle Rechte vorbehalten.",
-    "disclaimer": "Dieses Tool ist nicht mit Facebook/Meta verbunden."
   },
   "homeFaq": {
     "title": "Häufig Gestellte Fragen",
