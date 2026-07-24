@@ -21,9 +21,32 @@
     "privateVideo": "Video Privado",
     "toMP3": "FB a MP3",
     "toMP4": "FB a MP4",
+    "toMp4": "FB a MP4",
+    "toMp3": "FB a MP3",
+    "reels": "Reels",
+    "privateVideos": "Videos Privados",
     "contact": "Contacto",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Uso"
+  },
+  "footer": {
+    "aboutTitle": "Acerca de dlfb.io",
+    "aboutText": "dlfb.io es una herramienta en línea gratuita para descargar videos de Facebook, reels y convertirlos a formato MP4 o MP3. Rápida, segura y fácil de usar en cualquier dispositivo. No requiere registro.",
+    "aboutDescription": "Perfecta para creadores de contenido, administradores de redes sociales, especialistas en marketing digital y cualquier persona que quiera guardar videos de Facebook para verlos sin conexión.",
+    "quickLinksTitle": "Enlaces Rápidos",
+    "home": "Inicio",
+    "fbToMp4": "FB a MP4",
+    "fbToMp3": "FB a MP3",
+    "reelsDownloader": "Descargador de Reels",
+    "privateVideos": "Videos Privados",
+    "facebookVideoDownloader": "Descargador de Videos de Facebook",
+    "legalTitle": "Legal",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfUse": "Términos de Uso",
+    "contactUs": "Contáctenos",
+    "copyright": "© {year} dlfb.io. Todos los derechos reservados.",
+    "disclaimer": "Descargo de responsabilidad:",
+    "disclaimerText": "No estamos afiliados con Facebook o Meta. Todas las marcas registradas pertenecen a sus respectivos propietarios."
   },
   "home": {
     "metaTitle": "Descargador de Videos de Facebook - Descarga Videos FB en HD Gratis | Sin Marca de Agua",
@@ -207,10 +230,6 @@
     "feature4Point3": "Tu privacidad protegida",
     "metaTitle": "Descargador de Videos Privados de Facebook - Descarga Videos Privados FB",
     "metaDescription": "Descarga videos privados de Facebook que tienes permiso para ver. Guarda videos de grupos privados, publicaciones solo para amigos y contenido restringido."
-  },
-  "footer": {
-    "copyright": "© 2024 DLFB.io. Todos los derechos reservados.",
-    "disclaimer": "Esta herramienta no está afiliada con Facebook/Meta."
   },
   "homeFaq": {
     "title": "Preguntas Frecuentes",
