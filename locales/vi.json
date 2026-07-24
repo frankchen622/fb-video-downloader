@@ -11,7 +11,30 @@
   },
   "nav": {
     "toMP3": "FB sang MP3",
-    "toMP4": "FB sang MP4"
+    "toMP4": "FB sang MP4",
+    "toMp4": "FB sang MP4",
+    "toMp3": "FB sang MP3",
+    "reels": "Reels",
+    "privateVideos": "Video Riêng Tư"
+  },
+  "footer": {
+    "aboutTitle": "Về dlfb.io",
+    "aboutText": "dlfb.io là công cụ trực tuyến miễn phí để tải video Facebook, reels và chuyển đổi chúng sang định dạng MP4 hoặc MP3. Nhanh, an toàn và dễ sử dụng trên mọi thiết bị. Không cần đăng ký.",
+    "aboutDescription": "Hoàn hảo cho người tạo nội dung, quản lý mạng xã hội, nhà tiếp thị kỹ thuật số và bất kỳ ai muốn lưu video Facebook để xem ngoại tuyến.",
+    "quickLinksTitle": "Liên Kết Nhanh",
+    "home": "Trang Chủ",
+    "fbToMp4": "FB sang MP4",
+    "fbToMp3": "FB sang MP3",
+    "reelsDownloader": "Trình Tải Reels",
+    "privateVideos": "Video Riêng Tư",
+    "facebookVideoDownloader": "Trình Tải Video Facebook",
+    "legalTitle": "Pháp Lý",
+    "privacyPolicy": "Chính Sách Bảo Mật",
+    "termsOfUse": "Điều Khoản Sử Dụng",
+    "contactUs": "Liên Hệ Chúng Tôi",
+    "copyright": "© {year} dlfb.io. Bản quyền được bảo lưu.",
+    "disclaimer": "Tuyên bố miễn trừ trách nhiệm:",
+    "disclaimerText": "Chúng tôi không liên kết với Facebook hoặc Meta. Tất cả các thương hiệu thuộc về chủ sở hữu tương ứng."
   },
   "home": {
     "metaTitle": "Trình Tải Video Facebook - Tải Video FB HD Miễn Phí | Không Watermark",
