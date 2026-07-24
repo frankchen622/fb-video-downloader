@@ -9,4 +9,8 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  // Enable RTL support
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
 }

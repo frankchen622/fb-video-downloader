@@ -10,6 +10,61 @@
   body {
     @apply text-gray-900 antialiased;
   }
+
+  /* RTL Support for Arabic */
+  [dir="rtl"] {
+    direction: rtl;
+  }
+
+  /* Fix text alignment for RTL */
+  [dir="rtl"] body,
+  [dir="rtl"] p,
+  [dir="rtl"] h1,
+  [dir="rtl"] h2,
+  [dir="rtl"] h3,
+  [dir="rtl"] h4,
+  [dir="rtl"] h5,
+  [dir="rtl"] h6 {
+    text-align: right;
+  }
+
+  /* Center aligned elements should stay centered */
+  [dir="rtl"] .text-center {
+    text-align: center !important;
+  }
+
+  /* Preserve explicit left alignment when needed */
+  [dir="rtl"] .text-left {
+    text-align: left !important;
+  }
+
+  /* Reverse flex direction for RTL */
+  [dir="rtl"] .flex:not(.flex-col):not(.flex-col-reverse) {
+    flex-direction: row-reverse;
+  }
+
+  /* Fix padding and margin for RTL */
+  [dir="rtl"] .space-x-reverse > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+  }
+
+  /* Fix list alignment */
+  [dir="rtl"] ul,
+  [dir="rtl"] ol {
+    padding-right: 1.5rem;
+    padding-left: 0;
+  }
+
+  /* Fix input fields */
+  [dir="rtl"] input,
+  [dir="rtl"] textarea {
+    text-align: right;
+  }
+
+  /* Fix button alignment in flex containers */
+  [dir="rtl"] .justify-between {
+    flex-direction: row-reverse;
+  }
 }
 
 @layer utilities {
