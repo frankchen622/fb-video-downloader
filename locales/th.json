@@ -21,9 +21,32 @@
     "privateVideo": "วิดีโอส่วนตัว",
     "toMP3": "FB เป็น MP3",
     "toMP4": "FB เป็น MP4",
+    "toMp4": "FB เป็น MP4",
+    "toMp3": "FB เป็น MP3",
+    "reels": "Reels",
+    "privateVideos": "วิดีโอส่วนตัว",
     "contact": "ติดต่อ",
     "privacy": "นโยบายความเป็นส่วนตัว",
     "terms": "ข้อกำหนดการใช้งาน"
+  },
+  "footer": {
+    "aboutTitle": "เกี่ยวกับ dlfb.io",
+    "aboutText": "dlfb.io เป็นเครื่องมือออนไลน์ฟรีสำหรับดาวน์โหลดวิดีโอ Facebook, reels และแปลงเป็นรูปแบบ MP4 หรือ MP3 รวดเร็ว ปลอดภัย และใช้งานง่ายบนอุปกรณ์ใดก็ได้ ไม่ต้องลงทะเบียน",
+    "aboutDescription": "เหมาะสำหรับผู้สร้างคอนเทนต์ ผู้จัดการโซเชียลมีเดีย นักการตลาดดิจิทัล และทุกคนที่ต้องการบันทึกวิดีโอ Facebook เพื่อดูออฟไลน์",
+    "quickLinksTitle": "ลิงก์ด่วน",
+    "home": "หน้าแรก",
+    "fbToMp4": "FB เป็น MP4",
+    "fbToMp3": "FB เป็น MP3",
+    "reelsDownloader": "ดาวน์โหลด Reels",
+    "privateVideos": "วิดีโอส่วนตัว",
+    "facebookVideoDownloader": "ดาวน์โหลดวิดีโอ Facebook",
+    "legalTitle": "กฎหมาย",
+    "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+    "termsOfUse": "ข้อกำหนดการใช้งาน",
+    "contactUs": "ติดต่อเรา",
+    "copyright": "© {year} dlfb.io สงวนลิขสิทธิ์",
+    "disclaimer": "ข้อจำกัดความรับผิด:",
+    "disclaimerText": "เราไม่เกี่ยวข้องกับ Facebook หรือ Meta เครื่องหมายการค้าทั้งหมดเป็นของเจ้าของที่เกี่ยวข้อง"
   },
   "home": {
     "metaTitle": "ดาวน์โหลดวิดีโอ Facebook - ดาวน์โหลดวิดีโอ FB HD ฟรี | ไม่มีลายน้ำ",
@@ -512,9 +535,5 @@
         "a": "รูปแบบ MP4 เข้ากันได้กับทุกอุปกรณ์"
       }
     ]
-  },
-  "footer": {
-    "copyright": "© 2024 DLFB.io สงวนลิขสิทธิ์",
-    "disclaimer": "เครื่องมือนี้ไม่เกี่ยวข้องกับ Facebook/Meta"
   }
 }
