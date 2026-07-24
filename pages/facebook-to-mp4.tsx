@@ -163,7 +163,7 @@ export default function FacebookToMP4() {
               )}
 
               <p className="mt-5 text-xs text-gray-500 text-center">
-                No registration • Unlimited downloads • All devices
+                {t('common.noRegistration')} • {t('common.unlimitedDownloads')} • {t('common.allDevices')}
               </p>
             </div>
           </div>

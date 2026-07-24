@@ -346,7 +346,7 @@ export default function FacebookToMP3() {
               )}
 
               <p className="mt-5 text-xs text-gray-500 text-center">
-                High-quality audio up to 320kbps • Fast conversion • No software needed
+                {t('mp3.footer')}
               </p>
             </div>
           </div>

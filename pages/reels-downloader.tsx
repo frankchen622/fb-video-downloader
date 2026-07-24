@@ -152,7 +152,7 @@ export default function ReelsDownloader() {
               )}
 
               <p className="mt-5 text-xs text-gray-500 text-center">
-                HD quality • No watermark • Save viral content
+                {t('reels.footer')}
               </p>
             </div>
           </div>
