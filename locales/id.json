@@ -11,7 +11,30 @@
   },
   "nav": {
     "toMP3": "FB ke MP3",
-    "toMP4": "FB ke MP4"
+    "toMP4": "FB ke MP4",
+    "toMp4": "FB ke MP4",
+    "toMp3": "FB ke MP3",
+    "reels": "Reels",
+    "privateVideos": "Video Pribadi"
+  },
+  "footer": {
+    "aboutTitle": "Tentang dlfb.io",
+    "aboutText": "dlfb.io adalah alat online gratis untuk mengunduh video Facebook, reels, dan mengonversinya ke format MP4 atau MP3. Cepat, aman, dan mudah digunakan di perangkat apa pun. Tidak perlu registrasi.",
+    "aboutDescription": "Sempurna untuk pembuat konten, manajer media sosial, pemasar digital, dan siapa saja yang ingin menyimpan video Facebook untuk ditonton secara offline.",
+    "quickLinksTitle": "Tautan Cepat",
+    "home": "Beranda",
+    "fbToMp4": "FB ke MP4",
+    "fbToMp3": "FB ke MP3",
+    "reelsDownloader": "Pengunduh Reels",
+    "privateVideos": "Video Pribadi",
+    "facebookVideoDownloader": "Pengunduh Video Facebook",
+    "legalTitle": "Legal",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfUse": "Ketentuan Penggunaan",
+    "contactUs": "Hubungi Kami",
+    "copyright": "© {year} dlfb.io. Hak cipta dilindungi.",
+    "disclaimer": "Penafian:",
+    "disclaimerText": "Kami tidak berafiliasi dengan Facebook atau Meta. Semua merek dagang adalah milik pemiliknya masing-masing."
   },
   "home": {
     "metaTitle": "Pengunduh Video Facebook - Unduh Video FB HD Gratis | Tanpa Watermark",
