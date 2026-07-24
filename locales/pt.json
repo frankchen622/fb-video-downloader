@@ -23,7 +23,11 @@
     "toMP4": "FB para MP4",
     "contact": "Contato",
     "privacy": "Política de Privacidade",
-    "terms": "Termos de Uso"
+    "terms": "Termos de Uso",
+    "toMp4": "FB para MP4",
+    "toMp3": "FB para MP3",
+    "reels": "Reels",
+    "privateVideos": "Vídeos Privados"
   },
   "home": {
     "metaTitle": "Baixador de Vídeos do Facebook - Baixe Vídeos FB em HD Grátis | Sem Marca d'Água",
@@ -208,8 +212,23 @@
     "metaDescription": "Baixe vídeos privados do Facebook que você tem permissão para visualizar. Salve vídeos de grupos privados, posts só para amigos e conteúdo restrito."
   },
   "footer": {
-    "copyright": "© 2024 DLFB.io. Todos os direitos reservados.",
-    "disclaimer": "Esta ferramenta não é afiliada ao Facebook/Meta."
+    "aboutTitle": "Sobre dlfb.io",
+    "aboutText": "dlfb.io é uma ferramenta online gratuita para baixar vídeos do Facebook, reels e convertê-los para formato MP4 ou MP3. Rápida, segura e fácil de usar em qualquer dispositivo. Não requer registro.",
+    "aboutDescription": "Perfeita para criadores de conteúdo, gerentes de mídia social, profissionais de marketing digital e qualquer pessoa que queira salvar vídeos do Facebook para visualização offline.",
+    "quickLinksTitle": "Links Rápidos",
+    "home": "Início",
+    "fbToMp4": "FB para MP4",
+    "fbToMp3": "FB para MP3",
+    "reelsDownloader": "Baixador de Reels",
+    "privateVideos": "Vídeos Privados",
+    "facebookVideoDownloader": "Baixador de Vídeos do Facebook",
+    "legalTitle": "Legal",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfUse": "Termos de Uso",
+    "contactUs": "Entre em Contato",
+    "copyright": "© {year} dlfb.io. Todos os direitos reservados.",
+    "disclaimer": "Isenção de responsabilidade:",
+    "disclaimerText": "Não somos afiliados ao Facebook ou Meta. Todas as marcas registradas pertencem aos seus respectivos proprietários."
   },
   "homeFaq": {
     "title": "Perguntas Frequentes",

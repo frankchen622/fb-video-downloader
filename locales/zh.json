@@ -23,7 +23,11 @@
     "toMP4": "FB 转 MP4",
     "contact": "联系我们",
     "privacy": "隐私政策",
-    "terms": "使用条款"
+    "terms": "使用条款",
+    "toMp4": "FB转MP4",
+    "toMp3": "FB转MP3",
+    "reels": "Reels",
+    "privateVideos": "私密视频"
   },
   "home": {
     "metaTitle": "Facebook 视频下载器 - 免费下载 FB 高清视频 | 无水印",
@@ -208,8 +212,23 @@
     "metaDescription": "下载您有权查看的Facebook私密视频。保存来自私密群组、仅好友可见帖子和受限内容的视频。"
   },
   "footer": {
-    "copyright": "© 2024 DLFB.io. 保留所有权利。",
-    "disclaimer": "本工具不隶属于 Facebook/Meta。"
+    "aboutTitle": "关于 dlfb.io",
+    "aboutText": "dlfb.io 是一个免费的在线工具，用于下载 Facebook 视频、Reels 并将其转换为 MP4 或 MP3 格式。快速、安全且易于在任何设备上使用。无需注册。",
+    "aboutDescription": "非常适合内容创作者、社交媒体管理员、数字营销人员以及任何想要保存 Facebook 视频以离线观看的人。",
+    "quickLinksTitle": "快速链接",
+    "home": "首页",
+    "fbToMp4": "FB转MP4",
+    "fbToMp3": "FB转MP3",
+    "reelsDownloader": "Reels下载器",
+    "privateVideos": "私密视频",
+    "facebookVideoDownloader": "Facebook视频下载器",
+    "legalTitle": "法律",
+    "privacyPolicy": "隐私政策",
+    "termsOfUse": "使用条款",
+    "contactUs": "联系我们",
+    "copyright": "© {year} dlfb.io. 保留所有权利。",
+    "disclaimer": "免责声明：",
+    "disclaimerText": "我们与 Facebook 或 Meta 无关。所有商标均属于其各自所有者。"
   },
   "homeFaq": {
     "title": "常见问题",

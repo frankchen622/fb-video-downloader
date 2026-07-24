@@ -23,7 +23,11 @@
     "toMP4": "FB vers MP4",
     "contact": "Contact",
     "privacy": "Politique de Confidentialité",
-    "terms": "Conditions d'Utilisation"
+    "terms": "Conditions d'Utilisation",
+    "toMp4": "FB vers MP4",
+    "toMp3": "FB vers MP3",
+    "reels": "Reels",
+    "privateVideos": "Vidéos Privées"
   },
   "home": {
     "metaTitle": "Téléchargeur de Vidéos Facebook - Télécharger des Vidéos FB en HD Gratuit | Sans Filigrane",
@@ -221,8 +225,23 @@
     "metaDescription": "Téléchargez des vidéos privées Facebook que vous avez la permission de voir. Enregistrez des vidéos de groupes privés, publications d'amis uniquement et contenu restreint."
   },
   "footer": {
-    "copyright": "© 2024 DLFB.io. Tous droits réservés.",
-    "disclaimer": "Cet outil n'est pas affilié à Facebook/Meta."
+    "aboutTitle": "À propos de dlfb.io",
+    "aboutText": "dlfb.io est un outil en ligne gratuit pour télécharger des vidéos Facebook, des reels et les convertir au format MP4 ou MP3. Rapide, sécurisé et facile à utiliser sur n'importe quel appareil. Aucune inscription requise.",
+    "aboutDescription": "Parfait pour les créateurs de contenu, les gestionnaires de médias sociaux, les spécialistes du marketing numérique et toute personne souhaitant enregistrer des vidéos Facebook pour une visualisation hors ligne.",
+    "quickLinksTitle": "Liens Rapides",
+    "home": "Accueil",
+    "fbToMp4": "FB vers MP4",
+    "fbToMp3": "FB vers MP3",
+    "reelsDownloader": "Téléchargeur de Reels",
+    "privateVideos": "Vidéos Privées",
+    "facebookVideoDownloader": "Téléchargeur de Vidéos Facebook",
+    "legalTitle": "Légal",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfUse": "Conditions d'Utilisation",
+    "contactUs": "Contactez-nous",
+    "copyright": "© {year} dlfb.io. Tous droits réservés.",
+    "disclaimer": "Avertissement :",
+    "disclaimerText": "Nous ne sommes pas affiliés à Facebook ou Meta. Toutes les marques déposées appartiennent à leurs propriétaires respectifs."
   },
   "homeFaq": {
     "title": "Questions Fréquemment Posées",
