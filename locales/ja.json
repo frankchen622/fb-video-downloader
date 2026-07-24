@@ -11,7 +11,30 @@
   },
   "nav": {
     "toMP3": "FBからMP3へ",
-    "toMP4": "FBからMP4へ"
+    "toMP4": "FBからMP4へ",
+    "toMp4": "FBからMP4へ",
+    "toMp3": "FBからMP3へ",
+    "reels": "リール",
+    "privateVideos": "プライベート動画"
+  },
+  "footer": {
+    "aboutTitle": "dlfb.ioについて",
+    "aboutText": "dlfb.ioは、Facebook動画やリールをダウンロードし、MP4またはMP3形式に変換する無料のオンラインツールです。高速、安全、どのデバイスでも簡単に使用できます。登録は不要です。",
+    "aboutDescription": "コンテンツクリエイター、ソーシャルメディアマネージャー、デジタルマーケター、オフライン視聴のためにFacebook動画を保存したい方に最適です。",
+    "quickLinksTitle": "クイックリンク",
+    "home": "ホーム",
+    "fbToMp4": "FBからMP4へ",
+    "fbToMp3": "FBからMP3へ",
+    "reelsDownloader": "リールダウンローダー",
+    "privateVideos": "プライベート動画",
+    "facebookVideoDownloader": "Facebook動画ダウンローダー",
+    "legalTitle": "法的情報",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfUse": "利用規約",
+    "contactUs": "お問い合わせ",
+    "copyright": "© {year} dlfb.io. 全著作権所有。",
+    "disclaimer": "免責事項：",
+    "disclaimerText": "当社はFacebookまたはMetaとは関係ありません。すべての商標はそれぞれの所有者に帰属します。"
   },
   "home": {
     "metaTitle": "Facebook動画ダウンローダー - FB動画を無料でHDダウンロード | 透かしなし",
