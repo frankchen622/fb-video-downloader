@@ -266,7 +266,62 @@ export default function FacebookToMP3() {
         <title>{t('mp3.metaTitle')}</title>
         <meta name="description" content={t('mp3.metaDescription')} />
         <meta name="keywords" content="facebook to mp3, facebook video to mp3, facebook mp3 converter, fb to mp3, facebook audio download, facebook music download, facebook reels to mp3, facebook to mp3 320kbps, download facebook mp3, convert facebook to mp3" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href={canonicalUrl} />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Facebook to MP3 Converter - Extract Audio Free" />
+        <meta property="og:description" content="Convert Facebook videos to MP3 audio files free. High quality up to 320kbps. Works with Reels, Stories and Live videos. No software needed." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content="https://dlfb.io/images/og-default.png" />
+        <meta property="og:site_name" content="DLFB.io" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Facebook to MP3 Converter - Extract Audio Free" />
+        <meta name="twitter:description" content="Convert Facebook videos to MP3 audio files free. High quality up to 320kbps. No software needed." />
+        <meta name="twitter:image" content="https://dlfb.io/images/og-default.png" />
+
+        {/* FAQPage Schema */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How do I convert a Facebook video to MP3?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Copy the Facebook video link, paste it into the converter box, click 'Convert', and download your MP3 file. Works for all Facebook content including Reels, Stories, and Live videos." }
+              },
+              {
+                "@type": "Question",
+                "name": "Is this Facebook to MP3 converter free?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes, completely free with unlimited conversions. No hidden fees, no registration, no premium plans." }
+              },
+              {
+                "@type": "Question",
+                "name": "What audio quality does it support?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Multiple quality options: 128kbps (standard), 192kbps, 256kbps, and 320kbps (highest quality). Choose the bitrate that fits your needs." }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I use this on mobile?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes! Works directly in your mobile browser on iPhone and Android. No app installation needed." }
+              },
+              {
+                "@type": "Question",
+                "name": "Does it work with Facebook Reels?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Paste any Facebook Reels URL and extract the audio as MP3 instantly." }
+              },
+              {
+                "@type": "Question",
+                "name": "Is my data safe?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. We don't store your video links, download history, or any personal information. Everything is processed securely and deleted immediately." }
+              }
+            ]
+          })
+        }} />
       </Head>
 
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
