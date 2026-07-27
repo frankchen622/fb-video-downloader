@@ -95,12 +95,12 @@ const nextConfig = {
   // Redirects (if needed)
   async redirects() {
     return [
-      // Example: redirect old URLs to new ones
-      // {
-      //   source: '/old-page',
-      //   destination: '/new-page',
-      //   permanent: true,
-      // },
+      // 301 redirect to savefbs.com
+      {
+        source: '/facebook-to-mp4',
+        destination: 'https://savefbs.com/facebook-to-mp4-converter/',
+        permanent: true,
+      },
     ]
   },
   
