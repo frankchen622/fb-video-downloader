@@ -95,9 +95,15 @@ const nextConfig = {
   // Redirects (if needed)
   async redirects() {
     return [
-      // 301 redirect to savefbs.com
+      // 301 redirect to savefbs.com - English
       {
         source: '/facebook-to-mp4',
+        destination: 'https://savefbs.com/facebook-to-mp4-converter/',
+        permanent: true,
+      },
+      // 301 redirect to savefbs.com - All other language versions
+      {
+        source: '/:locale(es|pt|fr|de|ja|id|vi|th|ar|zh|ru)/facebook-to-mp4',
         destination: 'https://savefbs.com/facebook-to-mp4-converter/',
         permanent: true,
       },
