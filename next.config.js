@@ -119,6 +119,18 @@ const nextConfig = {
         destination: 'https://savefbs.com/facebook-video-to-mp3/',
         permanent: true,
       },
+      // 301 redirect reels-downloader to savefbs.com - English
+      {
+        source: '/reels-downloader',
+        destination: 'https://savefbs.com/facebook-reels-download/',
+        permanent: true,
+      },
+      // 301 redirect reels-downloader to savefbs.com - All other language versions
+      {
+        source: '/:locale(es|pt|fr|de|ja|id|vi|th|ar|zh|ru)/reels-downloader',
+        destination: 'https://savefbs.com/facebook-reels-download/',
+        permanent: true,
+      },
     ]
   },
   
