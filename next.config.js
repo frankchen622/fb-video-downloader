@@ -107,6 +107,18 @@ const nextConfig = {
         destination: 'https://savefbs.com/facebook-to-mp4-converter/',
         permanent: true,
       },
+      // 301 redirect facebook-to-mp3 to savefbs.com - English
+      {
+        source: '/facebook-to-mp3',
+        destination: 'https://savefbs.com/facebook-video-to-mp3/',
+        permanent: true,
+      },
+      // 301 redirect facebook-to-mp3 to savefbs.com - All other language versions
+      {
+        source: '/:locale(es|pt|fr|de|ja|id|vi|th|ar|zh|ru)/facebook-to-mp3',
+        destination: 'https://savefbs.com/facebook-video-to-mp3/',
+        permanent: true,
+      },
     ]
   },
   
