@@ -95,40 +95,106 @@ const nextConfig = {
   // Redirects (if needed)
   async redirects() {
     return [
-      // 301 redirect to savefbs.com - English
+      // ===== 首页 =====
+      {
+        source: '/',
+        destination: 'https://savefbs.com/',
+        permanent: true,
+      },
+      {
+        source: '/:locale(es|pt|fr|de|ja|id|vi|th|ar|zh|ru)',
+        destination: 'https://savefbs.com/',
+        permanent: true,
+      },
+
+      // ===== facebook-to-mp4 =====
       {
         source: '/facebook-to-mp4',
         destination: 'https://savefbs.com/facebook-to-mp4-converter/',
         permanent: true,
       },
-      // 301 redirect to savefbs.com - All other language versions
       {
         source: '/:locale(es|pt|fr|de|ja|id|vi|th|ar|zh|ru)/facebook-to-mp4',
         destination: 'https://savefbs.com/facebook-to-mp4-converter/',
         permanent: true,
       },
-      // 301 redirect facebook-to-mp3 to savefbs.com - English
+
+      // ===== facebook-to-mp3 =====
       {
         source: '/facebook-to-mp3',
         destination: 'https://savefbs.com/facebook-video-to-mp3/',
         permanent: true,
       },
-      // 301 redirect facebook-to-mp3 to savefbs.com - All other language versions
       {
         source: '/:locale(es|pt|fr|de|ja|id|vi|th|ar|zh|ru)/facebook-to-mp3',
         destination: 'https://savefbs.com/facebook-video-to-mp3/',
         permanent: true,
       },
-      // 301 redirect reels-downloader to savefbs.com - English
+
+      // ===== reels-downloader =====
       {
         source: '/reels-downloader',
         destination: 'https://savefbs.com/facebook-reels-download/',
         permanent: true,
       },
-      // 301 redirect reels-downloader to savefbs.com - All other language versions
       {
         source: '/:locale(es|pt|fr|de|ja|id|vi|th|ar|zh|ru)/reels-downloader',
         destination: 'https://savefbs.com/facebook-reels-download/',
+        permanent: true,
+      },
+
+      // ===== private-video-downloader =====
+      {
+        source: '/private-video-downloader',
+        destination: 'https://savefbs.com/',
+        permanent: true,
+      },
+      {
+        source: '/:locale(es|pt|fr|de|ja|id|vi|th|ar|zh|ru)/private-video-downloader',
+        destination: 'https://savefbs.com/',
+        permanent: true,
+      },
+
+      // ===== contact =====
+      {
+        source: '/contact',
+        destination: 'https://savefbs.com/',
+        permanent: true,
+      },
+      {
+        source: '/:locale(es|pt|fr|de|ja|id|vi|th|ar|zh|ru)/contact',
+        destination: 'https://savefbs.com/',
+        permanent: true,
+      },
+
+      // ===== privacy-policy =====
+      {
+        source: '/privacy-policy',
+        destination: 'https://savefbs.com/privacy-policy/',
+        permanent: true,
+      },
+      {
+        source: '/:locale(es|pt|fr|de|ja|id|vi|th|ar|zh|ru)/privacy-policy',
+        destination: 'https://savefbs.com/privacy-policy/',
+        permanent: true,
+      },
+
+      // ===== terms-of-use =====
+      {
+        source: '/terms-of-use',
+        destination: 'https://savefbs.com/terms-of-use/',
+        permanent: true,
+      },
+      {
+        source: '/:locale(es|pt|fr|de|ja|id|vi|th|ar|zh|ru)/terms-of-use',
+        destination: 'https://savefbs.com/terms-of-use/',
+        permanent: true,
+      },
+
+      // ===== 兜底：其他所有未匹配路径 =====
+      {
+        source: '/:path*',
+        destination: 'https://savefbs.com/',
         permanent: true,
       },
     ]
